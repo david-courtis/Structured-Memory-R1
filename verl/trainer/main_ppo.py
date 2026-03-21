@@ -25,6 +25,12 @@ import numpy as np
 def _select_rm_score_fn(data_source):
     if data_source in ['nq', 'triviaqa', 'popqa', 'hotpotqa', '2wikimultihopqa', 'musique', 'bamboogle']:
         return qa_em.compute_score_em
+    elif data_source == 'answer_agent':
+        from memory_r1.agents.memory_manager import compute_score_memory_r1
+        return compute_score_memory_r1
+    elif data_source == 'memory_manager':
+        from memory_r1.agents.memory_manager import compute_score_memory_manager_verl
+        return compute_score_memory_manager_verl
     else:
         raise NotImplementedError
 
@@ -75,7 +81,16 @@ class RewardManager():
             data_source = data_item.non_tensor_batch['data_source']
             compute_score_fn = _select_rm_score_fn(data_source)
 
-            score = compute_score_fn(solution_str=sequences_str, ground_truth=ground_truth, format_score=self.format_score)
+            # Pass extra_info for Memory Manager reward (needs old_memory for operations)
+            extra_info = data_item.non_tensor_batch.get('extra_info', None)
+            if extra_info is not None and data_source == 'memory_manager':
+                # extra_info may be a dict or numpy object; ensure it's a dict
+                if hasattr(extra_info, 'item'):
+                    extra_info = extra_info.item()
+                score = compute_score_fn(solution_str=sequences_str, ground_truth=ground_truth,
+                                         format_score=self.format_score, extra_info=extra_info)
+            else:
+                score = compute_score_fn(solution_str=sequences_str, ground_truth=ground_truth, format_score=self.format_score)
 
             reward_tensor[i, valid_response_length - 1] = score
             # all_scores.append(score)
@@ -179,6 +194,27 @@ def main_task(config):
             raise NotImplementedError
         role_worker_mapping[Role.RewardModel] = ray.remote(RewardModelWorker)
         mapping[Role.RewardModel] = global_pool_id
+
+    # Set up frozen Answer Agent for Memory Manager training (Algorithm 5)
+    # If a frozen_answer_agent_path is configured, load it for reward computation
+    frozen_agent_path = getattr(config, 'frozen_answer_agent_path', None)
+    frozen_agent_url = getattr(config, 'frozen_answer_agent_url', None)
+    if frozen_agent_path or frozen_agent_url:
+        from memory_r1.agents.memory_manager import FrozenAnswerAgent, set_frozen_answer_agent
+        agent = FrozenAnswerAgent(
+            model_path=frozen_agent_path,
+            api_url=frozen_agent_url,
+        )
+        if frozen_agent_path and not frozen_agent_url:
+            # Load the model locally for in-process inference
+            from transformers import AutoModelForCausalLM
+            agent._tokenizer = tokenizer
+            agent._model = AutoModelForCausalLM.from_pretrained(
+                frozen_agent_path, torch_dtype='auto', device_map='cpu',
+            )
+            agent._model.eval()
+        set_frozen_answer_agent(agent)
+        print(f"[Memory-R1] Frozen Answer Agent loaded: path={frozen_agent_path}, url={frozen_agent_url}")
 
     reward_fn = RewardManager(tokenizer=tokenizer, num_examine=0)
 
