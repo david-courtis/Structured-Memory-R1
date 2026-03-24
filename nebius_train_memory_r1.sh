@@ -25,10 +25,10 @@ set -euo pipefail
 STAGE="${STAGE:-both}"           # 1 | 2 | both
 NUM_GPUS="${NUM_GPUS:-1}"        # Number of GPUs on this node
 BASE_MODEL="${BASE_MODEL:-Qwen/Qwen2.5-7B-Instruct}"
-TRAIN_BATCH_SIZE="${TRAIN_BATCH_SIZE:-8}"
-VAL_BATCH_SIZE="${VAL_BATCH_SIZE:-8}"
+TRAIN_BATCH_SIZE="${TRAIN_BATCH_SIZE:-4}"
+VAL_BATCH_SIZE="${VAL_BATCH_SIZE:-4}"
 MAX_PROMPT_LENGTH="${MAX_PROMPT_LENGTH:-4096}"
-GPU_MEM_UTIL="${GPU_MEM_UTIL:-0.6}"       # 0.6 for 7B on H200 141GB; can raise to 0.7
+GPU_MEM_UTIL="${GPU_MEM_UTIL:-0.4}"       # 0.4 for 7B on H200 — leaves room for optimizer states
 PPO_MICRO_BATCH="${PPO_MICRO_BATCH:-1}"
 TOTAL_STEPS="${TOTAL_STEPS:-500}"
 SAVE_FREQ="${SAVE_FREQ:-100}"
@@ -176,7 +176,7 @@ train_answer_agent() {
         actor_rollout_ref.actor.ppo_micro_batch_size="${PPO_MICRO_BATCH}" \
         actor_rollout_ref.actor.fsdp_config.param_offload=false \
         actor_rollout_ref.actor.fsdp_config.grad_offload=false \
-        actor_rollout_ref.actor.fsdp_config.optimizer_offload=false \
+        actor_rollout_ref.actor.fsdp_config.optimizer_offload=true \
         actor_rollout_ref.rollout.log_prob_micro_batch_size="${TRAIN_BATCH_SIZE}" \
         actor_rollout_ref.rollout.tensor_model_parallel_size=1 \
         actor_rollout_ref.rollout.name=vllm \
@@ -272,7 +272,7 @@ train_memory_manager() {
         actor_rollout_ref.actor.ppo_micro_batch_size="${PPO_MICRO_BATCH}" \
         actor_rollout_ref.actor.fsdp_config.param_offload=false \
         actor_rollout_ref.actor.fsdp_config.grad_offload=false \
-        actor_rollout_ref.actor.fsdp_config.optimizer_offload=false \
+        actor_rollout_ref.actor.fsdp_config.optimizer_offload=true \
         actor_rollout_ref.rollout.log_prob_micro_batch_size="${TRAIN_BATCH_SIZE}" \
         actor_rollout_ref.rollout.tensor_model_parallel_size=1 \
         actor_rollout_ref.rollout.name=vllm \
