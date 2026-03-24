@@ -74,8 +74,14 @@ def extract_answer_from_output(output_text: str) -> str:
 
     The Answer Agent outputs after **Answer:** marker.
     """
-    # Try **Answer:** pattern first
+    # Try **Answer:** pattern first (also matches **Answer: text** variant)
     pattern = r'\*\*Answer:\*\*\s*(.*?)(?:\n|$)'
+    matches = re.findall(pattern, output_text, re.DOTALL)
+    if matches:
+        return matches[-1].strip()
+
+    # Try **Answer: text** pattern (3B model variant — answer inside bold markers)
+    pattern = r'\*\*Answer:\s*(.*?)\*\*'
     matches = re.findall(pattern, output_text, re.DOTALL)
     if matches:
         return matches[-1].strip()
