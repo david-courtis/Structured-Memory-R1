@@ -24,11 +24,11 @@ set -euo pipefail
 # ---------------------------------------------------------------------------
 STAGE="${STAGE:-both}"           # 1 | 2 | both
 NUM_GPUS="${NUM_GPUS:-1}"        # Number of GPUs on this node
-BASE_MODEL="${BASE_MODEL:-Qwen/Qwen2.5-7B-Instruct}"
+BASE_MODEL="${BASE_MODEL:-Qwen/Qwen2.5-3B-Instruct}"
 TRAIN_BATCH_SIZE="${TRAIN_BATCH_SIZE:-4}"
 VAL_BATCH_SIZE="${VAL_BATCH_SIZE:-4}"
 MAX_PROMPT_LENGTH="${MAX_PROMPT_LENGTH:-4096}"
-GPU_MEM_UTIL="${GPU_MEM_UTIL:-0.4}"       # 0.4 for 7B on H200 — leaves room for optimizer states
+GPU_MEM_UTIL="${GPU_MEM_UTIL:-0.5}"       # 0.5 for 3B on H200
 PPO_MICRO_BATCH="${PPO_MICRO_BATCH:-1}"
 TOTAL_STEPS="${TOTAL_STEPS:-500}"
 SAVE_FREQ="${SAVE_FREQ:-100}"
