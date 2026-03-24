@@ -19,6 +19,8 @@ from memory_r1.memory_bank import MemoryBank, parse_memory_manager_output
 from memory_r1.reward.em_reward import (
     extract_answer_from_output,
     em_check,
+    subem_check,
+    token_f1,
     normalize_answer,
 )
 
@@ -299,6 +301,12 @@ def compute_score_memory_r1(
 
     if em_check(answer, targets):
         return 1.0
+    if subem_check(answer, targets):
+        return 0.5
+    # Graded reward: use token-level F1 for partial credit
+    f1 = token_f1(answer, targets)
+    if f1 > 0.0:
+        return f1
     return format_score
 
 

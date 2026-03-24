@@ -12,6 +12,7 @@ For the Answer Agent, the reward is the direct EM of its generated answer.
 """
 import re
 import string
+from collections import Counter
 from typing import List, Union
 
 
@@ -66,6 +67,35 @@ def subem_check(prediction: str, golden_answers: Union[str, List[str]]) -> int:
         if normalize_answer(golden_answer) in normalized_prediction:
             return 1
     return 0
+
+
+def token_f1(prediction: str, golden_answers: Union[str, List[str]]) -> float:
+    """
+    Compute token-level F1 score between prediction and best-matching gold answer.
+    Returns a float in [0, 1].
+    """
+    if isinstance(golden_answers, str):
+        golden_answers = [golden_answers]
+
+    pred_tokens = normalize_answer(prediction).split()
+    if not pred_tokens:
+        return 0.0
+
+    best_f1 = 0.0
+    for gold in golden_answers:
+        gold_tokens = normalize_answer(gold).split()
+        if not gold_tokens:
+            continue
+        common = Counter(pred_tokens) & Counter(gold_tokens)
+        num_common = sum(common.values())
+        if num_common == 0:
+            continue
+        precision = num_common / len(pred_tokens)
+        recall = num_common / len(gold_tokens)
+        f1 = 2 * precision * recall / (precision + recall)
+        best_f1 = max(best_f1, f1)
+
+    return best_f1
 
 
 def extract_answer_from_output(output_text: str) -> str:
