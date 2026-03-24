@@ -74,23 +74,26 @@ def extract_answer_from_output(output_text: str) -> str:
 
     The Answer Agent outputs after **Answer:** marker.
     """
-    # Try **Answer:** pattern first (also matches **Answer: text** variant)
-    pattern = r'\*\*Answer:\*\*\s*(.*?)(?:\n|$)'
-    matches = re.findall(pattern, output_text, re.DOTALL)
-    if matches:
-        return matches[-1].strip()
+    # Try all common "Answer" marker variations (case-insensitive):
+    #   **Answer:** text      — expected format
+    #   **Answer: text**      — 3B model variant
+    #   **Answer** text       — missing colon
+    #   Answer: text          — no bold markers
+    #   answer: text          — lowercase
+    patterns = [
+        r'\*\*[Aa]nswer:\*\*\s*(.*?)(?:\n|$)',       # **Answer:** text
+        r'\*\*[Aa]nswer:\s*(.*?)\*\*',                # **Answer: text**
+        r'\*\*[Aa]nswer\*\*[:\s]\s*(.*?)(?:\n|$)',    # **Answer** text or **Answer**: text
+        r'(?:^|\n)\s*[Aa]nswer:\s*(.*?)(?:\n|$)',     # Answer: text (no bold)
+        r'<answer>(.*?)</answer>',                     # <answer> tags (Search-R1 style)
+    ]
 
-    # Try **Answer: text** pattern (3B model variant — answer inside bold markers)
-    pattern = r'\*\*Answer:\s*(.*?)\*\*'
-    matches = re.findall(pattern, output_text, re.DOTALL)
-    if matches:
-        return matches[-1].strip()
-
-    # Fallback: try <answer> tags (Search-R1 style)
-    pattern = r'<answer>(.*?)</answer>'
-    matches = re.findall(pattern, output_text, re.DOTALL)
-    if matches:
-        return matches[-1].strip()
+    for pattern in patterns:
+        matches = re.findall(pattern, output_text, re.DOTALL)
+        if matches:
+            answer = matches[-1].strip().strip('*').strip()
+            if answer:
+                return answer
 
     # Last fallback: return last non-empty line
     lines = [l.strip() for l in output_text.strip().split('\n') if l.strip()]
