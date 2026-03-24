@@ -24,11 +24,11 @@ set -euo pipefail
 # ---------------------------------------------------------------------------
 STAGE="${STAGE:-both}"           # 1 | 2 | both
 NUM_GPUS="${NUM_GPUS:-1}"        # Number of GPUs on this node
-BASE_MODEL="${BASE_MODEL:-Qwen/Qwen2.5-0.5B}"
-TRAIN_BATCH_SIZE="${TRAIN_BATCH_SIZE:-4}"
-VAL_BATCH_SIZE="${VAL_BATCH_SIZE:-4}"
+BASE_MODEL="${BASE_MODEL:-Qwen/Qwen2.5-7B-Instruct}"
+TRAIN_BATCH_SIZE="${TRAIN_BATCH_SIZE:-8}"
+VAL_BATCH_SIZE="${VAL_BATCH_SIZE:-8}"
 MAX_PROMPT_LENGTH="${MAX_PROMPT_LENGTH:-2048}"
-GPU_MEM_UTIL="${GPU_MEM_UTIL:-0.4}"       # Raise for A100/H100 (e.g. 0.6)
+GPU_MEM_UTIL="${GPU_MEM_UTIL:-0.6}"       # 0.6 for 7B on H200 141GB; can raise to 0.7
 PPO_MICRO_BATCH="${PPO_MICRO_BATCH:-1}"
 TOTAL_STEPS="${TOTAL_STEPS:-500}"
 SAVE_FREQ="${SAVE_FREQ:-100}"
@@ -220,7 +220,8 @@ train_answer_agent() {
         exit $EXIT_CODE
     fi
     log "Stage 1 complete. Checkpoint: ${CHECKPOINT_SUBDIR}"
-    echo "$CHECKPOINT_SUBDIR"
+    # Write checkpoint path to file so the caller can read it without capturing stdout
+    echo "$CHECKPOINT_SUBDIR" > "${LOG_DIR}/stage1_checkpoint.txt"
 }
 
 # ---------------------------------------------------------------------------
@@ -324,7 +325,7 @@ train_memory_manager() {
 setup_check() {
     log_section "Environment Setup Check"
     log "Verifying Python dependencies..."
-    $PYTHON -c "import verl; import pandas; import pyarrow; print('Core imports OK')" || {
+    $PYTHON -c "import verl; import pandas; import pyarrow; import sklearn; print('Core imports OK')" || {
         log "[INFO] Installing dependencies..."
         pip install -r "${REPO_DIR}/requirements.txt"
         pip install -e "${REPO_DIR}"
@@ -334,18 +335,48 @@ setup_check() {
 }
 
 # ---------------------------------------------------------------------------
+# Memory Retrieval Server (required during training rollouts)
+# ---------------------------------------------------------------------------
+start_memory_server() {
+    log_section "Starting Memory Retrieval Server"
+    $PYTHON -m memory_r1.retrieval.memory_server --port 8000 &
+    MEMORY_SERVER_PID=$!
+    log "Memory server PID: $MEMORY_SERVER_PID"
+
+    # Wait for it to be ready
+    for i in $(seq 1 20); do
+        if curl -sf http://127.0.0.1:8000/status >/dev/null 2>&1; then
+            log "Memory server is ready."
+            return 0
+        fi
+        sleep 2
+    done
+    log "[ERROR] Memory server did not start in time."
+    exit 1
+}
+
+cleanup() {
+    if [ -n "${MEMORY_SERVER_PID:-}" ]; then
+        log "Stopping memory server (PID $MEMORY_SERVER_PID)..."
+        kill "$MEMORY_SERVER_PID" 2>/dev/null || true
+    fi
+}
+trap cleanup EXIT
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 cd "$REPO_DIR"
 
 setup_check
 build_data
+start_memory_server
 
 ANSWER_AGENT_CKPT=""
 
 case "$STAGE" in
     1)
-        ANSWER_AGENT_CKPT=$(train_answer_agent)
+        train_answer_agent
         ;;
     2)
         # Look for existing best checkpoint from Stage 1
@@ -357,18 +388,26 @@ case "$STAGE" in
         elif [ -d "$CANDIDATE" ]; then
             log "Found Stage 1 checkpoint: $CANDIDATE"
             ANSWER_AGENT_CKPT="$CANDIDATE"
+        elif [ -f "${LOG_DIR}/stage1_checkpoint.txt" ]; then
+            ANSWER_AGENT_CKPT=$(cat "${LOG_DIR}/stage1_checkpoint.txt")
+            log "Found Stage 1 checkpoint from log: $ANSWER_AGENT_CKPT"
         else
-            log "[WARN] No Stage 1 checkpoint found at $CANDIDATE. Running Stage 2 with format-only reward."
+            log "[WARN] No Stage 1 checkpoint found. Running Stage 2 with format-only reward."
+            ANSWER_AGENT_CKPT=""
         fi
         train_memory_manager "$ANSWER_AGENT_CKPT"
         ;;
     both)
-        ANSWER_AGENT_CKPT=$(train_answer_agent)
+        train_answer_agent
         # Find best checkpoint from Stage 1
         MODEL_TAG=$(echo "$BASE_MODEL" | tr '/' '-' | tr '[:upper:]' '[:lower:]')
         BEST_CKPT="${CHECKPOINT_DIR}/${ANSWER_AGENT_NAME}-${MODEL_TAG}/best"
         if [ -d "$BEST_CKPT" ]; then
             ANSWER_AGENT_CKPT="$BEST_CKPT"
+        elif [ -f "${LOG_DIR}/stage1_checkpoint.txt" ]; then
+            ANSWER_AGENT_CKPT=$(cat "${LOG_DIR}/stage1_checkpoint.txt")
+        else
+            ANSWER_AGENT_CKPT=""
         fi
         train_memory_manager "$ANSWER_AGENT_CKPT"
         ;;

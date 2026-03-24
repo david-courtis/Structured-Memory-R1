@@ -118,10 +118,26 @@ def parse_locomo(filepath: str) -> List[Conversation]:
                 ))
 
             # Parse observations
+            # LoCoMo format: {speaker_name: [[fact_text, dia_id], ...], ...}
             obs_key = f"session_{session_idx}_observation"
-            observations = item.get("observation", {}).get(obs_key, [])
-            if isinstance(observations, str):
-                observations = [observations]
+            raw_obs = item.get("observation", {}).get(obs_key, [])
+            observations = []
+            if isinstance(raw_obs, dict):
+                for speaker_name, fact_list in raw_obs.items():
+                    if isinstance(fact_list, list):
+                        for entry in fact_list:
+                            if isinstance(entry, list) and len(entry) >= 1:
+                                observations.append(entry[0])
+                            elif isinstance(entry, str):
+                                observations.append(entry)
+            elif isinstance(raw_obs, list):
+                for entry in raw_obs:
+                    if isinstance(entry, str):
+                        observations.append(entry)
+                    elif isinstance(entry, list) and len(entry) >= 1:
+                        observations.append(entry[0])
+            elif isinstance(raw_obs, str):
+                observations = [raw_obs]
 
             # Parse summary
             summary_key = f"session_{session_idx}"
