@@ -19,8 +19,78 @@ from verl import DataProto
 import torch
 from verl.utils.reward_score import qa_em
 from verl.trainer.ppo.ray_trainer import RayPPOTrainer
+from pathlib import Path
 import re
 import numpy as np
+
+
+_HF_WEIGHT_FILES = (
+    'model.safetensors',
+    'pytorch_model.bin',
+    'tf_model.h5',
+    'model.ckpt.index',
+    'flax_model.msgpack',
+)
+
+
+def _is_hf_model_dir(path) -> bool:
+    path = Path(path)
+    if not path.is_dir():
+        return False
+    if not (path / 'config.json').is_file():
+        return False
+    return any((path / filename).is_file() for filename in _HF_WEIGHT_FILES)
+
+
+def _global_step_sort_key(path: Path):
+    match = re.fullmatch(r'global_step_(\d+)', path.name)
+    if match:
+        return int(match.group(1))
+    return -1
+
+
+def _resolve_frozen_answer_agent_path(model_path: str) -> str:
+    """
+    Resolve a frozen agent path to a loadable Hugging Face checkpoint directory.
+
+    Accepts:
+    - a direct HF export directory
+    - a VE RL `actor/global_step_*` directory
+    - an experiment root containing `actor/global_step_*`
+    - an `actor/` directory containing `global_step_*`
+    """
+    raw_path = Path(model_path).expanduser()
+    resolved_path = raw_path.resolve(strict=False)
+
+    if _is_hf_model_dir(resolved_path):
+        return str(resolved_path)
+
+    for preferred_path in (resolved_path / 'best', resolved_path / 'actor' / 'best'):
+        if _is_hf_model_dir(preferred_path):
+            return str(preferred_path)
+
+    search_roots = []
+    if resolved_path.is_dir():
+        search_roots.append(resolved_path)
+        actor_dir = resolved_path / 'actor'
+        if actor_dir.is_dir():
+            search_roots.append(actor_dir)
+
+    candidates = []
+    for root in search_roots:
+        for child in root.iterdir():
+            if child.is_dir() and child.name.startswith('global_step_') and _is_hf_model_dir(child):
+                candidates.append(child)
+
+    if candidates:
+        best_candidate = max(candidates, key=_global_step_sort_key)
+        return str(best_candidate)
+
+    raise OSError(
+        f"No Hugging Face checkpoint found under '{model_path}'. "
+        "Expected either a directory with config.json and model weights, or a VE RL run directory "
+        "containing actor/global_step_*/."
+    )
 
 def _select_rm_score_fn(data_source):
     if data_source in ['nq', 'triviaqa', 'popqa', 'hotpotqa', '2wikimultihopqa', 'musique', 'bamboogle']:
@@ -208,13 +278,15 @@ def main_task(config):
         if frozen_agent_path and not frozen_agent_url:
             # Load the model locally for in-process inference
             from transformers import AutoModelForCausalLM
+            resolved_frozen_agent_path = _resolve_frozen_answer_agent_path(frozen_agent_path)
             agent._tokenizer = tokenizer
             agent._model = AutoModelForCausalLM.from_pretrained(
-                frozen_agent_path, torch_dtype='auto', device_map='cpu',
+                resolved_frozen_agent_path, torch_dtype='auto', device_map='cpu',
             )
+            agent.model_path = resolved_frozen_agent_path
             agent._model.eval()
         set_frozen_answer_agent(agent)
-        print(f"[Memory-R1] Frozen Answer Agent loaded: path={frozen_agent_path}, url={frozen_agent_url}")
+        print(f"[Memory-R1] Frozen Answer Agent loaded: path={agent.model_path}, url={frozen_agent_url}")
 
     reward_fn = RewardManager(tokenizer=tokenizer, num_examine=0)
 

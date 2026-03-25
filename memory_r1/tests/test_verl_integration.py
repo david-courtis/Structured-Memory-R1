@@ -27,6 +27,93 @@ class TestRewardRouting:
             _select_rm_score_fn("unknown_source")
 
 
+class TestFrozenCheckpointResolution:
+    """Test path resolution for frozen Answer Agent checkpoints."""
+
+    def test_accepts_direct_hf_checkpoint_dir(self, tmp_path):
+        from verl.trainer.main_ppo import _resolve_frozen_answer_agent_path
+
+        ckpt = tmp_path / "global_step_100"
+        ckpt.mkdir()
+        (ckpt / "config.json").write_text("{}", encoding="utf-8")
+        (ckpt / "model.safetensors").write_text("", encoding="utf-8")
+
+        assert _resolve_frozen_answer_agent_path(str(ckpt)) == str(ckpt.resolve())
+
+    def test_resolves_latest_actor_global_step_from_run_root(self, tmp_path):
+        from verl.trainer.main_ppo import _resolve_frozen_answer_agent_path
+
+        actor_dir = tmp_path / "actor"
+        step_100 = actor_dir / "global_step_100"
+        step_200 = actor_dir / "global_step_200"
+        step_100.mkdir(parents=True)
+        step_200.mkdir(parents=True)
+        (step_100 / "config.json").write_text("{}", encoding="utf-8")
+        (step_100 / "model.safetensors").write_text("", encoding="utf-8")
+        (step_200 / "config.json").write_text("{}", encoding="utf-8")
+        (step_200 / "model.safetensors").write_text("", encoding="utf-8")
+
+        assert _resolve_frozen_answer_agent_path(str(tmp_path)) == str(step_200.resolve())
+
+    def test_rejects_run_root_without_hf_export(self, tmp_path):
+        from verl.trainer.main_ppo import _resolve_frozen_answer_agent_path
+
+        actor_dir = tmp_path / "actor"
+        step_100 = actor_dir / "global_step_100"
+        step_100.mkdir(parents=True)
+        (step_100 / "config.json").write_text("{}", encoding="utf-8")
+
+        with pytest.raises(OSError, match="No Hugging Face checkpoint found"):
+            _resolve_frozen_answer_agent_path(str(tmp_path))
+
+    def test_prefers_best_checkpoint_when_present(self, tmp_path):
+        from verl.trainer.main_ppo import _resolve_frozen_answer_agent_path
+
+        best_dir = tmp_path / "best"
+        actor_step = tmp_path / "actor" / "global_step_100"
+        best_dir.mkdir(parents=True)
+        actor_step.mkdir(parents=True)
+        (best_dir / "config.json").write_text("{}", encoding="utf-8")
+        (best_dir / "model.safetensors").write_text("", encoding="utf-8")
+        (actor_step / "config.json").write_text("{}", encoding="utf-8")
+        (actor_step / "model.safetensors").write_text("", encoding="utf-8")
+
+        assert _resolve_frozen_answer_agent_path(str(tmp_path)) == str(best_dir.resolve())
+
+
+class TestBestCheckpointMetricSelection:
+    """Test how the trainer chooses the validation metric for best checkpointing."""
+
+    def test_prefers_single_validation_score(self):
+        from types import SimpleNamespace
+        from verl.trainer.ppo.ray_trainer import RayPPOTrainer
+
+        trainer = RayPPOTrainer.__new__(RayPPOTrainer)
+        trainer.config = SimpleNamespace(trainer={})
+
+        metric_name, metric_value = trainer._select_best_validation_metric({
+            "val/test_score/memory_manager": 0.72,
+        })
+
+        assert metric_name == "val/test_score/memory_manager"
+        assert metric_value == 0.72
+
+    def test_prefers_memory_manager_metric_when_multiple_scores_exist(self):
+        from types import SimpleNamespace
+        from verl.trainer.ppo.ray_trainer import RayPPOTrainer
+
+        trainer = RayPPOTrainer.__new__(RayPPOTrainer)
+        trainer.config = SimpleNamespace(trainer={})
+
+        metric_name, metric_value = trainer._select_best_validation_metric({
+            "val/test_score/answer_agent": 0.61,
+            "val/test_score/memory_manager": 0.74,
+        })
+
+        assert metric_name == "val/test_score/memory_manager"
+        assert metric_value == 0.74
+
+
 class TestAnswerAgentRewardWithData:
     """Test reward function with actual parquet data format."""
 

@@ -18,6 +18,7 @@ This trainer supports model-agonistic model initialization with huggingface
 
 import os
 import uuid
+import math
 from contextlib import contextmanager
 from dataclasses import dataclass, field
 from enum import Enum
@@ -344,6 +345,9 @@ class RayPPOTrainer(object):
         self.use_reference_policy = Role.RefPolicy in role_worker_mapping
         self.use_rm = Role.RewardModel in role_worker_mapping
         self.ray_worker_group_cls = ray_worker_group_cls
+        self.best_val_score = -math.inf
+        self.best_val_metric_name = None
+        self.best_val_step = None
 
         # define KL control
         if self.use_reference_policy:
@@ -546,6 +550,59 @@ class RayPPOTrainer(object):
 
         return metric_dict
 
+    def _select_best_validation_metric(self, val_metrics: dict):
+        metric_name = self.config.trainer.get('best_checkpoint_metric', None)
+        if metric_name is not None:
+            if metric_name not in val_metrics:
+                raise ValueError(
+                    f"Configured best checkpoint metric '{metric_name}' not found in validation metrics: "
+                    f"{sorted(val_metrics.keys())}"
+                )
+            return metric_name, float(val_metrics[metric_name])
+
+        score_metrics = {
+            key: float(value) for key, value in val_metrics.items()
+            if key.startswith('val/test_score/')
+        }
+        if not score_metrics:
+            return None, None
+
+        if len(score_metrics) == 1:
+            metric_name, metric_value = next(iter(score_metrics.items()))
+            return metric_name, metric_value
+
+        for preferred_suffix in ('memory_manager', 'answer_agent'):
+            preferred_name = f'val/test_score/{preferred_suffix}'
+            if preferred_name in score_metrics:
+                return preferred_name, score_metrics[preferred_name]
+
+        mean_metric = float(np.mean(list(score_metrics.values())))
+        return 'val/test_score_mean', mean_metric
+
+    def _write_best_checkpoint_metadata(self, metric_name: str, metric_value: float):
+        best_dir = os.path.join(self.config.trainer.default_local_dir, 'best')
+        os.makedirs(best_dir, exist_ok=True)
+        metadata_path = os.path.join(best_dir, 'best_checkpoint.json')
+        with open(metadata_path, 'w', encoding='utf-8') as f:
+            json.dump({
+                'step': self.best_val_step,
+                'metric': metric_name,
+                'score': metric_value,
+            }, f, indent=2, sort_keys=True)
+
+    def _maybe_save_best_checkpoint(self, val_metrics: dict):
+        metric_name, metric_value = self._select_best_validation_metric(val_metrics)
+        if metric_name is None:
+            return
+
+        if metric_value > self.best_val_score:
+            self.best_val_score = metric_value
+            self.best_val_metric_name = metric_name
+            self.best_val_step = self.global_steps
+            print(f"New best checkpoint at step {self.global_steps}: {metric_name}={metric_value:.6f}")
+            self._save_checkpoint(tag='best')
+            self._write_best_checkpoint_metadata(metric_name=metric_name, metric_value=metric_value)
+
 
     def init_workers(self):
         """Init resource pool and worker group"""
@@ -620,16 +677,19 @@ class RayPPOTrainer(object):
         self.actor_rollout_wg = all_wg['actor_rollout']
         self.actor_rollout_wg.init_model()
 
-    def _save_checkpoint(self):
-        actor_local_path = os.path.join(self.config.trainer.default_local_dir, 'actor',
-                                        f'global_step_{self.global_steps}')
+    def _save_checkpoint(self, tag=None):
+        if tag == 'best':
+            actor_local_path = os.path.join(self.config.trainer.default_local_dir, 'best')
+        else:
+            actor_tag = f'global_step_{self.global_steps}' if tag is None else tag
+            actor_local_path = os.path.join(self.config.trainer.default_local_dir, 'actor', actor_tag)
         actor_remote_path = None if self.config.trainer.default_hdfs_dir is None else os.path.join(
             self.config.trainer.default_hdfs_dir, 'actor')
         self.actor_rollout_wg.save_checkpoint(actor_local_path, actor_remote_path)
 
         if self.use_critic:
-            critic_local_path = os.path.join(self.config.trainer.default_local_dir, 'critic',
-                                             f'global_step_{self.global_steps}')
+            critic_tag = f'global_step_{self.global_steps}' if tag is None else tag
+            critic_local_path = os.path.join(self.config.trainer.default_local_dir, 'critic', critic_tag)
             critic_remote_path = None if self.config.trainer.default_hdfs_dir is None else os.path.join(
                 self.config.trainer.default_hdfs_dir, 'critic')
             self.critic_wg.save_checkpoint(critic_local_path, critic_remote_path)
@@ -666,6 +726,7 @@ class RayPPOTrainer(object):
             val_metrics = self._validate()
             pprint(f'Initial validation metrics: {val_metrics}')
             logger.log(data=val_metrics, step=self.global_steps)
+            self._maybe_save_best_checkpoint(val_metrics)
             if self.config.trainer.get('val_only', False):
                 return
 
@@ -827,6 +888,7 @@ class RayPPOTrainer(object):
                         with _timer('testing', timing_raw):
                             val_metrics: dict = self._validate()
                         metrics.update(val_metrics)
+                        self._maybe_save_best_checkpoint(val_metrics)
 
                     if self.config.trainer.save_freq > 0 and \
                             self.global_steps % self.config.trainer.save_freq == 0:
@@ -849,6 +911,7 @@ class RayPPOTrainer(object):
                         val_metrics = self._validate()
                         pprint(f'Final validation metrics: {val_metrics}')
                         logger.log(data=val_metrics, step=self.global_steps)
+                        self._maybe_save_best_checkpoint(val_metrics)
                     return
     
     def _create_loss_mask(self, batch, metrics):

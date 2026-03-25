@@ -59,11 +59,14 @@ This trains the Answer Agent with GRPO on memory-augmented QA. The agent learns 
 bash train_memory_manager.sh
 
 # With frozen Answer Agent (full EM reward, paper's approach)
-FROZEN_ANSWER_AGENT=verl_checkpoints/memory-r1-answer-agent-grpo-qwen2.5-0.5b/best \
+# Pass the Stage 1 run directory; Stage 2 auto-resolves the latest actor/global_step_* checkpoint.
+FROZEN_ANSWER_AGENT=verl_checkpoints/memory-r1-answer-agent-grpo-qwen2.5-0.5b \
   bash train_memory_manager.sh
 ```
 
 The Memory Manager learns memory operations. When a frozen Answer Agent checkpoint is provided, it receives outcome-based reward: the EM score of the Answer Agent on the updated memory bank.
+
+During training, validation periodically promotes the strongest checkpoint to `verl_checkpoints/<run_name>/best/`. The final post-training validation also updates that `best/` export if the last model is strongest.
 
 ---
 
@@ -187,7 +190,7 @@ The complete Memory-R1 pipeline from raw data to trained models:
         +-- verl_checkpoints/memory-r1-answer-agent-grpo-qwen2.5-0.5b/
 
 3. Stage 2: Train Memory Manager (with frozen Answer Agent)
-   FROZEN_ANSWER_AGENT=verl_checkpoints/.../best bash train_memory_manager.sh
+   FROZEN_ANSWER_AGENT=verl_checkpoints/.../memory-r1-answer-agent-... bash train_memory_manager.sh
         |
         +-- verl_checkpoints/memory-r1-manager-grpo-qwen2.5-0.5b/
 

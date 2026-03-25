@@ -380,9 +380,9 @@ case "$STAGE" in
         train_answer_agent
         ;;
     2)
-        # Look for existing best checkpoint from Stage 1
+        # Look for an existing Stage 1 run directory or exported checkpoint
         MODEL_TAG=$(echo "$BASE_MODEL" | tr '/' '-' | tr '[:upper:]' '[:lower:]')
-        CANDIDATE="${CHECKPOINT_DIR}/${ANSWER_AGENT_NAME}-${MODEL_TAG}/best"
+        CANDIDATE="${CHECKPOINT_DIR}/${ANSWER_AGENT_NAME}-${MODEL_TAG}"
         if [ -n "${FROZEN_ANSWER_AGENT:-}" ]; then
             log "Using FROZEN_ANSWER_AGENT from env: $FROZEN_ANSWER_AGENT"
             ANSWER_AGENT_CKPT="$FROZEN_ANSWER_AGENT"
@@ -400,11 +400,11 @@ case "$STAGE" in
         ;;
     both)
         train_answer_agent
-        # Find best checkpoint from Stage 1
+        # Reuse the Stage 1 run directory; the trainer resolves the latest actor/global_step_* checkpoint
         MODEL_TAG=$(echo "$BASE_MODEL" | tr '/' '-' | tr '[:upper:]' '[:lower:]')
-        BEST_CKPT="${CHECKPOINT_DIR}/${ANSWER_AGENT_NAME}-${MODEL_TAG}/best"
-        if [ -d "$BEST_CKPT" ]; then
-            ANSWER_AGENT_CKPT="$BEST_CKPT"
+        STAGE1_RUN_DIR="${CHECKPOINT_DIR}/${ANSWER_AGENT_NAME}-${MODEL_TAG}"
+        if [ -d "$STAGE1_RUN_DIR" ]; then
+            ANSWER_AGENT_CKPT="$STAGE1_RUN_DIR"
         elif [ -f "${LOG_DIR}/stage1_checkpoint.txt" ]; then
             ANSWER_AGENT_CKPT=$(cat "${LOG_DIR}/stage1_checkpoint.txt")
         else
