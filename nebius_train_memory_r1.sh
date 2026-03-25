@@ -28,6 +28,7 @@ BASE_MODEL="${BASE_MODEL:-Qwen/Qwen2.5-3B-Instruct}"
 TRAIN_BATCH_SIZE="${TRAIN_BATCH_SIZE:-4}"
 VAL_BATCH_SIZE="${VAL_BATCH_SIZE:-4}"
 MAX_PROMPT_LENGTH="${MAX_PROMPT_LENGTH:-4096}"
+MAX_PROMPT_LENGTH_STAGE2="${MAX_PROMPT_LENGTH_STAGE2:-8192}"  # Memory manager prompts are longer
 GPU_MEM_UTIL="${GPU_MEM_UTIL:-0.5}"       # 0.5 for 3B on H200
 PPO_MICRO_BATCH="${PPO_MICRO_BATCH:-1}"
 TOTAL_STEPS="${TOTAL_STEPS:-500}"
@@ -256,7 +257,7 @@ train_memory_manager() {
         data.val_data_num=null \
         data.train_batch_size="${TRAIN_BATCH_SIZE}" \
         data.val_batch_size="${VAL_BATCH_SIZE}" \
-        data.max_prompt_length="${MAX_PROMPT_LENGTH}" \
+        data.max_prompt_length="${MAX_PROMPT_LENGTH_STAGE2}" \
         data.max_response_length=512 \
         data.max_start_length=512 \
         data.max_obs_length=256 \
