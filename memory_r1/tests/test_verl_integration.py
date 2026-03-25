@@ -40,6 +40,16 @@ class TestFrozenCheckpointResolution:
 
         assert _resolve_frozen_answer_agent_path(str(ckpt)) == str(ckpt.resolve())
 
+    def test_accepts_sharded_hf_checkpoint_dir(self, tmp_path):
+        from verl.trainer.main_ppo import _resolve_frozen_answer_agent_path
+
+        ckpt = tmp_path / "global_step_200"
+        ckpt.mkdir()
+        (ckpt / "config.json").write_text("{}", encoding="utf-8")
+        (ckpt / "model.safetensors.index.json").write_text("{}", encoding="utf-8")
+
+        assert _resolve_frozen_answer_agent_path(str(ckpt)) == str(ckpt.resolve())
+
     def test_resolves_latest_actor_global_step_from_run_root(self, tmp_path):
         from verl.trainer.main_ppo import _resolve_frozen_answer_agent_path
 

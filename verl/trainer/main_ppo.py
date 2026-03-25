@@ -26,7 +26,9 @@ import numpy as np
 
 _HF_WEIGHT_FILES = (
     'model.safetensors',
+    'model.safetensors.index.json',
     'pytorch_model.bin',
+    'pytorch_model.bin.index.json',
     'tf_model.h5',
     'model.ckpt.index',
     'flax_model.msgpack',
