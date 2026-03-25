@@ -1,0 +1,232 @@
+
+============================================================
+  Memory-R1 Nebius Training Job Started
+============================================================
+[2026-03-25 13:48:03] Repo:        /home/memory-r1/Search-R1
+[2026-03-25 13:48:03] Stage:       2
+[2026-03-25 13:48:03] Base model:  Qwen/Qwen2.5-3B-Instruct
+[2026-03-25 13:48:03] Num GPUs:    1
+[2026-03-25 13:48:03] Batch size:  4
+[2026-03-25 13:48:03] Total steps: 500
+[2026-03-25 13:48:03] Master log:  /home/memory-r1/Search-R1/logs/nebius_train_20260325_134803.log
+
+============================================================
+  Python Environment
+============================================================
+[2026-03-25 13:48:03] Using conda environment: searchr1
+
+============================================================
+  GPU Configuration
+============================================================
+NVIDIA H200, 143771 MiB, 580.126.09
+[2026-03-25 13:48:03] CUDA_VISIBLE_DEVICES = 0
+[2026-03-25 13:48:03] VLLM_ATTENTION_BACKEND = FLASH_ATTN
+
+============================================================
+  Environment Setup Check
+============================================================
+[2026-03-25 13:48:03] Verifying Python dependencies...
+Core imports OK
+[2026-03-25 13:48:08] Setup check passed.
+
+============================================================
+  Building Training Data
+============================================================
+[2026-03-25 13:48:08] Training data already exists — skipping build.
+
+============================================================
+  Starting Memory Retrieval Server
+============================================================
+[2026-03-25 13:48:08] Memory server PID: 758736
+[2026-03-25 13:48:08] Memory server is ready.
+[2026-03-25 13:48:08] Found Stage 1 checkpoint from log: /home/memory-r1/Search-R1/verl_checkpoints/memory-r1-answer-agent-grpo-qwen-qwen2.5-3b-instruct
+
+============================================================
+  Stage 2: Training Memory Manager
+============================================================
+[2026-03-25 13:48:08] Experiment:       memory-r1-manager-grpo-qwen-qwen2.5-3b-instruct
+[2026-03-25 13:48:08] Stage log:        /home/memory-r1/Search-R1/logs/memory-r1-manager-grpo-qwen-qwen2.5-3b-instruct.log
+[2026-03-25 13:48:08] Checkpoints:      /home/memory-r1/Search-R1/verl_checkpoints/memory-r1-manager-grpo-qwen-qwen2.5-3b-instruct
+[2026-03-25 13:48:08] Frozen Answer Ag: /home/memory-r1/Search-R1/verl_checkpoints/memory-r1-answer-agent-grpo-qwen-qwen2.5-3b-instruct
+Starting memory server on port 8000...
+INFO:     Started server process [758769]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 8000): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+ERROR conda.cli.main_run:execute(142): `conda run python3 -m memory_r1.retrieval.memory_server --port 8000` failed. (See above for error)
+2026-03-25 13:48:14,606	INFO worker.py:2013 -- Started a local Ray instance.
+/home/memory-r1/miniconda3/envs/searchr1/lib/python3.10/site-packages/ray/_private/worker.py:2052: FutureWarning: Tip: In future versions of Ray, Ray will no longer override accelerator visible devices env var if num_gpus=0 or num_gpus=None (default). To enable this behavior and turn off this error message, set RAY_ACCEL_ENV_VAR_OVERRIDE_ON_ZERO=0
+  warnings.warn(
+[36m(main_task pid=759911)[0m {'actor_rollout_ref': {'actor': {'clip_ratio': 0.2,
+[36m(main_task pid=759911)[0m                                  'entropy_coeff': 0.001,
+[36m(main_task pid=759911)[0m                                  'fsdp_config': {'fsdp_size': -1,
+[36m(main_task pid=759911)[0m                                                  'grad_offload': False,
+[36m(main_task pid=759911)[0m                                                  'optimizer_offload': True,
+[36m(main_task pid=759911)[0m                                                  'param_offload': False,
+[36m(main_task pid=759911)[0m                                                  'wrap_policy': {'min_num_params': 0}},
+[36m(main_task pid=759911)[0m                                  'grad_clip': 1.0,
+[36m(main_task pid=759911)[0m                                  'kl_loss_coef': 0.001,
+[36m(main_task pid=759911)[0m                                  'kl_loss_type': 'low_var_kl',
+[36m(main_task pid=759911)[0m                                  'optim': {'lr': 1e-06,
+[36m(main_task pid=759911)[0m                                            'lr_warmup_steps_ratio': 0.285,
+[36m(main_task pid=759911)[0m                                            'min_lr_ratio': None,
+[36m(main_task pid=759911)[0m                                            'total_training_steps': -1,
+[36m(main_task pid=759911)[0m                                            'warmup_style': 'constant'},
+[36m(main_task pid=759911)[0m                                  'ppo_epochs': 1,
+[36m(main_task pid=759911)[0m                                  'ppo_max_token_len_per_gpu': 16384,
+[36m(main_task pid=759911)[0m                                  'ppo_micro_batch_size': 1,
+[36m(main_task pid=759911)[0m                                  'ppo_mini_batch_size': 4,
+[36m(main_task pid=759911)[0m                                  'shuffle': False,
+[36m(main_task pid=759911)[0m                                  'state_masking': False,
+[36m(main_task pid=759911)[0m                                  'strategy': 'fsdp',
+[36m(main_task pid=759911)[0m                                  'ulysses_sequence_parallel_size': 1,
+[36m(main_task pid=759911)[0m                                  'use_dynamic_bsz': False,
+[36m(main_task pid=759911)[0m                                  'use_kl_loss': True},
+[36m(main_task pid=759911)[0m                        'hybrid_engine': True,
+[36m(main_task pid=759911)[0m                        'model': {'enable_gradient_checkpointing': True,
+[36m(main_task pid=759911)[0m                                  'external_lib': None,
+[36m(main_task pid=759911)[0m                                  'override_config': {},
+[36m(main_task pid=759911)[0m                                  'path': 'Qwen/Qwen2.5-3B-Instruct',
+[36m(main_task pid=759911)[0m                                  'use_remove_padding': True},
+[36m(main_task pid=759911)[0m                        'ref': {'fsdp_config': {'fsdp_size': -1,
+[36m(main_task pid=759911)[0m                                                'param_offload': False,
+[36m(main_task pid=759911)[0m                                                'wrap_policy': {'min_num_params': 0}},
+[36m(main_task pid=759911)[0m                                'log_prob_max_token_len_per_gpu': 16384,
+[36m(main_task pid=759911)[0m                                'log_prob_micro_batch_size': 4,
+[36m(main_task pid=759911)[0m                                'log_prob_use_dynamic_bsz': False,
+[36m(main_task pid=759911)[0m                                'ulysses_sequence_parallel_size': 1},
+[36m(main_task pid=759911)[0m                        'rollout': {'do_sample': True,
+[36m(main_task pid=759911)[0m                                    'dtype': 'bfloat16',
+[36m(main_task pid=759911)[0m                                    'enforce_eager': True,
+[36m(main_task pid=759911)[0m                                    'free_cache_engine': True,
+[36m(main_task pid=759911)[0m                                    'gpu_memory_utilization': 0.5,
+[36m(main_task pid=759911)[0m                                    'ignore_eos': False,
+[36m(main_task pid=759911)[0m                                    'load_format': 'dummy_dtensor',
+[36m(main_task pid=759911)[0m                                    'log_prob_max_token_len_per_gpu': 16384,
+[36m(main_task pid=759911)[0m                                    'log_prob_micro_batch_size': 4,
+[36m(main_task pid=759911)[0m                                    'log_prob_use_dynamic_bsz': False,
+[36m(main_task pid=759911)[0m                                    'max_num_batched_tokens': 8192,
+[36m(main_task pid=759911)[0m                                    'max_num_seqs': 1024,
+[36m(main_task pid=759911)[0m                                    'n': 1,
+[36m(main_task pid=759911)[0m                                    'n_agent': 2,
+[36m(main_task pid=759911)[0m                                    'name': 'vllm',
+[36m(main_task pid=759911)[0m                                    'prompt_length': 4096,
+[36m(main_task pid=759911)[0m                                    'response_length': 512,
+[36m(main_task pid=759911)[0m                                    'temperature': 1,
+[36m(main_task pid=759911)[0m                                    'tensor_model_parallel_size': 1,
+[36m(main_task pid=759911)[0m                                    'top_k': -1,
+[36m(main_task pid=759911)[0m                                    'top_p': 0.95}},
+[36m(main_task pid=759911)[0m  'algorithm': {'adv_estimator': 'grpo',
+[36m(main_task pid=759911)[0m                'gamma': 1.0,
+[36m(main_task pid=759911)[0m                'kl_ctrl': {'kl_coef': 0.001, 'type': 'fixed'},
+[36m(main_task pid=759911)[0m                'kl_penalty': 'kl',
+[36m(main_task pid=759911)[0m                'lam': 1.0,
+[36m(main_task pid=759911)[0m                'no_think_rl': False,
+[36m(main_task pid=759911)[0m                'state_masking': {'end_state_marker': '</information>',
+[36m(main_task pid=759911)[0m                                  'start_state_marker': '<information>'}},
+[36m(main_task pid=759911)[0m  'critic': {'cliprange_value': 0.5,
+[36m(main_task pid=759911)[0m             'forward_max_token_len_per_gpu': 32768,
+[36m(main_task pid=759911)[0m             'forward_micro_batch_size': 64,
+[36m(main_task pid=759911)[0m             'grad_clip': 1.0,
+[36m(main_task pid=759911)[0m             'model': {'enable_gradient_checkpointing': False,
+[36m(main_task pid=759911)[0m                       'external_lib': None,
+[36m(main_task pid=759911)[0m                       'fsdp_config': {'fsdp_size': -1,
+[36m(main_task pid=759911)[0m                                       'grad_offload': False,
+[36m(main_task pid=759911)[0m                                       'optimizer_offload': False,
+[36m(main_task pid=759911)[0m                                       'param_offload': False,
+[36m(main_task pid=759911)[0m                                       'wrap_policy': {'min_num_params': 0}},
+[36m(main_task pid=759911)[0m                       'override_config': {},
+[36m(main_task pid=759911)[0m                       'path': '~/models/deepseek-llm-7b-chat',
+[36m(main_task pid=759911)[0m                       'tokenizer_path': 'Qwen/Qwen2.5-3B-Instruct',
+[36m(main_task pid=759911)[0m                       'use_remove_padding': False},
+[36m(main_task pid=759911)[0m             'optim': {'lr': 1e-05,
+[36m(main_task pid=759911)[0m                       'lr_warmup_steps_ratio': 0.0,
+[36m(main_task pid=759911)[0m                       'min_lr_ratio': None,
+[36m(main_task pid=759911)[0m                       'total_training_steps': -1,
+[36m(main_task pid=759911)[0m                       'warmup_style': 'constant'},
+[36m(main_task pid=759911)[0m             'ppo_epochs': 1,
+[36m(main_task pid=759911)[0m             'ppo_max_token_len_per_gpu': 32768,
+[36m(main_task pid=759911)[0m             'ppo_micro_batch_size': 64,
+[36m(main_task pid=759911)[0m             'ppo_mini_batch_size': 4,
+[36m(main_task pid=759911)[0m             'shuffle': False,
+[36m(main_task pid=759911)[0m             'strategy': 'fsdp',
+[36m(main_task pid=759911)[0m             'ulysses_sequence_parallel_size': 1,
+[36m(main_task pid=759911)[0m             'use_dynamic_bsz': False},
+[36m(main_task pid=759911)[0m  'data': {'max_obs_length': 256,
+[36m(main_task pid=759911)[0m           'max_prompt_length': 4096,
+[36m(main_task pid=759911)[0m           'max_response_length': 512,
+[36m(main_task pid=759911)[0m           'max_start_length': 512,
+[36m(main_task pid=759911)[0m           'prompt_key': 'prompt',
+[36m(main_task pid=759911)[0m           'return_raw_chat': False,
+[36m(main_task pid=759911)[0m           'return_raw_input_ids': False,
+[36m(main_task pid=759911)[0m           'shuffle_train_dataloader': True,
+[36m(main_task pid=759911)[0m           'tokenizer': None,
+[36m(main_task pid=759911)[0m           'train_batch_size': 4,
+[36m(main_task pid=759911)[0m           'train_data_num': None,
+[36m(main_task pid=759911)[0m           'train_files': '/home/memory-r1/Search-R1/data/memory_r1/memory_manager/train.parquet',
+[36m(main_task pid=759911)[0m           'val_batch_size': 4,
+[36m(main_task pid=759911)[0m           'val_data_num': None,
+[36m(main_task pid=759911)[0m           'val_files': '/home/memory-r1/Search-R1/data/memory_r1/memory_manager/test.parquet'},
+[36m(main_task pid=759911)[0m  'do_search': False,
+[36m(main_task pid=759911)[0m  'frozen_answer_agent_path': '/home/memory-r1/Search-R1/verl_checkpoints/memory-r1-answer-agent-grpo-qwen-qwen2.5-3b-instruct',
+[36m(main_task pid=759911)[0m  'max_turns': 1,
+[36m(main_task pid=759911)[0m  'retriever': {'topk': 3, 'url': 'http://127.0.0.1:8000/retrieve'},
+[36m(main_task pid=759911)[0m  'reward_model': {'enable': False,
+[36m(main_task pid=759911)[0m                   'final_format_score': 0,
+[36m(main_task pid=759911)[0m                   'forward_max_token_len_per_gpu': 32768,
+[36m(main_task pid=759911)[0m                   'max_length': None,
+[36m(main_task pid=759911)[0m                   'micro_batch_size': 64,
+[36m(main_task pid=759911)[0m                   'model': {'external_lib': None,
+[36m(main_task pid=759911)[0m                             'fsdp_config': {'min_num_params': 0,
+[36m(main_task pid=759911)[0m                                             'param_offload': False},
+[36m(main_task pid=759911)[0m                             'input_tokenizer': 'Qwen/Qwen2.5-3B-Instruct',
+[36m(main_task pid=759911)[0m                             'path': '~/models/FsfairX-LLaMA3-RM-v0.1',
+[36m(main_task pid=759911)[0m                             'use_remove_padding': False},
+[36m(main_task pid=759911)[0m                   'retrieval_score': 0,
+[36m(main_task pid=759911)[0m                   'strategy': 'fsdp',
+[36m(main_task pid=759911)[0m                   'structure_format_score': 0,
+[36m(main_task pid=759911)[0m                   'ulysses_sequence_parallel_size': 1,
+[36m(main_task pid=759911)[0m                   'use_dynamic_bsz': False},
+[36m(main_task pid=759911)[0m  'trainer': {'critic_warmup': 0,
+[36m(main_task pid=759911)[0m              'default_hdfs_dir': None,
+[36m(main_task pid=759911)[0m              'default_local_dir': '/home/memory-r1/Search-R1/verl_checkpoints/memory-r1-manager-grpo-qwen-qwen2.5-3b-instruct',
+[36m(main_task pid=759911)[0m              'experiment_name': 'memory-r1-manager-grpo-qwen-qwen2.5-3b-instruct',
+[36m(main_task pid=759911)[0m              'logger': ['console'],
+[36m(main_task pid=759911)[0m              'n_gpus_per_node': 1,
+[36m(main_task pid=759911)[0m              'nnodes': 1,
+[36m(main_task pid=759911)[0m              'project_name': 'Memory-R1',
+[36m(main_task pid=759911)[0m              'save_freq': 100,
+[36m(main_task pid=759911)[0m              'test_freq': 50,
+[36m(main_task pid=759911)[0m              'total_epochs': 15,
+[36m(main_task pid=759911)[0m              'total_training_steps': 500,
+[36m(main_task pid=759911)[0m              'val_before_train': True,
+[36m(main_task pid=759911)[0m              'val_only': False}}
+[36m(main_task pid=759911)[0m /home/memory-r1/miniconda3/envs/searchr1/lib/python3.10/site-packages/vllm/connections.py:8: RuntimeWarning: Failed to read commit hash:
+[36m(main_task pid=759911)[0m No module named 'vllm._version'
+[36m(main_task pid=759911)[0m   from vllm.version import __version__ as VLLM_VERSION
+Error executing job with overrides: ['data.train_files=/home/memory-r1/Search-R1/data/memory_r1/memory_manager/train.parquet', 'data.val_files=/home/memory-r1/Search-R1/data/memory_r1/memory_manager/test.parquet', 'data.train_data_num=null', 'data.val_data_num=null', 'data.train_batch_size=4', 'data.val_batch_size=4', 'data.max_prompt_length=4096', 'data.max_response_length=512', 'data.max_start_length=512', 'data.max_obs_length=256', 'data.shuffle_train_dataloader=True', 'algorithm.adv_estimator=grpo', 'actor_rollout_ref.model.path=Qwen/Qwen2.5-3B-Instruct', 'actor_rollout_ref.model.enable_gradient_checkpointing=true', 'actor_rollout_ref.model.use_remove_padding=True', 'actor_rollout_ref.actor.optim.lr=1e-6', 'actor_rollout_ref.actor.optim.lr_warmup_steps_ratio=0.285', 'actor_rollout_ref.actor.use_kl_loss=true', 'actor_rollout_ref.actor.ppo_mini_batch_size=4', 'actor_rollout_ref.actor.ppo_micro_batch_size=1', 'actor_rollout_ref.actor.fsdp_config.param_offload=false', 'actor_rollout_ref.actor.fsdp_config.grad_offload=false', 'actor_rollout_ref.actor.fsdp_config.optimizer_offload=true', 'actor_rollout_ref.rollout.log_prob_micro_batch_size=4', 'actor_rollout_ref.rollout.tensor_model_parallel_size=1', 'actor_rollout_ref.rollout.name=vllm', 'actor_rollout_ref.rollout.gpu_memory_utilization=0.5', 'actor_rollout_ref.ref.log_prob_micro_batch_size=4', 'actor_rollout_ref.ref.fsdp_config.param_offload=False', 'actor_rollout_ref.actor.kl_loss_coef=0.001', 'actor_rollout_ref.actor.kl_loss_type=low_var_kl', 'algorithm.no_think_rl=false', 'actor_rollout_ref.rollout.n_agent=2', 'actor_rollout_ref.rollout.temperature=1', 'actor_rollout_ref.actor.state_masking=false', 'trainer.logger=[console]', '+trainer.val_only=false', '+trainer.val_before_train=true', 'trainer.default_hdfs_dir=null', 'trainer.n_gpus_per_node=1', 'trainer.nnodes=1', 'trainer.save_freq=100', 'trainer.test_freq=50', 'trainer.project_name=Memory-R1', 'trainer.experiment_name=memory-r1-manager-grpo-qwen-qwen2.5-3b-instruct', 'trainer.total_epochs=15', 'trainer.total_training_steps=500', 'trainer.default_local_dir=/home/memory-r1/Search-R1/verl_checkpoints/memory-r1-manager-grpo-qwen-qwen2.5-3b-instruct', 'do_search=false', 'max_turns=1', 'retriever.url=http://127.0.0.1:8000/retrieve', 'retriever.topk=3', '+frozen_answer_agent_path=/home/memory-r1/Search-R1/verl_checkpoints/memory-r1-answer-agent-grpo-qwen-qwen2.5-3b-instruct']
+Traceback (most recent call last):
+  File "/home/memory-r1/Search-R1/verl/trainer/main_ppo.py", line 125, in main
+    ray.get(main_task.remote(config))
+  File "/home/memory-r1/miniconda3/envs/searchr1/lib/python3.10/site-packages/ray/_private/auto_init_hook.py", line 22, in auto_init_wrapper
+    return fn(*args, **kwargs)
+  File "/home/memory-r1/miniconda3/envs/searchr1/lib/python3.10/site-packages/ray/_private/client_mode_hook.py", line 104, in wrapper
+    return func(*args, **kwargs)
+  File "/home/memory-r1/miniconda3/envs/searchr1/lib/python3.10/site-packages/ray/_private/worker.py", line 2981, in get
+    values, debugger_breakpoint = worker.get_objects(
+  File "/home/memory-r1/miniconda3/envs/searchr1/lib/python3.10/site-packages/ray/_private/worker.py", line 1012, in get_objects
+    raise value.as_instanceof_cause()
+ray.exceptions.RayTaskError(OSError): [36mray::main_task()[39m (pid=759911, ip=192.168.0.60)
+  File "/home/memory-r1/Search-R1/verl/trainer/main_ppo.py", line 212, in main_task
+    agent._model = AutoModelForCausalLM.from_pretrained(
+  File "/home/memory-r1/miniconda3/envs/searchr1/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 564, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/memory-r1/miniconda3/envs/searchr1/lib/python3.10/site-packages/transformers/modeling_utils.py", line 3779, in from_pretrained
+    raise EnvironmentError(
+OSError: Error no file named pytorch_model.bin, model.safetensors, tf_model.h5, model.ckpt.index or flax_model.msgpack found in directory /home/memory-r1/Search-R1/verl_checkpoints/memory-r1-answer-agent-grpo-qwen-qwen2.5-3b-instruct.
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+ERROR conda.cli.main_run:execute(142): `conda run python3 -m verl.trainer.main_ppo data.train_files=/home/memory-r1/Search-R1/data/memory_r1/memory_manager/train.parquet data.val_files=/home/memory-r1/Search-R1/data/memory_r1/memory_manager/test.parquet data.train_data_num=null data.val_data_num=null data.train_batch_size=4 data.val_batch_size=4 data.max_prompt_length=4096 data.max_response_length=512 data.max_start_length=512 data.max_obs_length=256 data.shuffle_train_dataloader=True algorithm.adv_estimator=grpo actor_rollout_ref.model.path=Qwen/Qwen2.5-3B-Instruct actor_rollout_ref.model.enable_gradient_checkpointing=true actor_rollout_ref.model.use_remove_padding=True actor_rollout_ref.actor.optim.lr=1e-6 actor_rollout_ref.actor.optim.lr_warmup_steps_ratio=0.285 actor_rollout_ref.actor.use_kl_loss=true actor_rollout_ref.actor.ppo_mini_batch_size=4 actor_rollout_ref.actor.ppo_micro_batch_size=1 actor_rollout_ref.actor.fsdp_config.param_offload=false actor_rollout_ref.actor.fsdp_config.grad_offload=false actor_rollout_ref.actor.fsdp_config.optimizer_offload=true actor_rollout_ref.rollout.log_prob_micro_batch_size=4 actor_rollout_ref.rollout.tensor_model_parallel_size=1 actor_rollout_ref.rollout.name=vllm actor_rollout_ref.rollout.gpu_memory_utilization=0.5 actor_rollout_ref.ref.log_prob_micro_batch_size=4 actor_rollout_ref.ref.fsdp_config.param_offload=False actor_rollout_ref.actor.kl_loss_coef=0.001 actor_rollout_ref.actor.kl_loss_type=low_var_kl algorithm.no_think_rl=false actor_rollout_ref.rollout.n_agent=2 actor_rollout_ref.rollout.temperature=1 actor_rollout_ref.actor.state_masking=false trainer.logger=[console] +trainer.val_only=false +trainer.val_before_train=true trainer.default_hdfs_dir=null trainer.n_gpus_per_node=1 trainer.nnodes=1 trainer.save_freq=100 trainer.test_freq=50 trainer.project_name=Memory-R1 trainer.experiment_name=memory-r1-manager-grpo-qwen-qwen2.5-3b-instruct trainer.total_epochs=15 trainer.total_training_steps=500 trainer.default_local_dir=/home/memory-r1/Search-R1/verl_checkpoints/memory-r1-manager-grpo-qwen-qwen2.5-3b-instruct do_search=false max_turns=1 retriever.url=http://127.0.0.1:8000/retrieve retriever.topk=3 +frozen_answer_agent_path=/home/memory-r1/Search-R1/verl_checkpoints/memory-r1-answer-agent-grpo-qwen-qwen2.5-3b-instruct` failed. (See above for error)
+[2026-03-25 13:48:22] Stopping memory server (PID 758736)...

@@ -1,0 +1,2 @@
+stage=1 experiment=memory-r1-answer-agent-grpo-qwen-qwen2.5-3b-instruct started=2026-03-24 20:23:56
+stage=1 finished=2026-03-25 10:30:15 exit_code=0
