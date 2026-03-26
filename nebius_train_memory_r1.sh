@@ -172,8 +172,10 @@ train_answer_agent() {
         actor_rollout_ref.model.path="${BASE_MODEL}" \
         actor_rollout_ref.model.enable_gradient_checkpointing=true \
         actor_rollout_ref.model.use_remove_padding=True \
-        actor_rollout_ref.actor.optim.lr=5e-7 \
-        actor_rollout_ref.actor.optim.lr_warmup_steps_ratio=0.1 \
+        actor_rollout_ref.actor.optim.lr=1e-5 \
+        actor_rollout_ref.actor.optim.lr_warmup_steps_ratio=0.03 \
+        actor_rollout_ref.actor.optim.warmup_style=cosine \
+        actor_rollout_ref.actor.optim.min_lr_ratio=0.1 \
         actor_rollout_ref.actor.use_kl_loss=true \
         actor_rollout_ref.actor.ppo_mini_batch_size="${TRAIN_BATCH_SIZE}" \
         actor_rollout_ref.actor.ppo_micro_batch_size="${PPO_MICRO_BATCH}" \
@@ -186,7 +188,7 @@ train_answer_agent() {
         actor_rollout_ref.rollout.gpu_memory_utilization="${GPU_MEM_UTIL}" \
         actor_rollout_ref.ref.log_prob_micro_batch_size="${LOG_PROB_MICRO_BATCH}" \
         actor_rollout_ref.ref.fsdp_config.param_offload=False \
-        actor_rollout_ref.actor.kl_loss_coef=0.03 \
+        actor_rollout_ref.actor.kl_loss_coef=0.05 \
         actor_rollout_ref.actor.kl_loss_type=low_var_kl \
         algorithm.no_think_rl=false \
         actor_rollout_ref.rollout.n_agent=8 \
@@ -268,8 +270,10 @@ train_memory_manager() {
         actor_rollout_ref.model.path="${BASE_MODEL}" \
         actor_rollout_ref.model.enable_gradient_checkpointing=true \
         actor_rollout_ref.model.use_remove_padding=True \
-        actor_rollout_ref.actor.optim.lr=5e-7 \
-        actor_rollout_ref.actor.optim.lr_warmup_steps_ratio=0.1 \
+        actor_rollout_ref.actor.optim.lr=1e-5 \
+        actor_rollout_ref.actor.optim.lr_warmup_steps_ratio=0.03 \
+        actor_rollout_ref.actor.optim.warmup_style=cosine \
+        actor_rollout_ref.actor.optim.min_lr_ratio=0.1 \
         actor_rollout_ref.actor.use_kl_loss=true \
         actor_rollout_ref.actor.ppo_mini_batch_size="${TRAIN_BATCH_SIZE}" \
         actor_rollout_ref.actor.ppo_micro_batch_size="${PPO_MICRO_BATCH}" \
@@ -282,7 +286,7 @@ train_memory_manager() {
         actor_rollout_ref.rollout.gpu_memory_utilization="${GPU_MEM_UTIL}" \
         actor_rollout_ref.ref.log_prob_micro_batch_size="${LOG_PROB_MICRO_BATCH}" \
         actor_rollout_ref.ref.fsdp_config.param_offload=False \
-        actor_rollout_ref.actor.kl_loss_coef=0.03 \
+        actor_rollout_ref.actor.kl_loss_coef=0.05 \
         actor_rollout_ref.actor.kl_loss_type=low_var_kl \
         algorithm.no_think_rl=false \
         actor_rollout_ref.rollout.n_agent=8 \

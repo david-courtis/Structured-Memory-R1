@@ -108,6 +108,9 @@ def compute_gae_advantage_return(token_level_rewards: torch.Tensor, values: torc
 
 
 # NOTE(sgm): this implementation only consider outcome supervision, where the reward is a scalar.
+# Modified to use Dr. GRPO style advantage: mean-subtracted only, no std dev normalization.
+# This removes the difficulty bias where easy/hard questions get inflated advantages.
+# See: https://arxiv.org/abs/2503.20783
 def compute_grpo_outcome_advantage(token_level_rewards: torch.Tensor,
                                    eos_mask: torch.Tensor,
                                    index: torch.Tensor,
@@ -115,6 +118,10 @@ def compute_grpo_outcome_advantage(token_level_rewards: torch.Tensor,
     """
     Compute advantage for GRPO, operating only on Outcome reward 
     (with only one scalar reward for each response).
+    
+    Uses Dr. GRPO formulation: advantage = reward - mean(group_rewards)
+    without dividing by std dev (removes question-level difficulty bias).
+    
     Args:
         token_level_rewards: `(torch.Tensor)`
             shape: (bs, response_length)
@@ -133,7 +140,6 @@ def compute_grpo_outcome_advantage(token_level_rewards: torch.Tensor,
 
     id2score = defaultdict(list)
     id2mean = {}
-    id2std = {}
 
     with torch.no_grad():
         bsz = scores.shape[0]
@@ -142,14 +148,13 @@ def compute_grpo_outcome_advantage(token_level_rewards: torch.Tensor,
         for idx in id2score:
             if len(id2score[idx]) == 1:
                 id2mean[idx] = torch.tensor(0.0)
-                id2std[idx] = torch.tensor(1.0)
             elif len(id2score[idx]) > 1:
                 id2mean[idx] = torch.mean(torch.tensor(id2score[idx]))
-                id2std[idx] = torch.std(torch.tensor([id2score[idx]]))
             else:
                 raise ValueError(f"no score in prompt index: {idx}")
+        # Dr. GRPO: subtract mean only, no std dev division
         for i in range(bsz):
-            scores[i] = (scores[i] - id2mean[index[i]]) / (id2std[index[i]] + epsilon)
+            scores[i] = scores[i] - id2mean[index[i]]
         scores = scores.unsqueeze(-1).tile([1, response_length]) * eos_mask
 
     return scores, scores
@@ -160,8 +165,13 @@ def compute_rewards(token_level_scores, old_log_prob, ref_log_prob, kl_ratio):
     return token_level_scores - kl * kl_ratio
 
 
-def compute_policy_loss(old_log_prob, log_prob, advantages, eos_mask, cliprange):
+def compute_policy_loss(old_log_prob, log_prob, advantages, eos_mask, cliprange, cliprange_high=None):
     """Adapted from https://github.com/huggingface/trl/blob/main/trl/trainer/ppo_trainer.py#L1122
+
+    Uses DAPO-style decoupled clipping: [1 - ε_low, 1 + ε_high] where ε_high > ε_low.
+    This prevents entropy collapse by allowing low-probability exploration tokens to
+    increase their probability more easily when they receive positive advantage.
+    See: https://arxiv.org/abs/2503.14476
 
     Args:
         old_log_prob: `(torch.Tensor)`
@@ -173,7 +183,10 @@ def compute_policy_loss(old_log_prob, log_prob, advantages, eos_mask, cliprange)
         eos_mask: `(torch.Tensor)`
             shape: (bs, response_length)
         cliprange: (float)
-            The clip range used in PPO. See https://arxiv.org/abs/1707.06347
+            The lower clip range (ε_low). Default 0.2.
+        cliprange_high: (float, optional)
+            The upper clip range (ε_high). If None, defaults to 1.4 * cliprange.
+            DAPO recommends ε_high=0.28 when ε_low=0.2.
 
     Returns:
         pg_loss: `a scalar torch.Tensor`
@@ -182,12 +195,15 @@ def compute_policy_loss(old_log_prob, log_prob, advantages, eos_mask, cliprange)
             a float number indicating the fraction of policy gradient loss being clipped
 
     """
+    if cliprange_high is None:
+        cliprange_high = cliprange * 1.4  # DAPO default: 0.2 * 1.4 = 0.28
+
     negative_approx_kl = log_prob - old_log_prob
     ratio = torch.exp(negative_approx_kl)
     ppo_kl = verl_F.masked_mean(-negative_approx_kl, eos_mask)
 
     pg_losses = -advantages * ratio
-    pg_losses2 = -advantages * torch.clamp(ratio, 1.0 - cliprange, 1.0 + cliprange)
+    pg_losses2 = -advantages * torch.clamp(ratio, 1.0 - cliprange, 1.0 + cliprange_high)
 
     pg_loss = verl_F.masked_mean(torch.max(pg_losses, pg_losses2), eos_mask)
     pg_clipfrac = verl_F.masked_mean(torch.gt(pg_losses2, pg_losses).float(), eos_mask)

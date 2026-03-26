@@ -237,8 +237,19 @@ class ActorRolloutRefWorker(Worker):
 
             print(f'Total steps: {total_steps}, num_warmup_steps: {num_warmup_steps}')
 
-            actor_lr_scheduler = get_constant_schedule_with_warmup(optimizer=actor_optimizer,
-                                                                   num_warmup_steps=num_warmup_steps)
+            warmup_style = optim_config.get('warmup_style', 'constant')
+            if warmup_style == 'constant':
+                actor_lr_scheduler = get_constant_schedule_with_warmup(optimizer=actor_optimizer,
+                                                                       num_warmup_steps=num_warmup_steps)
+            elif warmup_style == 'cosine':
+                from verl.utils.torch_functional import get_cosine_schedule_with_warmup
+                min_lr_ratio = optim_config.get('min_lr_ratio', 0.0)
+                actor_lr_scheduler = get_cosine_schedule_with_warmup(optimizer=actor_optimizer,
+                                                                     num_warmup_steps=num_warmup_steps,
+                                                                     num_training_steps=total_steps,
+                                                                     min_lr_ratio=min_lr_ratio)
+            else:
+                raise ValueError(f'Unknown warmup_style: {warmup_style}')
         else:
             actor_optimizer = None
             actor_lr_scheduler = None
@@ -673,9 +684,19 @@ class CriticWorker(Worker):
 
         print(f'Total steps: {total_steps}, num_warmup_steps: {num_warmup_steps}')
 
-        from verl.utils.torch_functional import get_constant_schedule_with_warmup
-        critic_lr_scheduler = get_constant_schedule_with_warmup(optimizer=critic_optimizer,
-                                                                num_warmup_steps=num_warmup_steps)
+        from verl.utils.torch_functional import get_constant_schedule_with_warmup, get_cosine_schedule_with_warmup
+        warmup_style = config.optim.get('warmup_style', 'constant')
+        if warmup_style == 'constant':
+            critic_lr_scheduler = get_constant_schedule_with_warmup(optimizer=critic_optimizer,
+                                                                    num_warmup_steps=num_warmup_steps)
+        elif warmup_style == 'cosine':
+            min_lr_ratio = config.optim.get('min_lr_ratio', 0.0)
+            critic_lr_scheduler = get_cosine_schedule_with_warmup(optimizer=critic_optimizer,
+                                                                  num_warmup_steps=num_warmup_steps,
+                                                                  num_training_steps=total_steps,
+                                                                  min_lr_ratio=min_lr_ratio)
+        else:
+            raise ValueError(f'Unknown warmup_style: {warmup_style}')
 
         return critic_module, critic_optimizer, critic_lr_scheduler
 
