@@ -368,8 +368,18 @@ def compute_score_memory_manager_verl(
 
     # Try to compute full reward with frozen Answer Agent
     agent = get_frozen_answer_agent()
+    
+    # Base reward for adhering perfectly to JSON memory operation schema.
+    # Without this positive signal, the agent receives 0 reward initially and mode collapses.
+    format_bonus = 0.2
+    
     if agent is not None:
         targets = ground_truth.get("target", [])
+        
+        # Parquet deserializes lists as numpy.ndarray. Convert it to standard Python list
+        if type(targets).__name__ == "ndarray":
+            targets = targets.tolist()
+            
         if isinstance(targets, list) and targets and isinstance(targets[0], dict):
             qa_pairs = targets
 
@@ -387,7 +397,7 @@ def compute_score_memory_manager_verl(
             try:
                 new_bank = old_bank.apply_operations(operations)
             except Exception:
-                return format_score
+                return format_score + format_bonus
 
             new_memories = new_bank.to_list()
             total_score = 0.0
@@ -399,12 +409,20 @@ def compute_score_memory_manager_verl(
                     continue
                 predicted = agent.answer(question, new_memories)
                 predicted = extract_answer_from_output(predicted) if predicted else ""
+                
                 if em_check(predicted, [gold_answer]):
                     total_score += 1.0
+                else:
+                    # Give continuous F1 credit if the final answer is somewhat close
+                    f1 = token_f1(predicted, [gold_answer])
+                    if f1 > 0.0:
+                        total_score += f1
+                        
                 valid_pairs += 1
 
             if valid_pairs > 0:
-                return total_score / valid_pairs
+                answer_score = total_score / valid_pairs
+                return min(1.0, answer_score + format_bonus)
 
-    # Format-only reward when no frozen Answer Agent is available
-    return format_score
+    # Format-only reward when no frozen Answer Agent is available or targets malformed
+    return format_score + format_bonus
