@@ -275,13 +275,19 @@ def compute_score_memory_r1(
     Compute EM score for Memory-R1 Answer Agent output.
     Compatible with veRL's reward function interface.
 
+    Reward structure:
+        - 1.0 for exact match (EM)
+        - Continuous F1 for partial credit (replaces discrete sub-EM 0.5)
+        - +0.1 format bonus for including memory selection step
+        - 0.0 for no answer extracted
+
     Args:
         solution_str: Full decoded sequence
         ground_truth: Dict with 'target' key
         format_score: Score for valid format but wrong answer
 
     Returns:
-        1.0 for EM, format_score for wrong answer, 0.0 for no answer
+        Score in [0, 1.1] (clamped to 1.0 if needed externally)
     """
     answer = extract_solution_memory_r1(solution_str)
 
@@ -299,15 +305,20 @@ def compute_score_memory_r1(
     if not targets:
         return 0.0
 
+    # Format bonus: reward citing memories (prevents length collapse)
+    format_bonus = 0.0
+    if "**Memories selected as relevant:**" in solution_str:
+        format_bonus = 0.1
+
     if em_check(answer, targets):
-        return 1.0
-    if subem_check(answer, targets):
-        return 0.5
-    # Graded reward: use token-level F1 for partial credit
+        return min(1.0 + format_bonus, 1.0)
+
+    # Continuous F1 for all partial matches (no discrete 0.5 sub-EM plateau)
     f1 = token_f1(answer, targets)
     if f1 > 0.0:
-        return f1
-    return format_score
+        return f1 + format_bonus
+
+    return format_score + format_bonus
 
 
 def compute_score_memory_manager_verl(
