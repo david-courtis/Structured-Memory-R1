@@ -115,6 +115,7 @@ export VLLM_ATTENTION_BACKEND=FLASH_ATTN   # Use FlashAttention on A100/H100
 export NCCL_DEBUG=WARN
 export PYTHONUNBUFFERED=1
 export ATTN_BACKEND=eager                  # HF model init on CPU before moving to GPU
+export VERL_LOG_DIR="${LOG_DIR}"             # JSONL metrics file directory
 
 log "CUDA_VISIBLE_DEVICES = $CUDA_VISIBLE_DEVICES"
 log "VLLM_ATTENTION_BACKEND = $VLLM_ATTENTION_BACKEND"
@@ -191,7 +192,7 @@ train_answer_agent() {
         actor_rollout_ref.rollout.n_agent=8 \
         actor_rollout_ref.rollout.temperature=1.2 \
         actor_rollout_ref.actor.state_masking=false \
-        trainer.logger=['console'] \
+        trainer.logger=['console','jsonl'] \
         +trainer.val_only=false \
         +trainer.val_before_train=true \
         trainer.default_hdfs_dir=null \
@@ -287,7 +288,7 @@ train_memory_manager() {
         actor_rollout_ref.rollout.n_agent=8 \
         actor_rollout_ref.rollout.temperature=1.2 \
         actor_rollout_ref.actor.state_masking=false \
-        trainer.logger=['console'] \
+        trainer.logger=['console','jsonl'] \
         +trainer.val_only=false \
         +trainer.val_before_train=true \
         trainer.default_hdfs_dir=null \
@@ -359,6 +360,10 @@ start_memory_server() {
 }
 
 cleanup() {
+    if [ -n "${DASHBOARD_PID:-}" ]; then
+        log "Stopping dashboard (PID $DASHBOARD_PID)..."
+        kill "$DASHBOARD_PID" 2>/dev/null || true
+    fi
     if [ -n "${MEMORY_SERVER_PID:-}" ]; then
         log "Stopping memory server (PID $MEMORY_SERVER_PID)..."
         kill "$MEMORY_SERVER_PID" 2>/dev/null || true
@@ -369,11 +374,38 @@ trap cleanup EXIT
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
+# Live training dashboard (auto-refresh PNG + optional HTTP server)
+# ---------------------------------------------------------------------------
+start_dashboard() {
+    local JSONL_PATTERN="${LOG_DIR}/*_metrics.jsonl"
+    log_section "Starting Live Dashboard"
+    # Wait for the first JSONL file to appear
+    for i in $(seq 1 60); do
+        if ls $JSONL_PATTERN 1>/dev/null 2>&1; then
+            JSONL_FILE=$(ls -t $JSONL_PATTERN | head -1)
+            log "Found metrics file: $JSONL_FILE"
+            $PYTHON "${REPO_DIR}/plot_training.py" "$JSONL_FILE" \
+                --watch --interval 60 --serve --port 8888 \
+                --name "$(basename "$JSONL_FILE" _metrics.jsonl)" \
+                > "${LOG_DIR}/dashboard.log" 2>&1 &
+            DASHBOARD_PID=$!
+            log "Dashboard PID: $DASHBOARD_PID (http://0.0.0.0:8888)"
+            return 0
+        fi
+        sleep 5
+    done
+    log "[WARN] No metrics file found after 5 min. Dashboard not started."
+}
+
 cd "$REPO_DIR"
 
 setup_check
 build_data
 start_memory_server
+
+# Start dashboard in background (waits for metrics file to appear)
+start_dashboard &
 
 ANSWER_AGENT_CKPT=""
 

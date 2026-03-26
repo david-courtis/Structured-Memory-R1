@@ -22,7 +22,7 @@ from typing import List, Union, Dict, Any
 
 
 class Tracking(object):
-    supported_backend = ['wandb', 'mlflow', 'console']
+    supported_backend = ['wandb', 'mlflow', 'console', 'jsonl']
 
     def __init__(self, project_name, experiment_name, default_backend: Union[str, List[str]] = 'console', config=None):
         if isinstance(default_backend, str):
@@ -55,6 +55,14 @@ class Tracking(object):
             from verl.utils.logger.aggregate_logger import LocalLogger
             self.console_logger = LocalLogger(print_to_console=True)
             self.logger['console'] = self.console_logger
+
+        if 'jsonl' in default_backend:
+            from verl.utils.jsonl_logger import JSONLLogger
+            import os
+            log_dir = os.environ.get('VERL_LOG_DIR', '.')
+            jsonl_path = os.path.join(log_dir, f'{experiment_name}_metrics.jsonl')
+            self.logger['jsonl'] = JSONLLogger(log_path=jsonl_path)
+            print(f'[Tracking] JSONL metrics logging to: {jsonl_path}')
 
     def log(self, data, step, backend=None):
         for default_backend, logger_instance in self.logger.items():
