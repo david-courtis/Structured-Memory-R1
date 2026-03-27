@@ -403,7 +403,7 @@ class RayPPOTrainer(object):
                                        max_prompt_length=self.config.data.max_prompt_length,
                                        filter_prompts=True,
                                        return_raw_chat=self.config.data.get('return_raw_chat', False),
-                                       truncation='error')
+                                       truncation='left')
         if self.config.data.val_data_num is not None:
             if self.config.data.val_data_num > len(self.val_dataset.dataframe):
                 print(f"[WARNING] validation dataset size is smaller than desired size. Using the dataset as the original size {len(self.val_dataset.dataframe)}")

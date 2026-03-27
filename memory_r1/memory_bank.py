@@ -500,10 +500,20 @@ def parse_memory_manager_output(output_text: str) -> Tuple[List[dict], bool]:
     Returns:
         (operations, success): list of operation dicts and whether parsing succeeded
     """
-    # Try to extract JSON from the output
-    # The model may wrap it in markdown code blocks or have extra text
-    json_pattern = r'\{[\s\S]*"(?:memory|structured_memory)"[\s\S]*\}'
-    matches = list(re.finditer(json_pattern, output_text))
+    # The input may be the full prompt+response sequence. The prompt itself contains
+    # JSON examples with "memory" keys, so we must isolate the model's response first.
+    # Split on common assistant turn markers to get only the response portion.
+    response_text = output_text
+    for marker in ["<|im_start|>assistant\n", "<|im_start|>assistant", "Output the updated memory as JSON:"]:
+        idx = output_text.rfind(marker)
+        if idx != -1:
+            response_text = output_text[idx + len(marker):]
+            break
+
+    # Try to extract JSON from the response
+    # Use a non-greedy pattern to match individual JSON objects with "memory" key
+    json_pattern = r'\{[^{}]*"memory"\s*:\s*\[[\s\S]*?\]\s*\}'
+    matches = list(re.finditer(json_pattern, response_text))
 
     if not matches:
         return [], False

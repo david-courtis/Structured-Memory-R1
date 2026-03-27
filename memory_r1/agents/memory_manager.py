@@ -390,9 +390,8 @@ def compute_score_memory_manager_verl(
     format_bonus = 0.2
 
     if agent is not None:
-        targets = _coerce_targets_to_list(ground_truth.get("target", []))
-
-        if targets and isinstance(targets[0], dict):
+        targets = ground_truth.get("target", [])
+        if hasattr(targets, '__len__') and len(targets) > 0 and isinstance(targets[0], dict):
             qa_pairs = targets
 
             # Reconstruct old memory bank from extra_info (Algorithm 5)
