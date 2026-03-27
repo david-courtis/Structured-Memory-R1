@@ -13,7 +13,7 @@ include structured metadata such as ``speaker``, ``topic`` and ``path``.
 import json
 import os
 import re
-from typing import Dict, Iterable, List, Optional, Set, Tuple
+from typing import Any, Callable, Dict, Iterable, List, Optional, Set, Tuple
 
 try:
     import torch
@@ -160,7 +160,13 @@ class MemoryBank:
 
     @staticmethod
     def _tokenize(text: str) -> List[str]:
-        return re.findall(r"[a-z0-9]+", (text or "").lower())
+        raw_tokens = re.findall(r"[a-z0-9]+", (text or "").lower())
+        expanded: List[str] = []
+        for token in raw_tokens:
+            expanded.append(token)
+            if len(token) > 3 and token.endswith("s"):
+                expanded.append(token[:-1])
+        return expanded
 
     @classmethod
     def _infer_topic(cls, text: str) -> str:
@@ -300,6 +306,184 @@ class MemoryBank:
             return 0.0
         return numerator / ((norm_a ** 0.5) * (norm_b ** 0.5))
 
+    def _score_text_candidates(
+        self,
+        query_text: str,
+        candidate_texts: List[str],
+        embedding_model: str,
+        backend: str,
+    ) -> List[float]:
+        if not candidate_texts:
+            return []
+
+        use_vector_backend = backend in {"auto", "local", "huggingface", "vector", "embedding"}
+        if use_vector_backend:
+            query_embedding = self._get_embedding(query_text, embedding_model)
+            if query_embedding is not None:
+                scores: List[float] = []
+                for candidate in candidate_texts:
+                    candidate_embedding = self._get_embedding(candidate, embedding_model)
+                    if candidate_embedding is None:
+                        scores = []
+                        break
+                    scores.append(float(self._cosine_similarity(query_embedding, candidate_embedding)))
+                if scores:
+                    return scores
+
+        try:
+            from sklearn.feature_extraction.text import TfidfVectorizer
+
+            vectorizer = TfidfVectorizer(max_features=10_000, stop_words="english")
+            matrix = vectorizer.fit_transform(candidate_texts + [query_text])
+            query_vec = matrix[-1]
+            doc_matrix = matrix[:-1]
+            return [float(score) for score in (query_vec @ doc_matrix.T).toarray()[0]]
+        except Exception:
+            query_tokens = set(self._tokenize(query_text))
+            scores = []
+            for candidate in candidate_texts:
+                candidate_tokens = set(self._tokenize(candidate))
+                overlap = len(query_tokens & candidate_tokens)
+                scores.append(float(overlap / max(1, len(query_tokens))))
+            return scores
+
+    def _schema_summary(self) -> dict:
+        speakers = sorted(self._root.children.keys())
+        topics_by_speaker: Dict[str, List[str]] = {}
+        subtopics_by_topic: Dict[str, List[str]] = {}
+        for speaker, speaker_node in self._root.children.items():
+            topics = sorted(speaker_node.children.keys())
+            topics_by_speaker[speaker] = topics[:12]
+            for topic, topic_node in speaker_node.children.items():
+                subtopics_by_topic[f"{speaker}/{topic}"] = sorted(topic_node.children.keys())[:12]
+        return {
+            "speakers": speakers[:12],
+            "topics_by_speaker": topics_by_speaker,
+            "subtopics_by_topic": subtopics_by_topic,
+        }
+
+    @staticmethod
+    def _normalize_query_annotation(annotation: Optional[Dict[str, Any]], base_query: str) -> Dict[str, str]:
+        normalized = {
+            "full_query": base_query.strip(),
+            "speaker": "",
+            "topic": "",
+            "subtopic": "",
+            "entity": "",
+            "time_hint": "none",
+        }
+        if not isinstance(annotation, dict):
+            return normalized
+        for key in list(normalized.keys()):
+            value = annotation.get(key)
+            if value is None:
+                continue
+            normalized[key] = str(value).strip()
+        if not normalized["full_query"]:
+            normalized["full_query"] = base_query.strip() or "general"
+        if not normalized["time_hint"]:
+            normalized["time_hint"] = "none"
+        return normalized
+
+    def _annotate_query(
+        self,
+        base_query: str,
+        speaker: Optional[str],
+        topic: Optional[str],
+        planner: Optional[Callable],
+    ) -> Dict[str, str]:
+        base_annotation = {
+            "full_query": base_query.strip() or "general",
+            "speaker": (speaker or "").strip(),
+            "topic": (topic or "").strip(),
+            "subtopic": "",
+            "entity": "",
+            "time_hint": "none",
+        }
+        if planner is not None:
+            try:
+                planned = planner(
+                    base_query=base_query,
+                    schema=self._schema_summary(),
+                    annotation=base_annotation.copy(),
+                )
+                if isinstance(planned, dict):
+                    return self._normalize_query_annotation(planned, base_query)
+            except Exception:
+                pass
+        return base_annotation
+
+    @staticmethod
+    def _build_retrieval_query(annotation: Dict[str, str]) -> str:
+        parts = [annotation.get("full_query", "").strip()]
+        for key in ("speaker", "topic", "subtopic", "entity"):
+            value = annotation.get(key, "").strip()
+            if value:
+                parts.append(f"{key} {value}")
+        time_hint = annotation.get("time_hint", "").strip()
+        if time_hint and time_hint.lower() != "none":
+            parts.append(f"time {time_hint}")
+        return " ".join(part for part in parts if part).strip() or "general"
+
+    def _build_level_query(
+        self,
+        annotation: Dict[str, str],
+        level: int,
+        frontier_nodes: List[StructuredMemoryNode],
+        child_nodes: List[StructuredMemoryNode],
+    ) -> str:
+        parts: List[str] = [annotation.get("full_query", "").strip()]
+        level_field = ""
+        if level == 0:
+            level_field = annotation.get("speaker", "").strip()
+        elif level == 1:
+            level_field = annotation.get("topic", "").strip()
+        else:
+            level_field = annotation.get("subtopic", "").strip() or annotation.get("entity", "").strip()
+        if level_field:
+            parts.append(level_field)
+        if level >= 2:
+            entity = annotation.get("entity", "").strip()
+            if entity and entity != level_field:
+                parts.append(entity)
+        time_hint = annotation.get("time_hint", "").strip()
+        if time_hint and time_hint.lower() != "none":
+            parts.append(f"time {time_hint}")
+        frontier_paths = [" ".join(node.path) for node in frontier_nodes if node.path]
+        if frontier_paths:
+            parts.append("context " + " ".join(frontier_paths[:4]))
+        if child_nodes:
+            parts.append("choices " + " ".join(child.key for child in child_nodes[:10]))
+        return " ".join(part for part in parts if part).strip() or annotation.get("full_query", "general")
+
+    def _structure_aware_entry_bonus(
+        self,
+        entry: MemoryEntry,
+        speaker: Optional[str] = None,
+        topic: Optional[str] = None,
+        subtopic: Optional[str] = None,
+        entity: Optional[str] = None,
+        time_hint: Optional[str] = None,
+    ) -> float:
+        score = 0.0
+        if speaker and entry.speaker and entry.speaker.lower() == speaker.lower():
+            score += 0.1
+        if topic and entry.topic and entry.topic.lower() == topic.lower():
+            score += 0.1
+        if subtopic:
+            subtopic_tokens = set(self._tokenize(subtopic))
+            if subtopic_tokens and subtopic_tokens & set(self._tokenize(" ".join(entry.path))):
+                score += 0.08
+        if entity:
+            entity_tokens = set(self._tokenize(entity))
+            if entity_tokens and entity_tokens & set(self._tokenize(entry.text + " " + " ".join(entry.path))):
+                score += 0.08
+        if time_hint:
+            hint = time_hint.lower()
+            if hint in {"latest", "recent", "current"} and entry.timestamp:
+                score += 0.02
+        return score
+
     def _ensure_path(self, path: List[str]) -> StructuredMemoryNode:
         node = self._root
         for depth, part in enumerate(path):
@@ -333,6 +517,85 @@ class MemoryBank:
             stack.extend(current.children.values())
         return collected
 
+    def _collect_entry_texts_under_node(self, node: Optional[StructuredMemoryNode], limit: int = 3) -> List[str]:
+        texts: List[str] = []
+        if node is None:
+            return texts
+        for entry_id in self._collect_entry_ids_under_node(node)[:limit]:
+            entry = self.get(entry_id)
+            if entry is not None:
+                texts.append(entry.text)
+        return texts
+
+    def _node_retrieval_text(self, node: StructuredMemoryNode) -> str:
+        parts: List[str] = []
+        if node.path:
+            parts.append("path " + " ".join(node.path))
+        parts.append(f"node {node.key}")
+        if node.children:
+            parts.append("children " + " ".join(sorted(node.children.keys())))
+        sample_texts = self._collect_entry_texts_under_node(node, limit=3)
+        if sample_texts:
+            parts.append("facts " + " ".join(sample_texts))
+        return " ".join(parts).strip()
+
+    def _node_context_summary(self, node: Optional[StructuredMemoryNode]) -> Optional[str]:
+        if node is None:
+            return None
+        path = " > ".join(node.path) if node.path else "root"
+        child_keys = sorted(node.children.keys())
+        child_part = f"children: {', '.join(child_keys[:6])}" if child_keys else "children: none"
+        fact_texts = self._collect_entry_texts_under_node(node, limit=2)
+        fact_part = f"facts: {' | '.join(fact_texts)}" if fact_texts else "facts: none"
+        return f"path={path}; {child_part}; {fact_part}"
+
+    def _make_contextual_entry(self, entry: MemoryEntry, score: float) -> dict:
+        node = self._get_node(entry.path)
+        parent = node.parent if node is not None else None
+        grandparent = parent.parent if parent is not None else None
+        sibling_summaries: List[str] = []
+        if parent is not None:
+            for sibling_key, sibling_node in sorted(parent.children.items()):
+                if node is not None and sibling_key == node.key:
+                    continue
+                summary = self._node_context_summary(sibling_node)
+                if summary:
+                    sibling_summaries.append(summary)
+                if len(sibling_summaries) >= 3:
+                    break
+
+        context_lines = []
+        if parent is not None:
+            parent_summary = self._node_context_summary(parent)
+            if parent_summary:
+                context_lines.append(f"Parent: {parent_summary}")
+        if grandparent is not None:
+            grandparent_summary = self._node_context_summary(grandparent)
+            if grandparent_summary:
+                context_lines.append(f"Grandparent: {grandparent_summary}")
+        for summary in sibling_summaries:
+            context_lines.append(f"Sibling: {summary}")
+
+        enriched_text = entry.text
+        if context_lines:
+            enriched_text = f"{entry.text}\n[Context]\n" + "\n".join(context_lines)
+
+        return {
+            "id": entry.id,
+            "text": enriched_text,
+            "base_text": entry.text,
+            "speaker": entry.speaker,
+            "topic": entry.topic,
+            "timestamp": entry.timestamp,
+            "path": list(entry.path),
+            "score": float(score),
+            "context": {
+                "parent": self._node_context_summary(parent),
+                "grandparent": self._node_context_summary(grandparent),
+                "siblings": sibling_summaries,
+            },
+        }
+
     def _remove_empty_ancestors(self, node: Optional[StructuredMemoryNode]):
         current = node
         while current is not None and current.parent is not None:
@@ -364,18 +627,48 @@ class MemoryBank:
             return path[0]
         return fallback
 
-    def _move_entry_to_path(self, entry_id: str, new_path: Iterable[str]):
+    def _path_fit_score(self, entry: MemoryEntry, target_path: Iterable[str]) -> float:
+        normalized_path = self._normalize_path(target_path)
+        if not normalized_path:
+            return 0.0
+        path_tokens = set()
+        for part in normalized_path:
+            path_tokens.update(self._tokenize(part))
+        if not path_tokens:
+            return 0.0
+        entry_tokens = set(self._tokenize(self._entry_retrieval_text(entry)))
+        overlap = len(path_tokens & entry_tokens)
+        return overlap / max(1, len(path_tokens))
+
+    def _leaf_fit_score(self, entry: MemoryEntry, target_path: Iterable[str]) -> float:
+        normalized_path = self._normalize_path(target_path)
+        if not normalized_path:
+            return 0.0
+        leaf_tokens = set(self._tokenize(normalized_path[-1]))
+        if not leaf_tokens:
+            return 0.0
+        entry_tokens = set(self._tokenize(self._entry_retrieval_text(entry)))
+        overlap = len(leaf_tokens & entry_tokens)
+        return overlap / max(1, len(leaf_tokens))
+
+    def _move_entry_to_path(self, entry_id: str, new_path: Iterable[str], force: bool = False) -> bool:
         entry = self.get(entry_id)
         if entry is None:
-            return
+            return False
         normalized_path = self._normalize_path(new_path)
+        if not force:
+            score = self._path_fit_score(entry, normalized_path)
+            leaf_score = self._leaf_fit_score(entry, normalized_path)
+            if score < 0.5 and leaf_score <= 0.0:
+                return False
         self._detach_entry_from_tree(entry)
         entry.path = normalized_path
         entry.speaker = self._speaker_from_path(normalized_path, fallback=entry.speaker)
         entry.topic = self._topic_from_path(normalized_path, fallback_text=entry.text) or entry.topic
         self._ensure_path(normalized_path).entry_ids.add(entry_id)
+        return True
 
-    def _move_subtree(self, source_path: Iterable[str], target_path: Iterable[str]):
+    def _move_subtree(self, source_path: Iterable[str], target_path: Iterable[str], force: bool = False):
         source = self._normalize_path(source_path)
         target = self._normalize_path(target_path)
         if not source or source == target:
@@ -389,7 +682,7 @@ class MemoryBank:
             if entry is None:
                 continue
             suffix = entry.path[len(source):] if entry.path[:len(source)] == source else []
-            self._move_entry_to_path(entry_id, target + suffix)
+            self._move_entry_to_path(entry_id, target + suffix, force=force)
         self._drop_subtree(source)
 
     def _score_subtopic_fit(self, entry: MemoryEntry, subtopic: str) -> float:
@@ -432,8 +725,9 @@ class MemoryBank:
                 ((self._score_subtopic_fit(entry, subtopic), subtopic) for subtopic in subtopics),
                 key=lambda item: (-item[0], item[1]),
             )
-            chosen = scored[0][1] if scored else subtopics[0]
-            bucketed[chosen].append(entry_id)
+            if scored and scored[0][0] > 0.0:
+                chosen = scored[0][1]
+                bucketed[chosen].append(entry_id)
         return bucketed
 
     def _create_subtopic(self, path: Iterable[str], parent_path: Optional[Iterable[str]] = None):
@@ -466,7 +760,7 @@ class MemoryBank:
             child_path = normalized + [subtopic]
             self._ensure_path(child_path)
             for entry_id in bucketed.get(subtopic, []):
-                self._move_entry_to_path(entry_id, child_path)
+                self._move_entry_to_path(entry_id, child_path, force=True)
         self._remove_empty_ancestors(node)
 
     def _merge_topics(
@@ -491,7 +785,7 @@ class MemoryBank:
                 if entry is None:
                     continue
                 suffix = entry.path[len(normalized_source):] if entry.path[:len(normalized_source)] == normalized_source else []
-                self._move_entry_to_path(entry_id, normalized_target + suffix)
+                self._move_entry_to_path(entry_id, normalized_target + suffix, force=True)
             self._drop_subtree(normalized_source)
 
     def _detach_entry_from_tree(self, entry: MemoryEntry):
@@ -685,104 +979,126 @@ class MemoryBank:
         topk: int = 5,
         speaker: Optional[str] = None,
         topic: Optional[str] = None,
+        planner: Optional[Callable] = None,
+        beam_width: int = 3,
+        max_depth: Optional[int] = None,
     ) -> List[dict]:
         """
-        Retrieve relevant memories with similarity-based ranking.
+        Retrieve relevant memories with structure-aware beam search.
 
-        Speaker/topic information is included as retrieval tokens instead of
-        acting as a strict tree filter. Exact speaker/topic matches receive a
-        small bonus after similarity scoring.
+        The search first scores tree nodes level by level, then reranks leaf
+        entries gathered from the selected subtrees using the same embedding
+        backend. A planner callback may annotate the query once using the
+        global tree schema.
         """
         if not self._entries:
             return []
 
-        query_parts = [query.strip()] if query else []
-        if speaker:
-            query_parts.append(f"speaker {speaker}")
-        if topic:
-            query_parts.append(f"topic {topic}")
-        retrieval_query = " ".join(part for part in query_parts if part).strip() or "general"
+        query_annotation = self._annotate_query(
+            base_query=query,
+            speaker=speaker,
+            topic=topic,
+            planner=planner,
+        )
+        retrieval_query = self._build_retrieval_query(query_annotation)
 
-        results: List[Tuple[float, MemoryEntry]] = []
         entries = list(self._entries.values())
         backend = os.environ.get("STRUCT_MEMORY_R1_RETRIEVAL_BACKEND", "auto").lower()
         embedding_model = os.environ.get("STRUCT_MEMORY_R1_EMBED_MODEL", "Qwen/Qwen3-Embedding-0.6B")
+        if max_depth is None:
+            max_depth = max(1, len(max((entry.path for entry in entries), key=len, default=[])))
 
-        use_vector_backend = backend in {"auto", "local", "huggingface", "vector", "embedding"}
-        if use_vector_backend:
-            query_embedding = self._get_embedding(retrieval_query, embedding_model)
-            if query_embedding is not None:
-                for entry in entries:
-                    entry_embedding = self._get_embedding(self._entry_retrieval_text(entry), embedding_model)
-                    if entry_embedding is None:
-                        continue
-                    score = self._cosine_similarity(query_embedding, entry_embedding)
-                    if speaker and entry.speaker and entry.speaker.lower() == speaker.lower():
-                        score += 0.1
-                    if topic and entry.topic and entry.topic.lower() == topic.lower():
-                        score += 0.1
-                    if score <= 0.0:
-                        continue
-                    results.append((float(score), entry))
-                if results:
-                    results.sort(key=lambda item: (-item[0], item[1].id))
-                    return [
-                        {
-                            "id": entry.id,
-                            "text": entry.text,
-                            "speaker": entry.speaker,
-                            "topic": entry.topic,
-                            "timestamp": entry.timestamp,
-                            "path": list(entry.path),
-                            "score": float(score),
-                        }
-                        for score, entry in results[:topk]
-                    ]
+        frontier: List[Tuple[float, StructuredMemoryNode]] = [(0.0, self._root)]
+        selected_nodes: List[StructuredMemoryNode] = []
 
-        try:
-            from sklearn.feature_extraction.text import TfidfVectorizer
-
-            documents = [self._entry_retrieval_text(entry) for entry in entries]
-            vectorizer = TfidfVectorizer(max_features=10_000, stop_words="english")
-            matrix = vectorizer.fit_transform(documents + [retrieval_query])
-            query_vec = matrix[-1]
-            doc_matrix = matrix[:-1]
-            similarities = (query_vec @ doc_matrix.T).toarray()[0]
-
-            for entry, similarity in zip(entries, similarities):
-                score = float(similarity)
-                if speaker and entry.speaker and entry.speaker.lower() == speaker.lower():
-                    score += 0.1
-                if topic and entry.topic and entry.topic.lower() == topic.lower():
-                    score += 0.1
-                if score <= 0.0:
+        for level in range(max_depth):
+            candidates: List[Tuple[float, StructuredMemoryNode]] = []
+            expanded_any = False
+            level_frontier_nodes = [node for _, node in frontier]
+            level_child_nodes: List[StructuredMemoryNode] = []
+            for prefix_score, node in frontier:
+                child_nodes = list(node.children.values())
+                if not child_nodes:
+                    selected_nodes.append(node)
                     continue
-                results.append((score, entry))
-        except Exception:
-            query_tokens = set(self._tokenize(retrieval_query))
-            for entry in entries:
-                entry_tokens = set(self._tokenize(self._entry_retrieval_text(entry)))
-                overlap = len(query_tokens & entry_tokens)
-                if overlap == 0:
+                expanded_any = True
+                level_child_nodes.extend(child_nodes)
+            if not expanded_any:
+                break
+            level_query = self._build_level_query(
+                annotation=query_annotation,
+                level=level,
+                frontier_nodes=level_frontier_nodes,
+                child_nodes=level_child_nodes,
+            )
+            for prefix_score, node in frontier:
+                child_nodes = list(node.children.values())
+                if not child_nodes:
                     continue
-                score = overlap / max(1, len(query_tokens))
-                if speaker and entry.speaker and entry.speaker.lower() == speaker.lower():
-                    score += 0.1
-                if topic and entry.topic and entry.topic.lower() == topic.lower():
-                    score += 0.1
-                results.append((float(score), entry))
+                child_scores = self._score_text_candidates(
+                    query_text=level_query,
+                    candidate_texts=[self._node_retrieval_text(child) for child in child_nodes],
+                    embedding_model=embedding_model,
+                    backend=backend,
+                )
+                for child, child_score in zip(child_nodes, child_scores):
+                    bonus = 0.0
+                    annotated_speaker = query_annotation.get("speaker", "").strip()
+                    annotated_topic = query_annotation.get("topic", "").strip()
+                    annotated_subtopic = query_annotation.get("subtopic", "").strip()
+                    annotated_entity = query_annotation.get("entity", "").strip()
+                    if annotated_speaker and child.path and child.path[0].lower() == annotated_speaker.lower():
+                        bonus += 0.1
+                    if annotated_topic and child.key.lower() == annotated_topic.lower():
+                        bonus += 0.05
+                    if annotated_subtopic and child.key.lower() == annotated_subtopic.lower():
+                        bonus += 0.05
+                    if annotated_entity and annotated_entity.lower() in child.key.lower():
+                        bonus += 0.03
+                    candidates.append((prefix_score + float(child_score) + bonus, child))
+            if not expanded_any or not candidates:
+                break
+            candidates.sort(key=lambda item: (-item[0], item[1].key))
+            frontier = candidates[:max(1, beam_width)]
 
+        selected_nodes.extend(node for _, node in frontier)
+
+        candidate_ids: List[str] = []
+        seen_ids: Set[str] = set()
+        for node in selected_nodes:
+            for entry_id in self._collect_entry_ids_under_node(node):
+                if entry_id not in seen_ids:
+                    candidate_ids.append(entry_id)
+                    seen_ids.add(entry_id)
+
+        candidate_entries = [self.get(entry_id) for entry_id in candidate_ids]
+        candidate_entries = [entry for entry in candidate_entries if entry is not None]
+        if not candidate_entries:
+            candidate_entries = entries
+
+        documents = [self._entry_retrieval_text(entry) for entry in candidate_entries]
+        similarities = self._score_text_candidates(
+            query_text=retrieval_query,
+            candidate_texts=documents,
+            embedding_model=embedding_model,
+            backend=backend,
+        )
+        results: List[Tuple[float, MemoryEntry]] = []
+        for entry, similarity in zip(candidate_entries, similarities):
+            score = float(similarity) + self._structure_aware_entry_bonus(
+                entry,
+                speaker=query_annotation.get("speaker", "").strip() or speaker,
+                topic=query_annotation.get("topic", "").strip() or topic,
+                subtopic=query_annotation.get("subtopic", "").strip(),
+                entity=query_annotation.get("entity", "").strip(),
+                time_hint=query_annotation.get("time_hint", "").strip(),
+            )
+            if score <= 0.0:
+                continue
+            results.append((score, entry))
         results.sort(key=lambda item: (-item[0], item[1].id))
         return [
-            {
-                "id": entry.id,
-                "text": entry.text,
-                "speaker": entry.speaker,
-                "topic": entry.topic,
-                "timestamp": entry.timestamp,
-                "path": list(entry.path),
-                "score": float(score),
-            }
+            self._make_contextual_entry(entry, score)
             for score, entry in results[:topk]
         ]
 
@@ -820,6 +1136,7 @@ class MemoryBank:
             source_paths = op.get("source_paths", [])
             subtopics = op.get("subtopics", [])
             assignments = op.get("assignments")
+            force = bool(op.get("force", False))
 
             if event == "ADD":
                 new_bank.add(
@@ -855,9 +1172,9 @@ class MemoryBank:
                 new_bank._create_subtopic(create_path, parent_path=parent_path)
             elif event in ("MOVE", "MOVE_NODE"):
                 if entry_id and entry_id in new_bank._entries and path:
-                    new_bank._move_entry_to_path(entry_id, path)
+                    new_bank._move_entry_to_path(entry_id, path, force=force)
                 elif source_path and path:
-                    new_bank._move_subtree(source_path, path)
+                    new_bank._move_subtree(source_path, path, force=force)
             elif event == "SPLIT_TOPIC":
                 split_path = path or source_path
                 if split_path and subtopics:

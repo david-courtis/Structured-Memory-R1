@@ -122,6 +122,31 @@ class TestMemoryBank:
         assert len(retrieved) == 1
         assert retrieved[0]["path"] == ["Alice", "dog"]
 
+    def test_global_query_annotation_planner(self):
+        bank = MemoryBank.from_list([
+            {"id": "0", "text": "Buddy is a golden retriever", "speaker": "Alice", "topic": "pets", "path": ["Alice", "pets", "dogs", "Buddy", "profile"]},
+            {"id": "1", "text": "Scout needs confidence work", "speaker": "Alice", "topic": "pets", "path": ["Alice", "pets", "dogs", "Scout", "training"]},
+            {"id": "2", "text": "Bob works at the hospital", "speaker": "Bob", "topic": "work", "path": ["Bob", "work", "hospital"]},
+        ])
+        planner_calls = []
+
+        def planner(**kwargs):
+            planner_calls.append(kwargs)
+            return {
+                "full_query": kwargs["base_query"],
+                "speaker": "Alice",
+                "topic": "pets",
+                "subtopic": "dogs",
+                "entity": "Buddy",
+                "time_hint": "none",
+            }
+
+        retrieved = bank.retrieve("What breed is Buddy?", topk=1, planner=planner)
+        assert len(planner_calls) == 1
+        assert planner_calls[0]["schema"]["speakers"] == ["Alice", "Bob"]
+        assert retrieved[0]["id"] == "0"
+        assert "Buddy is a golden retriever" in retrieved[0]["text"]
+
     def test_apply_operations_with_structured_metadata(self):
         bank = MemoryBank()
         ops = [{
@@ -168,6 +193,33 @@ class TestMemoryBank:
             }
         ])
         assert new_bank.get("0").path == ["Alice", "pets", "dogs"]
+
+    def test_move_entry_rejects_bad_merge_without_force(self):
+        bank = MemoryBank.from_list([
+            {"id": "0", "text": "Buddy is a golden retriever", "path": ["Alice", "golden"]},
+        ])
+        new_bank = bank.apply_operations([
+            {
+                "id": "0",
+                "event": "MOVE",
+                "path": ["Alice", "adopted", "Scout"],
+            }
+        ])
+        assert new_bank.get("0").path == ["Alice", "golden"]
+
+    def test_move_entry_allows_force_override(self):
+        bank = MemoryBank.from_list([
+            {"id": "0", "text": "Buddy is a golden retriever", "path": ["Alice", "golden"]},
+        ])
+        new_bank = bank.apply_operations([
+            {
+                "id": "0",
+                "event": "MOVE",
+                "path": ["Alice", "adopted", "Scout"],
+                "force": True,
+            }
+        ])
+        assert new_bank.get("0").path == ["Alice", "adopted", "Scout"]
 
     def test_move_subtree_operation(self):
         bank = MemoryBank.from_list([
