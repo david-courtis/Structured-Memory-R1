@@ -300,9 +300,8 @@ def compute_score_memory_r1(
 
     Reward structure:
         - 1.0 for exact match (EM)
-        - Continuous F1 for partial credit (replaces discrete sub-EM 0.5)
-        - +0.1 format bonus for including memory selection step
-        - 0.0 for no answer extracted
+        - Continuous F1 for partial credit
+        - 0.0 for no answer extracted or wrong answer
 
     Args:
         solution_str: Full decoded sequence
@@ -310,7 +309,7 @@ def compute_score_memory_r1(
         format_score: Score for valid format but wrong answer
 
     Returns:
-        Score in [0, 1.1] (clamped to 1.0 if needed externally)
+        Score in [0, 1.0]
     """
     answer = extract_solution_memory_r1(solution_str)
 
@@ -326,20 +325,16 @@ def compute_score_memory_r1(
     if not targets:
         return 0.0
 
-    # Format bonus: reward citing memories (prevents length collapse)
-    format_bonus = 0.0
-    if "**Memories selected as relevant:**" in solution_str:
-        format_bonus = 0.1
-
     if em_check(answer, targets):
-        return min(1.0 + format_bonus, 1.0)
+        return 1.0
 
     # Continuous F1 for all partial matches (no discrete 0.5 sub-EM plateau)
     f1 = token_f1(answer, targets)
     if f1 > 0.0:
-        return f1 + format_bonus
+        return f1
 
-    return format_score + format_bonus
+    return format_score
+
 
 
 def compute_score_memory_manager_verl(

@@ -7,6 +7,7 @@
 **/*.tar.gz
 **/playground
 **/wandb
+.env
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -116,3 +117,4 @@ tests/e2e/toy_examples/deepspeed/synchronous/output.txt
 *.swp
 
 # log*
+.env
