@@ -14,7 +14,7 @@ from typing import List, Optional
 # =============================================================================
 
 MEMORY_MANAGER_SYSTEM = """You are a smart memory manager which controls the memory of a system.
-You can perform memory operations to both facts and structure: (1) add into the memory, (2) update the memory, (3) delete from the memory, (4) no change, (5) create subtopics, (6) move facts or subtrees, (7) split broad topics, and (8) merge overlapping topics.
+You can perform only four memory operations: (1) add into the memory, (2) update the memory, (3) delete from the memory, and (4) no change.
 
 Based on the above four operations, the memory will change.
 
@@ -101,16 +101,17 @@ Important: When updating, keep the same ID and preserve old_memory.
         ]
     }
 
-Structured memory extension:
-- The memory is organized as a tree: speaker -> topic -> fact
+Structured memory note:
+- The memory is organized internally as a tree, but you should only output CRUD fact operations
 - You may optionally include "speaker", "topic", and "path" fields for each item
 - If those fields are missing, the system will infer them from the text
-- Use CREATE_SUBTOPIC to create a new internal node under parent_path
-- Use MOVE or MOVE_NODE to relocate an entry or subtree to a better path
-- Use SPLIT_TOPIC when a broad node should be refined into multiple subtopics
-- Use MERGE_TOPIC when several topic branches should become one branch
-- Keep fact IDs stable when the structure changes; change paths instead of deleting useful facts
-- Keep the JSON output under the "memory" key"""
+
+Output requirements:
+- Return ONLY one JSON object with the key "memory"
+- Do NOT explain your answer
+- Do NOT repeat the prompt or examples
+- Do NOT output markdown fences
+- If no stable memory should be changed, return {"memory": []}"""
 
 
 def format_memory_manager_prompt(
@@ -251,7 +252,7 @@ Structured Memory Tree:
 
 Retrieved facts: {facts_str}
 
-Output the updated memory as JSON:"""
+Return ONLY the updated memory as JSON:"""
 
     return content
 
