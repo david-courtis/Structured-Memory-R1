@@ -19,20 +19,27 @@
 
 set -euo pipefail
 
+# Load environment variables (e.g. WANDB_API_KEY) from .env if it exists
+if [ -f "$(dirname "${BASH_SOURCE[0]}")/.env" ]; then
+    set -a
+    source "$(dirname "${BASH_SOURCE[0]}")/.env"
+    set +a
+fi
+
 # ---------------------------------------------------------------------------
 # Default configuration — override via CLI flags or environment variables
 # ---------------------------------------------------------------------------
 STAGE="${STAGE:-both}"           # 1 | 2 | both
 NUM_GPUS="${NUM_GPUS:-1}"        # Number of GPUs on this node
 BASE_MODEL="${BASE_MODEL:-Qwen/Qwen2.5-3B-Instruct}"
-TRAIN_BATCH_SIZE="${TRAIN_BATCH_SIZE:-16}"
+TRAIN_BATCH_SIZE="${TRAIN_BATCH_SIZE:-32}"
 VAL_BATCH_SIZE="${VAL_BATCH_SIZE:-16}"
 MAX_PROMPT_LENGTH="${MAX_PROMPT_LENGTH:-4096}"
 MAX_PROMPT_LENGTH_STAGE2="${MAX_PROMPT_LENGTH_STAGE2:-8192}"  # Memory manager prompts are longer
 GPU_MEM_UTIL="${GPU_MEM_UTIL:-0.4}"       # Give 0.4 to vLLM, leaving ~84GB for Actor/Ref/Gradients + activations
 PPO_MICRO_BATCH="${PPO_MICRO_BATCH:-4}"
 LOG_PROB_MICRO_BATCH="${LOG_PROB_MICRO_BATCH:-2}"  # Lowered from 16 to fix CUDA OOM in eager attention
-TOTAL_STEPS="${TOTAL_STEPS:-750}"
+TOTAL_STEPS="${TOTAL_STEPS:-200}"
 SAVE_FREQ="${SAVE_FREQ:-100}"
 TEST_FREQ="${TEST_FREQ:-50}"
 
@@ -190,11 +197,12 @@ train_answer_agent() {
         actor_rollout_ref.ref.fsdp_config.param_offload=False \
         actor_rollout_ref.actor.kl_loss_coef=0.05 \
         actor_rollout_ref.actor.kl_loss_type=low_var_kl \
+        actor_rollout_ref.actor.entropy_coeff=0.01 \
         algorithm.no_think_rl=false \
-        actor_rollout_ref.rollout.n_agent=8 \
+        actor_rollout_ref.rollout.n_agent=4 \
         actor_rollout_ref.rollout.temperature=1.2 \
         actor_rollout_ref.actor.state_masking=false \
-        trainer.logger=['console','jsonl'] \
+        trainer.logger=['console','jsonl','wandb'] \
         +trainer.val_only=false \
         +trainer.val_before_train=true \
         trainer.default_hdfs_dir=null \
@@ -292,7 +300,7 @@ train_memory_manager() {
         actor_rollout_ref.rollout.n_agent=8 \
         actor_rollout_ref.rollout.temperature=1.2 \
         actor_rollout_ref.actor.state_masking=false \
-        trainer.logger=['console','jsonl'] \
+        trainer.logger=['console','jsonl','wandb'] \
         +trainer.val_only=false \
         +trainer.val_before_train=true \
         trainer.default_hdfs_dir=null \
