@@ -103,6 +103,12 @@ def _select_rm_score_fn(data_source):
     elif data_source == 'memory_manager':
         from memory_r1.agents.memory_manager import compute_score_memory_manager_verl
         return compute_score_memory_manager_verl
+    elif data_source == 'struct_answer_agent':
+        from struct_memory_r1.agents.memory_manager import compute_score_memory_r1
+        return compute_score_memory_r1
+    elif data_source == 'struct_memory_manager':
+        from struct_memory_r1.agents.memory_manager import compute_score_memory_manager_verl
+        return compute_score_memory_manager_verl
     else:
         raise NotImplementedError
 
@@ -155,7 +161,7 @@ class RewardManager():
 
             # Pass extra_info for Memory Manager reward (needs old_memory for operations)
             extra_info = data_item.non_tensor_batch.get('extra_info', None)
-            if extra_info is not None and data_source == 'memory_manager':
+            if extra_info is not None and data_source in ('memory_manager', 'struct_memory_manager'):
                 # extra_info may be a dict or numpy object; ensure it's a dict
                 if hasattr(extra_info, 'item'):
                     extra_info = extra_info.item()
@@ -273,6 +279,14 @@ def main_task(config):
     frozen_agent_url = getattr(config, 'frozen_answer_agent_url', None)
     if frozen_agent_path or frozen_agent_url:
         from memory_r1.agents.memory_manager import FrozenAnswerAgent, set_frozen_answer_agent
+        try:
+            from struct_memory_r1.agents.memory_manager import (
+                FrozenAnswerAgent as StructFrozenAnswerAgent,
+                set_frozen_answer_agent as set_struct_frozen_answer_agent,
+            )
+        except ImportError:
+            StructFrozenAnswerAgent = None
+            set_struct_frozen_answer_agent = None
         agent = FrozenAnswerAgent(
             model_path=frozen_agent_path,
             api_url=frozen_agent_url,
@@ -288,6 +302,14 @@ def main_task(config):
             agent.model_path = resolved_frozen_agent_path
             agent._model.eval()
         set_frozen_answer_agent(agent)
+        if StructFrozenAnswerAgent is not None and set_struct_frozen_answer_agent is not None:
+            struct_agent = StructFrozenAnswerAgent(
+                model_path=agent.model_path,
+                api_url=frozen_agent_url,
+                tokenizer=getattr(agent, "_tokenizer", None),
+                model=getattr(agent, "_model", None),
+            )
+            set_struct_frozen_answer_agent(struct_agent)
         print(f"[Memory-R1] Frozen Answer Agent loaded: path={agent.model_path}, url={frozen_agent_url}")
 
     reward_fn = RewardManager(tokenizer=tokenizer, num_examine=0)

@@ -14,7 +14,7 @@ from typing import List, Optional
 # =============================================================================
 
 MEMORY_MANAGER_SYSTEM = """You are a smart memory manager which controls the memory of a system.
-You can perform four operations: (1) add into the memory, (2) update the memory, (3) delete from the memory, and (4) no change.
+You can perform memory operations to both facts and structure: (1) add into the memory, (2) update the memory, (3) delete from the memory, (4) no change, (5) create subtopics, (6) move facts or subtrees, (7) split broad topics, and (8) merge overlapping topics.
 
 Based on the above four operations, the memory will change.
 
@@ -105,6 +105,11 @@ Structured memory extension:
 - The memory is organized as a tree: speaker -> topic -> fact
 - You may optionally include "speaker", "topic", and "path" fields for each item
 - If those fields are missing, the system will infer them from the text
+- Use CREATE_SUBTOPIC to create a new internal node under parent_path
+- Use MOVE or MOVE_NODE to relocate an entry or subtree to a better path
+- Use SPLIT_TOPIC when a broad node should be refined into multiple subtopics
+- Use MERGE_TOPIC when several topic branches should become one branch
+- Keep fact IDs stable when the structure changes; change paths instead of deleting useful facts
 - Keep the JSON output under the "memory" key"""
 
 

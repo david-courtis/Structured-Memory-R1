@@ -8,12 +8,12 @@ class TestRewardRouting:
 
     def test_answer_agent_routing(self):
         from verl.trainer.main_ppo import _select_rm_score_fn
-        fn = _select_rm_score_fn("answer_agent")
+        fn = _select_rm_score_fn("struct_answer_agent")
         assert callable(fn)
 
     def test_memory_manager_routing(self):
         from verl.trainer.main_ppo import _select_rm_score_fn
-        fn = _select_rm_score_fn("memory_manager")
+        fn = _select_rm_score_fn("struct_memory_manager")
         assert callable(fn)
 
     def test_nq_still_works(self):
@@ -102,10 +102,10 @@ class TestBestCheckpointMetricSelection:
         trainer.config = SimpleNamespace(trainer={})
 
         metric_name, metric_value = trainer._select_best_validation_metric({
-            "val/test_score/memory_manager": 0.72,
+            "val/test_score/struct_memory_manager": 0.72,
         })
 
-        assert metric_name == "val/test_score/memory_manager"
+        assert metric_name == "val/test_score/struct_memory_manager"
         assert metric_value == 0.72
 
     def test_prefers_memory_manager_metric_when_multiple_scores_exist(self):
@@ -116,11 +116,11 @@ class TestBestCheckpointMetricSelection:
         trainer.config = SimpleNamespace(trainer={})
 
         metric_name, metric_value = trainer._select_best_validation_metric({
-            "val/test_score/answer_agent": 0.61,
-            "val/test_score/memory_manager": 0.74,
+            "val/test_score/struct_answer_agent": 0.61,
+            "val/test_score/struct_memory_manager": 0.74,
         })
 
-        assert metric_name == "val/test_score/memory_manager"
+        assert metric_name == "val/test_score/struct_memory_manager"
         assert metric_value == 0.74
 
 
@@ -129,7 +129,7 @@ class TestAnswerAgentRewardWithData:
 
     def test_correct_answer(self):
         from verl.trainer.main_ppo import _select_rm_score_fn
-        fn = _select_rm_score_fn("answer_agent")
+        fn = _select_rm_score_fn("struct_answer_agent")
 
         score = fn(
             solution_str="**Memories selected as relevant:**\n- Memory 1\n**Answer:** Paris",
@@ -139,7 +139,7 @@ class TestAnswerAgentRewardWithData:
 
     def test_wrong_answer(self):
         from verl.trainer.main_ppo import _select_rm_score_fn
-        fn = _select_rm_score_fn("answer_agent")
+        fn = _select_rm_score_fn("struct_answer_agent")
 
         score = fn(
             solution_str="**Answer:** London",
@@ -150,7 +150,7 @@ class TestAnswerAgentRewardWithData:
     def test_with_dict_targets(self):
         """Memory Manager format: targets are QA pair dicts."""
         from verl.trainer.main_ppo import _select_rm_score_fn
-        fn = _select_rm_score_fn("answer_agent")
+        fn = _select_rm_score_fn("struct_answer_agent")
 
         score = fn(
             solution_str="**Answer:** Buddy",
@@ -164,7 +164,7 @@ class TestMemoryManagerRewardWithData:
 
     def test_valid_json_output(self):
         from verl.trainer.main_ppo import _select_rm_score_fn
-        fn = _select_rm_score_fn("memory_manager")
+        fn = _select_rm_score_fn("struct_memory_manager")
 
         score = fn(
             solution_str='{"memory": [{"id": "0", "text": "Fact", "event": "ADD"}]}',
@@ -174,7 +174,7 @@ class TestMemoryManagerRewardWithData:
 
     def test_invalid_json_output(self):
         from verl.trainer.main_ppo import _select_rm_score_fn
-        fn = _select_rm_score_fn("memory_manager")
+        fn = _select_rm_score_fn("struct_memory_manager")
 
         score = fn(
             solution_str="This is not valid JSON",
@@ -184,7 +184,7 @@ class TestMemoryManagerRewardWithData:
 
     def test_numpy_like_targets_are_evaluated(self):
         from verl.trainer.main_ppo import _select_rm_score_fn
-        from memory_r1.agents.memory_manager import FrozenAnswerAgent, set_frozen_answer_agent
+        from struct_memory_r1.agents.memory_manager import FrozenAnswerAgent, set_frozen_answer_agent
         import numpy as np
 
         class MockAgent(FrozenAnswerAgent):
@@ -193,7 +193,7 @@ class TestMemoryManagerRewardWithData:
 
         set_frozen_answer_agent(MockAgent())
         try:
-            fn = _select_rm_score_fn("memory_manager")
+            fn = _select_rm_score_fn("struct_memory_manager")
             score = fn(
                 solution_str='{"memory": [{"id": "0", "text": "Dog named Buddy", "event": "ADD"}]}',
                 ground_truth={
@@ -212,7 +212,7 @@ class TestFrozenAnswerAgent:
     """Test the frozen Answer Agent wrapper."""
 
     def test_frozen_agent_set_get(self):
-        from memory_r1.agents.memory_manager import (
+        from struct_memory_r1.agents.memory_manager import (
             FrozenAnswerAgent, set_frozen_answer_agent, get_frozen_answer_agent,
         )
         agent = FrozenAnswerAgent()
@@ -223,7 +223,7 @@ class TestFrozenAnswerAgent:
 
     def test_reward_with_mock_frozen_agent(self):
         """Test Memory Manager reward with a mock frozen Answer Agent."""
-        from memory_r1.agents.memory_manager import (
+        from struct_memory_r1.agents.memory_manager import (
             FrozenAnswerAgent, set_frozen_answer_agent,
             compute_score_memory_manager_verl,
         )
@@ -256,7 +256,7 @@ class TestFrozenAnswerAgent:
 
     def test_reward_with_extra_info_old_memory(self):
         """Test that extra_info.old_memory is used for UPDATE/DELETE operations."""
-        from memory_r1.agents.memory_manager import (
+        from struct_memory_r1.agents.memory_manager import (
             FrozenAnswerAgent, set_frozen_answer_agent,
             compute_score_memory_manager_verl,
         )
@@ -299,7 +299,7 @@ class TestParquetDataFormat:
 
     @pytest.fixture
     def aa_parquet(self):
-        path = "data/memory_r1/answer_agent/train.parquet"
+        path = "data/struct_memory_r1/answer_agent/train.parquet"
         if not os.path.exists(path):
             pytest.skip("Run build_training_data first")
         import pandas as pd
@@ -307,7 +307,7 @@ class TestParquetDataFormat:
 
     @pytest.fixture
     def mm_parquet(self):
-        path = "data/memory_r1/memory_manager/train.parquet"
+        path = "data/struct_memory_r1/memory_manager/train.parquet"
         if not os.path.exists(path):
             pytest.skip("Run build_training_data first")
         import pandas as pd
@@ -343,14 +343,14 @@ class TestParquetDataFormat:
         assert "target" in rm["ground_truth"]
 
     def test_aa_data_source(self, aa_parquet):
-        assert all(aa_parquet["data_source"] == "answer_agent")
+        assert all(aa_parquet["data_source"] == "struct_answer_agent")
 
     def test_mm_required_columns(self, mm_parquet):
         required = {"data_source", "prompt", "ability", "reward_model", "extra_info"}
         assert required.issubset(set(mm_parquet.columns))
 
     def test_mm_data_source(self, mm_parquet):
-        assert all(mm_parquet["data_source"] == "memory_manager")
+        assert all(mm_parquet["data_source"] == "struct_memory_manager")
 
     def test_mm_prompt_contains_full_examples(self, mm_parquet):
         """Memory Manager prompt should include paper examples."""

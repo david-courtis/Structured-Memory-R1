@@ -140,7 +140,10 @@ def build_temporal_memory_bank_from_turns(
     for turn in recent_turns:
         facts = extract_facts_from_turn(turn, use_llm=use_llm, llm_model=llm_model)
         for fact in facts:
-            bank.add(fact)
+            bank.insert_interaction(
+                interaction=fact,
+                speaker=turn.speaker,
+            )
             all_facts.append(fact)
 
     return bank, all_facts
@@ -157,7 +160,17 @@ def build_temporal_memory_bank(
     bank = MemoryBank()
     for session in conversation.sessions[:up_to_session]:
         for obs in session.observations:
-            bank.add(obs)
+            speaker = None
+            obs_lower = obs.lower()
+            if conversation.speaker_a.lower() in obs_lower:
+                speaker = conversation.speaker_a
+            elif conversation.speaker_b.lower() in obs_lower:
+                speaker = conversation.speaker_b
+            bank.insert_interaction(
+                interaction=obs,
+                speaker=speaker,
+                timestamp=session.datetime,
+            )
     return bank
 
 
@@ -339,7 +352,7 @@ def build_memory_manager_data(
                 # Fallback: use observations from previous sessions
                 memory_bank = build_temporal_memory_bank(conv, up_to_session=session_idx - 1)
 
-            old_memory = memory_bank.to_list()
+            old_memory = memory_bank.to_structured_list()
 
             # 2. Extract facts from the CURRENT turn
             facts = extract_facts_from_turn(turn, use_llm=use_llm, llm_model=llm_model)
@@ -420,49 +433,55 @@ def build_answer_agent_data(
     idx = 0
 
     for conv in conversations:
-        # Build observation pools per speaker, with timestamps
-        # Each observation is attributed to a session with a datetime
-        memories_pool_a = []  # (text_with_timestamp, text_only)
-        memories_pool_b = []
+        retrieval_bank = MemoryBank()
 
         for session in conv.sessions:
             timestamp = session.datetime or ""
             for obs in session.observations:
-                # Attribute observation to speaker based on name mention
                 obs_lower = obs.lower()
-                # Format with timestamp as in Figure 11
-                timestamped = f"{timestamp}: {obs}" if timestamp else obs
-
+                speaker = None
                 if conv.speaker_a.lower() in obs_lower:
-                    memories_pool_a.append((timestamped, obs))
+                    speaker = conv.speaker_a
                 elif conv.speaker_b.lower() in obs_lower:
-                    memories_pool_b.append((timestamped, obs))
+                    speaker = conv.speaker_b
+                if speaker is None:
+                    retrieval_bank.insert_interaction(
+                        interaction=obs,
+                        speaker=conv.speaker_a,
+                        timestamp=timestamp,
+                    )
+                    retrieval_bank.insert_interaction(
+                        interaction=obs,
+                        speaker=conv.speaker_b,
+                        timestamp=timestamp,
+                    )
                 else:
-                    # Can't determine speaker; add to both
-                    memories_pool_a.append((timestamped, obs))
-                    memories_pool_b.append((timestamped, obs))
+                    retrieval_bank.insert_interaction(
+                        interaction=obs,
+                        speaker=speaker,
+                        timestamp=timestamp,
+                    )
 
         for qa in conv.qa_pairs:
-            # Retrieve top-k per speaker using TF-IDF similarity
-            # (approximates the paper's embedding-based RAG)
-            raw_a = [text for _, text in memories_pool_a]
-            raw_b = [text for _, text in memories_pool_b]
+            retrieved_a_items = retrieval_bank.retrieve(
+                qa.question,
+                topk=memories_per_speaker,
+                speaker=conv.speaker_a,
+            )
+            retrieved_b_items = retrieval_bank.retrieve(
+                qa.question,
+                topk=memories_per_speaker,
+                speaker=conv.speaker_b,
+            )
 
-            # Retrieve most relevant memories per speaker
-            if raw_a:
-                retrieved_a_texts = tfidf_retrieve(qa.question, raw_a, topk=memories_per_speaker)
-                # Map back to timestamped versions
-                text_to_ts = {text: ts for ts, text in memories_pool_a}
-                retrieved_a = [text_to_ts.get(t, t) for t in retrieved_a_texts]
-            else:
-                retrieved_a = []
-
-            if raw_b:
-                retrieved_b_texts = tfidf_retrieve(qa.question, raw_b, topk=memories_per_speaker)
-                text_to_ts = {text: ts for ts, text in memories_pool_b}
-                retrieved_b = [text_to_ts.get(t, t) for t in retrieved_b_texts]
-            else:
-                retrieved_b = []
+            retrieved_a = [
+                f"{item['timestamp']}: {item['text']}" if item.get("timestamp") else item["text"]
+                for item in retrieved_a_items
+            ]
+            retrieved_b = [
+                f"{item['timestamp']}: {item['text']}" if item.get("timestamp") else item["text"]
+                for item in retrieved_b_items
+            ]
 
             # Create training prompt with speaker-grouped memories
             prompt_content = make_answer_agent_training_prompt(

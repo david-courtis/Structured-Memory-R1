@@ -1,6 +1,6 @@
 """Tests for memory bank CRUD operations and parsing."""
 import pytest
-from memory_r1.memory_bank import MemoryBank, MemoryEntry, parse_memory_manager_output
+from struct_memory_r1.memory_bank import MemoryBank, MemoryEntry, parse_memory_manager_output
 
 
 class TestMemoryBank:
@@ -137,6 +137,85 @@ class TestMemoryBank:
         assert structured["speaker"] == "Alice"
         assert structured["topic"] == "dog"
         assert structured["path"] == ["Alice", "dog"]
+
+    def test_create_subtopic_operation(self):
+        bank = MemoryBank.from_list([
+            {"id": "0", "text": "Alice adopted Buddy", "path": ["Alice", "pets"]},
+        ])
+        new_bank = bank.apply_operations([
+            {
+                "event": "CREATE_SUBTOPIC",
+                "parent_path": ["Alice", "pets"],
+                "path": ["Alice", "pets", "dogs"],
+                "text": "dogs",
+            }
+        ])
+        tree = new_bank.to_tree_dict()
+        alice_node = tree["children"][0]
+        pets_node = alice_node["children"][0]
+        assert pets_node["key"] == "pets"
+        assert pets_node["children"][0]["key"] == "dogs"
+
+    def test_move_entry_operation(self):
+        bank = MemoryBank.from_list([
+            {"id": "0", "text": "Alice adopted Buddy", "path": ["Alice", "pets"]},
+        ])
+        new_bank = bank.apply_operations([
+            {
+                "id": "0",
+                "event": "MOVE",
+                "path": ["Alice", "pets", "dogs"],
+            }
+        ])
+        assert new_bank.get("0").path == ["Alice", "pets", "dogs"]
+
+    def test_move_subtree_operation(self):
+        bank = MemoryBank.from_list([
+            {"id": "0", "text": "Alice adopted Buddy", "path": ["Alice", "pets", "dogs"]},
+            {"id": "1", "text": "Alice adopted Scout", "path": ["Alice", "pets", "dogs"]},
+        ])
+        new_bank = bank.apply_operations([
+            {
+                "event": "MOVE_NODE",
+                "source_path": ["Alice", "pets", "dogs"],
+                "path": ["Alice", "animals", "dogs"],
+            }
+        ])
+        assert new_bank.get("0").path == ["Alice", "animals", "dogs"]
+        assert new_bank.get("1").path == ["Alice", "animals", "dogs"]
+
+    def test_split_topic_operation(self):
+        bank = MemoryBank.from_list([
+            {"id": "0", "text": "Alice adopted Buddy the dog", "path": ["Alice", "pets"]},
+            {"id": "1", "text": "Alice adopted Whiskers the cat", "path": ["Alice", "pets"]},
+        ])
+        new_bank = bank.apply_operations([
+            {
+                "event": "SPLIT_TOPIC",
+                "path": ["Alice", "pets"],
+                "subtopics": ["dog", "cat"],
+            }
+        ])
+        assert new_bank.get("0").path == ["Alice", "pets", "dog"]
+        assert new_bank.get("1").path == ["Alice", "pets", "cat"]
+
+    def test_merge_topic_operation(self):
+        bank = MemoryBank.from_list([
+            {"id": "0", "text": "Alice likes basketball", "path": ["Alice", "sports", "playing"]},
+            {"id": "1", "text": "Alice watches soccer", "path": ["Alice", "sports", "watching"]},
+        ])
+        new_bank = bank.apply_operations([
+            {
+                "event": "MERGE_TOPIC",
+                "source_paths": [
+                    ["Alice", "sports", "playing"],
+                    ["Alice", "sports", "watching"],
+                ],
+                "path": ["Alice", "sports", "ball"],
+            }
+        ])
+        assert new_bank.get("0").path == ["Alice", "sports", "ball"]
+        assert new_bank.get("1").path == ["Alice", "sports", "ball"]
 
     def test_apply_operations_add(self):
         bank = MemoryBank()
@@ -277,6 +356,17 @@ That's my decision.'''
         ops, success = parse_memory_manager_output(output)
         assert success
         assert ops[0]["path"] == ["Alice", "dog"]
+
+    def test_parse_structure_operation(self):
+        output = '''
+{
+    "memory": [
+        {"event": "SPLIT_TOPIC", "path": ["Alice", "pets"], "subtopics": ["dog", "cat"]}
+    ]
+}'''
+        ops, success = parse_memory_manager_output(output)
+        assert success
+        assert ops[0]["event"] == "SPLIT_TOPIC"
 
 
 if __name__ == "__main__":

@@ -1,6 +1,6 @@
 """Tests for Memory-R1 prompts."""
 import pytest
-from memory_r1.prompts import (
+from struct_memory_r1.prompts import (
     format_memory_manager_prompt,
     format_answer_agent_prompt,
     make_memory_manager_training_prompt,
@@ -26,6 +26,9 @@ class TestMemoryManagerPrompt:
         assert "play cricket" in MEMORY_MANAGER_SYSTEM
         assert "old_memory" in MEMORY_MANAGER_SYSTEM
         assert "speaker -> topic -> fact" in MEMORY_MANAGER_SYSTEM
+        assert "CREATE_SUBTOPIC" in MEMORY_MANAGER_SYSTEM
+        assert "SPLIT_TOPIC" in MEMORY_MANAGER_SYSTEM
+        assert "MERGE_TOPIC" in MEMORY_MANAGER_SYSTEM
 
     def test_format_with_empty_memory(self):
         prompt = format_memory_manager_prompt(

@@ -20,7 +20,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 
 from sklearn.feature_extraction.text import TfidfVectorizer
-from memory_r1.memory_bank import MemoryBank
+from struct_memory_r1.memory_bank import MemoryBank
 
 
 class MemoryStore:

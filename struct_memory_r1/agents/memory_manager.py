@@ -15,8 +15,8 @@ import re
 import json
 from typing import Any, List, Dict, Tuple, Optional, Callable
 
-from memory_r1.memory_bank import MemoryBank, parse_memory_manager_output
-from memory_r1.reward.em_reward import (
+from struct_memory_r1.memory_bank import MemoryBank, parse_memory_manager_output
+from struct_memory_r1.reward.em_reward import (
     extract_answer_from_output,
     em_check,
     subem_check,
@@ -104,7 +104,7 @@ class FrozenAnswerAgent:
         Returns:
             The predicted answer string
         """
-        from memory_r1.prompts import ANSWER_AGENT_SYSTEM
+        from struct_memory_r1.prompts import ANSWER_AGENT_SYSTEM
 
         # Build the prompt
         memories_text = "\n".join(
@@ -371,7 +371,7 @@ def compute_score_memory_manager_verl(
     Returns:
         Reward score in [0, 1]
     """
-    from memory_r1.memory_bank import parse_memory_manager_output
+    from struct_memory_r1.memory_bank import parse_memory_manager_output
 
     # Extract just the response part (after the prompt)
     # The Memory Manager's output is JSON with memory operations
@@ -381,7 +381,11 @@ def compute_score_memory_manager_verl(
         return 0.0
 
     # Check valid event types
-    valid_events = {"ADD", "UPDATE", "DELETE", "NONE", "NOOP"}
+    valid_events = {
+        "ADD", "UPDATE", "DELETE", "NONE", "NOOP",
+        "CREATE_SUBTOPIC", "CREATE_TOPIC", "CREATE_NODE",
+        "MOVE", "MOVE_NODE", "SPLIT_TOPIC", "MERGE_TOPIC",
+    }
     for op in operations:
         event = op.get("event", "").upper()
         if event not in valid_events:

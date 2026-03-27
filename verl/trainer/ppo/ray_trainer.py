@@ -571,7 +571,12 @@ class RayPPOTrainer(object):
             metric_name, metric_value = next(iter(score_metrics.items()))
             return metric_name, metric_value
 
-        for preferred_suffix in ('memory_manager', 'answer_agent'):
+        for preferred_suffix in (
+            'struct_memory_manager',
+            'memory_manager',
+            'struct_answer_agent',
+            'answer_agent',
+        ):
             preferred_name = f'val/test_score/{preferred_suffix}'
             if preferred_name in score_metrics:
                 return preferred_name, score_metrics[preferred_name]

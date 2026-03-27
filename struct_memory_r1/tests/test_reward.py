@@ -1,13 +1,13 @@
 """Tests for Memory-R1 reward functions."""
 import pytest
-from memory_r1.reward.em_reward import (
+from struct_memory_r1.reward.em_reward import (
     normalize_answer,
     em_check,
     subem_check,
     extract_answer_from_output,
     compute_score_answer_agent,
 )
-from memory_r1.agents.memory_manager import (
+from struct_memory_r1.agents.memory_manager import (
     compute_memory_manager_reward,
     compute_score_memory_r1,
 )
