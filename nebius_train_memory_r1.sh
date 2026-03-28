@@ -194,7 +194,7 @@ train_answer_agent() {
         actor_rollout_ref.actor.state_masking=false \
         trainer.logger=['console','jsonl'] \
         +trainer.val_only=false \
-        +trainer.val_before_train=true \
+        +trainer.val_before_train=false \
         trainer.default_hdfs_dir=null \
         trainer.n_gpus_per_node="${NUM_GPUS}" \
         trainer.nnodes=1 \
@@ -290,7 +290,7 @@ train_memory_manager() {
         actor_rollout_ref.actor.state_masking=false \
         trainer.logger=['console','jsonl'] \
         +trainer.val_only=false \
-        +trainer.val_before_train=true \
+        +trainer.val_before_train=false \
         trainer.default_hdfs_dir=null \
         trainer.n_gpus_per_node="${NUM_GPUS}" \
         trainer.nnodes=1 \
