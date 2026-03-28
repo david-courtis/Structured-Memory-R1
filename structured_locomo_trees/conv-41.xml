@@ -1,0 +1,1439 @@
+<?xml version="1.0" ?>
+<Root>
+  <Conversation_Version number="1" sample_id="conv-41" speaker_a="John" speaker_b="Maria">
+    <patch_info>None</patch_info>
+    <conversation_history>Initial_Version</conversation_history>
+    <Speaker name="John">
+      <Session session_id="1" datetime="11:01 am on 17 December, 2022" summary="Maria and John met at 11:01 am on 17 December, 2022. Maria mentioned she has been busy volunteering at a homeless shelter and doing aerial yoga to stay fit. John shared that he had just returned from a family road trip and is now into kickboxing to stay energized. John expressed his goal of getting into local politics to improve education and infrastructure, inspired by the needs he saw growing up in his neighborhood. Maria applauded his efforts and asked about his next steps in the campaign. John plans to talk to local leaders and organizations for support and ideas. Maria encouraged him and asked to keep her updated on his progress.">
+        <Observation>
+          <text>John just got back from a family road trip.</text>
+          <source_dia_id>D1:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is currently doing kickboxing as a workout.</text>
+          <source_dia_id>D1:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John aspires to get into local politics to help improve the community.</text>
+          <source_dia_id>D1:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's passion in politics revolves around improving education and infrastructure in the community.</text>
+          <source_dia_id>D1:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is focused on funding schools and improving infrastructure due to past experiences of lack of education and infrastructure in his neighborhood.</text>
+          <source_dia_id>D1:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's next move in politics involves chatting with local leaders and organizations to gather support and ideas.</text>
+          <source_dia_id>D1:14</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="2" datetime="6:10 pm on 22 December, 2022" summary="At 6:10 pm on 22 December 2022, Maria asked John about his campaign progress and shared her recent experience of donating her old car. John mentioned networking for insights, motivated by a conversation on education. Maria praised his enthusiasm and commitment, highlighting the power of minor tweaks in the community. She encouraged John, who credited his family for his drive, showing a photo of them. Maria acknowledged the importance of family support and shared her preference for quality time with loved ones. John reciprocated the sentiment, emphasizing the value of making memories together. They discussed family activities and shared pictures, concluding with a plan to cherish happy moments with their families. John then mentioned his plan to do some taekwondo.">
+        <Observation>
+          <text>John has been networking to gather input for a campaign to make improvements to the community's education system.</text>
+          <source_dia_id>D2:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is motivated to make education better in their area to invest in future generations.</text>
+          <source_dia_id>D2:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's family serves as a source of strength and motivation for him.</text>
+          <source_dia_id>D2:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John and his family enjoy spending time at a playground together, climbing, sliding, and playing games.</text>
+          <source_dia_id>D2:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's family loves to make and enjoy pizzas together.</text>
+          <source_dia_id>D2:24</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John practices taekwondo.</text>
+          <source_dia_id>D2:28</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="3" datetime="8:30 pm on 1 January, 2023" summary="At 8:30 pm on 1 January, 2023, John shared with Maria his positive experience with a service-focused online group, feeling a connection and purpose with inspiring individuals. They discussed events like serving at a homeless shelter and arranging a toy drive. John mentioned plans for future projects assisting underserved communities in education and mentorship. Maria praised his initiatives, emphasizing the impact of support and encouraging him to continue. John, feeling stressed after failing a test, appreciated Maria's support. They also bonded over nature's beauty, with Maria sharing a calming beach sunset photo. John reminisced about his childhood beach photography. The conversation highlighted finding joy in simple moments amid life's busyness.">
+        <Observation>
+          <text>John joined a service-focused online group last week and finds it emotionally rewarding.</text>
+          <source_dia_id>D3:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John participated in activities with the online group such as giving out food at a homeless shelter and organizing a toy drive for kids in need.</text>
+          <source_dia_id>D3:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is involved in brainstorming projects to help underserved communities with education, mentorship, job training, and resume building.</text>
+          <source_dia_id>D3:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John recently failed the military aptitude test and has been feeling stressed out.</text>
+          <source_dia_id>D3:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John used to have a film camera as a kid and took plenty of beach pictures.</text>
+          <source_dia_id>D3:15</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="4" datetime="7:06 pm on 9 January, 2023" summary="Maria informed John at 7:06 pm on 9 January, 2023, that she became friends with a fellow volunteer and asked about his well-being. John shared an incident from the previous week that made him realize the unpredictability of life. Maria empathized with his experience and commended his resilience. John mentioned staying calm and seeking help during the incident, leading to a safe outcome. Maria praised his resourcefulness and discussed coping mechanisms like admiring sunsets. John updated Maria on his involvement in local politics and community engagement, with plans for future meetings. They appreciated each other's support and unity in working towards community development. They expressed readiness to make positive changes together, emphasizing the importance of collaboration. John thanked Maria for being a great friend and part of a strong team.">
+        <Observation>
+          <text>John experienced an unexpected incident last week on his way home, which reminded him of life's unexpected troubles.</text>
+          <source_dia_id>D4:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John handled the unexpected incident by staying calm, asking for assistance, and returning safely.</text>
+          <source_dia_id>D4:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John appreciates the beauty of sunsets as a way to enjoy the small things in life.</text>
+          <source_dia_id>D4:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John has been delving into local politics, talking to community leaders, understanding neighborhood needs, and feeling optimistic about it.</text>
+          <source_dia_id>D4:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is preparing for a community meeting next week to discuss education and infrastructure upgrades.</text>
+          <source_dia_id>D4:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John believes in sticking up for the community and finds discussing community matters important.</text>
+          <source_dia_id>D4:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is grateful for Maria's support and considers her an awesome friend.</text>
+          <source_dia_id>D4:24</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="5" datetime="1:17 pm on 28 January, 2023" summary="John and Maria discussed the sorry state of education and the need for more funding and resources for schools to support kids' success. They both agreed on the importance of advocating for better education. Maria shared her experience volunteering at a shelter event for kids and how it was inspired by her aunt. She mentioned a touching moment with a little girl that left a lasting impact. John also shared a childhood memory that reinforced the importance of looking out for others in times of need. Both emphasized the significance of kindness and support in making a difference for those feeling down, expressing their agreement on the topic.">
+        <Observation>
+          <text>John attended a community meeting focused on the state of education and the need for upgrades, especially for kids.</text>
+          <source_dia_id>D5:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John expressed concern about the lack of proper resources for kids in education and the need to make things better.</text>
+          <source_dia_id>D5:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John mentioned his kids having a lot while others lack resources, indicating a sense of empathy and awareness.</text>
+          <source_dia_id>D5:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John shared that he had a doll in his childhood that made him feel better, reminding him to look out for others when they're feeling down.</text>
+          <source_dia_id>D5:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John emphasizes the importance of supporting each other, especially when feeling down.</text>
+          <source_dia_id>D5:15</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="6" datetime="2:33 pm on 5 February, 2023" summary="At 2:33 pm on 5 February 2023, Maria informed John about her recent charity event and the impact it had on her, emphasizing the power of collective effort in helping others. John praised her efforts and expressed his interest in serving the community through politics. Maria shared a touching encounter with a man named David at the event, leading to her connecting him with support services. John discussed his involvement in a food drive for the unemployed and expressed gratitude for the community's response. Maria offered to help with future initiatives, and both acknowledged the importance of supporting each other and working together towards a common goal. Their conversation highlighted their commitment to helping those in need and their strong friendship.">
+        <Observation>
+          <text>John got into politics due to a strong urge to serve his country and community.</text>
+          <source_dia_id>D6:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John started helping out with a food drive for people who lost their jobs.</text>
+          <source_dia_id>D6:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John initiated a community food drive due to the impact of unemployment in the community.</text>
+          <source_dia_id>D6:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John has been overwhelmed by the response and volunteers at the food drive events.</text>
+          <source_dia_id>D6:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John appreciated Maria's offer to help with networking or volunteering at future events for the food drive.</text>
+          <source_dia_id>D6:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John expressed that friendship means a lot to him and that he values having each other's backs with Maria.</text>
+          <source_dia_id>D6:22</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="7" datetime="8:55 pm on 25 February, 2023" summary="Maria informed John about taking a creative writing class, while John revealed his excitement about running for office again. They discussed their reasons for volunteering and running for office, sharing inspiring stories about resilience and positivity. They emphasized the importance of kindness, optimism, and making a positive impact. John mentioned attending a yoga class soon, and they agreed to work together to bring positive change to their community.">
+        <Observation>
+          <text>John is running for office again.</text>
+          <source_dia_id>D7:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John believes in making positive changes through politics for a better future.</text>
+          <source_dia_id>D7:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John sees staying optimistic during tough times as inspiring.</text>
+          <source_dia_id>D7:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John believes in the impact of kindness and optimism.</text>
+          <source_dia_id>D7:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's colleague invited him to a beginner's yoga class.</text>
+          <source_dia_id>D7:16</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="8" datetime="6:03 pm on 6 March, 2023" summary="At 6:03 pm on 6 March 2023, Maria shared with John about her grandmother's recent passing and the challenges she's facing. John expressed his condolences and updated Maria on his happy family life with wife and kids, particularly mentioning his one-year-old son, Kyle. They discussed parenting experiences and family activities, including a recent picnic that everyone enjoyed. John shared his interest in volunteering after a positive aptitude test experience, while Maria talked about her volunteer work at a homeless shelter. They agreed on the importance of building genuine connections to make a difference.">
+        <Observation>
+          <text>John had a picnic with his wife and kids recently.</text>
+          <source_dia_id>D8:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's one-year-old son is named Kyle.</text>
+          <source_dia_id>D8:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John takes his family to the park a few times a week for bonding and fun.</text>
+          <source_dia_id>D8:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John found a violin concert last week that the whole family enjoyed.</text>
+          <source_dia_id>D8:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is considering volunteering to serve his country.</text>
+          <source_dia_id>D8:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John discussed the volunteering opportunity with family and friends, who have been supportive.</text>
+          <source_dia_id>D8:20</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="9" datetime="9:36 am on 2 April, 2023" summary="Maria and John reconnected at 9:36 am on 2 April, 2023. Maria shared about taking a poetry class to express her feelings while John mentioned finishing his degree, expressing interest in policymaking to make a positive impact. John's focus areas were education and infrastructure, influenced by his community involvement. Maria praised John's dedication and they both agreed on the importance of finding solutions together. They reminisced about past volunteer experiences and pledged support for each other's efforts to improve lives.">
+        <Observation>
+          <text>John has recently graduated.</text>
+          <source_dia_id>D9:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is considering going into policymaking to make a positive impact.</text>
+          <source_dia_id>D9:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is particularly interested in improving education and infrastructure.</text>
+          <source_dia_id>D9:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's experiences in community meetings have shaped his views on education and infrastructure challenges.</text>
+          <source_dia_id>D9:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John finds it rewarding to make a difference in the community.</text>
+          <source_dia_id>D9:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John values Maria's support and finds it encouraging.</text>
+          <source_dia_id>D9:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John reminisced about volunteering with Maria last year and found it fulfilling.</text>
+          <source_dia_id>D9:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="10" datetime="12:24 am on 7 April, 2023" summary="John and Maria had a conversation at 12:24 am on 7 April, 2023. John shared his excitement about starting a weekend yoga class with a colleague, focusing on stretching and breathing, which made him feel great mentally and physically. He praised the instructor for creating a welcoming environment, helping participants do poses correctly, and listen to their bodies. Maria expressed her support and interest, asking about the class and the impact on John. John mentioned feeling more relaxed and connected, integrating yoga into his daily routine. Maria shared her recent experience participating in a charity run for a homeless shelter, highlighting the energy and sense of unity. John then talked about volunteering at a career fair, helping kids with limited resources, which Maria found inspiring. They encouraged each other to continue making a difference and supporting those in need. Their conversation highlighted the power of community involvement and positive impact through simple acts of kindness and support.">
+        <Observation>
+          <text>John started a weekend yoga class with a colleague and finds it awesome for his mental and physical wellbeing.</text>
+          <source_dia_id>D10:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's yoga instructor focuses on proper poses, listening to one's body, and creates a relaxed and welcoming environment.</text>
+          <source_dia_id>D10:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is in a beginner yoga class that helps him relax and increase flexibility.</text>
+          <source_dia_id>D10:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Yoga has helped John feel more connected, relaxed, and improved his mind and body.</text>
+          <source_dia_id>D10:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John considers stretching and breathing as powerful tools for wellbeing and has incorporated it into his daily routine.</text>
+          <source_dia_id>D10:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John volunteered at a career fair at a local school and found it rewarding to help kids with dreams affected by lack of resources.</text>
+          <source_dia_id>D10:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>The sign at the career fair said, &quot;Always look on the bright side of life&quot;, highlighting the importance of support in achieving kids' dreams.</text>
+          <source_dia_id>D10:15</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="11" datetime="6:13 pm on 10 April, 2023" summary="At 6:13 pm on 10 April 2023, John and Maria caught up after a few days. John shared his car troubles causing financial strain but staying positive. Maria praised his resilience. John shared a picture from a past road trip to the Pacific Northwest, highlighting the beauty of nature. Maria and John discussed the importance of finding peace in nature during tough times. Maria mentioned giving talks at a homeless shelter and finding joy in helping others. John praised her impact and dedication to building relationships. They ended the conversation with mutual appreciation for each other's positivity and promising to talk soon.">
+        <Observation>
+          <text>John's car broke down last Friday on his way to work, causing financial strain.</text>
+          <source_dia_id>D11:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John remains positive and looks for solutions despite facing tough times.</text>
+          <source_dia_id>D11:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John keeps a picture that reminds him of a road trip taken last year as a symbol of beauty and hope.</text>
+          <source_dia_id>D11:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John explored the Pacific Northwest coast and visited national parks on the road trip, finding nature's beauty breathtaking.</text>
+          <source_dia_id>D11:5</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="12" datetime="7:34 pm on 18 April, 2023" summary="John and Maria had a conversation at 7:34 pm on 18 April, 2023. John shared his passion for blogging about politics and government, focusing on education and infrastructure for positive change. Maria showed support for his dedication and discussed her volunteer work at a homeless shelter. They both acknowledged the impact of small acts of kindness in making a difference and inspiring others. John also mentioned his involvement in a tech convention with like-minded individuals. The conversation highlighted their commitment to creating a positive impact in their community through various means.">
+        <Observation>
+          <text>John has been blogging about politics and government focusing on education reform and infrastructure development.</text>
+          <source_dia_id>D12:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is passionate about making a positive impact in his community through raising awareness and starting conversations.</text>
+          <source_dia_id>D12:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John attended a convention with colleagues who share his passion for using tech for good in the community.</text>
+          <source_dia_id>D12:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John felt inspired by being surrounded by like-minded individuals at the convention and believes in the power of unity.</text>
+          <source_dia_id>D12:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Being in an environment with motivated people gave John renewed energy and purpose, inspiring him to make a bigger difference.</text>
+          <source_dia_id>D12:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is planning a trip to the East Coast.</text>
+          <source_dia_id>D12:17</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="13" datetime="3:18 pm on 4 May, 2023" summary="John and Maria caught up at 3:18 pm on May 4, 2023. John shared that he started going to boot camps with his family, leading to increased energy and fitness gains. They work out together three times a week and motivate each other. Maria praised their commitment and discussed the importance of having a supportive family. John mentioned how his family supported each other during workouts and emotionally. Maria shared about finding balance in life through self-care and spending time with loved ones. She also reflected on a transformative solo trip to Spain, highlighting the importance of inner strength and appreciating small moments. John admired her perspective and the picture from her trip, emphasizing the value of trying new things and pushing boundaries for personal growth. They both agreed on the importance of challenging themselves and maintaining a positive mindset for continuous learning and development.">
+        <Observation>
+          <text>John started going to boot camps with his family last month for bonding and fitness.</text>
+          <source_dia_id>D13:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John, along with his family, works out together three times a week.</text>
+          <source_dia_id>D13:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John has noticed increased energy, strength, and endurance since starting boot camps with his family.</text>
+          <source_dia_id>D13:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John and his family support and motivate each other during workouts.</text>
+          <source_dia_id>D13:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John and his family cheer each other on and provide emotional support during boot camp.</text>
+          <source_dia_id>D13:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John made an apple pie for his kids the day before the conversation.</text>
+          <source_dia_id>D13:17</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="14" datetime="5:04 pm on 6 May, 2023" summary="John and Maria had a conversation at 5:04 pm on May 6, 2023. John shared his decision to run for office again, driven by his dream to make a difference in the community. Maria encouraged John to keep going and take risks, expressing her pride and support for him. John appreciated Maria's support and motivation, acknowledging that her belief in him keeps him going. Maria shared her involvement in charity work at a nearby church, finding it fulfilling. John discussed the need for infrastructure improvements in the community, particularly in roadways. Maria offered to help with community projects to address these issues. Both agreed to work together to make a real difference in their neighborhood by fighting for better living conditions and affordable housing. They concluded to keep working together to create a safe and thriving environment for their community.">
+        <Observation>
+          <text>John decided to run for office again, despite not being successful before, to make a difference in his community.</text>
+          <source_dia_id>D14:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John feels motivated by Maria's support and kind words to keep going and make a difference.</text>
+          <source_dia_id>D14:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John experienced a power cut in the area, realizing the importance of upgrading infrastructure for stable services.</text>
+          <source_dia_id>D14:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John believes that improvements are needed for the roadways in the area due to potholes and dangers for drivers.</text>
+          <source_dia_id>D14:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is considering starting a community project regarding infrastructure to improve the neighborhood.</text>
+          <source_dia_id>D14:17</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John wants to work on improving his old area, West County, in addition to the current neighborhood.</text>
+          <source_dia_id>D14:21</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="15" datetime="7:38 pm on 20 May, 2023" summary="John and Maria were discussing a project John is working on to support military veterans on 20th May 2023 at 7:38 pm. John shared his passion for veterans and his desire to show appreciation for their service. Maria praised John for his kind gesture and agreed to support the project. John showed a picture of veterans from a recent party he organized and mentioned the importance of creating connections and a sense of community. Maria expressed admiration for John's efforts and shared her own plan for a fundraiser. The conversation ended with both agreeing to continue making a positive impact in their community.">
+        <Observation>
+          <text>John is currently working on a project to support military veterans and is trying to get a petition going.</text>
+          <source_dia_id>D15:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John decided to take on the project to support veterans because he is passionate about their rights and wanted to show appreciation for their hard work.</text>
+          <source_dia_id>D15:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is very passionate about making sure veterans are supported and valued in the community.</text>
+          <source_dia_id>D15:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John organized a small party for some veterans to share their stories and make connections, which was heartwarming for him.</text>
+          <source_dia_id>D15:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="16" datetime="1:24 pm on 25 May, 2023" summary="John and Maria had a conversation at 1:24 pm on 25 May, 2023. John updated Maria about his petition progress and shared a picture of his workmates on a hiking trip. Maria mentioned preparing for a fundraiser at a shelter and John offered to help. They discussed spreading the word about the fundraiser and finding volunteers. John shared a picture of his family at the beach. They both emphasized the importance of appreciating little moments and making a positive impact. Maria thanked John for his support, and they agreed to stay motivated towards their goals. The conversation ended with a mutual belief in making a difference.">
+        <Observation>
+          <text>John is working on a petition and getting back in touch with his buddies for support.</text>
+          <source_dia_id>D16:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John went on a hiking trip with his workmates and values their support.</text>
+          <source_dia_id>D16:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is enthusiastic about helping Maria with her charity fundraiser.</text>
+          <source_dia_id>D16:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John offered to help spread the word about Maria's charity fundraiser chili cook-off.</text>
+          <source_dia_id>D16:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John expressed willingness to assist in finding volunteers for Maria's charity fundraiser.</text>
+          <source_dia_id>D16:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John shared a picture of his family at the beach with Maria.</text>
+          <source_dia_id>D16:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John values the little moments in life for hope and motivation.</text>
+          <source_dia_id>D16:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John believes in making a positive impact and appreciates reminders to cherish life.</text>
+          <source_dia_id>D16:17</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="17" datetime="11:51 am on 3 June, 2023" summary="John and Maria, having a conversation at 11:51 am on 3 June, 2023, discussed the loss of John's beloved pet Max, who was a significant part of their family for 10 years. They shared memories of Max, acknowledging the importance of love and loyalty that pets bring to our lives. John expressed his family's sadness but also their gratitude for the joy Max brought. Maria offered comfort and support, suggesting they honor Max's memory by considering adopting a rescue dog to teach their kids love and compassion. They ended the conversation by expressing their appreciation for each other's friendship and support.">
+        <Observation>
+          <text>John recently had to say goodbye to his dog, Max, who was a part of their family for 10 years.</text>
+          <source_dia_id>D17:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is finding it tough to cope with the loss of Max, but he and his family are trying to focus on the good times and memories they shared.</text>
+          <source_dia_id>D17:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John shared a picture of Max to honor his memory and cherish the moments they had together.</text>
+          <source_dia_id>D17:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John values the lessons that Max taught them about love and loyalty, and wants his kids to learn the same.</text>
+          <source_dia_id>D17:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is considering adopting a rescue dog to give it a loving home and teach his kids responsibility and compassion.</text>
+          <source_dia_id>D17:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="18" datetime="2:47 pm on 12 June, 2023" summary="Maria and John had a conversation at 2:47 pm on 12 June, 2023. Maria expressed her sympathy to John for losing his pet, and they both shared recent experiences of finding solace in nature. Maria discussed a camping trip that helped take her mind off things, while John went mountaineering to clear his head. They discussed their past adventures, with Maria mentioning a family trip to Oregon and John sharing a recent mountaineering experience. Maria described a breathtaking view from her trip, and John found solace in nature during his park visit with family, emphasizing the importance of cherishing those moments. They both appreciated nature's calming influence, with Maria highlighting aerial yoga as a way to find peace, and John expressing support for her hobbies. The conversation concluded with John encouraging Maria to keep smiling and shining.">
+        <Observation>
+          <text>John went on a mountaineering trip with workmates that helped clear his head.</text>
+          <source_dia_id>D18:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John reached the summit during the mountaineering trip and found the view stunning.</text>
+          <source_dia_id>D18:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John has been camping plenty of times and enjoys getting away from it all to be at one with nature.</text>
+          <source_dia_id>D18:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John believes nature helps in calming us down and acts like a reset button amidst chaos.</text>
+          <source_dia_id>D18:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John had an awesome day at the park with his family where the kids had fun on the playground.</text>
+          <source_dia_id>D18:22</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="19" datetime="7:20 pm on 16 June, 2023" summary="Maria and John spoke at 7:20 pm on 16 June, 2023. Maria shared her positive experience at the gym, aiming to get stronger and improve her endurance with kundalini yoga, while John mentioned trying out rock climbing. John celebrated his recent promotion to assistant manager, reflecting on the challenges he overcame, including self-doubt. Maria praised John's perseverance and determination, emphasizing the importance of support and self-belief. Both agreed on the significance of having loved ones by their side. John shared about his work schedule and balancing priorities, highlighting the importance of making time for oneself and loved ones. The conversation turned to beach memories, with Maria and John exchanging stories and photos from their vacations, emphasizing the value of creating cherished memories with family. The conversation ended on a positive note, highlighting the joy in special family moments.
+">
+        <Observation>
+          <text>John got promoted at work to assistant manager and is excited about it, seeing it as a stepping stone for bigger things.</text>
+          <source_dia_id>D19:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's trophy symbolizes the obstacles he overcame on his journey to the promotion.</text>
+          <source_dia_id>D19:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John shares about facing various challenges including tech issues, workplace hurdles, and self-doubt on his path to promotion.</text>
+          <source_dia_id>D19:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John mentions the importance of having support at home, believing in oneself, and staying determined.</text>
+          <source_dia_id>D19:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John values having loved ones' support on his journey, especially his family.</text>
+          <source_dia_id>D19:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John appreciates special family times and cherishes creating memories together.</text>
+          <source_dia_id>D19:26</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="20" datetime="12:21 am on 27 June, 2023" summary="Maria and John reconnect at 12:21 am on 27 June, 2023. Maria shares her struggles but mentions focusing on the positive and getting support from family and friends. John acknowledges the importance of support and asks how her family has been helping. Maria expresses gratitude for her family's encouragement and support. John talks about a recent lively event with his family, emphasizing the importance of cherishing moments with loved ones. Maria mentions finding silver linings by volunteering at a shelter, sharing a heartwarming experience. John appreciates the impact of small gestures on others. The conversation ends with John encouraging Maria to continue spreading positivity and making a difference.">
+        <Observation>
+          <text>John recalls having a blast at a live music event with his family last week.</text>
+          <source_dia_id>D20:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John emphasizes the importance of appreciating loved ones and finding silver linings in tough times.</text>
+          <source_dia_id>D20:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John finds it amazing how brief moments with others can make a big difference in bringing joy and happiness.</text>
+          <source_dia_id>D20:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John encourages Maria to continue spreading kindness and positivity, acknowledging the impact she is making.</text>
+          <source_dia_id>D20:14</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="21" datetime="8:43 pm on 3 July, 2023" summary="Maria and John caught up at 8:43 pm on 3 July, 2023. Maria shared about meeting kids at a shelter and an unfortunate car accident but mentioned helping her cousin find a new place. John offered his support and suggested finding resources for her cousin. Maria appreciated the kindness and mentioned the impact of small acts of kindness. John shared his participation in a veterans' rights event, emphasizing the importance of supporting causes. They encouraged each other to keep making a difference through activism and supporting important causes.">
+        <Observation>
+          <text>John expressed willingness to help Maria if she needed anything.</text>
+          <source_dia_id>D21:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John participated in a marching event for veterans' rights.</text>
+          <source_dia_id>D21:22</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John respects the military and believes in standing up for beliefs.</text>
+          <source_dia_id>D21:24</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John feels the importance of making a difference through activism and was motivated by it.</text>
+          <source_dia_id>D21:26</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="22" datetime="6:59 pm on 5 July, 2023" summary="John and Maria discussed the importance of education and infrastructure in shaping communities at 6:59 pm on 5 July, 2023. Maria supported John's efforts to make a positive change, citing his passion and proactive approach as inspiring. John mentioned feeling uplifted by Maria's understanding and support, showing a picture of his family who motivate him. They shared sources of inspiration like family, nature walks, and music. John emphasized the significance of finding what makes one excited and alive. They both noted the importance of taking time for oneself, as seen in John's regular sunset walks for peace and detachment. The conversation ended with mutual well wishes and plans to chat soon.">
+        <Observation>
+          <text>John has been thinking about how education and infrastructure shape communities.</text>
+          <source_dia_id>D22:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John feels it is an uphill battle to make a positive change in communities.</text>
+          <source_dia_id>D22:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John doubts if he is making a difference sometimes.</text>
+          <source_dia_id>D22:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's family motivates him to strive for change.</text>
+          <source_dia_id>D22:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John looks at a picture of his family when times get hard to remember why he is doing his work.</text>
+          <source_dia_id>D22:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is inspired by his family, exercise, and spending time with friends.</text>
+          <source_dia_id>D22:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John sees sunsets at least once a week during his walks to disconnect and find peace.</text>
+          <source_dia_id>D22:17</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="23" datetime="6:29 pm on 7 July, 2023" summary="John informed Maria about a recent flood in his area at 6:29 pm on 7 July, 2023, expressing the need to improve the community. Maria offered to help, leading to a discussion about working together to make a difference. They both acknowledged each other's determination and commitment to improving the community, planning to join forces for the cause. They expressed gratitude for each other's support and friendship, emphasizing the importance of small actions in creating a positive impact. They agreed to continue working together and spreading kindness to inspire hope in their community. John and Maria concluded their conversation, expressing excitement about making great things happen together.">
+        <Observation>
+          <text>John's old area was hit by a nasty flood last week causing damage to many homes.</text>
+          <source_dia_id>D23:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is taking initiative to get people together to discuss potential solutions for the issues in the community.</text>
+          <source_dia_id>D23:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John appreciates Maria's offer to help with the community issues.</text>
+          <source_dia_id>D23:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John mentions that Maria's support and friendship mean everything to him.</text>
+          <source_dia_id>D23:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John believes that together with Maria, they can make a difference and motivate others in the community.</text>
+          <source_dia_id>D23:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John acknowledges that little steps count and they can make a difference together.</text>
+          <source_dia_id>D23:9</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="24" datetime="3:34 pm on 17 July, 2023" summary="John and Maria discussed their recent experiences at 3:34 pm on 17 July, 2023. John shared his visit to a veteran's hospital, which inspired him to give back and appreciate what he has. Maria expressed the importance of supporting military veterans. John learned inspiring stories from a veteran named Samuel, which reaffirmed his desire to join the military. Maria commended the resilience of the veterans. They discussed fun activities they had recently enjoyed, such as picnics and games like charades and scavenger hunts. John mentioned planning similar activities for his kids based on a community event he attended. They emphasized the significance of spreading positivity, making connections, and helping others through acts of kindness. Both agreed on the importance of enjoying life's moments and making a difference.">
+        <Observation>
+          <text>John visited a veteran's hospital and met an elderly veteran named Samuel who shared inspiring and heartbreaking stories.</text>
+          <source_dia_id>D24:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is part of an organization where he works with passionate people and considers them like a family.</text>
+          <source_dia_id>D24:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is thinking of setting up fun activities like arts and crafts for his kids based on his experience at a community event.</text>
+          <source_dia_id>D24:9</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="25" datetime="6:21 pm on 22 July, 2023" summary="John and Maria had a conversation at 6:21 pm on 22 July, 2023. John talked about his new job and how his team is inspiring. Maria shared her hiking experience with church friends, mentioning the refreshing feeling of being surrounded by supportive people in nature. John and Maria discussed the benefits of connecting with good people and nature's beauty. Maria shared her upcoming plan to explore more and volunteer at shelters. John mentioned attending a chill yoga studio offering a variety of classes. They discussed trying new workout classes to mix things up. John encouraged Maria to try new classes and offered advice on starting. Maria ended the conversation, mentioning she was going to bake cakes.">
+        <Observation>
+          <text>John is enjoying his new job and finds his team to be encouraging and inspiring.</text>
+          <source_dia_id>D25:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John attends a yoga studio with a chill vibe and awesome instructors.</text>
+          <source_dia_id>D25:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>The yoga studio John attends offers a variety of classes including yoga, kickboxing, and circuit training.</text>
+          <source_dia_id>D25:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John has also done weight training classes and found them challenging but peaceful.</text>
+          <source_dia_id>D25:17</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="26" datetime="1:59 pm on 31 July, 2023" summary="At 1:59 pm on 31 July, 2023, Maria and John had a conversation. Maria shared that she had dropped off baked goods at a homeless shelter, feeling motivated to help more. John was inspired by Maria's efforts and mentioned joining a fire-fighting brigade to give back to the community, finding it rewarding. He described his first rescue mission with the team, saving a family from a burning building. Maria praised John's courage, highlighting the importance of supportive teamwork. John expressed gratitude for the bond with his team, comparing it to his time in the military. Maria shared a photo from her volunteering experience, emphasizing the impact of small acts of kindness. John encouraged her to continue her positive efforts, which Maria appreciated. They both pledged to keep making a difference and supporting each other, ending the conversation on a positive note.">
+        <Observation>
+          <text>John joined a firefighting brigade to give back to his community.</text>
+          <source_dia_id>D26:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John had his first call-out with the firefighting brigade last Sunday to help those in need.</text>
+          <source_dia_id>D26:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John was a part of a rescue mission that saved a family from a burning building.</text>
+          <source_dia_id>D26:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John mentioned his military background and the sense of bond and support he feels in the firefighting brigade.</text>
+          <source_dia_id>D26:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John believes in having friends you can rely on, as he finds it makes a huge difference.</text>
+          <source_dia_id>D26:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="27" datetime="6:20 pm on 3 August, 2023" summary="John and Maria had a conversation at 6:20 pm on 3 August, 2023. John shared how he involved family and friends in supporting the military through a virtual group. Maria praised John's efforts, mentioning her own volunteer work at a homeless shelter. She started volunteering after seeing a struggling family and finding fulfillment in helping others. John admired Maria's impact and discussed a note from a shelter resident expressing gratitude. They shared experiences about military memorials and emphasized teaching respect for veterans to younger generations. Maria commended John's work and emphasized the power of teamwork in achieving great things.">
+        <Observation>
+          <text>John is part of a virtual support group advocating for the military and has involved family and friends in supporting veterans.</text>
+          <source_dia_id>D27:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John admires Maria's volunteer work at a homeless shelter and finds it inspiring.</text>
+          <source_dia_id>D27:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John had a meaningful experience at a military memorial with his kids last week.</text>
+          <source_dia_id>D27:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's kids were awestruck and humbled when they visited the military memorial.</text>
+          <source_dia_id>D27:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="28" datetime="5:19 pm on 5 August, 2023" summary="
+At 5:19 pm on 5 August, 2023, John informed Maria that he lost his job at a mechanical engineering company that tanked. He expressed gratitude for her concern and mentioned pursuing opportunities in the tech industry, feeling hopeful about a potential job in a tech company. Maria praised his adaptability and offered support. The conversation shifted to volunteer experiences, with Maria sharing her recent community work and John recalling renovating a community center. They exchanged encouraging words, with Maria commending John for making a real difference and John expressing appreciation for her support. John promised to reach out if needed.">
+        <Observation>
+          <text>John lost his job at a mechanical engineering company that tanked.</text>
+          <source_dia_id>D28:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is looking into opportunities in the tech industry after losing his job.</text>
+          <source_dia_id>D28:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John found a job at a tech company that needs his mechanical skills for their hardware team.</text>
+          <source_dia_id>D28:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John helped renovate a rundown community center back home last year.</text>
+          <source_dia_id>D28:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John finds volunteering satisfying and valuable.</text>
+          <source_dia_id>D28:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="29" datetime="8:06 pm on 9 August, 2023" summary="Maria and John, at 8:06 pm on 9 August, 2023, caught up on their recent community involvement. Maria shared about volunteering at a homeless shelter, receiving a medal. John, who organized a charity run to help veterans, also raised funds for victims of domestic abuse with a local organization. They discussed challenges and the importance of supporting such causes. Both expressed admiration for each other's efforts and commitment to making a difference. They ended on a positive note, agreeing to continue spreading awareness and supporting important causes, reflecting on the impact of community involvement.">
+        <Observation>
+          <text>John organized a 5K charity run in the neighborhood to help veterans and their families.</text>
+          <source_dia_id>D29:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John faced challenges in getting sponsors for the charity run but was successful in the end.</text>
+          <source_dia_id>D29:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John has organized events for causes other than helping veterans, like raising awareness and funds for victims of domestic abuse.</text>
+          <source_dia_id>D29:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John believes it's important to come together for important causes like supporting victims of domestic abuse.</text>
+          <source_dia_id>D29:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John values Maria's passion and motivation in supporting causes and spreading positivity in the community.</text>
+          <source_dia_id>D29:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="30" datetime="12:10 am on 11 August, 2023" summary="Maria and John caught up at 12:10 am on 11 August 2023. Maria shared that she got a puppy named Coco, and John showed her a photo of his late dog, Max. They discussed the joy of having pets and how nature can be a refreshing escape. John opened up about feeling stagnant and wanting to make a positive impact, considering joining local organizations. Maria offered support and encouraged him, ending the conversation on a positive note.">
+        <Observation>
+          <text>John cherishes memories of his pet Max, including a camping trip where they hiked, swam, and made great memories.</text>
+          <source_dia_id>D30:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John found the camping trip with his pet Max to be peaceful and awesome.</text>
+          <source_dia_id>D30:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John values nature as a way to restart his mind and spirit, appreciating the peaceful moments.</text>
+          <source_dia_id>D30:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John expresses feeling stuck and wanting to positively affect people and the world.</text>
+          <source_dia_id>D30:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John has been exploring options to make a difference, considering joining local organizations or volunteering programs.</text>
+          <source_dia_id>D30:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John appreciates Maria's kind words and finds her an inspiration.</text>
+          <source_dia_id>D30:22</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="31" datetime="3:14 pm on 13 August, 2023" summary="At 3:14 pm on August 13, 2023, John told Maria about volunteering as a mentor and how rewarding it was. Maria shared adopting a new pup named Shadow. They discussed the joy pets bring, and John expressed interest in getting a new pup. They praised the positive impact of animals. John mentioned improvements in the mentoring program, while Maria talked about Shadow's progress. They agreed on the comfort and happiness pets bring. John described family activities they enjoy, and they both emphasized the importance of family time. They shared goodbyes, wishing each other a great day.">
+        <Observation>
+          <text>John is volunteering as a mentor for a local school, helping students improve their confidence and skills.</text>
+          <source_dia_id>D31:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is considering adopting a new pup and plans to look into shelters near him soon.</text>
+          <source_dia_id>D31:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John enjoys outdoor activities such as hiking, picnics, and board games with his family.</text>
+          <source_dia_id>D31:19</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John values his family greatly and appreciates their support, considering them the best thing ever.</text>
+          <source_dia_id>D31:17</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="32" datetime="11:08 am on 16 August, 2023" summary="John excitedly told Maria about joining the fire-fighting brigade at 11:08 am on 16 August, 2023. He was inspired by their dedication and teamwork. They worked hard and raised donations like canned food and clothes. Maria admired the community coming together in support. John felt a sense of purpose and passion in his new role. Maria shared her volunteer experience at a shelter, emphasizing the power of kindness. They both pledged to continue making a difference in their community and stay motivated together.">
+        <Observation>
+          <text>John is now part of the fire-fighting brigade and is enthusiastic about helping the community.</text>
+          <source_dia_id>D32:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John was impressed with the dedication and teamwork of the people in the fire-fighting brigade.</text>
+          <source_dia_id>D32:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John and his team raised donations like canned food, toiletries, and clothes for the cause.</text>
+          <source_dia_id>D32:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John feels a sense of purpose and passion in helping out with the fire-fighting brigade, considering it his true calling.</text>
+          <source_dia_id>D32:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>The donations raised by John and his team helped in getting a brand new fire truck.</text>
+          <source_dia_id>D32:11</source_dia_id>
+        </Observation>
+      </Session>
+    </Speaker>
+    <Speaker name="Maria">
+      <Session session_id="1" datetime="11:01 am on 17 December, 2022" summary="Maria and John met at 11:01 am on 17 December, 2022. Maria mentioned she has been busy volunteering at a homeless shelter and doing aerial yoga to stay fit. John shared that he had just returned from a family road trip and is now into kickboxing to stay energized. John expressed his goal of getting into local politics to improve education and infrastructure, inspired by the needs he saw growing up in his neighborhood. Maria applauded his efforts and asked about his next steps in the campaign. John plans to talk to local leaders and organizations for support and ideas. Maria encouraged him and asked to keep her updated on his progress.">
+        <Observation>
+          <text>Maria volunteers at a homeless shelter and recently started aerial yoga.</text>
+          <source_dia_id>D1:3</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="2" datetime="6:10 pm on 22 December, 2022" summary="At 6:10 pm on 22 December 2022, Maria asked John about his campaign progress and shared her recent experience of donating her old car. John mentioned networking for insights, motivated by a conversation on education. Maria praised his enthusiasm and commitment, highlighting the power of minor tweaks in the community. She encouraged John, who credited his family for his drive, showing a photo of them. Maria acknowledged the importance of family support and shared her preference for quality time with loved ones. John reciprocated the sentiment, emphasizing the value of making memories together. They discussed family activities and shared pictures, concluding with a plan to cherish happy moments with their families. John then mentioned his plan to do some taekwondo.">
+        <Observation>
+          <text>Maria donated her old car to a homeless shelter where she volunteers.</text>
+          <source_dia_id>D2:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria believes that even minor tweaks to the system can make a big difference for many people.</text>
+          <source_dia_id>D2:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria enjoys spending time with friends watching movies, hiking, and having game nights at her place.</text>
+          <source_dia_id>D2:17</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria made peach cobbler recently.</text>
+          <source_dia_id>D2:25</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="3" datetime="8:30 pm on 1 January, 2023" summary="At 8:30 pm on 1 January, 2023, John shared with Maria his positive experience with a service-focused online group, feeling a connection and purpose with inspiring individuals. They discussed events like serving at a homeless shelter and arranging a toy drive. John mentioned plans for future projects assisting underserved communities in education and mentorship. Maria praised his initiatives, emphasizing the impact of support and encouraging him to continue. John, feeling stressed after failing a test, appreciated Maria's support. They also bonded over nature's beauty, with Maria sharing a calming beach sunset photo. John reminisced about his childhood beach photography. The conversation highlighted finding joy in simple moments amid life's busyness.">
+        <Observation>
+          <text>Maria appreciates nature's beauty and finds it a source of relaxation and a reminder to enjoy the small things in life.</text>
+          <source_dia_id>D3:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria took a peaceful sunset picture at the beach last month that made her feel connected to nature and appreciate life's small moments.</text>
+          <source_dia_id>D3:14</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="4" datetime="7:06 pm on 9 January, 2023" summary="Maria informed John at 7:06 pm on 9 January, 2023, that she became friends with a fellow volunteer and asked about his well-being. John shared an incident from the previous week that made him realize the unpredictability of life. Maria empathized with his experience and commended his resilience. John mentioned staying calm and seeking help during the incident, leading to a safe outcome. Maria praised his resourcefulness and discussed coping mechanisms like admiring sunsets. John updated Maria on his involvement in local politics and community engagement, with plans for future meetings. They appreciated each other's support and unity in working towards community development. They expressed readiness to make positive changes together, emphasizing the importance of collaboration. John thanked Maria for being a great friend and part of a strong team.">
+        <Observation>
+          <text>Maria recently became friends with a fellow volunteer who shares a passion for helping others.</text>
+          <source_dia_id>D4:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria appreciates the importance of staying strong during tough times.</text>
+          <source_dia_id>D4:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria values appreciating what one has and staying strong during challenges.</text>
+          <source_dia_id>D4:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria takes notes about local politics in her notebook.</text>
+          <source_dia_id>D4:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria supports John's community work and helps him with new ideas and plans.</text>
+          <source_dia_id>D4:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria believes in working together to bring positive changes and discussions to the community.</text>
+          <source_dia_id>D4:19</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria emphasizes the importance of unity and teamwork for addressing community problems.</text>
+          <source_dia_id>D4:23</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="5" datetime="1:17 pm on 28 January, 2023" summary="John and Maria discussed the sorry state of education and the need for more funding and resources for schools to support kids' success. They both agreed on the importance of advocating for better education. Maria shared her experience volunteering at a shelter event for kids and how it was inspired by her aunt. She mentioned a touching moment with a little girl that left a lasting impact. John also shared a childhood memory that reinforced the importance of looking out for others in times of need. Both emphasized the significance of kindness and support in making a difference for those feeling down, expressing their agreement on the topic.">
+        <Observation>
+          <text>Maria expressed sadness about the state of education and the lack of proper resources for kids.</text>
+          <source_dia_id>D5:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria mentioned volunteering at a shelter during an event for kids, showing a commitment to helping those in need.</text>
+          <source_dia_id>D5:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria volunteered to help make a difference and shared that her aunt's involvement in volunteering inspired her.</text>
+          <source_dia_id>D5:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria had a touching moment with a lonely girl at the shelter, providing comfort and company, which made an impact on her.</text>
+          <source_dia_id>D5:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria values spreading kindness and support to make a difference, especially for those feeling down.</text>
+          <source_dia_id>D5:14</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="6" datetime="2:33 pm on 5 February, 2023" summary="At 2:33 pm on 5 February 2023, Maria informed John about her recent charity event and the impact it had on her, emphasizing the power of collective effort in helping others. John praised her efforts and expressed his interest in serving the community through politics. Maria shared a touching encounter with a man named David at the event, leading to her connecting him with support services. John discussed his involvement in a food drive for the unemployed and expressed gratitude for the community's response. Maria offered to help with future initiatives, and both acknowledged the importance of supporting each other and working together towards a common goal. Their conversation highlighted their commitment to helping those in need and their strong friendship.">
+        <Observation>
+          <text>Maria participated in a charity event last Friday and found it rewarding and heartwarming.</text>
+          <source_dia_id>D6:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria had a conversation with someone named David at the charity event, who shared a story of hardship, leading Maria to link him up with a local organization for support.</text>
+          <source_dia_id>D6:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>When Maria was younger, her family had money problems and had to rely on help from their auntie, teaching her the importance of helping others in need.</text>
+          <source_dia_id>D6:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria offered to help John with his community food drive initiative by networking or volunteering at future events.</text>
+          <source_dia_id>D6:17</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria expressed her willingness to always be there to help John whenever he needs it.</text>
+          <source_dia_id>D6:19</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria reassured John that she would always be there for him because he is a great friend to her.</text>
+          <source_dia_id>D6:21</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="7" datetime="8:55 pm on 25 February, 2023" summary="Maria informed John about taking a creative writing class, while John revealed his excitement about running for office again. They discussed their reasons for volunteering and running for office, sharing inspiring stories about resilience and positivity. They emphasized the importance of kindness, optimism, and making a positive impact. John mentioned attending a yoga class soon, and they agreed to work together to bring positive change to their community.">
+        <Observation>
+          <text>Maria recently took a creative writing class.</text>
+          <source_dia_id>D7:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria has been volunteering at a homeless shelter, finding it rewarding.</text>
+          <source_dia_id>D7:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>During her volunteering, Maria met a woman named Jean who showed her the importance of gratitude and connection.</text>
+          <source_dia_id>D7:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria values positivity and optimism, even in tough situations.</text>
+          <source_dia_id>D7:9</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="8" datetime="6:03 pm on 6 March, 2023" summary="At 6:03 pm on 6 March 2023, Maria shared with John about her grandmother's recent passing and the challenges she's facing. John expressed his condolences and updated Maria on his happy family life with wife and kids, particularly mentioning his one-year-old son, Kyle. They discussed parenting experiences and family activities, including a recent picnic that everyone enjoyed. John shared his interest in volunteering after a positive aptitude test experience, while Maria talked about her volunteer work at a homeless shelter. They agreed on the importance of building genuine connections to make a difference.">
+        <Observation>
+          <text>Maria's grandma passed away last week, causing her to go through a tough time.</text>
+          <source_dia_id>D8:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria volunteers at a homeless shelter.</text>
+          <source_dia_id>D8:21</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="9" datetime="9:36 am on 2 April, 2023" summary="Maria and John reconnected at 9:36 am on 2 April, 2023. Maria shared about taking a poetry class to express her feelings while John mentioned finishing his degree, expressing interest in policymaking to make a positive impact. John's focus areas were education and infrastructure, influenced by his community involvement. Maria praised John's dedication and they both agreed on the importance of finding solutions together. They reminisced about past volunteer experiences and pledged support for each other's efforts to improve lives.">
+        <Observation>
+          <text>Maria has been taking a poetry class to help express her feelings.</text>
+          <source_dia_id>D9:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria congratulated John on finishing his degree.</text>
+          <source_dia_id>D9:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria is supportive of John's plans for the future in policymaking.</text>
+          <source_dia_id>D9:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria remembers John mentioning his interest in education and infrastructure improvements.</text>
+          <source_dia_id>D9:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria praised John for his dedication and commitment to finding solutions for community issues.</text>
+          <source_dia_id>D9:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria finds it satisfying and worthwhile to work on community issues.</text>
+          <source_dia_id>D9:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="10" datetime="12:24 am on 7 April, 2023" summary="John and Maria had a conversation at 12:24 am on 7 April, 2023. John shared his excitement about starting a weekend yoga class with a colleague, focusing on stretching and breathing, which made him feel great mentally and physically. He praised the instructor for creating a welcoming environment, helping participants do poses correctly, and listen to their bodies. Maria expressed her support and interest, asking about the class and the impact on John. John mentioned feeling more relaxed and connected, integrating yoga into his daily routine. Maria shared her recent experience participating in a charity run for a homeless shelter, highlighting the energy and sense of unity. John then talked about volunteering at a career fair, helping kids with limited resources, which Maria found inspiring. They encouraged each other to continue making a difference and supporting those in need. Their conversation highlighted the power of community involvement and positive impact through simple acts of kindness and support.">
+        <Observation>
+          <text>Maria recently participated in a 5K charity run for a homeless shelter and found it rewarding to be surrounded by people with a shared cause.</text>
+          <source_dia_id>D10:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria finds events like charity runs energizing and a reminder that individuals can make a difference.</text>
+          <source_dia_id>D10:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria was inspired by the energy and sense of unity at the charity run.</text>
+          <source_dia_id>D10:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria believes it's sad how lack of resources can impact kids' dreams and finds helping them rewarding.</text>
+          <source_dia_id>D10:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria motivates John for the awesome work he's doing in helping kids and encourages him to keep up the good work.</text>
+          <source_dia_id>D10:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria believes in making a difference and helping lots of people in the community.</text>
+          <source_dia_id>D10:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="11" datetime="6:13 pm on 10 April, 2023" summary="At 6:13 pm on 10 April 2023, John and Maria caught up after a few days. John shared his car troubles causing financial strain but staying positive. Maria praised his resilience. John shared a picture from a past road trip to the Pacific Northwest, highlighting the beauty of nature. Maria and John discussed the importance of finding peace in nature during tough times. Maria mentioned giving talks at a homeless shelter and finding joy in helping others. John praised her impact and dedication to building relationships. They ended the conversation with mutual appreciation for each other's positivity and promising to talk soon.">
+        <Observation>
+          <text>Maria recently gave talks at the homeless shelter where she volunteers and received compliments for her efforts.</text>
+          <source_dia_id>D11:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria bought a cross necklace to feel closer to her faith and it has made her happy.</text>
+          <source_dia_id>D11:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria considers the people at the shelter like family to her.</text>
+          <source_dia_id>D11:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria helped organize a meal for shelter residents to bring people together and create a sense of comfort and community.</text>
+          <source_dia_id>D11:16</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="12" datetime="7:34 pm on 18 April, 2023" summary="John and Maria had a conversation at 7:34 pm on 18 April, 2023. John shared his passion for blogging about politics and government, focusing on education and infrastructure for positive change. Maria showed support for his dedication and discussed her volunteer work at a homeless shelter. They both acknowledged the impact of small acts of kindness in making a difference and inspiring others. John also mentioned his involvement in a tech convention with like-minded individuals. The conversation highlighted their commitment to creating a positive impact in their community through various means.">
+        <Observation>
+          <text>Maria agrees with John on the importance of education and infrastructure for community growth.</text>
+          <source_dia_id>D12:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria thinks John's hard work will start conversations and create positive change.</text>
+          <source_dia_id>D12:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria believes that every small act of kindness can have a big effect and advocates for making a difference.</text>
+          <source_dia_id>D12:22</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria volunteers at a homeless shelter, finding it fulfilling but also feeling overwhelmed by the growing need for help.</text>
+          <source_dia_id>D12:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="13" datetime="3:18 pm on 4 May, 2023" summary="John and Maria caught up at 3:18 pm on May 4, 2023. John shared that he started going to boot camps with his family, leading to increased energy and fitness gains. They work out together three times a week and motivate each other. Maria praised their commitment and discussed the importance of having a supportive family. John mentioned how his family supported each other during workouts and emotionally. Maria shared about finding balance in life through self-care and spending time with loved ones. She also reflected on a transformative solo trip to Spain, highlighting the importance of inner strength and appreciating small moments. John admired her perspective and the picture from her trip, emphasizing the value of trying new things and pushing boundaries for personal growth. They both agreed on the importance of challenging themselves and maintaining a positive mindset for continuous learning and development.">
+        <Observation>
+          <text>Maria enjoys a variety of foods like salads, sandwiches, and homemade desserts.</text>
+          <source_dia_id>D13:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria's favorite is the banana split sundae, which she enjoys after a day of volunteering.</text>
+          <source_dia_id>D13:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria values balance in life and finds joy in small moments.</text>
+          <source_dia_id>D13:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria took a solo trip to Spain last year which helped her appreciate life more.</text>
+          <source_dia_id>D13:24</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria tried surfing for the first time on her vacation in Spain.</text>
+          <source_dia_id>D13:30</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria believes in pushing boundaries for growth and self-exploration.</text>
+          <source_dia_id>D13:36</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="14" datetime="5:04 pm on 6 May, 2023" summary="John and Maria had a conversation at 5:04 pm on May 6, 2023. John shared his decision to run for office again, driven by his dream to make a difference in the community. Maria encouraged John to keep going and take risks, expressing her pride and support for him. John appreciated Maria's support and motivation, acknowledging that her belief in him keeps him going. Maria shared her involvement in charity work at a nearby church, finding it fulfilling. John discussed the need for infrastructure improvements in the community, particularly in roadways. Maria offered to help with community projects to address these issues. Both agreed to work together to make a real difference in their neighborhood by fighting for better living conditions and affordable housing. They concluded to keep working together to create a safe and thriving environment for their community.">
+        <Observation>
+          <text>Maria has been doing charity work recently, which she finds rewarding and fulfilling.</text>
+          <source_dia_id>D14:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria joined a nearby church to feel closer to a community and her faith, finding it to be a great experience.</text>
+          <source_dia_id>D14:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria's life has been a bit rough lately, but she is taking time to reflect and find balance.</text>
+          <source_dia_id>D14:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria is willing to work with John on a community project regarding infrastructure to get the neighborhood's backing.</text>
+          <source_dia_id>D14:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria wants to work together with John to create a safe and bustling environment for the community and others, to make real change.</text>
+          <source_dia_id>D14:22</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="15" datetime="7:38 pm on 20 May, 2023" summary="John and Maria were discussing a project John is working on to support military veterans on 20th May 2023 at 7:38 pm. John shared his passion for veterans and his desire to show appreciation for their service. Maria praised John for his kind gesture and agreed to support the project. John showed a picture of veterans from a recent party he organized and mentioned the importance of creating connections and a sense of community. Maria expressed admiration for John's efforts and shared her own plan for a fundraiser. The conversation ended with both agreeing to continue making a positive impact in their community.">
+        <Observation>
+          <text>Maria is supportive of John's project to support veterans and is willing to help out.</text>
+          <source_dia_id>D15:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria is planning a ring-toss tournament for a homeless shelter's fundraiser later in the month.</text>
+          <source_dia_id>D15:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="16" datetime="1:24 pm on 25 May, 2023" summary="John and Maria had a conversation at 1:24 pm on 25 May, 2023. John updated Maria about his petition progress and shared a picture of his workmates on a hiking trip. Maria mentioned preparing for a fundraiser at a shelter and John offered to help. They discussed spreading the word about the fundraiser and finding volunteers. John shared a picture of his family at the beach. They both emphasized the importance of appreciating little moments and making a positive impact. Maria thanked John for his support, and they agreed to stay motivated towards their goals. The conversation ended with a mutual belief in making a difference.">
+        <Observation>
+          <text>Maria is busy at the shelter preparing for a fundraiser to cover basic needs for the homeless.</text>
+          <source_dia_id>D16:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria shared a poster for a chili cook-off at the fundraiser with John.</text>
+          <source_dia_id>D16:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria asked John for help in spreading the word about the charity fundraiser.</text>
+          <source_dia_id>D16:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria values and appreciates John's assistance with the charity fundraiser.</text>
+          <source_dia_id>D16:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria finds working with passionate people like John motivating.</text>
+          <source_dia_id>D16:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria believes that moments like the shared photo bring peace and appreciation for life.</text>
+          <source_dia_id>D16:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria finds reminders about positive impacts motivating to continue making a difference.</text>
+          <source_dia_id>D16:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="17" datetime="11:51 am on 3 June, 2023" summary="John and Maria, having a conversation at 11:51 am on 3 June, 2023, discussed the loss of John's beloved pet Max, who was a significant part of their family for 10 years. They shared memories of Max, acknowledging the importance of love and loyalty that pets bring to our lives. John expressed his family's sadness but also their gratitude for the joy Max brought. Maria offered comfort and support, suggesting they honor Max's memory by considering adopting a rescue dog to teach their kids love and compassion. They ended the conversation by expressing their appreciation for each other's friendship and support.">
+        <Observation>
+          <text>Maria offered John her condolences and support after hearing about the loss of Max, acknowledging the importance of pets as part of the family.</text>
+          <source_dia_id>D17:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria started volunteering at a local dog shelter once a month, showing her compassion towards animals and her willingness to help.</text>
+          <source_dia_id>D17:12</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="18" datetime="2:47 pm on 12 June, 2023" summary="Maria and John had a conversation at 2:47 pm on 12 June, 2023. Maria expressed her sympathy to John for losing his pet, and they both shared recent experiences of finding solace in nature. Maria discussed a camping trip that helped take her mind off things, while John went mountaineering to clear his head. They discussed their past adventures, with Maria mentioning a family trip to Oregon and John sharing a recent mountaineering experience. Maria described a breathtaking view from her trip, and John found solace in nature during his park visit with family, emphasizing the importance of cherishing those moments. They both appreciated nature's calming influence, with Maria highlighting aerial yoga as a way to find peace, and John expressing support for her hobbies. The conversation concluded with John encouraging Maria to keep smiling and shining.">
+        <Observation>
+          <text>Maria went camping with friends from church to take her mind off things.</text>
+          <source_dia_id>D18:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria and her family went on a road trip to Oregon when she was younger.</text>
+          <source_dia_id>D18:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria described a view of a waterfall and bridge as awesome and breath-taking.</text>
+          <source_dia_id>D18:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria felt like she was in a fairy tale at the waterfall, with calming water sounds and beautiful surroundings.</text>
+          <source_dia_id>D18:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria has gone camping a few times but has never tried mountain climbing.</text>
+          <source_dia_id>D18:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria finds peaceful moments by having a moment to herself with favorite tunes and practicing aerial yoga.</text>
+          <source_dia_id>D18:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria enjoys upside-down yoga poses as they make her feel free and light.</text>
+          <source_dia_id>D18:17</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="19" datetime="7:20 pm on 16 June, 2023" summary="Maria and John spoke at 7:20 pm on 16 June, 2023. Maria shared her positive experience at the gym, aiming to get stronger and improve her endurance with kundalini yoga, while John mentioned trying out rock climbing. John celebrated his recent promotion to assistant manager, reflecting on the challenges he overcame, including self-doubt. Maria praised John's perseverance and determination, emphasizing the importance of support and self-belief. Both agreed on the significance of having loved ones by their side. John shared about his work schedule and balancing priorities, highlighting the importance of making time for oneself and loved ones. The conversation turned to beach memories, with Maria and John exchanging stories and photos from their vacations, emphasizing the value of creating cherished memories with family. The conversation ended on a positive note, highlighting the joy in special family moments.
+">
+        <Observation>
+          <text>Maria recently joined a gym and is sticking to her workout routine, enjoying the positive environment and supportive people there.</text>
+          <source_dia_id>D19:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria's fitness goal is to get stronger, improve her endurance, and she is trying kundalini yoga.</text>
+          <source_dia_id>D19:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria admires John's trophy and asks about its backstory.</text>
+          <source_dia_id>D19:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria acknowledges John's challenges and commends his perseverance and determination.</text>
+          <source_dia_id>D19:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria values belief in oneself and mentions the importance of having loved ones' support.</text>
+          <source_dia_id>D19:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria enjoys taking time off for herself and her family and appreciates creating memories together.</text>
+          <source_dia_id>D19:21</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria shares a special beach memory from a vacation in Florida with her family.</text>
+          <source_dia_id>D19:23</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria appreciates the joy and carefree moments of family vacations.</text>
+          <source_dia_id>D19:25</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="20" datetime="12:21 am on 27 June, 2023" summary="Maria and John reconnect at 12:21 am on 27 June, 2023. Maria shares her struggles but mentions focusing on the positive and getting support from family and friends. John acknowledges the importance of support and asks how her family has been helping. Maria expresses gratitude for her family's encouragement and support. John talks about a recent lively event with his family, emphasizing the importance of cherishing moments with loved ones. Maria mentions finding silver linings by volunteering at a shelter, sharing a heartwarming experience. John appreciates the impact of small gestures on others. The conversation ends with John encouraging Maria to continue spreading positivity and making a difference.">
+        <Observation>
+          <text>Maria has been struggling but is focusing on the positive and relying on friends and family for support.</text>
+          <source_dia_id>D20:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria's family has been her rock, giving her words of encouragement and reminding her she's not alone.</text>
+          <source_dia_id>D20:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria finds joy and fulfillment in volunteering at a shelter to help others.</text>
+          <source_dia_id>D20:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria had a special memory at the shelter when playing with kids made someone who had been sad suddenly laugh, which was uplifting.</text>
+          <source_dia_id>D20:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria sees making a difference in others' lives as a source of joy for herself.</text>
+          <source_dia_id>D20:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria feels that spreading kindness and positivity is her way of impacting the world.</text>
+          <source_dia_id>D20:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="21" datetime="8:43 pm on 3 July, 2023" summary="Maria and John caught up at 8:43 pm on 3 July, 2023. Maria shared about meeting kids at a shelter and an unfortunate car accident but mentioned helping her cousin find a new place. John offered his support and suggested finding resources for her cousin. Maria appreciated the kindness and mentioned the impact of small acts of kindness. John shared his participation in a veterans' rights event, emphasizing the importance of supporting causes. They encouraged each other to keep making a difference through activism and supporting important causes.">
+        <Observation>
+          <text>Maria met some kids at a shelter.</text>
+          <source_dia_id>D21:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria got hit by a car that ran a red light, but everyone is okay.</text>
+          <source_dia_id>D21:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria is helping her cousin find a new place to stay after a tough time.</text>
+          <source_dia_id>D21:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria's cousin had to leave and find a new place in a hurry, causing stress, but is making progress.</text>
+          <source_dia_id>D21:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria appreciates kindness and care.</text>
+          <source_dia_id>D21:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria loves volunteering and feels it makes a difference, even if it's a small one.</text>
+          <source_dia_id>D21:21</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="22" datetime="6:59 pm on 5 July, 2023" summary="John and Maria discussed the importance of education and infrastructure in shaping communities at 6:59 pm on 5 July, 2023. Maria supported John's efforts to make a positive change, citing his passion and proactive approach as inspiring. John mentioned feeling uplifted by Maria's understanding and support, showing a picture of his family who motivate him. They shared sources of inspiration like family, nature walks, and music. John emphasized the significance of finding what makes one excited and alive. They both noted the importance of taking time for oneself, as seen in John's regular sunset walks for peace and detachment. The conversation ended with mutual well wishes and plans to chat soon.">
+        <Observation>
+          <text>Maria agrees with John on the crucial role of education and infrastructure in shaping communities.</text>
+          <source_dia_id>D22:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria supports John in his efforts to make a positive change in communities.</text>
+          <source_dia_id>D22:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria is inspired by chatting to people, volunteering, and listening to music.</text>
+          <source_dia_id>D22:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria takes regular 'me-time' walks at the park nearby to find peace.</text>
+          <source_dia_id>D22:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="23" datetime="6:29 pm on 7 July, 2023" summary="John informed Maria about a recent flood in his area at 6:29 pm on 7 July, 2023, expressing the need to improve the community. Maria offered to help, leading to a discussion about working together to make a difference. They both acknowledged each other's determination and commitment to improving the community, planning to join forces for the cause. They expressed gratitude for each other's support and friendship, emphasizing the importance of small actions in creating a positive impact. They agreed to continue working together and spreading kindness to inspire hope in their community. John and Maria concluded their conversation, expressing excitement about making great things happen together.">
+        <Observation>
+          <text>Maria empathizes with John about the tough situation in his area due to the flood.</text>
+          <source_dia_id>D23:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria expresses her willingness to join the meeting and contribute to making the community better.</text>
+          <source_dia_id>D23:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria admires John's determination and commitment to helping others.</text>
+          <source_dia_id>D23:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria mentions that John's commitment to helping others is inspiring.</text>
+          <source_dia_id>D23:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria believes that their actions, no matter how small, can have a big impact on the community.</text>
+          <source_dia_id>D23:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria emphasizes the importance of spreading kindness and inspiring hope in the community.</text>
+          <source_dia_id>D23:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria mentions having dinner with friends from the gym.</text>
+          <source_dia_id>D23:14</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="24" datetime="3:34 pm on 17 July, 2023" summary="John and Maria discussed their recent experiences at 3:34 pm on 17 July, 2023. John shared his visit to a veteran's hospital, which inspired him to give back and appreciate what he has. Maria expressed the importance of supporting military veterans. John learned inspiring stories from a veteran named Samuel, which reaffirmed his desire to join the military. Maria commended the resilience of the veterans. They discussed fun activities they had recently enjoyed, such as picnics and games like charades and scavenger hunts. John mentioned planning similar activities for his kids based on a community event he attended. They emphasized the significance of spreading positivity, making connections, and helping others through acts of kindness. Both agreed on the importance of enjoying life's moments and making a difference.">
+        <Observation>
+          <text>Maria had a picnic with friends from church where they played games like charades and a scavenger hunt.</text>
+          <source_dia_id>D24:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria appreciates the importance of making connections and enjoying life's simpler moments.</text>
+          <source_dia_id>D24:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria believes that doing good and helping others brings joy, and little acts of kindness can have a big effect.</text>
+          <source_dia_id>D24:16</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="25" datetime="6:21 pm on 22 July, 2023" summary="John and Maria had a conversation at 6:21 pm on 22 July, 2023. John talked about his new job and how his team is inspiring. Maria shared her hiking experience with church friends, mentioning the refreshing feeling of being surrounded by supportive people in nature. John and Maria discussed the benefits of connecting with good people and nature's beauty. Maria shared her upcoming plan to explore more and volunteer at shelters. John mentioned attending a chill yoga studio offering a variety of classes. They discussed trying new workout classes to mix things up. John encouraged Maria to try new classes and offered advice on starting. Maria ended the conversation, mentioning she was going to bake cakes.">
+        <Observation>
+          <text>Maria had a great experience hiking with her church friends last weekend, feeling surrounded by supportive people and enjoying nature.</text>
+          <source_dia_id>D25:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria wanted to make connections, laugh together, and take in nature's beauty during the hike.</text>
+          <source_dia_id>D25:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria plans to explore more and volunteer at shelters next month.</text>
+          <source_dia_id>D25:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria is off to bake some cakes after the conversation.</text>
+          <source_dia_id>D25:20</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="26" datetime="1:59 pm on 31 July, 2023" summary="At 1:59 pm on 31 July, 2023, Maria and John had a conversation. Maria shared that she had dropped off baked goods at a homeless shelter, feeling motivated to help more. John was inspired by Maria's efforts and mentioned joining a fire-fighting brigade to give back to the community, finding it rewarding. He described his first rescue mission with the team, saving a family from a burning building. Maria praised John's courage, highlighting the importance of supportive teamwork. John expressed gratitude for the bond with his team, comparing it to his time in the military. Maria shared a photo from her volunteering experience, emphasizing the impact of small acts of kindness. John encouraged her to continue her positive efforts, which Maria appreciated. They both pledged to keep making a difference and supporting each other, ending the conversation on a positive note.">
+        <Observation>
+          <text>Maria dropped off baked goods at a homeless shelter last week and is motivated to help people.</text>
+          <source_dia_id>D26:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria volunteers at a homeless shelter and is driven to make a difference.</text>
+          <source_dia_id>D26:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria shared a photo from her volunteer work that reminds her of the importance of kindness.</text>
+          <source_dia_id>D26:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="27" datetime="6:20 pm on 3 August, 2023" summary="John and Maria had a conversation at 6:20 pm on 3 August, 2023. John shared how he involved family and friends in supporting the military through a virtual group. Maria praised John's efforts, mentioning her own volunteer work at a homeless shelter. She started volunteering after seeing a struggling family and finding fulfillment in helping others. John admired Maria's impact and discussed a note from a shelter resident expressing gratitude. They shared experiences about military memorials and emphasized teaching respect for veterans to younger generations. Maria commended John's work and emphasized the power of teamwork in achieving great things.">
+        <Observation>
+          <text>Maria volunteers at a homeless shelter, which she started about a year ago after witnessing a struggling family on the streets.</text>
+          <source_dia_id>D27:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria finds volunteering at the homeless shelter really fulfilling and impactful.</text>
+          <source_dia_id>D27:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria mentioned Cindy, a resident at the shelter, who wrote a heartfelt expression of gratitude.</text>
+          <source_dia_id>D27:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria believes it's important for younger generations to remember and appreciate those who served in the military.</text>
+          <source_dia_id>D27:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria thinks it's important to teach kids about veterans and their contributions.</text>
+          <source_dia_id>D27:14</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="28" datetime="5:19 pm on 5 August, 2023" summary="
+At 5:19 pm on 5 August, 2023, John informed Maria that he lost his job at a mechanical engineering company that tanked. He expressed gratitude for her concern and mentioned pursuing opportunities in the tech industry, feeling hopeful about a potential job in a tech company. Maria praised his adaptability and offered support. The conversation shifted to volunteer experiences, with Maria sharing her recent community work and John recalling renovating a community center. They exchanged encouraging words, with Maria commending John for making a real difference and John expressing appreciation for her support. John promised to reach out if needed.">
+        <Observation>
+          <text>Maria engaged in community work with friends from church yesterday.</text>
+          <source_dia_id>D28:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria believes in the importance of kindness and compassion.</text>
+          <source_dia_id>D28:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria offered her support and encouragement to John in his tough times.</text>
+          <source_dia_id>D28:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria finds volunteering rewarding and important.</text>
+          <source_dia_id>D28:10</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="29" datetime="8:06 pm on 9 August, 2023" summary="Maria and John, at 8:06 pm on 9 August, 2023, caught up on their recent community involvement. Maria shared about volunteering at a homeless shelter, receiving a medal. John, who organized a charity run to help veterans, also raised funds for victims of domestic abuse with a local organization. They discussed challenges and the importance of supporting such causes. Both expressed admiration for each other's efforts and commitment to making a difference. They ended on a positive note, agreeing to continue spreading awareness and supporting important causes, reflecting on the impact of community involvement.">
+        <Observation>
+          <text>Maria volunteered at a homeless shelter last week and received a medal for her help.</text>
+          <source_dia_id>D29:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria found a community event inspiring and heartwarming.</text>
+          <source_dia_id>D29:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria expressed admiration for John's initiative in organizing a charity run for veterans.</text>
+          <source_dia_id>D29:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria thinks domestic abuse is a horrible issue and supports raising awareness and funds for it.</text>
+          <source_dia_id>D29:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Both Maria and John agree on the importance of spreading awareness and supporting causes in the community.</text>
+          <source_dia_id>D29:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria appreciates having a friend like John who is passionate and motivated about making a difference.</text>
+          <source_dia_id>D29:17</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="30" datetime="12:10 am on 11 August, 2023" summary="Maria and John caught up at 12:10 am on 11 August 2023. Maria shared that she got a puppy named Coco, and John showed her a photo of his late dog, Max. They discussed the joy of having pets and how nature can be a refreshing escape. John opened up about feeling stagnant and wanting to make a positive impact, considering joining local organizations. Maria offered support and encouraged him, ending the conversation on a positive note.">
+        <Observation>
+          <text>Maria got a puppy named Coco two weeks ago, bringing joy to her life.</text>
+          <source_dia_id>D30:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria finds joy in greeting her puppy, Coco, when coming home.</text>
+          <source_dia_id>D30:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria believes that taking care of her puppy, Coco, is worth the adjustment.</text>
+          <source_dia_id>D30:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria mentions that camping with pets can be soul-nourishing.</text>
+          <source_dia_id>D30:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria acknowledges nature as a reset for our souls.</text>
+          <source_dia_id>D30:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria understands tough times and offers support to John.</text>
+          <source_dia_id>D30:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria suggests to John to focus his energy on something meaningful, like joining local organizations or volunteering programs.</text>
+          <source_dia_id>D30:19</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria encourages John, assures him he can make a difference, and offers help.</text>
+          <source_dia_id>D30:21</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria plans to keep spreading positivity.</text>
+          <source_dia_id>D30:23</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="31" datetime="3:14 pm on 13 August, 2023" summary="At 3:14 pm on August 13, 2023, John told Maria about volunteering as a mentor and how rewarding it was. Maria shared adopting a new pup named Shadow. They discussed the joy pets bring, and John expressed interest in getting a new pup. They praised the positive impact of animals. John mentioned improvements in the mentoring program, while Maria talked about Shadow's progress. They agreed on the comfort and happiness pets bring. John described family activities they enjoy, and they both emphasized the importance of family time. They shared goodbyes, wishing each other a great day.">
+        <Observation>
+          <text>Maria recently adopted a cute pup named Shadow from a shelter.</text>
+          <source_dia_id>D31:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria's new pup, Shadow, is full of energy and brings joy to her life.</text>
+          <source_dia_id>D31:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria did not have any pets growing up, but having a furry companion brightens her days.</text>
+          <source_dia_id>D31:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria's pup is learning commands and house training well.</text>
+          <source_dia_id>D31:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria believes that animals bring comfort, understanding, and happiness to our lives.</text>
+          <source_dia_id>D31:14</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="32" datetime="11:08 am on 16 August, 2023" summary="John excitedly told Maria about joining the fire-fighting brigade at 11:08 am on 16 August, 2023. He was inspired by their dedication and teamwork. They worked hard and raised donations like canned food and clothes. Maria admired the community coming together in support. John felt a sense of purpose and passion in his new role. Maria shared her volunteer experience at a shelter, emphasizing the power of kindness. They both pledged to continue making a difference in their community and stay motivated together.">
+        <Observation>
+          <text>Maria finds fulfillment in volunteering at the shelter, seeing the impact of small acts of kindness on people's lives.</text>
+          <source_dia_id>D32:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Maria believes in the power to make a difference in people's lives and is enthusiastic about spreading kindness in the community.</text>
+          <source_dia_id>D32:16</source_dia_id>
+        </Observation>
+      </Session>
+    </Speaker>
+  </Conversation_Version>
+</Root>

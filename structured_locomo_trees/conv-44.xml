@@ -1,0 +1,1233 @@
+<?xml version="1.0" ?>
+<Root>
+  <Conversation_Version number="1" sample_id="conv-44" speaker_a="Audrey" speaker_b="Andrew">
+    <patch_info>None</patch_info>
+    <conversation_history>Initial_Version</conversation_history>
+    <Speaker name="Audrey">
+      <Session session_id="1" datetime="1:10 pm on 27 March, 2023" summary="At 1:10 pm on 27 March 2023, Audrey and Andrew caught up. Andrew shared about his new job as a Financial Analyst, whereas Audrey talked about getting new collars for her dogs named Pepper, Precious, and Panda that she has had for 3 years. The dogs, city dwellers, go on adventures exploring parks and trails together. Andrew loves animals, particularly birds, with a fascination for eagles. He recommended the Fox Hollow trail for hiking to Audrey, who planned to give it a try. They bid goodbye, wishing each other well.">
+        <Observation>
+          <text>Audrey got new collars and tags for her dogs.</text>
+          <source_dia_id>D1:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey has had her dogs named Pepper, Precious, and Panda for 3 years.</text>
+          <source_dia_id>D1:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey's dogs are city dogs and they love exploring new parks and trails.</text>
+          <source_dia_id>D1:9</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="2" datetime="2:42 pm on 2 April, 2023" summary="Audrey surprises Andrew with a new puppy named Pixie on 2 April 2023, at 2:42 pm. The puppy is fitting in well with the other dogs. Andrew is considering getting a dog too, and Audrey suggests using websites to find dog-friendly places in the city. They discuss the joys of having furry companions and the memories of hiking with dogs. Andrew expresses excitement about finding a dog-friendly spot soon. Audrey wishes him the best in his search, and they say goodbye.">
+        <Observation>
+          <text>Audrey and Andrew adopted another puppy called Pixie.</text>
+          <source_dia_id>D2:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Pixie has been keeping Audrey busy since they adopted her.</text>
+          <source_dia_id>D2:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Pixie has become friends with the other dogs in the house and they love playing together.</text>
+          <source_dia_id>D2:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey used websites with filters to find a dog-friendly place for their pets.</text>
+          <source_dia_id>D2:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey is excited about Andrew finding a furry friend and an apartment.</text>
+          <source_dia_id>D2:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey enjoys exploring nature with her dogs.</text>
+          <source_dia_id>D2:19</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="3" datetime="4:19 pm on 16 April, 2023" summary="At 4:19 pm on 16 April, 2023, Andrew told Audrey about trying a new cafe in the city and missing nature. Audrey agreed and mentioned how nature brings peace. They discussed how nature soothes and centers them. Andrew expressed missing hiking due to city living. They talked about the importance of nature and shared their ways of connecting to it. Audrey suggested a pastry party, and Andrew agreed. They planned to have their dogs join the party. Audrey revealed getting tattoos of her dogs to show her love for them. Andrew admired the tattoo, and Audrey explained the significance of the tattoo. They bonded over their love for their furry friends and the joy they bring.">
+        <Observation>
+          <text>Audrey finds being out in nature unbeatable, compared to being in concrete jungles.</text>
+          <source_dia_id>D3:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey believes nature brings us back down to earth and reminds us that we're part of something bigger.</text>
+          <source_dia_id>D3:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey takes her dogs for a walk in the park to recharge and find her center.</text>
+          <source_dia_id>D3:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey enjoys making pastries and mentioned having a pastry party.</text>
+          <source_dia_id>D3:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey has tattoos of her dogs on her arm symbolizing her love for them and nature's beauty.</text>
+          <source_dia_id>D3:26</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="4" datetime="5:41 pm on 3 May, 2023" summary="Audrey and Andrew caught up at 5:41 pm on 3 May, 2023. Audrey shared her recent hiking experience with a hummingbird, while Andrew mentioned finding a new hiking spot. Andrew now escapes the city for a hike once a weekend. They both find nature therapeutic and calming. Audrey spends time with her pets, including hiking with her dogs. Andrew inquired about dog safety tips from Audrey, who also mentioned playing fetch and organizing doggie playdates. The conversation ended with Andrew planning to visit the dog park Audrey recommended.">
+        <Observation>
+          <text>Audrey had an amazing experience with a hummingbird on a hike.</text>
+          <source_dia_id>D4:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey is busy taking care of her pets and finds it fulfilling.</text>
+          <source_dia_id>D4:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey's dogs love going on hikes and exploring nature, their happy place.</text>
+          <source_dia_id>D4:17</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey plays fetch with a ball or frisbee with her dogs and organizes doggie playdates in the park.</text>
+          <source_dia_id>D4:21</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey's dogs get excited when she brings out toys for playtime.</text>
+          <source_dia_id>D4:23</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey's dogs wear party hats for fun and treats.</text>
+          <source_dia_id>D4:25</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey suggests a dog park near their usual walking spot for playdates with other dogs.</text>
+          <source_dia_id>D4:25</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey's dog park is located near a park with lots of trees and benches.</text>
+          <source_dia_id>D4:27</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="5" datetime="10:47 am on 6 May, 2023" summary="Andrew and Audrey discussed Andrew's search for a dog to adopt at 10:47 am on 6 May, 2023. Andrew talked about the challenges and joys of the process, considering factors like living space and breed requirements. Audrey offered advice on considering a dog's space and energy needs. Andrew shared his difficulties in finding pet-friendly housing near nature. They also discussed the joy of road trips with dogs, with Audrey sharing her experience and Andrew expressing his desire to do the same. Audrey wished Andrew luck in finding the perfect furry friend and offered to help. They exchanged goodbyes, with Andrew heading to another shelter and Audrey looking forward to updates on the search.">
+        <Observation>
+          <text>Audrey goes on road trips with her dogs once every couple of months to help them explore and stay active.</text>
+          <source_dia_id>D5:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey suggested considering the size of living space and exercise needs when choosing a dog breed.</text>
+          <source_dia_id>D5:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey has a park near her that is great for her pup's walks.</text>
+          <source_dia_id>D5:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey mentioned taking a road trip to a national park with her dogs and described it as an awesome trip.</text>
+          <source_dia_id>D5:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey encouraged Andrew in his search for the perfect furry friend and offered to help with suggestions.</text>
+          <source_dia_id>D5:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey will be expecting a picture of Andrew's dog soon.</text>
+          <source_dia_id>D5:20</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="6" datetime="2:03 pm on 11 May, 2023" summary="Andrew and Audrey chatted at 2:03 pm on 11 May, 2023. Andrew shared his recent peaceful hike with his girlfriend. Audrey discussed taking care of her four dogs and signing up for a workshop on bonding with pets. Andrew showed interest in the workshop and praised Audrey's efforts. Audrey shared her positive reinforcement approach with dogs and emphasized the importance of not using punishment. They agreed to keep each other updated, with Andrew showing interest in attending the workshop too. The conversation ended with plans to talk later.">
+        <Observation>
+          <text>Audrey is taking care of her four dogs and ensuring they are happy and healthy.</text>
+          <source_dia_id>D6:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey signed up for a workshop about bonding with pets to strengthen her bond with her dogs.</text>
+          <source_dia_id>D6:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey learned about the workshop from a flyer at her local pet store which was about positive reinforcement training.</text>
+          <source_dia_id>D6:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey believes in using positive reinforcement rather than punishment to train pets.</text>
+          <source_dia_id>D6:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey is enthusiastic about training her pets better and believes they are quick learners who love rewards.</text>
+          <source_dia_id>D6:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey is eager to update Andrew on her pets' progress and offer him tips on training for his future dog.</text>
+          <source_dia_id>D6:8</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="7" datetime="11:27 am on 2 June, 2023" summary="Audrey and Andrew had a conversation on 2 June, 2023, at 11:27 am. Audrey shared her joy of taking her dogs to the park and on a hiking trip to a national park, capturing beautiful sunset moments. Andrew admired the experiences and inquired about photos, showing interest in getting a furry friend but facing challenges. Audrey offered support and assistance, encouraging Andrew not to give up on finding the perfect place for a new pet.">
+        <Observation>
+          <text>Audrey took her dogs to the park and enjoys watching them run around and play without a leash.</text>
+          <source_dia_id>D7:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey took her dogs on a hike to a national park and reached a beautiful peak during the sunset.</text>
+          <source_dia_id>D7:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey loves nature and feels cheerful and grateful when in natural surroundings.</text>
+          <source_dia_id>D7:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey is supportive and offers to help Andrew find a pet-friendly spot for his new dog.</text>
+          <source_dia_id>D7:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="8" datetime="5:23 pm on 13 June, 2023" summary="Andrew and Audrey caught up at 5:23 pm on 13 June, 2023. Andrew shared his thrilling rock climbing experience from the previous Sunday, expressing his newfound love for outdoor activities. Audrey admired his achievement and requested to see pictures, leading to a discussion about the challenging climb and the stunning view. They discussed the importance of a supportive group and how nature pushes them out of their comfort zones. Audrey invited Andrew to join her and her dogs for a walk in a beautiful park, where they would explore for about an hour. Both agreed on the joy and peace nature brings, with Audrey sharing photos of her happy dogs in nature. They concluded with a mutual appreciation for how nature refreshes the mind and provides a different outlook on life.">
+        <Observation>
+          <text>Audrey found a great spot for her dogs' walk in a small park with a trail surrounded by trees.</text>
+          <source_dia_id>D8:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey mentioned that her dogs love meeting new people and seem to enjoy their outdoor walks.</text>
+          <source_dia_id>D8:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey usually walks her dogs for about an hour, allowing them to explore at their own pace.</text>
+          <source_dia_id>D8:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey's dogs go home with a smile and tired after their walks, showing that they enjoy the exercise and exploration.</text>
+          <source_dia_id>D8:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey shared a picture of her dogs in a meadow, expressing how happy they make her and how being outdoors with them puts her in a happy place.</text>
+          <source_dia_id>D8:22</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey mentioned that being outdoors with her dogs brings her joy and peace.</text>
+          <source_dia_id>D8:20</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="9" datetime="1:51 pm on 26 June, 2023" summary="Audrey, at 1:51 pm on 26 June, 2023, shared her excitement about moving to a new house with a bigger backyard for her dogs. Andrew praised the new place and asked about the dogs settling in. Audrey mentioned creating a doggy play area in the backyard. Andrew recommended a doggy daycare he visited and Audrey showed interest. They discussed their love for animals and shared nature experiences, emphasizing the importance of appreciating the small things in life.">
+        <Observation>
+          <text>Audrey got a new place with a bigger backyard for her dogs.</text>
+          <source_dia_id>D9:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey set up a doggy play area in the backyard with agility stuff and toys for her dogs.</text>
+          <source_dia_id>D9:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey loves animals and thinks they bring a lot of joy.</text>
+          <source_dia_id>D9:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey expresses appreciation for nature and the calming effect it has on her.</text>
+          <source_dia_id>D9:25</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey had a peaceful experience sitting by a stunning lake in the mountains with friends, finding it calming and memorable.</text>
+          <source_dia_id>D9:23</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="10" datetime="8:32 pm on 3 July, 2023" summary="Audrey and Andrew caught up at 8:32 pm on 3 July, 2023. Audrey mentioned taking a challenging but rewarding dog training course while Andrew expressed difficulty finding pet-friendly spots. They discussed their lack of time for exploring trails but Audrey shared how well her dogs were doing due to the training. Andrew admired her dogs and asked about their breeds and favorite activities. Audrey revealed they were all mutts who loved running and playing fetch. They further discussed the age of the dogs, their good relationship, and a recent doggy playdate. Andrew shared his new hobby of cooking while Audrey disclosed her love for it and her favorite recipe, Chicken Pot Pie. Andrew showed interest in trying the recipe, and Audrey planned to share it. They also discussed the therapeutic nature of cooking and the joy of trying new dishes. Audrey mentioned garlic as her go-to ingredient and offered to share a Roasted Chicken recipe inspired by Mediterranean flavors. Andrew expressed excitement to try it and thanked her for sharing, ending the conversation with plans to talk later.">
+        <Observation>
+          <text>Audrey is taking a dog training course and it has been challenging but rewarding.</text>
+          <source_dia_id>D10:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey's dogs are all mutts, with two being Jack Russell mixes and the other two Chihuahua mixes.</text>
+          <source_dia_id>D10:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey's dogs are all 3 years old and get along well as a pack.</text>
+          <source_dia_id>D10:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey's favorite recipe is Chicken Pot Pie, a family recipe that reminds her of her grandma's kitchen.</text>
+          <source_dia_id>D10:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey loves trying out new recipes and experimenting in the kitchen as an escape to de-stress and let her creativity flow.</text>
+          <source_dia_id>D10:17</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey's go-to ingredient in the kitchen is garlic, for the smell and taste it adds to dishes.</text>
+          <source_dia_id>D10:21</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey loves to throw on some music, pour a glass of wine, and cook as a form of self-care and therapy.</text>
+          <source_dia_id>D10:19</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>One of Audrey's favorite dishes to make is Roasted Chicken, inspired by her love for Mediterranean flavors and as a comfort meal.</text>
+          <source_dia_id>D10:23</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="11" datetime="9:48 am on 8 July, 2023" summary="Andrew and Audrey had a conversation at 9:48 am on 8 July, 2023, where they discussed their love for nature and their dogs. Andrew mentioned having a picnic with his girlfriend, while Audrey talked about her furry friends and a recent walk. They discussed the difficulty of finding dog-friendly places and planned a hike together for the next month. They both expressed excitement about the upcoming adventure and shared photos of their happy dogs. They also admired nature's beauty and the joy it brings. Their conversation highlighted their appreciation for the small moments in life and the happiness that dogs bring.">
+        <Observation>
+          <text>Audrey enjoys going on walks with her dogs and finds them to be a source of happiness.</text>
+          <source_dia_id>D11:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey got her dogs from a breeder nearby that had the dogs she wanted.</text>
+          <source_dia_id>D11:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey agrees to join Andrew for a hike with her dogs and looks forward to seeing them enjoy themselves.</text>
+          <source_dia_id>D11:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey values the safety of the dogs when outside running around.</text>
+          <source_dia_id>D11:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey appreciates moments in nature and finds peace in vibrant colors.</text>
+          <source_dia_id>D11:34</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="12" datetime="10:05 am on 11 July, 2023" summary="Andrew and Audrey met at 10:05 am on 11 July, 2023. Andrew introduced his puppy Toby, expressing how much joy he brings despite the city living. Audrey congratulated him and suggested they plan a hiking trip to relax. Andrew agreed, inviting her and their pups. Audrey showed personalized tags she made for her dogs, which Andrew admired. They both expressed love for their pets and agreed on the importance of showing it. They eagerly anticipated the upcoming hike, looking forward to their pets meeting and the fun they would have. They ended the conversation, excited and ready to prepare for the adventure ahead.">
+        <Observation>
+          <text>Audrey thinks Toby, Andrew's puppy, is adorable.</text>
+          <source_dia_id>D12:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey mentioned making personalized tags for her dogs to show love and make them feel special.</text>
+          <source_dia_id>D12:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey put a lot of love and effort into making the personalized tags for her pets.</text>
+          <source_dia_id>D12:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey believes that small acts of love towards pets make a big difference in their relationships.</text>
+          <source_dia_id>D12:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey is looking forward to the hike and for her pups to meet Toby.</text>
+          <source_dia_id>D12:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="13" datetime="3:52 pm on 27 July, 2023" summary="At 3:52 pm on 27 July 2023, Andrew excitedly shared his recent volunteering experience at a pet shelter with Audrey, emphasizing the joy and love animals bring. Audrey, intrigued, expressed her desire to volunteer someday and shared how her four pets each have unique personalities. The conversation turned nostalgic as they discussed Audrey's childhood dog, Max, and the special bond they shared. They both agreed that pets are more than animals; they are friends who provide comfort and love. Andrew highlighted the uplifting impact of volunteering with animals, which Audrey appreciated, acknowledging the positive effect their kindness has on the animals' well-being.">
+        <Observation>
+          <text>Audrey has four fur babies that are very important to her.</text>
+          <source_dia_id>D13:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey's childhood dog was named Max, who had lots of energy and loved playing fetch.</text>
+          <source_dia_id>D13:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey took long walks with Max in the neighborhood when she was a kid, sharing worries and hopes with him.</text>
+          <source_dia_id>D13:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey believes that pets listen without judging and provide unconditional love, bringing joy, comfort, and love to our lives.</text>
+          <source_dia_id>D13:12</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="14" datetime="11:05 am on 4 August, 2023" summary="On August 4th, 2023, at 11:05 am, Andrew told Audrey about his upcoming camping trip with his girlfriend. Audrey shared her experience with agility classes for her dogs, emphasizing the joy of watching them overcome challenges. They discussed the beauty of nature and the benefits of spending time outdoors. Audrey advised Andrew on caring for his German Shepherd, Toby, emphasizing the importance of energy and attention. Andrew expressed his excitement to bond with Toby on hikes. The conversation highlighted the special bond between humans and animals, as Audrey shared her love for her pets and Andrew looked forward to deepening his connection with Toby.">
+        <Observation>
+          <text>Audrey is taking agility classes with her pups at a dog park.</text>
+          <source_dia_id>D14:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey takes her dogs to the park twice a week for practice to bond with them.</text>
+          <source_dia_id>D14:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey enjoys hiking and exploring nature with her pets.</text>
+          <source_dia_id>D14:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey has a special bond with her pets, finding them to be her companions and sources of happiness.</text>
+          <source_dia_id>D14:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey thinks German Shepherds, like Andrew's dog Toby, are awesome for their smartness and loyalty.</text>
+          <source_dia_id>D14:20</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey gives advice that puppies, especially German Shepherds, need attention, walks, and energy to ensure their well-being.</text>
+          <source_dia_id>D14:24</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="15" datetime="9:58 pm on 16 August, 2023" summary="Audrey, at 9:58 pm on 16 August, 2023, excitedly told Andrew she got a tattoo of her four dogs. She shared that she took the dogs to the vet together last time which was hectic, and they each have a favorite spot to relax at home. Andrew mentioned visiting a farm for fresh veggies with his girlfriend. The two admire each other's pet photos and discuss the joy pets bring. Audrey shared a photo of her dogs snuggling, and Andrew showed his dog Toby's favorite spot. They discussed how pets always find comfort and joy in their cozy spaces. Audrey expressed how much her dogs mean to her, saying they are best friends and bring happiness. Andrew agreed, calling pets family and mentioning the joy they bring. Audrey shared a photo of her lying on the grass with her dogs, reflecting on the wonderful time they had outside. Andrew encouraged her to cherish those moments, to which Audrey expressed gratitude, saying her pets make life brighter.">
+        <Observation>
+          <text>Audrey got another tattoo of her four dogs on her arm as they mean a lot to her.</text>
+          <source_dia_id>D15:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey has four dogs as pets and finds them to be enough for now to give them proper attention.</text>
+          <source_dia_id>D15:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Pepper, Pixie, Precious, and Panda are the names of Audrey's dogs, each having their own favorite spot to relax.</text>
+          <source_dia_id>D15:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey's dogs cuddle up together when it's time to nap and are best friends.</text>
+          <source_dia_id>D15:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey can't imagine life without her dogs as they mean the world to her.</text>
+          <source_dia_id>D15:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey considers her pets to be family and believes they bring joy and happiness to her life.</text>
+          <source_dia_id>D15:14</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="16" datetime="9:19 pm on 19 August, 2023" summary="Andrew and Audrey had a conversation at 9:19 pm on 19 August, 2023. Andrew shared about taking a break to visit a cafe and reminisced about the tranquility of nature. He also showed Audrey a serene photo from his previous hike. Audrey mentioned learning dog grooming, feeling closer to her pups, and shared a picture of them looking cute and fluffy post-grooming. Andrew praised her skills and sought grooming tips, which Audrey gladly provided. They discussed weekend plans - Audrey taking her dogs to the park for a stroll and Andrew heading to a nature reserve. Andrew promised to share photos from his trip with Audrey later. They bid goodbye, looking forward to the pictures and caring for their pets.">
+        <Observation>
+          <text>Audrey learned a new skill related to dog grooming in August.</text>
+          <source_dia_id>D16:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey cares for her pups and took on their grooming, feeling closer to them.</text>
+          <source_dia_id>D16:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey took a dog grooming course to learn techniques.</text>
+          <source_dia_id>D16:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey will be taking her dogs for a stroll in the park during the weekend.</text>
+          <source_dia_id>D16:12</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="17" datetime="12:24 am on 24 August, 2023" summary="On August 24, 2023, at 12:24 am, Andrew told Audrey about his recent fishing trip with his girlfriend. Audrey shared a memory of sitting by a lake in the mountains. They discussed pet care, with Audrey emphasizing grooming and love to keep pets happy. They highlighted the importance of forming strong bonds with pets, with Audrey offering tips to Andrew for his dog Toby. Andrew expressed excitement for bonding with Toby and future outdoor adventures. The conversation ended with compliments and well wishes between the two friends.">
+        <Observation>
+          <text>Audrey has never gone fishing before, but she enjoys chilling by lakes, especially in the mountains.</text>
+          <source_dia_id>D17:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey believes that regular grooming, daily brushing, baths, nail trims, and lots of love are essential for keeping her pets healthy and happy.</text>
+          <source_dia_id>D17:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey finds taking care of her dogs rewarding and takes that responsibility seriously.</text>
+          <source_dia_id>D17:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey emphasizes the strong bond she has with her dogs and hopes Andrew can have a similar bond with Toby.</text>
+          <source_dia_id>D17:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey offers tips to Andrew about taking care of his dog, Toby, emphasizing the importance of time in forming a bond.</text>
+          <source_dia_id>D17:12</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="18" datetime="7:49 pm on 6 September, 2023" summary="At 7:49 pm on 6th September 2023, Andrew and Audrey had a conversation. Andrew shared his work stress and challenge in finding balance in life. Audrey emphasized the importance of self-care and finding joy in simple activities. They discussed hobbies and moments of relaxation. Audrey shared about organizing a dog playdate and getting new beds for her furry friends. Andrew inquired about the playdate and new beds with interest. Audrey shared pictures of the playdate and the new beds, expressing joy in her pets' happiness. They discussed the importance of simple joys and bonding with animals. Andrew shared about his hike, while Audrey asked about hiking with Toby. Andrew mentioned the challenge of finding a dog-friendly place to live. Audrey encouraged him not to give up and to keep searching. They ended by exchanging well wishes and encouragement.">
+        <Observation>
+          <text>Audrey emphasizes the importance of self-care and finding time for oneself.</text>
+          <source_dia_id>D18:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey organized a doggy playdate with the neighbors' dogs, finding joy in seeing them have fun together.</text>
+          <source_dia_id>D18:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey got new beds for her furry friends to provide them comfort as the weather cools down.</text>
+          <source_dia_id>D18:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey's furry friends love the new beds, finding them cozy and comfortable.</text>
+          <source_dia_id>D18:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey encourages Andrew in his search for a dog-friendly place to live for Toby.</text>
+          <source_dia_id>D18:20</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="19" datetime="5:53 pm on 24 September, 2023" summary="Andrew and Audrey caught up at 5:53 pm on 24 September, 2023. Audrey shared a recent incident where her dog's leash broke, causing a scare but strengthening their bond. She advised patience and regular training to build trust with dogs. They discussed training tricks, going for walks, and Audrey's mutt breeds. Andrew admired Audrey's garden with Peruvian Lilies, easy to care for and enjoyed by her dogs. They shared the joy their furry pals bring into their lives, highlighting the strong bond and happiness they provide.">
+        <Observation>
+          <text>Audrey experienced a moment of worry when her dog's leash broke at the park, and she had to chase after her.</text>
+          <source_dia_id>D19:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey finds strengthening the bond with her dogs through petting, hugs, and calmness during stressful situations.</text>
+          <source_dia_id>D19:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey emphasizes the importance of patience, love, and regular training in building trust and a strong relationship with dogs.</text>
+          <source_dia_id>D19:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey teaches her dogs obedience and tricks like sit, stay, shake, and roll over for fun and reward.</text>
+          <source_dia_id>D19:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey's dogs are mutts; two are Jack Russell mixes, and two are Chihuahua mixes.</text>
+          <source_dia_id>D19:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey has a small garden where she takes care of Peruvian Lilies, finding peace and relaxation in gardening.</text>
+          <source_dia_id>D19:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey's Peruvian Lilies are easy to care for, requiring watering and enough sunlight.</text>
+          <source_dia_id>D19:22</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey's Peruvian Lilies enjoy the garden, running around, exploring, and having fun.</text>
+          <source_dia_id>D19:24</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey's furry companions mean everything to her and bring loads of love and happiness into her life.</text>
+          <source_dia_id>D19:28</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="20" datetime="7:09 pm on 1 October, 2023" summary="Andrew and Audrey had a conversation at 7:09 pm on 1 October 2023. Andrew shared that he and his girlfriend will be going to the beach next month with Toby. Audrey expressed her excitement for an upcoming hike with the dogs, highlighting how being in nature helps her find peace. Andrew agreed and mentioned missing being in nature. They discussed the benefits of nature, birdwatching, and taking care of the environment for future generations. They also talked about reducing the carbon footprint by biking and using public transport. Andrew offered to show Audrey the best bike routes near the river. They both looked forward to exploring the routes and enjoying the scenery together.">
+        <Observation>
+          <text>Audrey is excited about a hike with Andrew and the dogs next month.</text>
+          <source_dia_id>D20:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey finds walking the dogs in the park to be calming and peaceful.</text>
+          <source_dia_id>D20:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey enjoys birdwatching and wants to explore more about it.</text>
+          <source_dia_id>D20:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey believes in taking care of nature for future generations.</text>
+          <source_dia_id>D20:28</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey sees recycling as an important step in preserving natural resources.</text>
+          <source_dia_id>D20:32</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey is interested in trying biking as a way to reduce carbon footprint.</text>
+          <source_dia_id>D20:34</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey is excited to check out bike routes near the river with Andrew.</text>
+          <source_dia_id>D20:40</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="21" datetime="4:18 pm on 4 October, 2023" summary="4:18 pm on 4 October, 2023 - Andrew reconnects with Audrey, who shares about her fun beach trip with her dogs. Andrew reminisces about missing nature due to work. Audrey suggests getting plants for his house. Andrew thanks Audrey for her help and offers. They exchange goodbyes, wishing each other a great week.">
+        <Observation>
+          <text>Audrey took her dogs to the beach over the weekend and enjoyed seeing them play in the ocean.</text>
+          <source_dia_id>D21:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey suggested ways for Andrew to appreciate nature in the city, like getting plants for his place or visiting the park on weekends.</text>
+          <source_dia_id>D21:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey offered help and advice to Andrew regarding getting plants for his house.</text>
+          <source_dia_id>D21:10</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="22" datetime="9:41 pm on 6 October, 2023" summary="Audrey and Andrew had a conversation at 9:41 pm on 6 October, 2023. Audrey shared about missing walking her dogs due to a knee injury but finding joy in being able to walk them again. Andrew empathized and praised the joy dogs bring, encouraging appreciation for life's little pleasures. Audrey mentioned making jewelry from recycled items as a hobby, selling them to donate a portion of the profits to an animal shelter. Andrew admired her dedication to making a difference. Audrey highlighted the importance of adapting in challenging times. Andrew praised her for staying strong and making a difference.">
+        <Observation>
+          <text>Audrey had a knee injury that prevented her from walking her dogs, causing her to miss the joy they bring.</text>
+          <source_dia_id>D22:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey makes jewelry out of recycled objects like bottle caps, buttons, and broken jewelry as a hobby.</text>
+          <source_dia_id>D22:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey sells the jewelry she makes and donates a portion of the profits to an animal shelter.</text>
+          <source_dia_id>D22:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey donates to an animal shelter as a way of combining her passion for making jewelry and making a difference.</text>
+          <source_dia_id>D22:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey adapts and continues to find ways to help even if she can't volunteer at the shelter anymore.</text>
+          <source_dia_id>D22:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="23" datetime="4:22 pm on 13 October, 2023" summary="Andrew and Audrey had a conversation at 4:22 pm on 13th October 2023 where they shared updates about their lives. Andrew talked about a board game night with his girlfriend, Toby, and his plan to visit a cozy cafe. Audrey mentioned baking goodies for her neighbors and discussed taking her dogs to a new spot and a dog park. They shared funny stories about their pups, discussed their love for nature, and the joy their dogs bring. Audrey also mentioned getting a tattoo of her dogs. They agreed that nature and animals bring peace and joy. Andrew recommended hiking as a way to bond and make memories with dogs.">
+        <Observation>
+          <text>Audrey made goodies recently to thank her neighbors for their pup-friendly homes.</text>
+          <source_dia_id>D23:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey's dogs love running around the park, but dislike snow and prefer sunny days in the grass.</text>
+          <source_dia_id>D23:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey has a tattoo of her four dogs and mentioned going to the tattoo parlor to get more drawings on it.</text>
+          <source_dia_id>D23:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey's dogs go crazy for Fetch and Frisbee at the park and love meeting other pups.</text>
+          <source_dia_id>D23:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey enjoys moments with her dogs in nature as they are chill and happy companions for exploring the outdoors.</text>
+          <source_dia_id>D23:24</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="24" datetime="6:12 pm on 19 October, 2023" summary="Audrey and Andrew, both pet lovers, discussed their furry companions at 6:12 pm on 19 October, 2023.
+Audrey shared her joy after buying toys for her dogs, while Andrew excitedly announced the adoption of a new pup named Buddy. The two friends talked about their pets' interactions and favorite activities like walks and exploring hiking trails. They planned to go on a hike together next month. Audrey volunteered to find a great spot for the outing as Andrew wished for a getaway from the city. Andrew appreciated Audrey's efforts and looked forward to the adventure.">
+        <Observation>
+          <text>Audrey went to a pet store last Monday to buy toys for her dogs and realized how much she loves them and the joy they bring her.</text>
+          <source_dia_id>D24:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey has dogs that bring her joy and companionship.</text>
+          <source_dia_id>D24:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey is planning a hike with furry friends next month.</text>
+          <source_dia_id>D24:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey is researching to find an awesome spot for the upcoming hike.</text>
+          <source_dia_id>D24:19</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="25" datetime="10:14 am on 24 October, 2023" summary="Andrew and Audrey conversed at 10:14 am on 24 October 2023. Andrew shared his experience at a wine tasting, stepping out of his comfort zone, while Audrey mentioned an accident with her pups at the park. They discussed trying new things, with Andrew trying sushi recently and Audrey giving him tips on trying different types. Andrew expressed excitement about his upcoming sushi adventure, while Audrey planned to order sushi for dinner. They ended the conversation wishing each other well.">
+        <Observation>
+          <text>Audrey had an accident while playing with her pups at the park, making it tricky to take care of them with one arm.</text>
+          <source_dia_id>D25:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey loves sushi and advises trying different types and flavors without limiting oneself.</text>
+          <source_dia_id>D25:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey suggests trying California or salmon roll as easier options for someone new to sushi, and mixing it up with different sauces and dips.</text>
+          <source_dia_id>D25:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey is looking forward to ordering sushi for tonight.</text>
+          <source_dia_id>D25:14</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="26" datetime="2:36 pm on 28 October, 2023" summary="Audrey informed Andrew about her dogs' behavior issues, her appointment with an animal behaviorist, and the positive tips she received for handling the problems. The conversation then shifted to planning a nature hike with their furry friends on Saturday, exploring a trail by a lake with scenic views. They expressed excitement and gratitude for the upcoming adventure, sharing photos of potential locations and expressing eagerness to capture memories with their dogs. Andrew shared a photo of his happy dog from a previous hike, and they both looked forward to creating new joyful memories together. They planned to meet for the hike and said their goodbyes as they got ready to head out.">
+        <Observation>
+          <text>Audrey has dogs that were not behaving normally, leading her to seek help from an animal behaviorist.</text>
+          <source_dia_id>D26:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey mentioned her dogs are all mutts, where Pepper and Panda are Lab mixes, and Precious and Pixie are Chihuahua mixes.</text>
+          <source_dia_id>D26:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey is using positive reinforcement techniques to help with her dogs' problems.</text>
+          <source_dia_id>D26:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey is devoted to keeping her dogs healthy and happy.</text>
+          <source_dia_id>D26:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey expressed excitement and eagerness to go hiking with Andrew and their furry friends.</text>
+          <source_dia_id>D26:21</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="27" datetime="7:59 pm on 4 November, 2023" summary="Andrew told Audrey about his weekend bike ride with his girlfriend, discovering a park outside the city. Audrey shared her love for exploring parks with her four dogs, mentioning joining a dog owners group for tips. Andrew considered getting another dog but decided to focus on his current pets first. Audrey advised on taking care of his current dogs before getting more, suggesting regular socialization and exercise for keeping them happy in the city. She also recommended mental stimulation activities like puzzles and hide-and-seek. Andrew appreciated Audrey's support and friendship, thanking her for the advice.">
+        <Observation>
+          <text>Audrey enjoys checking out new parks with her four dogs and spending time with them.</text>
+          <source_dia_id>D27:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey meets up with other dog owners once a week for tips and playdates for the dogs.</text>
+          <source_dia_id>D27:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey is supportive of Andrew's decision to focus on his current dogs before considering getting another one.</text>
+          <source_dia_id>['D27:6', 'D27:8']</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey provides Andrew with tips on keeping dogs happy and active in the city.</text>
+          <source_dia_id>['D27:10', 'D27:12']</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey engages her dogs in mental stimulation activities like puzzles, training, and hide-and-seek.</text>
+          <source_dia_id>D27:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey values the friendship with Andrew and believes in supporting each other.</text>
+          <source_dia_id>D27:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="28" datetime="9:02 am on 22 November, 2023" summary="Audrey and Andrew caught up at 9:02 am on 22 November, 2023. Audrey shared about taking her dogs to the pet salon and showing them off all groomed up. Andrew admired the pictures and mentioned adopting a new dog named Scout. They discussed taking Scout, Toby, and Buddy to a park together for a fun outing. Audrey advised on introducing Scout to the other dogs slowly and creating a safe space for the new pup. Andrew was grateful for the advice and expressed how dogs bring joy and friendship. Audrey also shared how her dogs are doing well and bring her happiness. Both concluded that having dogs as family members is truly special.">
+        <Observation>
+          <text>Audrey has multiple dogs that she refers to as her 'fur kids'.</text>
+          <source_dia_id>D28:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey took her dogs to the pet salon last Friday and was happy to see them looking cute and groomed.</text>
+          <source_dia_id>D28:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey worries about her dogs when they are in new places but was relieved to see them well-behaved at the salon.</text>
+          <source_dia_id>D28:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey values seeing her dogs happy and settled in new environments, indicating her care as a dog owner.</text>
+          <source_dia_id>D28:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey appreciates creating a safe and fun space for her dogs, ensuring they feel secure.</text>
+          <source_dia_id>D28:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey's dogs feel loved and safe under her care.</text>
+          <source_dia_id>D28:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Audrey considers her dogs part of her family and expresses gratitude for having them in her life.</text>
+          <source_dia_id>D28:17</source_dia_id>
+        </Observation>
+      </Session>
+    </Speaker>
+    <Speaker name="Andrew">
+      <Session session_id="1" datetime="1:10 pm on 27 March, 2023" summary="At 1:10 pm on 27 March 2023, Audrey and Andrew caught up. Andrew shared about his new job as a Financial Analyst, whereas Audrey talked about getting new collars for her dogs named Pepper, Precious, and Panda that she has had for 3 years. The dogs, city dwellers, go on adventures exploring parks and trails together. Andrew loves animals, particularly birds, with a fascination for eagles. He recommended the Fox Hollow trail for hiking to Audrey, who planned to give it a try. They bid goodbye, wishing each other well.">
+        <Observation>
+          <text>Andrew started a new job as a Financial Analyst last week.</text>
+          <source_dia_id>D1:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew does not currently have any pets.</text>
+          <source_dia_id>D1:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew loves animals and is awed by birds, especially eagles.</text>
+          <source_dia_id>D1:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew enjoys spotting pretty birds while hiking in places like Fox Hollow.</text>
+          <source_dia_id>D1:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="2" datetime="2:42 pm on 2 April, 2023" summary="Audrey surprises Andrew with a new puppy named Pixie on 2 April 2023, at 2:42 pm. The puppy is fitting in well with the other dogs. Andrew is considering getting a dog too, and Audrey suggests using websites to find dog-friendly places in the city. They discuss the joys of having furry companions and the memories of hiking with dogs. Andrew expresses excitement about finding a dog-friendly spot soon. Audrey wishes him the best in his search, and they say goodbye.">
+        <Observation>
+          <text>Andrew is considering getting a dog and finding a dog-friendly place in the city.</text>
+          <source_dia_id>D2:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew misses exploring nature trails with his family's dog.</text>
+          <source_dia_id>D2:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew finds hiking with a dog a great way to bond and create memories together.</text>
+          <source_dia_id>D2:20</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew is super excited for what's next regarding finding a dog-friendly spot.</text>
+          <source_dia_id>D2:24</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="3" datetime="4:19 pm on 16 April, 2023" summary="At 4:19 pm on 16 April, 2023, Andrew told Audrey about trying a new cafe in the city and missing nature. Audrey agreed and mentioned how nature brings peace. They discussed how nature soothes and centers them. Andrew expressed missing hiking due to city living. They talked about the importance of nature and shared their ways of connecting to it. Audrey suggested a pastry party, and Andrew agreed. They planned to have their dogs join the party. Audrey revealed getting tattoos of her dogs to show her love for them. Andrew admired the tattoo, and Audrey explained the significance of the tattoo. They bonded over their love for their furry friends and the joy they bring.">
+        <Observation>
+          <text>Andrew enjoys being out in nature and feels like he's really thriving when surrounded by it.</text>
+          <source_dia_id>D3:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew misses the peacefulness of being out on a hike.</text>
+          <source_dia_id>D3:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew finds nature really soothing and like hitting the reset button when life gets chaotic.</text>
+          <source_dia_id>D3:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew and his girlfriend love discovering new places to eat around the city to wind down after a long week.</text>
+          <source_dia_id>D3:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew found an awesome cafe with amazing pastries recently.</text>
+          <source_dia_id>D3:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="4" datetime="5:41 pm on 3 May, 2023" summary="Audrey and Andrew caught up at 5:41 pm on 3 May, 2023. Audrey shared her recent hiking experience with a hummingbird, while Andrew mentioned finding a new hiking spot. Andrew now escapes the city for a hike once a weekend. They both find nature therapeutic and calming. Audrey spends time with her pets, including hiking with her dogs. Andrew inquired about dog safety tips from Audrey, who also mentioned playing fetch and organizing doggie playdates. The conversation ended with Andrew planning to visit the dog park Audrey recommended.">
+        <Observation>
+          <text>Andrew found a new open space to hike nearby that he finds refreshing.</text>
+          <source_dia_id>D4:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew escapes the city at least once a weekend for hiking, which is his much-needed break.</text>
+          <source_dia_id>D4:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew finds nature therapeutic and invigorating.</text>
+          <source_dia_id>D4:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew captures special moments in nature to share the feeling with others.</text>
+          <source_dia_id>D4:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew spreads positivity and joy through sharing peaceful feelings and motivating others.</text>
+          <source_dia_id>D4:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew acknowledges that even small gestures can have a big effect in spreading good vibes.</text>
+          <source_dia_id>D4:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew plans to check out the dog park location suggested by Audrey for his own dogs.</text>
+          <source_dia_id>D4:28</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="5" datetime="10:47 am on 6 May, 2023" summary="Andrew and Audrey discussed Andrew's search for a dog to adopt at 10:47 am on 6 May, 2023. Andrew talked about the challenges and joys of the process, considering factors like living space and breed requirements. Audrey offered advice on considering a dog's space and energy needs. Andrew shared his difficulties in finding pet-friendly housing near nature. They also discussed the joy of road trips with dogs, with Audrey sharing her experience and Andrew expressing his desire to do the same. Audrey wished Andrew luck in finding the perfect furry friend and offered to help. They exchanged goodbyes, with Andrew heading to another shelter and Audrey looking forward to updates on the search.">
+        <Observation>
+          <text>Andrew has been looking to adopt a dog, browsing websites, visiting shelters, and asking friends.</text>
+          <source_dia_id>D5:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew is a person living in an apartment.</text>
+          <source_dia_id>D5:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew is looking for a pet-friendly place near a park or woods to give the dog a large open space to run around.</text>
+          <source_dia_id>D5:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew is contacting landlords and checking out neighborhoods to find a pet-friendly place to live.</text>
+          <source_dia_id>D5:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew expressed a wish to go on a road trip with a furry companion.</text>
+          <source_dia_id>D5:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew has a bucket list item of going on a road trip with his dog.</text>
+          <source_dia_id>D5:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="6" datetime="2:03 pm on 11 May, 2023" summary="Andrew and Audrey chatted at 2:03 pm on 11 May, 2023. Andrew shared his recent peaceful hike with his girlfriend. Audrey discussed taking care of her four dogs and signing up for a workshop on bonding with pets. Andrew showed interest in the workshop and praised Audrey's efforts. Audrey shared her positive reinforcement approach with dogs and emphasized the importance of not using punishment. They agreed to keep each other updated, with Andrew showing interest in attending the workshop too. The conversation ended with plans to talk later.">
+        <Observation>
+          <text>Andrew had a great hike last weekend with friends and his girlfriend at a spot they recently found.</text>
+          <source_dia_id>D6:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew is interested in hiking and finds nature peaceful.</text>
+          <source_dia_id>D6:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew is curious about Audrey's workshop on bonding with her pets and thinks the dog in the picture is adorable.</text>
+          <source_dia_id>D6:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew is supportive and encourages Audrey to keep him updated on her pets' progress and training.</text>
+          <source_dia_id>D6:7</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="7" datetime="11:27 am on 2 June, 2023" summary="Audrey and Andrew had a conversation on 2 June, 2023, at 11:27 am. Audrey shared her joy of taking her dogs to the park and on a hiking trip to a national park, capturing beautiful sunset moments. Andrew admired the experiences and inquired about photos, showing interest in getting a furry friend but facing challenges. Audrey offered support and assistance, encouraging Andrew not to give up on finding the perfect place for a new pet.">
+        <Observation>
+          <text>Andrew is searching for a pet-friendly spot in the city but has not had luck so far.</text>
+          <source_dia_id>D7:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew is determined to find the right place and dog despite facing challenges in the search.</text>
+          <source_dia_id>D7:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew is thankful for Audrey's support and assistance in finding a pet-friendly spot.</text>
+          <source_dia_id>D7:12</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="8" datetime="5:23 pm on 13 June, 2023" summary="Andrew and Audrey caught up at 5:23 pm on 13 June, 2023. Andrew shared his thrilling rock climbing experience from the previous Sunday, expressing his newfound love for outdoor activities. Audrey admired his achievement and requested to see pictures, leading to a discussion about the challenging climb and the stunning view. They discussed the importance of a supportive group and how nature pushes them out of their comfort zones. Audrey invited Andrew to join her and her dogs for a walk in a beautiful park, where they would explore for about an hour. Both agreed on the joy and peace nature brings, with Audrey sharing photos of her happy dogs in nature. They concluded with a mutual appreciation for how nature refreshes the mind and provides a different outlook on life.">
+        <Observation>
+          <text>Andrew recently took a rock climbing class and made it to the top, finding it challenging but satisfying.</text>
+          <source_dia_id>D8:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew shared a photo of the view from the top of the rock he climbed during the rock climbing class.</text>
+          <source_dia_id>D8:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew mentioned that he is a newbie at climbing but reached the top with the support and cheer from his friends.</text>
+          <source_dia_id>D8:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew feels encouraged by the rock climbing experience to try more outdoor activities like kayaking and maybe bungee jumping.</text>
+          <source_dia_id>D8:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew expressed interest in joining Audrey and her dogs for a walk in a park.</text>
+          <source_dia_id>D8:9</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="9" datetime="1:51 pm on 26 June, 2023" summary="Audrey, at 1:51 pm on 26 June, 2023, shared her excitement about moving to a new house with a bigger backyard for her dogs. Andrew praised the new place and asked about the dogs settling in. Audrey mentioned creating a doggy play area in the backyard. Andrew recommended a doggy daycare he visited and Audrey showed interest. They discussed their love for animals and shared nature experiences, emphasizing the importance of appreciating the small things in life.">
+        <Observation>
+          <text>Andrew appreciates friends who understand the love for pets.</text>
+          <source_dia_id>D9:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew expresses missing the connection with nature and is looking forward to exploring more outdoors.</text>
+          <source_dia_id>D9:20</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew enjoys outdoor activities like hiking and finds it rejuvenating to be in nature.</text>
+          <source_dia_id>D9:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew enjoys capturing the beauty of nature through photography.</text>
+          <source_dia_id>D9:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="10" datetime="8:32 pm on 3 July, 2023" summary="Audrey and Andrew caught up at 8:32 pm on 3 July, 2023. Audrey mentioned taking a challenging but rewarding dog training course while Andrew expressed difficulty finding pet-friendly spots. They discussed their lack of time for exploring trails but Audrey shared how well her dogs were doing due to the training. Andrew admired her dogs and asked about their breeds and favorite activities. Audrey revealed they were all mutts who loved running and playing fetch. They further discussed the age of the dogs, their good relationship, and a recent doggy playdate. Andrew shared his new hobby of cooking while Audrey disclosed her love for it and her favorite recipe, Chicken Pot Pie. Andrew showed interest in trying the recipe, and Audrey planned to share it. They also discussed the therapeutic nature of cooking and the joy of trying new dishes. Audrey mentioned garlic as her go-to ingredient and offered to share a Roasted Chicken recipe inspired by Mediterranean flavors. Andrew expressed excitement to try it and thanked her for sharing, ending the conversation with plans to talk later.">
+        <Observation>
+          <text>Andrew is finding new hobbies such as cooking more and trying out new recipes.</text>
+          <source_dia_id>D10:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Cooking has been helping Andrew de-stress, be creative, and express his creativity.</text>
+          <source_dia_id>D10:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew finds cooking calming and a form of escape that allows him to try something new.</text>
+          <source_dia_id>D10:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew appreciates cooking as a relaxing activity that he enjoys, especially the process of experimenting.</text>
+          <source_dia_id>D10:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew is interested in trying new meal ideas, especially healthier ones.</text>
+          <source_dia_id>D10:26</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="11" datetime="9:48 am on 8 July, 2023" summary="Andrew and Audrey had a conversation at 9:48 am on 8 July, 2023, where they discussed their love for nature and their dogs. Andrew mentioned having a picnic with his girlfriend, while Audrey talked about her furry friends and a recent walk. They discussed the difficulty of finding dog-friendly places and planned a hike together for the next month. They both expressed excitement about the upcoming adventure and shared photos of their happy dogs. They also admired nature's beauty and the joy it brings. Their conversation highlighted their appreciation for the small moments in life and the happiness that dogs bring.">
+        <Observation>
+          <text>Andrew had a picnic with his girlfriend last Friday and enjoys being in nature.</text>
+          <source_dia_id>D11:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew is interested in getting a dog but finds it tough to find a place and the right dog.</text>
+          <source_dia_id>D11:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew is planning a hike with Audrey and her dogs for next month.</text>
+          <source_dia_id>D11:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew emphasizes the importance of finding a safe trail for the dogs to have fun hiking.</text>
+          <source_dia_id>D11:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="12" datetime="10:05 am on 11 July, 2023" summary="Andrew and Audrey met at 10:05 am on 11 July, 2023. Andrew introduced his puppy Toby, expressing how much joy he brings despite the city living. Audrey congratulated him and suggested they plan a hiking trip to relax. Andrew agreed, inviting her and their pups. Audrey showed personalized tags she made for her dogs, which Andrew admired. They both expressed love for their pets and agreed on the importance of showing it. They eagerly anticipated the upcoming hike, looking forward to their pets meeting and the fun they would have. They ended the conversation, excited and ready to prepare for the adventure ahead.">
+        <Observation>
+          <text>Andrew has recently gotten a new puppy named Toby.</text>
+          <source_dia_id>D12:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew mentioned feeling stressed due to work piling up and expressed a desire for the peace and freedom of going for a hike.</text>
+          <source_dia_id>D12:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew has plans for a hike next month and invited Audrey and her pups to join along.</text>
+          <source_dia_id>D12:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew is looking forward to the hike and for Toby to meet Audrey's pups.</text>
+          <source_dia_id>D12:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="13" datetime="3:52 pm on 27 July, 2023" summary="At 3:52 pm on 27 July 2023, Andrew excitedly shared his recent volunteering experience at a pet shelter with Audrey, emphasizing the joy and love animals bring. Audrey, intrigued, expressed her desire to volunteer someday and shared how her four pets each have unique personalities. The conversation turned nostalgic as they discussed Audrey's childhood dog, Max, and the special bond they shared. They both agreed that pets are more than animals; they are friends who provide comfort and love. Andrew highlighted the uplifting impact of volunteering with animals, which Audrey appreciated, acknowledging the positive effect their kindness has on the animals' well-being.">
+        <Observation>
+          <text>Andrew and his girlfriend volunteered at a pet shelter on Monday and found it rewarding.</text>
+          <source_dia_id>D13:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew loves animals and finds joy in spending time with them.</text>
+          <source_dia_id>D13:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew believes that pets bring a lot of joy to life.</text>
+          <source_dia_id>D13:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew considers pets as friends and confidantes, highlighting their role beyond just being pets.</text>
+          <source_dia_id>D13:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew finds volunteering with animals to be one of the most rewarding experiences he's ever done.</text>
+          <source_dia_id>D13:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="14" datetime="11:05 am on 4 August, 2023" summary="On August 4th, 2023, at 11:05 am, Andrew told Audrey about his upcoming camping trip with his girlfriend. Audrey shared her experience with agility classes for her dogs, emphasizing the joy of watching them overcome challenges. They discussed the beauty of nature and the benefits of spending time outdoors. Audrey advised Andrew on caring for his German Shepherd, Toby, emphasizing the importance of energy and attention. Andrew expressed his excitement to bond with Toby on hikes. The conversation highlighted the special bond between humans and animals, as Audrey shared her love for her pets and Andrew looked forward to deepening his connection with Toby.">
+        <Observation>
+          <text>Andrew is in a relationship with a girlfriend named Toby.</text>
+          <source_dia_id>D14:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew enjoys camping and spending time in nature.</text>
+          <source_dia_id>D14:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew enjoys hiking and finds it the best outdoor activity.</text>
+          <source_dia_id>D14:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew finds being in nature refreshing and calming, a break from city life.</text>
+          <source_dia_id>D14:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew is interested in having a deep bond with his German Shepherd, Toby, and sees him as a great hiking buddy.</text>
+          <source_dia_id>D14:17</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="15" datetime="9:58 pm on 16 August, 2023" summary="Audrey, at 9:58 pm on 16 August, 2023, excitedly told Andrew she got a tattoo of her four dogs. She shared that she took the dogs to the vet together last time which was hectic, and they each have a favorite spot to relax at home. Andrew mentioned visiting a farm for fresh veggies with his girlfriend. The two admire each other's pet photos and discuss the joy pets bring. Audrey shared a photo of her dogs snuggling, and Andrew showed his dog Toby's favorite spot. They discussed how pets always find comfort and joy in their cozy spaces. Audrey expressed how much her dogs mean to her, saying they are best friends and bring happiness. Andrew agreed, calling pets family and mentioning the joy they bring. Audrey shared a photo of her lying on the grass with her dogs, reflecting on the wonderful time they had outside. Andrew encouraged her to cherish those moments, to which Audrey expressed gratitude, saying her pets make life brighter.">
+        <Observation>
+          <text>Andrew went to a farm with his girlfriend to get fresh veggies for dinner.</text>
+          <source_dia_id>D15:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew shared a photo of his pet, Toby, at its favorite spot.</text>
+          <source_dia_id>D15:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew appreciates the joy and comfort pets bring by finding their own little spots.</text>
+          <source_dia_id>D15:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew acknowledges the happiness pets bring and can't imagine life without them.</text>
+          <source_dia_id>D15:10</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="16" datetime="9:19 pm on 19 August, 2023" summary="Andrew and Audrey had a conversation at 9:19 pm on 19 August, 2023. Andrew shared about taking a break to visit a cafe and reminisced about the tranquility of nature. He also showed Audrey a serene photo from his previous hike. Audrey mentioned learning dog grooming, feeling closer to her pups, and shared a picture of them looking cute and fluffy post-grooming. Andrew praised her skills and sought grooming tips, which Audrey gladly provided. They discussed weekend plans - Audrey taking her dogs to the park for a stroll and Andrew heading to a nature reserve. Andrew promised to share photos from his trip with Audrey later. They bid goodbye, looking forward to the pictures and caring for their pets.">
+        <Observation>
+          <text>Andrew took a break from work to check out a new cafe recently.</text>
+          <source_dia_id>D16:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew enjoys hiking in the great outdoors.</text>
+          <source_dia_id>D16:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew is heading to a nature reserve this weekend to reconnect with nature.</text>
+          <source_dia_id>D16:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="17" datetime="12:24 am on 24 August, 2023" summary="On August 24, 2023, at 12:24 am, Andrew told Audrey about his recent fishing trip with his girlfriend. Audrey shared a memory of sitting by a lake in the mountains. They discussed pet care, with Audrey emphasizing grooming and love to keep pets happy. They highlighted the importance of forming strong bonds with pets, with Audrey offering tips to Andrew for his dog Toby. Andrew expressed excitement for bonding with Toby and future outdoor adventures. The conversation ended with compliments and well wishes between the two friends.">
+        <Observation>
+          <text>Andrew went fishing last weekend with his girlfriend at a nearby lake and caught a few fish.</text>
+          <source_dia_id>D17:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew is concerned about keeping his pets looking good when they are outdoors.</text>
+          <source_dia_id>D17:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew believes that taking care of pets to ensure they are healthy and happy is important.</text>
+          <source_dia_id>D17:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew appreciates the rewarding feeling of making a positive impact on the lives of those close to him.</text>
+          <source_dia_id>D17:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew is looking forward to bonding better with his pet dog, Toby, and seeks tips on taking care of him.</text>
+          <source_dia_id>D17:9</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="18" datetime="7:49 pm on 6 September, 2023" summary="At 7:49 pm on 6th September 2023, Andrew and Audrey had a conversation. Andrew shared his work stress and challenge in finding balance in life. Audrey emphasized the importance of self-care and finding joy in simple activities. They discussed hobbies and moments of relaxation. Audrey shared about organizing a dog playdate and getting new beds for her furry friends. Andrew inquired about the playdate and new beds with interest. Audrey shared pictures of the playdate and the new beds, expressing joy in her pets' happiness. They discussed the importance of simple joys and bonding with animals. Andrew shared about his hike, while Audrey asked about hiking with Toby. Andrew mentioned the challenge of finding a dog-friendly place to live. Audrey encouraged him not to give up and to keep searching. They ended by exchanging well wishes and encouragement.">
+        <Observation>
+          <text>Andrew has been finding work tough and stressful, causing his outdoor activities to take a backseat.</text>
+          <source_dia_id>D18:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew tries to find balance in his life but finds it challenging.</text>
+          <source_dia_id>D18:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew has been adding self-care activities to his daily routine like grabbing a coffee or going for a walk to recharge and chill out.</text>
+          <source_dia_id>D18:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew enjoys hiking and finds it a relief to get away from the city.</text>
+          <source_dia_id>D18:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew is looking for a dog-friendly place to live for his young pet Toby.</text>
+          <source_dia_id>D18:17</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="19" datetime="5:53 pm on 24 September, 2023" summary="Andrew and Audrey caught up at 5:53 pm on 24 September, 2023. Audrey shared a recent incident where her dog's leash broke, causing a scare but strengthening their bond. She advised patience and regular training to build trust with dogs. They discussed training tricks, going for walks, and Audrey's mutt breeds. Andrew admired Audrey's garden with Peruvian Lilies, easy to care for and enjoyed by her dogs. They shared the joy their furry pals bring into their lives, highlighting the strong bond and happiness they provide.">
+        <Observation>
+          <text>Andrew expressed concern and empathy for Audrey's dog when she got scared and ran off at the park.</text>
+          <source_dia_id>D19:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew is interested in building a strong relationship with dogs and seeks advice on the matter.</text>
+          <source_dia_id>D19:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew believes patience and regular training are essential in building a strong relationship with dogs.</text>
+          <source_dia_id>D19:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew finds joy in taking care of flowers and enjoys watching them grow in his garden.</text>
+          <source_dia_id>D19:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="20" datetime="7:09 pm on 1 October, 2023" summary="Andrew and Audrey had a conversation at 7:09 pm on 1 October 2023. Andrew shared that he and his girlfriend will be going to the beach next month with Toby. Audrey expressed her excitement for an upcoming hike with the dogs, highlighting how being in nature helps her find peace. Andrew agreed and mentioned missing being in nature. They discussed the benefits of nature, birdwatching, and taking care of the environment for future generations. They also talked about reducing the carbon footprint by biking and using public transport. Andrew offered to show Audrey the best bike routes near the river. They both looked forward to exploring the routes and enjoying the scenery together.">
+        <Observation>
+          <text>Andrew is planning a beach trip with his girlfriend and friend Toby next month.</text>
+          <source_dia_id>D20:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew is looking forward to a hike in nature with his friends and dogs.</text>
+          <source_dia_id>D20:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew enjoys watching birds in nature and has read books about ecological systems.</text>
+          <source_dia_id>D20:23</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew knows a thing or two about birdwatching and is willing to offer advice.</text>
+          <source_dia_id>D20:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew plans to bring binoculars and a notebook for birdwatching.</text>
+          <source_dia_id>D20:21</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew believes that nature is interconnected and humans need to take care of it.</text>
+          <source_dia_id>D20:27</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew suggests reducing carbon footprint by biking or using public transport.</text>
+          <source_dia_id>D20:33</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew knows some of the best bike routes near the river.</text>
+          <source_dia_id>D20:37</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="21" datetime="4:18 pm on 4 October, 2023" summary="4:18 pm on 4 October, 2023 - Andrew reconnects with Audrey, who shares about her fun beach trip with her dogs. Andrew reminisces about missing nature due to work. Audrey suggests getting plants for his house. Andrew thanks Audrey for her help and offers. They exchange goodbyes, wishing each other a great week.">
+        <Observation>
+          <text>Andrew used to hike a lot but finds it challenging now with work-life balance.</text>
+          <source_dia_id>D21:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew expresses missing the outdoors and feels a void in his heart without being in nature.</text>
+          <source_dia_id>D21:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew mentioned exploring nature as his escape and a way to find peace.</text>
+          <source_dia_id>D21:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew is considering getting more plants for his house to bring some peace.</text>
+          <source_dia_id>D21:9</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="22" datetime="9:41 pm on 6 October, 2023" summary="Audrey and Andrew had a conversation at 9:41 pm on 6 October, 2023. Audrey shared about missing walking her dogs due to a knee injury but finding joy in being able to walk them again. Andrew empathized and praised the joy dogs bring, encouraging appreciation for life's little pleasures. Audrey mentioned making jewelry from recycled items as a hobby, selling them to donate a portion of the profits to an animal shelter. Andrew admired her dedication to making a difference. Audrey highlighted the importance of adapting in challenging times. Andrew praised her for staying strong and making a difference.">
+        <Observation>
+          <text>Andrew and Audrey discussed the joy of being able to walk dogs again after a knee injury.</text>
+          <source_dia_id>D22:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew praised Audrey for using her passion for making jewelry to make a positive impact.</text>
+          <source_dia_id>D22:8</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="23" datetime="4:22 pm on 13 October, 2023" summary="Andrew and Audrey had a conversation at 4:22 pm on 13th October 2023 where they shared updates about their lives. Andrew talked about a board game night with his girlfriend, Toby, and his plan to visit a cozy cafe. Audrey mentioned baking goodies for her neighbors and discussed taking her dogs to a new spot and a dog park. They shared funny stories about their pups, discussed their love for nature, and the joy their dogs bring. Audrey also mentioned getting a tattoo of her dogs. They agreed that nature and animals bring peace and joy. Andrew recommended hiking as a way to bond and make memories with dogs.">
+        <Observation>
+          <text>Andrew had a board game night with his girlfriend, Toby, last Tuesday.</text>
+          <source_dia_id>D23:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew plans to check out a cozy cafe and hang out there this weekend.</text>
+          <source_dia_id>D23:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew recommended a new spot with a sick view and vibe that just opened recently.</text>
+          <source_dia_id>D23:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew's pup Toby is a German Shepherd who loves cute sweaters.</text>
+          <source_dia_id>D23:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew's dog got excited and chased a squirrel at the dog park, which was hilarious.</text>
+          <source_dia_id>D23:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="24" datetime="6:12 pm on 19 October, 2023" summary="Audrey and Andrew, both pet lovers, discussed their furry companions at 6:12 pm on 19 October, 2023.
+Audrey shared her joy after buying toys for her dogs, while Andrew excitedly announced the adoption of a new pup named Buddy. The two friends talked about their pets' interactions and favorite activities like walks and exploring hiking trails. They planned to go on a hike together next month. Audrey volunteered to find a great spot for the outing as Andrew wished for a getaway from the city. Andrew appreciated Audrey's efforts and looked forward to the adventure.">
+        <Observation>
+          <text>Andrew adopted another pup from a shelter and named him Buddy.</text>
+          <source_dia_id>D24:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew and Buddy enjoy doing walks together as a favorite activity.</text>
+          <source_dia_id>D24:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew enjoys exploring hiking trails with Buddy and Toby.</text>
+          <source_dia_id>D24:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew wishes to find a place far from the city to take his dogs for a hike.</text>
+          <source_dia_id>D24:16</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="25" datetime="10:14 am on 24 October, 2023" summary="Andrew and Audrey conversed at 10:14 am on 24 October 2023. Andrew shared his experience at a wine tasting, stepping out of his comfort zone, while Audrey mentioned an accident with her pups at the park. They discussed trying new things, with Andrew trying sushi recently and Audrey giving him tips on trying different types. Andrew expressed excitement about his upcoming sushi adventure, while Audrey planned to order sushi for dinner. They ended the conversation wishing each other well.">
+        <Observation>
+          <text>Andrew attended an awesome wine tasting with his girlfriend last weekend and enjoyed trying unique wines.</text>
+          <source_dia_id>D25:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew tried sushi for the first time and enjoyed it, understanding the hype around it.</text>
+          <source_dia_id>D25:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew is curious about trying new things and stepped out of his comfort zone by trying sushi.</text>
+          <source_dia_id>D25:5</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="26" datetime="2:36 pm on 28 October, 2023" summary="Audrey informed Andrew about her dogs' behavior issues, her appointment with an animal behaviorist, and the positive tips she received for handling the problems. The conversation then shifted to planning a nature hike with their furry friends on Saturday, exploring a trail by a lake with scenic views. They expressed excitement and gratitude for the upcoming adventure, sharing photos of potential locations and expressing eagerness to capture memories with their dogs. Andrew shared a photo of his happy dog from a previous hike, and they both looked forward to creating new joyful memories together. They planned to meet for the hike and said their goodbyes as they got ready to head out.">
+        <Observation>
+          <text>Andrew appears to be a supportive friend to Audrey, encouraging her and expressing well wishes for her dogs' well-being.</text>
+          <source_dia_id>D26:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew plans to go hiking with Audrey, mentioning going on a picnic date with his girlfriend on Sunday.</text>
+          <source_dia_id>D26:20</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew is enthusiastic about exploring nature and going on hikes with Audrey and their dogs.</text>
+          <source_dia_id>D26:22</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew shared photos of a national park, a trail, and a dog with Audrey during the conversation.</text>
+          <source_dia_id>D26:14, D26:34, D26:42</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="27" datetime="7:59 pm on 4 November, 2023" summary="Andrew told Audrey about his weekend bike ride with his girlfriend, discovering a park outside the city. Audrey shared her love for exploring parks with her four dogs, mentioning joining a dog owners group for tips. Andrew considered getting another dog but decided to focus on his current pets first. Audrey advised on taking care of his current dogs before getting more, suggesting regular socialization and exercise for keeping them happy in the city. She also recommended mental stimulation activities like puzzles and hide-and-seek. Andrew appreciated Audrey's support and friendship, thanking her for the advice.">
+        <Observation>
+          <text>Andrew went on a bike ride with his girlfriend last weekend to a park outside of town.</text>
+          <source_dia_id>D27:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew is considering getting another dog but is unsure due to already having two dogs to take care of.</text>
+          <source_dia_id>D27:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew is appreciative of Audrey's advice and support regarding taking care of dogs.</text>
+          <source_dia_id>['D27:7', 'D27:9', 'D27:15', 'D27:17']</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="28" datetime="9:02 am on 22 November, 2023" summary="Audrey and Andrew caught up at 9:02 am on 22 November, 2023. Audrey shared about taking her dogs to the pet salon and showing them off all groomed up. Andrew admired the pictures and mentioned adopting a new dog named Scout. They discussed taking Scout, Toby, and Buddy to a park together for a fun outing. Audrey advised on introducing Scout to the other dogs slowly and creating a safe space for the new pup. Andrew was grateful for the advice and expressed how dogs bring joy and friendship. Audrey also shared how her dogs are doing well and bring her happiness. Both concluded that having dogs as family members is truly special.">
+        <Observation>
+          <text>Andrew has at least 3 dogs named Scout, Toby, and Buddy.</text>
+          <source_dia_id>D28:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew adopted a new dog named Scout because of their adventurous spirit.</text>
+          <source_dia_id>D28:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew values safety and comfort for his dogs, providing them with essentials like a bed, toys, and puppy pads.</text>
+          <source_dia_id>D28:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew plans to introduce the new dog, Scout, to his other dogs slowly to ensure they get along.</text>
+          <source_dia_id>D28:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew expresses gratitude for having Scout and appreciates having multiple furry friends.</text>
+          <source_dia_id>D28:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Andrew considers his dogs as family members and acknowledges the joy and friendship they bring.</text>
+          <source_dia_id>D28:18</source_dia_id>
+        </Observation>
+      </Session>
+    </Speaker>
+  </Conversation_Version>
+</Root>

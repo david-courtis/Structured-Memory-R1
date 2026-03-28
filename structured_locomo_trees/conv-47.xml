@@ -1,0 +1,1209 @@
+<?xml version="1.0" ?>
+<Root>
+  <Conversation_Version number="1" sample_id="conv-47" speaker_a="James" speaker_b="John">
+    <patch_info>None</patch_info>
+    <conversation_history>Initial_Version</conversation_history>
+    <Speaker name="James">
+      <Session session_id="1" datetime="3:47 pm on 17 March, 2022" summary="John and James spoke at 3:47 pm on 17th March 2022. John asked James about his motivation, which James attributed to his love for video games. They discussed their favorite games, programming skills, and a potential collaboration on a dog care app. James shared his project of creating a computer game based on childhood sketches. John admired James' passion and expressed interest in trying VR gaming together. They agreed to meet for VR gaming the following Saturday.">
+        <Observation>
+          <text>James tried programming in college and now it's a big part of his life.</text>
+          <source_dia_id>D1:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James has worked with Python and C++, building websites and creating game mods.</text>
+          <source_dia_id>D1:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James plans to build an app for dog walking and pet care, aiming to connect pet owners with reliable dog walkers.</text>
+          <source_dia_id>D1:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James is working on a project to turn his childhood sketches of a main character into a computer game, combining his passions for gaming and storytelling.</text>
+          <source_dia_id>D1:20</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="2" datetime="9:26 pm on 20 March, 2022" summary="At 9:26 pm on 20 March, 2022, James told John about joining a new gaming platform, emphasizing the joy of connecting with gamers and sharing experiences. John agreed, highlighting the community-building aspect of gaming. They both found solace and stress relief in gaming during tough times. James also shared his interest in exploring different gaming styles, while John mentioned his new hobby of beachcombing with a metal detector. James then showed John pictures of his dogs and offered to help him find a pet in the future. They ended their conversation on a friendly note.">
+        <Observation>
+          <text>James created a game avatar and joined a new platform to connect with other gamers.</text>
+          <source_dia_id>D2:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gaming has been a refuge for James in tough times, providing relaxation and escape from stress.</text>
+          <source_dia_id>D2:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James sees games as therapy, where he can relax, forget his troubles, and get lost in another world.</text>
+          <source_dia_id>D2:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James has been exploring different styles of gaming lately to try something new and test himself.</text>
+          <source_dia_id>D2:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James has two dogs who he has done lots of training with, and they are like family to him.</text>
+          <source_dia_id>D2:17</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James offered to help find the perfect pet for John when John mentioned wanting one.</text>
+          <source_dia_id>D2:19</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="3" datetime="12:40 am on 27 March, 2022" summary="John and James conversed at 12:40 am on 27th March 2022. John shared his recent gaming success and drumming hobby, while James talked about learning a new instrument. They discussed gaming systems, conventions, and mutual admiration for skilled players. John emphasized the importance of learning from experienced gamers, and James mentioned setting small goals to stay motivated. James expressed excitement about exploring new game genres, with John eager to hear about his progress. The conversation ended with John looking forward to hearing updates from James about his gaming adventures.">
+        <Observation>
+          <text>James is learning to play a musical instrument and has been at it daily, seeing improvements.</text>
+          <source_dia_id>['D3:2', 'D3:6']</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James got a new cutting-edge gaming system with incredible graphics and enjoys playing new games to relax after work.</text>
+          <source_dia_id>D3:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James is getting into different types of games now, like RPGs and strategy games, which he finds really exciting.</text>
+          <source_dia_id>D3:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="4" datetime="2:13 pm on 4 April, 2022" summary="At 2:13 pm on 4 April, 2022, John and James caught up after a long time. James shared his experience in an online gaming tournament where he reached the semifinals, had fun, and received gaming tips and autographs from a famous team. John emphasized the importance of communication and teamwork in gaming. They discussed playing Apex Legends together and trying out new genres like RPGs and MOBAs. They agreed to chat soon and update each other on new games.">
+        <Observation>
+          <text>James joined an online gaming tournament and made it to the semifinals, winning some rounds.</text>
+          <source_dia_id>D4:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James participated in the final rounds of the online gaming tournament but did not make it to the finals.</text>
+          <source_dia_id>D4:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James met the whole team of a famous player at the tournament and received gaming tips and autographs.</text>
+          <source_dia_id>D4:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James remembers the gaming advice received was about proper communication and teamwork over ego.</text>
+          <source_dia_id>D4:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James usually communicates with his team using voice chat for effective teamwork.</text>
+          <source_dia_id>D4:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James enjoys playing Apex Legends with his team due to its fast-paced gameplay.</text>
+          <source_dia_id>D4:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James is excited about trying out new games like RPGs and MOBAs.</text>
+          <source_dia_id>D4:20</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James plans to update John on his gaming experiences and new games.</text>
+          <source_dia_id>D4:24</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="5" datetime="9:52 am on 12 April, 2022" summary="James and John caught up at 9:52 am on 12 April, 2022. James shared about adopting a pup named Ned and how it made his days happier. John mentioned being busy with work but still finding solace in gaming. They discussed a new RPG game John is playing, which James showed interest in despite some lag and errors. John convinced James to try the game, offering to send a link. They agreed to discuss it later, expressing excitement. They bid farewell with James looking forward to trying the game and John wishing him a great time.">
+        <Observation>
+          <text>James adopted a pup from a shelter in Stamford last week and named it Ned, making his days happier.</text>
+          <source_dia_id>D5:1</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="6" datetime="9:32 pm on 20 April, 2022" summary="John and James caught up at 9:32 pm on April 20, 2022. John shared his excitement about making new friends in his programming course. Meanwhile, James talked about collaborating with a gaming pal on a virtual world project inspired by Witcher 3. He found inspiration for the project from a stranger he saw during a walk with his dogs. Both friends discussed how real-life experiences inspire their creativity. They also shared their love for traveling, with James mentioning his visits to Italy, Turkey, and Mexico, while John recently visited Japan. They expressed interest in traveling together in the future. James agreed to look for a destination as they planned their future trip.">
+        <Observation>
+          <text>James worked on a programming project combining gaming with programming, creating a virtual world inspired by Witcher 3 with a game character he designed.</text>
+          <source_dia_id>D6:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James got the idea for the virtual world from a stranger he saw while walking his dogs and found inspiring.</text>
+          <source_dia_id>D6:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James has visited Italy, Turkey, and Mexico besides his permanent residence and found Italy to be very beautiful with delicious food.</text>
+          <source_dia_id>D6:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James expressed an interest in traveling together with John to a new country next year and plans to start looking for options.</text>
+          <source_dia_id>D6:16</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="7" datetime="11:04 am on 23 April, 2022" summary="On 23 April, 2022 at 11:04 am, John greeted James, who had taken his dogs on a hike the previous Thursday, sharing that they had a great time exploring trails and enjoying the outdoors. John asked for pictures, which James had, showcasing the adventure. James explained he chose the spot for its views and trails, perfect for the dogs. They both agreed on the benefits of being in nature to relax. John revealed work had been hectic due to numerous deadlines, especially struggling with a challenging coding project. James offered to help by suggesting breaking down the problem and seeking advice. John appreciated the advice, determined to keep going. James encouraged him not to give up, emphasizing that every problem has a solution, ending the conversation on a positive note.">
+        <Observation>
+          <text>James enjoys the outdoors and finds being surrounded by lush greenery and clean air comforting.</text>
+          <source_dia_id>D7:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James finds the crunch of leaves under his feet and the peacefulness of nature helpful in clearing his head and chilling.</text>
+          <source_dia_id>D7:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James offers assistance and suggests breaking down the project into smaller steps, doing research, and seeking help to overcome coding difficulties.</text>
+          <source_dia_id>D7:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="8" datetime="2:36 pm on 29 April, 2022" summary="James and John conversed at 2:36 pm on 29 April, 2022. John mentioned he is doing freelance programming to improve his coding skills and is working on a website for a local business. Despite facing challenges like setting up payments, he's determined to succeed. James praised John for his progress and shared his interest in fantasy novels. They discussed the book &quot;The Name of the Wind&quot; and strategy games like Civilization VI and Valhalla. James talked about playing a strategy game that tests problem-solving skills and how satisfying it is to win. John brought up enjoying strategy board games and a mystery game with friends. They agreed it's fun to play with others and recommended playing games like the impostor game in large groups for a better experience.">
+        <Observation>
+          <text>James bought an adventure book with fantasy novels and cool arts three days ago.</text>
+          <source_dia_id>D8:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James has furry friends, like his dog Daisy, who lay down next to him while he plays games.</text>
+          <source_dia_id>D8:17</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James is currently trying out some strategy games.</text>
+          <source_dia_id>D8:21</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James has been playing the game AC Valhalla.</text>
+          <source_dia_id>D8:21</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James has been playing a turn-based strategy game where you manage resources, lead armies, and conquer territories.</text>
+          <source_dia_id>D8:23</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James has been playing the turn-based strategy game for a month to challenge his strategy skills.</text>
+          <source_dia_id>D8:29</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="9" datetime="7:01 pm on 4 May, 2022" summary="John and James caught up at 7:01 pm on 4 May, 2022. James had a frustrating week due to a bug in his project but managed to fix it with the help of friends. They discussed the importance of teamwork and balancing work with socializing. James spends time with his Labrador, Daisy, and two loyal shepherds. James finds happiness in his pets, computer games, travel, and pizza, particularly loving pepperoni, cheese, and prosciutto pizzas. John prefers Hawaiian pizza. They concluded by discussing trying out prosciutto pizza in the future.">
+        <Observation>
+          <text>James faced a bug in his project that messed up the game mechanics, causing disappointment.</text>
+          <source_dia_id>D9:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James enjoys spending time with his beloved pets - a Labrador named Daisy and two shepherds.</text>
+          <source_dia_id>D9:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James finds joy and loyalty in his pets.</text>
+          <source_dia_id>D9:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James's happiness comes from his pets, computer games, travel, and pizza.</text>
+          <source_dia_id>D9:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James's favorite type of pizza is pepperoni for its spicy salami and cheese combination.</text>
+          <source_dia_id>D9:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James also likes cheese pizza and prosciutto on his pizza.</text>
+          <source_dia_id>D9:20</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James recommends prosciutto pizza to John, highlighting its greatness.</text>
+          <source_dia_id>D9:22</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="10" datetime="12:45 am on 8 May, 2022" summary="At 12:45 am on 8 May, 2022, James and John caught up after a while. John mentioned organizing a CS:GO tournament with friends for charity, and James praised his efforts. John expressed interest in organizing more events for charity in the future. They discussed donating to a dog shelter and feeding the homeless with the collected money. James commended John's efforts, and John vowed to continue doing good things. James concluded the conversation by expressing pride in John's actions.">
+        <Observation>
+          <text>James mentioned being busy at work.</text>
+          <source_dia_id>D10:2</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="11" datetime="5:00 pm on 11 May, 2022" summary="John and James spoke at 5:00 pm on 11 May, 2022. John shared how he volunteered his programming skills for a charitable foundation, creating a software tool that streamlined their operations. James expressed admiration for John's contribution and requested visuals of the impact. John explained his motivation was the foundation's dedication to helping kids. The experience inspired John to consider a career in the non-profit sector. James encouraged him to find the right organization for his skills. John appreciated the support and mentioned looking forward to making a positive impact. James wished him luck and they concluded the conversation warmly.">
+        <Observation>
+          <text>James was glad to hear from John and excited to learn about the impact of the software tool John created for the charitable foundation.</text>
+          <source_dia_id>D11:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James asked about the motivation behind John's creation of the software tool for the foundation.</text>
+          <source_dia_id>D11:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James encouraged John to continue using his skills and passions for making a difference.</text>
+          <source_dia_id>D11:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James offered support and encouragement to find the right non-profit organization that aligns with John's values and passion for programming.</text>
+          <source_dia_id>D11:16</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="12" datetime="7:33 pm on 23 May, 2022" summary="James told John about his fun time at the amusement park last weekend, enjoying the roller coasters and other attractions that brought back childhood memories. John shared his recent success in a local tournament, coming in second place and receiving a trophy and prize money. They discussed the importance of growth, progress, and perseverance in achieving goals. James mentioned completing a challenging project that required learning a new language, which taught him problem-solving, patience, and perseverance. John encouraged James to keep going and reach his goals, emphasizing the importance of determination and confidence in achieving success.">
+        <Observation>
+          <text>James had an awesome time at the amusement park with friends last weekend, going on roller coasters, Ferris wheel, electric cars, and buggies.</text>
+          <source_dia_id>D12:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James finished a big project after months that involved learning a new language and handling many details, which helped him learn about problem-solving, patience, and perseverance.</text>
+          <source_dia_id>D12:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="13" datetime="4:30 pm on 13 June, 2022" summary="John and James caught up at 4:30 pm on 13 June, 2022. John shared his excitement about landing his dream job, starting next month. James was supportive, mentioning his passion for gaming and programming. James talked about a football simulator project he was working on, combining his love for football and self-improvement. The conversation shifted to football, with James rooting for Liverpool and John supporting Manchester City. They made a friendly bet about their teams' final standings, setting the stage for a competitive season.">
+        <Observation>
+          <text>James recently started a course combining his passion for gaming and programming.</text>
+          <source_dia_id>D13:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James is currently working on a football simulator project, specifically on collecting player databases.</text>
+          <source_dia_id>D13:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James is a Liverpool fan and follows all their matches closely.</text>
+          <source_dia_id>D13:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James believes there is no sport better than football and no club better than Liverpool.</text>
+          <source_dia_id>D13:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James is confident that Liverpool will become champions next season.</text>
+          <source_dia_id>D13:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James is competitive with John about the standings of their respective football teams.</text>
+          <source_dia_id>D13:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James agrees to a bet with John regarding the final standings of their football teams.</text>
+          <source_dia_id>D13:19</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="14" datetime="5:07 pm on 16 June, 2022" summary="James and John had a conversation at 5:07 pm on 16 June, 2022. James shared that he has been through ups and downs recently but feels lucky to have a support system. John mentioned starting a coding blog and shared his love for sci-fi and fantasy books. He recommended &quot;The Stormlight Archive&quot; and &quot;Kingkiller Chronicle&quot;. James talked about his dog Max, who loves swimming and playing fetch. John praised James for taking breaks in nature, emphasizing the importance of self-care and support.">
+        <Observation>
+          <text>James has two people who always help him out when he's struggling.</text>
+          <source_dia_id>D14:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James posted a picture on his blog about coding last week.</text>
+          <source_dia_id>D14:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James has a dog named Max who brings him joy, especially in tough times.</text>
+          <source_dia_id>D14:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James enjoys cuddling with his dog Max.</text>
+          <source_dia_id>D14:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James and Max enjoy swimming together at the beach or lake.</text>
+          <source_dia_id>D14:17</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James takes walks with Max in a nearby tranquil trail to relax and connect with nature.</text>
+          <source_dia_id>D14:27</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>When alone in the park, James brings a book to chill and escape from reality.</text>
+          <source_dia_id>D14:31</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="15" datetime="9:59 pm on 19 June, 2022" summary="At 9:59 pm on 19 June, 2022, James shared with John how he introduced Max, Daisy, and the new pup, Ned, who are slowly bonding. John asked for a picture, complimented their cuteness, and shared his career aspirations of making a positive impact. James encouraged John's idea of volunteering and they discussed the rewarding experience. John expressed interest in joining James in volunteering, and James offered to take him. They discussed the organization and James assured John of a welcoming environment. James supported John's goal of making a difference, and they ended with mutual encouragement and determination to achieve their goals together.">
+        <Observation>
+          <text>James introduced three pets - Max, Daisy, and a new pup named Ned, who are slowly adapting and bonding together.</text>
+          <source_dia_id>D15:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James took a great photo of his pets bonding together.</text>
+          <source_dia_id>D15:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James volunteered last month and found it rewarding to see the impact of small gifts on those in need.</text>
+          <source_dia_id>D15:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James volunteered with an organization providing necessary items to less fortunate individuals.</text>
+          <source_dia_id>D15:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James is willing to introduce John to the organization where he volunteered.</text>
+          <source_dia_id>D15:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James indicated that no interview is required for volunteering, just the willingness to help people.</text>
+          <source_dia_id>D15:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James is supportive of John's goal to make a positive impact on the world.</text>
+          <source_dia_id>D15:17</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="16" datetime="5:13 pm on 9 July, 2022" summary="James and John caught up at 5:13 pm on July 9, 2022. James shared his excitement about winning an online gaming tournament and his newfound interest in extreme sports. John congratulated him and mentioned feeling overwhelmed balancing personal and professional life. James revealed his upcoming trip to Toronto and Vancouver, planning to return on July 20. They discussed relaxation methods and bid farewell, with John eagerly awaiting a souvenir from James' journey.">
+        <Observation>
+          <text>James won an online gaming tournament last week and found the experience exciting and motivating.</text>
+          <source_dia_id>D16:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James is interested in extreme sports, recently trying rope jumping from a height of 150 meters and surfing.</text>
+          <source_dia_id>D16:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James enjoys reading, especially during cold winter days, but finds it exciting to do something different in the summer.</text>
+          <source_dia_id>D16:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James bought air tickets to Toronto and plans to visit Vancouver as well.</text>
+          <source_dia_id>D16:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James plans to return from his trip on July 20 and intends to bring back a souvenir for John.</text>
+          <source_dia_id>D16:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="17" datetime="9:49 am on 22 July, 2022" summary="John and James discussed their shared interest in chess, with John explaining his recent involvement in the game to improve his strategy skills. James offered tips for improvement and they reminisced about a childhood photo at the skate park. They also talked about pets, travel experiences, and family bonds. James shared a photo of his sister and dogs, emphasizing the joy they bring to his life. John expressed gratitude for his siblings' support, highlighting the importance of family and friends. James shared a sunset photo taken near the ocean before signing off due to fatigue. The conversation ended with mutual goodbyes.">
+        <Observation>
+          <text>James has previously played chess and acknowledges its strategic nature.</text>
+          <source_dia_id>D17:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James shared advice with John on improving in chess by studying opening moves and analyzing games.</text>
+          <source_dia_id>D17:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James has a sister with whom he has a close bond and enjoys spending time near the ocean with her watching sunsets.</text>
+          <source_dia_id>D17:30</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James has dogs that he taught to balance on a skateboard, and they enjoy playing with it.</text>
+          <source_dia_id>D17:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James recently traveled to the city of Nuuk and brought souvenirs for John and Jill.</text>
+          <source_dia_id>D17:22</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James spends time with his sister and dogs, finding happiness and a strong bond with them.</text>
+          <source_dia_id>D17:28</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="18" datetime="1:45 pm on 6 August, 2022" summary="John and James caught up at 1:45 pm on 6 August, 2022. John shared that he left his IT job of 3 years to pursue a more fulfilling career that aligns with his values. He expressed happiness with the decision. James praised John's bravery in making the change. John revealed his plan to organize gaming tournaments, starting with CS:GO and Fortnite. James supported John's new career endeavor and offered financial assistance if needed. James shared that his puppy had a routine medical check-up and vaccination. John admired James for his care towards his pets. The conversation ended with mutual goodbyes and well-wishes.">
+        <Observation>
+          <text>James recently took his puppy for a routine examination and vaccination to prevent seasonal canine disease.</text>
+          <source_dia_id>D18:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James deeply cares for his pets and ensures their well-being.</text>
+          <source_dia_id>D18:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="19" datetime="9:16 am on 10 August, 2022" summary="At 9:16 am on 10 August, 2022, John and James caught up after a few days. John appreciated James' encouragement to explore new game genres. John had been trying strategy and RPG games instead of shooters and was considering organizing competitions. He was engrossed in &quot;The Witcher 3&quot; due to its storytelling and character depth. James shared his beach outing with his dogs and meeting a girl named Samantha, planning to ask her out. John encouraged James to call Samantha, wishing him a great time.">
+        <Observation>
+          <text>James took his three dogs to a beach outing to bond with other dogkeepers.</text>
+          <source_dia_id>D19:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James is considering asking a girl named Samantha out on a date after they met at the beach outing.</text>
+          <source_dia_id>D19:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James shared a picture with John showcasing the graphics of a game they were discussing.</text>
+          <source_dia_id>D19:8</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="20" datetime="3:57 pm on 21 August, 2022" summary="John informed James at 3:57 pm on 21 August, 2022 that he joined an online programming group, finding it incredible to be part of a community with similar goals. He shared that he had exchanged contacts with some members after working on projects together. James praised John's involvement and inquired about potential collaborations. John confirmed a recent successful collaboration and his interest in eSports hosting. James mentioned his gaming group and recent gear upgrades. John shared his gaming setup, highlighting the escape and motivation gaming provides. James discussed a gaming marathon he hosted and asked about John's gaming plans with his siblings. John revealed a plan for a family gaming night next month, which James applauded. They concluded their conversation by agreeing to catch up soon.">
+        <Observation>
+          <text>James has a gaming group that he plays with regularly and they stream their game sessions.</text>
+          <source_dia_id>D20:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James hosted a gaming marathon with friends and it strengthened their bond.</text>
+          <source_dia_id>D20:12</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="21" datetime="9:18 pm on 26 August, 2022" summary="James and John, at 9:18 pm on 26 August 2022, discussed James' dog named Ned, John helping his siblings with programming, and working on a coding project with the siblings. John shared details of the text-based adventure game they are creating. James mentioned his interest in creating a strategy game like Civilization. They made plans to meet at McGee's pub the next day, deciding to have light beers. The conversation ended with them saying goodbye.">
+        <Observation>
+          <text>James has a dog named Ned that he adopted and can't imagine life without.</text>
+          <source_dia_id>D21:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James is interested in creating a strategy game similar to Civilization.</text>
+          <source_dia_id>D21:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James suggested meeting at Starbucks for coffee with John.</text>
+          <source_dia_id>D21:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="22" datetime="6:53 pm on 1 September, 2022" summary="Summary:
+At 6:53 pm on 1 September 2022, James excitedly shared with John that he had completed his Unity strategy game, inspired by games like Civilization and Total War. John praised James's hard work and asked for more details about the game. James shared a screenshot and discussed the challenges he faced during development. John admired James's perseverance and mentioned teaching his siblings coding, who were already creating their own programs. The two friends expressed pride in each other, with James offering support to John during his difficult times. Their conversation highlighted the importance of friendship, support, learning, and collaboration.">
+        <Observation>
+          <text>James finished a Unity strategy game that he put a lot of time and effort into.</text>
+          <source_dia_id>D22:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James loves playing strategy games like Civilization and Total War, which inspired him to create his own game.</text>
+          <source_dia_id>D22:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James found the process of creating the game challenging, especially balancing mechanics and fairness.</text>
+          <source_dia_id>D22:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James learned that perseverance, patience, feedback, and collaboration are essential in game development.</text>
+          <source_dia_id>D22:9</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="23" datetime="9:23 pm on 4 September, 2022" summary="At 9:23 pm on 4 September 2022, James and John catch up on recent events. James shared that he asked Samantha to be his girlfriend at the theater, later they visited McGee's bar discovering they both enjoy lager. John talked about teaching his parents coding and purchasing new gaming equipment involving Sennheiser headphones and a Logitech mouse. James signed up for a cooking class, sharing he made an omelette and meringue there. They planned to attend a baseball game together. John praised James for seeking self-improvement. The conversation ended with friendly goodbyes.">
+        <Observation>
+          <text>James asked Samantha to be his girlfriend at the theater, and she agreed.</text>
+          <source_dia_id>D23:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James and Samantha were at McGee's bar where he found out she loves lager beer.</text>
+          <source_dia_id>D23:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James signed up for a cooking class two days ago to learn something new.</text>
+          <source_dia_id>D23:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James made a great omelette at the cooking class.</text>
+          <source_dia_id>D23:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James's cooking class costs $10 per class.</text>
+          <source_dia_id>D23:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James made meringue and learned how to make dough at the cooking class.</text>
+          <source_dia_id>D23:15</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="24" datetime="6:02 pm on 18 September, 2022" summary="John and James caught up at 6:02 pm on 18 September, 2022. John shared his newfound interest in board games, specifically &quot;Dungeons of the Dragon&quot;. James mentioned noting down tasks in a notebook to stay organized and drew inspiration for ideas from various sources, including dreams. He recalled a dream about a medieval castle with puzzles and traps. John, interested in James's dream, asked for sketches which James had made. The conversation shifted to music, with John revealing his love for electronic and rock music and his past experience playing drums. James also used to play guitar but hadn't in a while. John shared a photo of his old drum set, and they talked about their musical experiences of jamming with friends. James announced he started streaming games, with John expressing support. They ended on a positive note, with John looking forward to details of James's streaming endeavors.">
+        <Observation>
+          <text>James started writing down everything he needs to do in a notebook to avoid forgetting tasks.</text>
+          <source_dia_id>D24:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James gets ideas from various sources like books, movies, and dreams.</text>
+          <source_dia_id>D24:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James had a creative dream a few weeks ago that led to interesting thoughts.</text>
+          <source_dia_id>D24:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James made sketches and notes based on a dream he had about a medieval castle with puzzles and traps.</text>
+          <source_dia_id>D24:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James used to play the guitar when he was younger but hasn't in a while.</text>
+          <source_dia_id>D24:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James is into music but it is not related to his castle dream.</text>
+          <source_dia_id>D24:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James has started streaming games and hopes everything works out.</text>
+          <source_dia_id>D24:20</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="25" datetime="8:56 pm on 20 September, 2022" summary="At 8:56 pm on 20 September 2022, John and James caught up on recent events in their lives. John shared his new startup of portable smokers and a mobile game he created, while James talked about receiving positive feedback from the gaming community and his interest in John's game. John emphasized the importance of staying informed and continuously learning in game development, recommending resources like a book and a magazine to James. James appreciated the advice and encouraged John to take care of himself amidst a busy week. They expressed mutual support and admiration for each other's work.">
+        <Observation>
+          <text>James received positive feedback from the gaming community while streaming a game, which inspired him to keep going.</text>
+          <source_dia_id>D25:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James offered to help John test his mobile game.</text>
+          <source_dia_id>D25:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James recommends a magazine with tutorials and developer interviews to John for game development.</text>
+          <source_dia_id>D25:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James finds the magazine to be a useful resource for game development.</text>
+          <source_dia_id>D25:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James advises John to take care and make time for himself during a busy week.</text>
+          <source_dia_id>D25:22</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="26" datetime="9:20 am on 3 October, 2022" summary="John and James had a conversation at 9:20 am on 3 October, 2022. John shared his excitement about a volunteer gig at a game dev non-profit where he will be a programming mentor for game developers. James praised John's opportunity to combine his love for gaming and helping others. John expressed his enthusiasm for sharing his knowledge and motivating others. James encouraged John, and John found it fulfilling to make a difference. James mentioned getting a new video card and expressed interest in playing Cyberpunk 2077, which John recommended. The conversation ended with well wishes and plans to discuss the game later.">
+        <Observation>
+          <text>James got a cool video card last week and is excited to use it for playing RPGs.</text>
+          <source_dia_id>D26:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James is looking forward to playing Cyberpunk 2077 based on John's recommendation.</text>
+          <source_dia_id>D26:10</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="27" datetime="2:14 pm on 13 October, 2022" summary="John and James spoke at 2:14 pm on 13 October, 2022. John mentioned organizing an online competition with his programmer friends, while James shared his excitement about releasing his first game inspired by Witcher 3. John congratulated James on the game and asked about his inspiration, to which James expressed fulfillment seeing players engage with his creation. James revealed his plans for future game development in various genres. John praised James' determination and expressed support for his future endeavors, to which James expressed gratitude, stating John has always had his back. They ended on a positive note, acknowledging their strong teamwork and mutual support.">
+        <Observation>
+          <text>James created and released his first game for the gaming community recently, which he found exciting.</text>
+          <source_dia_id>D27:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James feels fulfilled seeing players engage with the game world he created.</text>
+          <source_dia_id>D27:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>The game 'Witcher 3' inspired James to create his own game, pushing him to make something special.</text>
+          <source_dia_id>D27:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James expressed a desire to create more games in different genres and explore new ideas in game development.</text>
+          <source_dia_id>D27:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James looks forward to creating more enjoyable experiences in the future.</text>
+          <source_dia_id>D27:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John supports James and expresses gratitude for John's support.</text>
+          <source_dia_id>D27:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James values John's support and friendship, mentioning that John has always been there for him.</text>
+          <source_dia_id>D27:14</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="28" datetime="7:36 pm on 21 October, 2022" summary="At 7:36 pm on 21 October 2022, James and John caught up after a long time. James shared how he lost power in his apartment three days ago while playing a game. They discussed the importance of saving progress in games. John organized a programming seminar last week, which he found fulfilling. James expressed interest in trying new programming techniques from the seminar. John agreed to share resources with him. James also mentioned his mother's visit with her army friend. He showed John a photo of himself playing on their old gaming setup. They talked about childhood gaming memories and James' passion for gaming. James mentioned trying Cyberpunk 2077, and John shared advice about the game. They exchanged goodbyes, ending their conversation.">
+        <Observation>
+          <text>James's apartment lost power three days ago, disrupting his game progress as he forgot to save.</text>
+          <source_dia_id>D28:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James appreciates the creativity and complexity of games, spending hours playing and learning from them.</text>
+          <source_dia_id>D28:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James has a nostalgic attachment to old gaming setups, like playing on his mother's friend's console when he was young.</text>
+          <source_dia_id>D28:21</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James's first gaming system was a Nintendo where he played Super Mario and The Legend of Zelda, sparking his passion for gaming.</text>
+          <source_dia_id>D28:25</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James tried Cyberpunk 2077 yesterday and found it addictive.</text>
+          <source_dia_id>D28:27</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="29" datetime="12:37 am on 31 October, 2022" summary="John called James at 12:37 am on 31 October, 2022, sharing news about organizing a gaming tournament with friends, raising funds for a children's hospital by playing Fortnite, Overwatch, and Apex Legends. James praised John's efforts, mentioning how gaming unites people for a good cause. John shared a tournament photo, and James revealed plans to move in with Samantha near McGee's bar. They discussed their love for the bar and James sought John's support. They ended the conversation wishing each other well and promising to stay in touch.">
+        <Observation>
+          <text>James decided to move in with Samantha into an apartment not far from McGee's bar.</text>
+          <source_dia_id>D29:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>McGee's bar was one of the criteria for James and Samantha's choice of apartment.</text>
+          <source_dia_id>D29:12</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="30" datetime="5:20 pm on 5 November, 2022" summary="At 5:20 pm on 5 November 2022, James and John conversed. James shared about a road trip with family and dogs, enjoying nature. John mentioned winning a chess tournament on Tuesday and the tactics used. They discussed improving in chess with John offering resources. John recommended FIFA 23. They planned to play together after James practices.">
+        <Observation>
+          <text>James started a road trip with his family and dogs yesterday, enjoying exploring new places and nature.</text>
+          <source_dia_id>D30:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James is interested in trying out a new gaming genre and mentioned considering the sports genre.</text>
+          <source_dia_id>D30:15</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="31" datetime="8:57 pm on 7 November, 2022" summary="At 8:57 pm on 7 November, 2022, James told John about his family road trip and visiting friends. John shared his weekend experience working with a game developer, creating an online board game. They discussed the upcoming demo release for feedback. James mentioned visiting an animal sanctuary, where he saw cute rescue dogs, resembling their love for furry pals. They discussed the joy and love dogs bring, agreeing they are amazing companions. John showed a picture of his cousin's dog Luna, and the conversation ended with James and John saying goodbye.">
+        <Observation>
+          <text>James and his family are currently on a road trip and have already visited friends Josh and Mark.</text>
+          <source_dia_id>D31:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James and his family visited an animal sanctuary on the road trip and saw many cute rescue dogs.</text>
+          <source_dia_id>D31:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>James already has three dogs at home and believes having more than three dogs is too much.</text>
+          <source_dia_id>D31:13</source_dia_id>
+        </Observation>
+      </Session>
+    </Speaker>
+    <Speaker name="John">
+      <Session session_id="1" datetime="3:47 pm on 17 March, 2022" summary="John and James spoke at 3:47 pm on 17th March 2022. John asked James about his motivation, which James attributed to his love for video games. They discussed their favorite games, programming skills, and a potential collaboration on a dog care app. James shared his project of creating a computer game based on childhood sketches. John admired James' passion and expressed interest in trying VR gaming together. They agreed to meet for VR gaming the following Saturday.">
+        <Observation>
+          <text>John signed up for a programming class to refresh his skills in HTML and CSS.</text>
+          <source_dia_id>D1:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John suggested the idea of developing mobile applications together in the future.</text>
+          <source_dia_id>D1:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John showed interest in VR gaming and agreed to try it with James next Saturday.</text>
+          <source_dia_id>D1:35</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="2" datetime="9:26 pm on 20 March, 2022" summary="At 9:26 pm on 20 March, 2022, James told John about joining a new gaming platform, emphasizing the joy of connecting with gamers and sharing experiences. John agreed, highlighting the community-building aspect of gaming. They both found solace and stress relief in gaming during tough times. James also shared his interest in exploring different gaming styles, while John mentioned his new hobby of beachcombing with a metal detector. James then showed John pictures of his dogs and offered to help him find a pet in the future. They ended their conversation on a friendly note.">
+        <Observation>
+          <text>John recently got into a new hobby of using a metal detector on the beach to look for items.</text>
+          <source_dia_id>D2:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John found mostly bottle caps with his metal detector, but also found coins and even a gold ring a couple of times.</text>
+          <source_dia_id>D2:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John expressed interest in getting a pet in the future and appreciated James' offer to help find the perfect one.</text>
+          <source_dia_id>D2:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="3" datetime="12:40 am on 27 March, 2022" summary="John and James conversed at 12:40 am on 27th March 2022. John shared his recent gaming success and drumming hobby, while James talked about learning a new instrument. They discussed gaming systems, conventions, and mutual admiration for skilled players. John emphasized the importance of learning from experienced gamers, and James mentioned setting small goals to stay motivated. James expressed excitement about exploring new game genres, with John eager to hear about his progress. The conversation ended with John looking forward to hearing updates from James about his gaming adventures.">
+        <Observation>
+          <text>John had a big win in his game last week and advanced to the next level, which was a huge confidence booster for him.</text>
+          <source_dia_id>D3:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John plays drums and has been playing for only a month.</text>
+          <source_dia_id>D3:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John attended a gaming convention where he tried out loads of games, met developers, and took part in a tournament for CS:GO.</text>
+          <source_dia_id>['D3:9', 'D3:11']</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is always looking to up his game and hit new goals in his hobbies and other stuff.</text>
+          <source_dia_id>D3:15</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="4" datetime="2:13 pm on 4 April, 2022" summary="At 2:13 pm on 4 April, 2022, John and James caught up after a long time. James shared his experience in an online gaming tournament where he reached the semifinals, had fun, and received gaming tips and autographs from a famous team. John emphasized the importance of communication and teamwork in gaming. They discussed playing Apex Legends together and trying out new genres like RPGs and MOBAs. They agreed to chat soon and update each other on new games.">
+        <Observation>
+          <text>John asked James if he had been playing any new games lately.</text>
+          <source_dia_id>D4:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John inquired about James' performance in the online gaming tournament.</text>
+          <source_dia_id>D4:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John asked James if he met any famous players at the tournament.</text>
+          <source_dia_id>D4:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John asked James what advice he remembered most from the famous players.</text>
+          <source_dia_id>D4:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John discussed the importance of communication and teamwork in gaming.</text>
+          <source_dia_id>D4:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John asked James about the game he plays with his team.</text>
+          <source_dia_id>D4:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John inquired if James is looking forward to trying out any new games.</text>
+          <source_dia_id>D4:19</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="5" datetime="9:52 am on 12 April, 2022" summary="James and John caught up at 9:52 am on 12 April, 2022. James shared about adopting a pup named Ned and how it made his days happier. John mentioned being busy with work but still finding solace in gaming. They discussed a new RPG game John is playing, which James showed interest in despite some lag and errors. John convinced James to try the game, offering to send a link. They agreed to discuss it later, expressing excitement. They bid farewell with James looking forward to trying the game and John wishing him a great time.">
+        <Observation>
+          <text>John is playing a new RPG that transports players to a futuristic dystopia with a cool story and world.</text>
+          <source_dia_id>D5:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John found the game to have some lags and errors but still believes it has great graphics and immersive gameplay.</text>
+          <source_dia_id>D5:6</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="6" datetime="9:32 pm on 20 April, 2022" summary="John and James caught up at 9:32 pm on April 20, 2022. John shared his excitement about making new friends in his programming course. Meanwhile, James talked about collaborating with a gaming pal on a virtual world project inspired by Witcher 3. He found inspiration for the project from a stranger he saw during a walk with his dogs. Both friends discussed how real-life experiences inspire their creativity. They also shared their love for traveling, with James mentioning his visits to Italy, Turkey, and Mexico, while John recently visited Japan. They expressed interest in traveling together in the future. James agreed to look for a destination as they planned their future trip.">
+        <Observation>
+          <text>John met three new friends in his programming course last Tuesday and is excited to expand his social circle.</text>
+          <source_dia_id>D6:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John enjoys chilling with friends and traveling to get motivation for work.</text>
+          <source_dia_id>D6:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John visited Japan last, where he was impressed by the technologically advanced megacities and delicious street food.</text>
+          <source_dia_id>D6:15</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="7" datetime="11:04 am on 23 April, 2022" summary="On 23 April, 2022 at 11:04 am, John greeted James, who had taken his dogs on a hike the previous Thursday, sharing that they had a great time exploring trails and enjoying the outdoors. John asked for pictures, which James had, showcasing the adventure. James explained he chose the spot for its views and trails, perfect for the dogs. They both agreed on the benefits of being in nature to relax. John revealed work had been hectic due to numerous deadlines, especially struggling with a challenging coding project. James offered to help by suggesting breaking down the problem and seeking advice. John appreciated the advice, determined to keep going. James encouraged him not to give up, emphasizing that every problem has a solution, ending the conversation on a positive note.">
+        <Observation>
+          <text>John took his dogs out for a hike last Thursday and they enjoyed discovering trails and views.</text>
+          <source_dia_id>D7:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John has been super busy at work with deadlines and lots to do, making it a hectic time for him.</text>
+          <source_dia_id>D7:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is working on a difficult coding project that he finds frustrating and is struggling to make progress on.</text>
+          <source_dia_id>D7:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="8" datetime="2:36 pm on 29 April, 2022" summary="James and John conversed at 2:36 pm on 29 April, 2022. John mentioned he is doing freelance programming to improve his coding skills and is working on a website for a local business. Despite facing challenges like setting up payments, he's determined to succeed. James praised John for his progress and shared his interest in fantasy novels. They discussed the book &quot;The Name of the Wind&quot; and strategy games like Civilization VI and Valhalla. James talked about playing a strategy game that tests problem-solving skills and how satisfying it is to win. John brought up enjoying strategy board games and a mystery game with friends. They agreed it's fun to play with others and recommended playing games like the impostor game in large groups for a better experience.">
+        <Observation>
+          <text>John is currently taking on freelance programming to hone his coding skills.</text>
+          <source_dia_id>D8:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is working on a website for a local small business, which is his first professional project outside of class.</text>
+          <source_dia_id>D8:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John faced challenges figuring out how to get payments on the website he's working on.</text>
+          <source_dia_id>D8:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John recommended the novel &quot;The Name of the Wind&quot; to James.</text>
+          <source_dia_id>D8:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John has been playing the game AC Valhalla.</text>
+          <source_dia_id>D8:20</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John has been playing Among Us, a game where players figure out who the impostors are.</text>
+          <source_dia_id>D8:36</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="9" datetime="7:01 pm on 4 May, 2022" summary="John and James caught up at 7:01 pm on 4 May, 2022. James had a frustrating week due to a bug in his project but managed to fix it with the help of friends. They discussed the importance of teamwork and balancing work with socializing. James spends time with his Labrador, Daisy, and two loyal shepherds. James finds happiness in his pets, computer games, travel, and pizza, particularly loving pepperoni, cheese, and prosciutto pizzas. John prefers Hawaiian pizza. They concluded by discussing trying out prosciutto pizza in the future.">
+        <Observation>
+          <text>John had some new friends over to watch movies on his day off.</text>
+          <source_dia_id>D9:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John enjoys socializing and believes in balancing work with enjoyment.</text>
+          <source_dia_id>D9:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is interested in what type of pets James has.</text>
+          <source_dia_id>D9:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John loves Hawaiian pizza for its sweet and salty combination.</text>
+          <source_dia_id>D9:19</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="10" datetime="12:45 am on 8 May, 2022" summary="At 12:45 am on 8 May, 2022, James and John caught up after a while. John mentioned organizing a CS:GO tournament with friends for charity, and James praised his efforts. John expressed interest in organizing more events for charity in the future. They discussed donating to a dog shelter and feeding the homeless with the collected money. James commended John's efforts, and John vowed to continue doing good things. James concluded the conversation by expressing pride in John's actions.">
+        <Observation>
+          <text>John organized a tournament for the game CS:GO with friends, which raised money for charity.</text>
+          <source_dia_id>D10:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John sent the collected money to a dog shelter near his home.</text>
+          <source_dia_id>D10:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John used some of the remaining money to buy groceries and cook food for the homeless.</text>
+          <source_dia_id>D10:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John expressed interest in organizing more events combining his interests and helping the community.</text>
+          <source_dia_id>D10:8</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="11" datetime="5:00 pm on 11 May, 2022" summary="John and James spoke at 5:00 pm on 11 May, 2022. John shared how he volunteered his programming skills for a charitable foundation, creating a software tool that streamlined their operations. James expressed admiration for John's contribution and requested visuals of the impact. John explained his motivation was the foundation's dedication to helping kids. The experience inspired John to consider a career in the non-profit sector. James encouraged him to find the right organization for his skills. John appreciated the support and mentioned looking forward to making a positive impact. James wished him luck and they concluded the conversation warmly.">
+        <Observation>
+          <text>John volunteered his programming skills for a social cause, creating a software tool for a charitable foundation to streamline their operations.</text>
+          <source_dia_id>D11:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John was inspired by the foundation's passion for helping children and used his coding skills to contribute and challenge himself.</text>
+          <source_dia_id>D11:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>This experience gave John a clearer sense of purpose and motivated him to potentially pursue a career in the non-profit sector.</text>
+          <source_dia_id>D11:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is considering volunteer roles and potentially a career in the non-profit sector.</text>
+          <source_dia_id>D11:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="12" datetime="7:33 pm on 23 May, 2022" summary="James told John about his fun time at the amusement park last weekend, enjoying the roller coasters and other attractions that brought back childhood memories. John shared his recent success in a local tournament, coming in second place and receiving a trophy and prize money. They discussed the importance of growth, progress, and perseverance in achieving goals. James mentioned completing a challenging project that required learning a new language, which taught him problem-solving, patience, and perseverance. John encouraged James to keep going and reach his goals, emphasizing the importance of determination and confidence in achieving success.">
+        <Observation>
+          <text>John entered a local tournament last Friday and took second place, receiving money and a trophy for his achievement.</text>
+          <source_dia_id>D12:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John feels that growth and progress are more important than winning every time and cherishes the lessons learned from his achievement.</text>
+          <source_dia_id>D12:7</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="13" datetime="4:30 pm on 13 June, 2022" summary="John and James caught up at 4:30 pm on 13 June, 2022. John shared his excitement about landing his dream job, starting next month. James was supportive, mentioning his passion for gaming and programming. James talked about a football simulator project he was working on, combining his love for football and self-improvement. The conversation shifted to football, with James rooting for Liverpool and John supporting Manchester City. They made a friendly bet about their teams' final standings, setting the stage for a competitive season.">
+        <Observation>
+          <text>John recently got his dream job after many interviews and late nights.</text>
+          <source_dia_id>D13:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is starting his new job next month.</text>
+          <source_dia_id>D13:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is a Manchester City fan.</text>
+          <source_dia_id>D13:15</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="14" datetime="5:07 pm on 16 June, 2022" summary="James and John had a conversation at 5:07 pm on 16 June, 2022. James shared that he has been through ups and downs recently but feels lucky to have a support system. John mentioned starting a coding blog and shared his love for sci-fi and fantasy books. He recommended &quot;The Stormlight Archive&quot; and &quot;Kingkiller Chronicle&quot;. James talked about his dog Max, who loves swimming and playing fetch. John praised James for taking breaks in nature, emphasizing the importance of self-care and support.">
+        <Observation>
+          <text>John started a blog about coding last week and finds it exciting and challenging.</text>
+          <source_dia_id>D14:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John enjoys reading sci-fi and fantasy books, particularly epic fantasy series with immersive world-building and intricate storylines.</text>
+          <source_dia_id>D14:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's favorite book series are 'The Stormlight Archive', 'Kingkiller Chronicle', and 'The Expanse'.</text>
+          <source_dia_id>D14:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's dog Max loves swimming and playing in the water, being a pro swimmer.</text>
+          <source_dia_id>D14:17</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John appreciates James' achievement in making Max happy.</text>
+          <source_dia_id>D14:20</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John thinks that taking breaks and switching up the scenery is important for recharging.</text>
+          <source_dia_id>D14:32</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is supportive of James and always there to have his back.</text>
+          <source_dia_id>D14:34</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="15" datetime="9:59 pm on 19 June, 2022" summary="At 9:59 pm on 19 June, 2022, James shared with John how he introduced Max, Daisy, and the new pup, Ned, who are slowly bonding. John asked for a picture, complimented their cuteness, and shared his career aspirations of making a positive impact. James encouraged John's idea of volunteering and they discussed the rewarding experience. John expressed interest in joining James in volunteering, and James offered to take him. They discussed the organization and James assured John of a welcoming environment. James supported John's goal of making a difference, and they ended with mutual encouragement and determination to achieve their goals together.">
+        <Observation>
+          <text>John is contemplating his career and desires to make a positive impact on the world.</text>
+          <source_dia_id>D15:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is considering going into non-profit work and using his skills and passions for causes he cares about.</text>
+          <source_dia_id>D15:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John expresses a desire to help people and make the world a better place.</text>
+          <source_dia_id>D15:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is determined to make a positive impact with James's support.</text>
+          <source_dia_id>D15:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="16" datetime="5:13 pm on 9 July, 2022" summary="James and John caught up at 5:13 pm on July 9, 2022. James shared his excitement about winning an online gaming tournament and his newfound interest in extreme sports. John congratulated him and mentioned feeling overwhelmed balancing personal and professional life. James revealed his upcoming trip to Toronto and Vancouver, planning to return on July 20. They discussed relaxation methods and bid farewell, with John eagerly awaiting a souvenir from James' journey.">
+        <Observation>
+          <text>John feels a mix of determination, passion, overwhelm, and stress while balancing personal and professional life.</text>
+          <source_dia_id>D16:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John relaxes by reading and finds it as a fun escape from reality.</text>
+          <source_dia_id>D16:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John asked James about the countries he will be visiting on his trip.</text>
+          <source_dia_id>D16:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John will be waiting for James to return from his trip and expressed excitement about a souvenir.</text>
+          <source_dia_id>D16:14</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="17" datetime="9:49 am on 22 July, 2022" summary="John and James discussed their shared interest in chess, with John explaining his recent involvement in the game to improve his strategy skills. James offered tips for improvement and they reminisced about a childhood photo at the skate park. They also talked about pets, travel experiences, and family bonds. James shared a photo of his sister and dogs, emphasizing the joy they bring to his life. John expressed gratitude for his siblings' support, highlighting the importance of family and friends. James shared a sunset photo taken near the ocean before signing off due to fatigue. The conversation ended with mutual goodbyes.">
+        <Observation>
+          <text>John recently started playing chess to improve his strategic thinking.</text>
+          <source_dia_id>D17:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John plays chess online and joined a chess club to practice with others.</text>
+          <source_dia_id>D17:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John believes chess can enhance decision-making skills.</text>
+          <source_dia_id>D17:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John received advice from James about improving in chess by studying opening moves and analyzing games.</text>
+          <source_dia_id>D17:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John has a picture from elementary school with James related to skateboarding, showing they were friends who enjoyed skateboarding together.</text>
+          <source_dia_id>D17:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John expressed the importance of friendship and the joy pets bring, mentioning he doesn't have pets but would like to get one in the future.</text>
+          <source_dia_id>D17:21</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is grateful for the connection he has with his siblings and values their support.</text>
+          <source_dia_id>D17:31</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="18" datetime="1:45 pm on 6 August, 2022" summary="John and James caught up at 1:45 pm on 6 August, 2022. John shared that he left his IT job of 3 years to pursue a more fulfilling career that aligns with his values. He expressed happiness with the decision. James praised John's bravery in making the change. John revealed his plan to organize gaming tournaments, starting with CS:GO and Fortnite. James supported John's new career endeavor and offered financial assistance if needed. James shared that his puppy had a routine medical check-up and vaccination. John admired James for his care towards his pets. The conversation ended with mutual goodbyes and well-wishes.">
+        <Observation>
+          <text>John recently left his IT job after 3 years because he wanted something that made a difference.</text>
+          <source_dia_id>D18:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is passionate about the gaming industry and wants to become an organizer for gaming tournaments, starting with CS:GO and Fortnite.</text>
+          <source_dia_id>D18:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John values support and is grateful for the support he receives from James in his new career endeavor.</text>
+          <source_dia_id>D18:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="19" datetime="9:16 am on 10 August, 2022" summary="At 9:16 am on 10 August, 2022, John and James caught up after a few days. John appreciated James' encouragement to explore new game genres. John had been trying strategy and RPG games instead of shooters and was considering organizing competitions. He was engrossed in &quot;The Witcher 3&quot; due to its storytelling and character depth. James shared his beach outing with his dogs and meeting a girl named Samantha, planning to ask her out. John encouraged James to call Samantha, wishing him a great time.">
+        <Observation>
+          <text>John has recently started exploring different game genres like strategy and RPGs instead of his usual shooters.</text>
+          <source_dia_id>D19:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John hooked on playing a new RPG game, &quot;The Witcher 3&quot;, where he enjoys the storytelling and characters.</text>
+          <source_dia_id>D19:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is considering organizing competitions for the new game genres he is exploring.</text>
+          <source_dia_id>D19:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John took an initiative to organize his workplace to make it more efficient.</text>
+          <source_dia_id>D19:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is encouraging towards James, thanking him for encouraging him to try new game genres.</text>
+          <source_dia_id>D19:1</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="20" datetime="3:57 pm on 21 August, 2022" summary="John informed James at 3:57 pm on 21 August, 2022 that he joined an online programming group, finding it incredible to be part of a community with similar goals. He shared that he had exchanged contacts with some members after working on projects together. James praised John's involvement and inquired about potential collaborations. John confirmed a recent successful collaboration and his interest in eSports hosting. James mentioned his gaming group and recent gear upgrades. John shared his gaming setup, highlighting the escape and motivation gaming provides. James discussed a gaming marathon he hosted and asked about John's gaming plans with his siblings. John revealed a plan for a family gaming night next month, which James applauded. They concluded their conversation by agreeing to catch up soon.">
+        <Observation>
+          <text>John joined an online programming group last Friday.</text>
+          <source_dia_id>D20:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John worked on a project with someone from the online group last week.</text>
+          <source_dia_id>D20:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is full of courage to start hosting eSports competitions.</text>
+          <source_dia_id>D20:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John bought new devices and refurbished his gaming desk.</text>
+          <source_dia_id>D20:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John uses a powerful graphics card for intense games and has a headset for immersive sound.</text>
+          <source_dia_id>D20:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John organized a gaming night with his siblings for next month.</text>
+          <source_dia_id>D20:17</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="21" datetime="9:18 pm on 26 August, 2022" summary="James and John, at 9:18 pm on 26 August 2022, discussed James' dog named Ned, John helping his siblings with programming, and working on a coding project with the siblings. John shared details of the text-based adventure game they are creating. James mentioned his interest in creating a strategy game like Civilization. They made plans to meet at McGee's pub the next day, deciding to have light beers. The conversation ended with them saying goodbye.">
+        <Observation>
+          <text>John helps his younger siblings with programming and is proud of their progress</text>
+          <source_dia_id>D21:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is working on a coding project with his siblings involving a text-based adventure game.</text>
+          <source_dia_id>D21:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John prefers light beers over dark beers when going out.</text>
+          <source_dia_id>D21:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John agreed to meet James at McGee's Pub after discussing different options.</text>
+          <source_dia_id>D21:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="22" datetime="6:53 pm on 1 September, 2022" summary="Summary:
+At 6:53 pm on 1 September 2022, James excitedly shared with John that he had completed his Unity strategy game, inspired by games like Civilization and Total War. John praised James's hard work and asked for more details about the game. James shared a screenshot and discussed the challenges he faced during development. John admired James's perseverance and mentioned teaching his siblings coding, who were already creating their own programs. The two friends expressed pride in each other, with James offering support to John during his difficult times. Their conversation highlighted the importance of friendship, support, learning, and collaboration.">
+        <Observation>
+          <text>John has been teaching his siblings coding, and they are creating their own programs.</text>
+          <source_dia_id>D22:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's siblings are starting with basic games and stories in their coding journey.</text>
+          <source_dia_id>D22:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is proud of his siblings for learning coding and is excited to see what they create with their skills.</text>
+          <source_dia_id>D22:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is going through some difficult times and appreciates the friendship and support from James.</text>
+          <source_dia_id>D22:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="23" datetime="9:23 pm on 4 September, 2022" summary="At 9:23 pm on 4 September 2022, James and John catch up on recent events. James shared that he asked Samantha to be his girlfriend at the theater, later they visited McGee's bar discovering they both enjoy lager. John talked about teaching his parents coding and purchasing new gaming equipment involving Sennheiser headphones and a Logitech mouse. James signed up for a cooking class, sharing he made an omelette and meringue there. They planned to attend a baseball game together. John praised James for seeking self-improvement. The conversation ended with friendly goodbyes.">
+        <Observation>
+          <text>John's parents started learning coding from him, bringing them closer.</text>
+          <source_dia_id>D23:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John bought new gaming equipment including headphones from Sennheiser and a mouse from Logitech.</text>
+          <source_dia_id>D23:8</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="24" datetime="6:02 pm on 18 September, 2022" summary="John and James caught up at 6:02 pm on 18 September, 2022. John shared his newfound interest in board games, specifically &quot;Dungeons of the Dragon&quot;. James mentioned noting down tasks in a notebook to stay organized and drew inspiration for ideas from various sources, including dreams. He recalled a dream about a medieval castle with puzzles and traps. John, interested in James's dream, asked for sketches which James had made. The conversation shifted to music, with John revealing his love for electronic and rock music and his past experience playing drums. James also used to play guitar but hadn't in a while. John shared a photo of his old drum set, and they talked about their musical experiences of jamming with friends. James announced he started streaming games, with John expressing support. They ended on a positive note, with John looking forward to details of James's streaming endeavors.">
+        <Observation>
+          <text>John recently got into board games and found them to be a lot of fun.</text>
+          <source_dia_id>D24:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John used to play drums when he was younger.</text>
+          <source_dia_id>D24:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John has an old drum set that he used to play on.</text>
+          <source_dia_id>D24:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John has jammed with friends before and found it to be a lot of fun.</text>
+          <source_dia_id>D24:17</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="25" datetime="8:56 pm on 20 September, 2022" summary="At 8:56 pm on 20 September 2022, John and James caught up on recent events in their lives. John shared his new startup of portable smokers and a mobile game he created, while James talked about receiving positive feedback from the gaming community and his interest in John's game. John emphasized the importance of staying informed and continuously learning in game development, recommending resources like a book and a magazine to James. James appreciated the advice and encouraged John to take care of himself amidst a busy week. They expressed mutual support and admiration for each other's work.">
+        <Observation>
+          <text>John started a new startup focusing on portable smokers and has already welded one from metal.</text>
+          <source_dia_id>D25:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John achieved a major career milestone by creating his first mobile game, which is launching next month.</text>
+          <source_dia_id>D25:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's mobile game is a 2D adventure game with puzzles and exploration.</text>
+          <source_dia_id>D25:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John uses resources like a book, tutorials, and developer forums to improve his game development skills.</text>
+          <source_dia_id>D25:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John reads a magazine with tutorials, interviews with developers, and tips for game development.</text>
+          <source_dia_id>D25:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's week has been chaotic, but he is pushing through.</text>
+          <source_dia_id>D25:21</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="26" datetime="9:20 am on 3 October, 2022" summary="John and James had a conversation at 9:20 am on 3 October, 2022. John shared his excitement about a volunteer gig at a game dev non-profit where he will be a programming mentor for game developers. James praised John's opportunity to combine his love for gaming and helping others. John expressed his enthusiasm for sharing his knowledge and motivating others. James encouraged John, and John found it fulfilling to make a difference. James mentioned getting a new video card and expressed interest in playing Cyberpunk 2077, which John recommended. The conversation ended with well wishes and plans to discuss the game later.">
+        <Observation>
+          <text>John received an email about a volunteer gig at a game dev non-profit to be a programming mentor for game developers.</text>
+          <source_dia_id>D26:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is excited about the opportunity to combine his love for gaming and helping by teaching coding and assisting with projects.</text>
+          <source_dia_id>D26:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John loves sharing his knowledge, motivating others passionate about gaming, and helping them reach their potential.</text>
+          <source_dia_id>D26:5</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="27" datetime="2:14 pm on 13 October, 2022" summary="John and James spoke at 2:14 pm on 13 October, 2022. John mentioned organizing an online competition with his programmer friends, while James shared his excitement about releasing his first game inspired by Witcher 3. John congratulated James on the game and asked about his inspiration, to which James expressed fulfillment seeing players engage with his creation. James revealed his plans for future game development in various genres. John praised James' determination and expressed support for his future endeavors, to which James expressed gratitude, stating John has always had his back. They ended on a positive note, acknowledging their strong teamwork and mutual support.">
+        <Observation>
+          <text>John and his programmer friends organized an online competition last week.</text>
+          <source_dia_id>D27:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is supportive and encouraging towards James' game development efforts.</text>
+          <source_dia_id>D27:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John expressed excitement about James releasing his first game for the gaming community.</text>
+          <source_dia_id>D27:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is interested in James' inspiration behind creating his game, mentioning The Witcher 3.</text>
+          <source_dia_id>D27:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John encourages James to continue with game development and expresses belief in his talents.</text>
+          <source_dia_id>D27:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John assures James of his support and cooperation in their endeavors.</text>
+          <source_dia_id>D27:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="28" datetime="7:36 pm on 21 October, 2022" summary="At 7:36 pm on 21 October 2022, James and John caught up after a long time. James shared how he lost power in his apartment three days ago while playing a game. They discussed the importance of saving progress in games. John organized a programming seminar last week, which he found fulfilling. James expressed interest in trying new programming techniques from the seminar. John agreed to share resources with him. James also mentioned his mother's visit with her army friend. He showed John a photo of himself playing on their old gaming setup. They talked about childhood gaming memories and James' passion for gaming. James mentioned trying Cyberpunk 2077, and John shared advice about the game. They exchanged goodbyes, ending their conversation.">
+        <Observation>
+          <text>John organized a programming seminar last week which had a great turnout, and he gained new insights into programming approaches and techniques.</text>
+          <source_dia_id>D28:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John enjoys sharing knowledge and learning from other developers in seminars.</text>
+          <source_dia_id>D28:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John plans to incorporate new programming techniques into his work and enjoys exploring different methods.</text>
+          <source_dia_id>D28:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John values trying out new programming techniques and ideas to spark creativity and keep evolving.</text>
+          <source_dia_id>D28:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is helpful and willing to share resources and tutorials with others to help them learn and grow.</text>
+          <source_dia_id>D28:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John advises James about the game Cyberpunk 2077, highlighting the significance of making the right choices in the game.</text>
+          <source_dia_id>D28:30</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John reminds James about the importance of choices in dialogues with characters in Cyberpunk 2077.</text>
+          <source_dia_id>D28:32</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="29" datetime="12:37 am on 31 October, 2022" summary="John called James at 12:37 am on 31 October, 2022, sharing news about organizing a gaming tournament with friends, raising funds for a children's hospital by playing Fortnite, Overwatch, and Apex Legends. James praised John's efforts, mentioning how gaming unites people for a good cause. John shared a tournament photo, and James revealed plans to move in with Samantha near McGee's bar. They discussed their love for the bar and James sought John's support. They ended the conversation wishing each other well and promising to stay in touch.">
+        <Observation>
+          <text>John organized a gaming tournament with his friends, playing Fortnite, Overwatch, and Apex Legends, to raise funds for a children's hospital.</text>
+          <source_dia_id>D29:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John and his friends raised a decent amount of money for the children's hospital through the gaming tournament.</text>
+          <source_dia_id>D29:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's gaming pals helped him in organizing the tournament and playing games to raise money.</text>
+          <source_dia_id>D29:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John got a great shot at the tournament, capturing the hyped atmosphere while playing for a good cause.</text>
+          <source_dia_id>D29:5</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="30" datetime="5:20 pm on 5 November, 2022" summary="At 5:20 pm on 5 November 2022, James and John conversed. James shared about a road trip with family and dogs, enjoying nature. John mentioned winning a chess tournament on Tuesday and the tactics used. They discussed improving in chess with John offering resources. John recommended FIFA 23. They planned to play together after James practices.">
+        <Observation>
+          <text>John won the regional chess tournament recently, feeling proud of his accomplishment.</text>
+          <source_dia_id>D30:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's tournament strategy involved analyzing and anticipating his opponent's moves to stay ahead.</text>
+          <source_dia_id>D30:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John recommends studying opening moves and strategies, learning from experienced players, and analyzing past games to improve at chess.</text>
+          <source_dia_id>D30:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is currently hooked on playing FIFA 23, a football game that allows playing online with players worldwide.</text>
+          <source_dia_id>D30:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John suggests that playing FIFA 23 only requires a gamepad and a sense of timing.</text>
+          <source_dia_id>D30:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="31" datetime="8:57 pm on 7 November, 2022" summary="At 8:57 pm on 7 November, 2022, James told John about his family road trip and visiting friends. John shared his weekend experience working with a game developer, creating an online board game. They discussed the upcoming demo release for feedback. James mentioned visiting an animal sanctuary, where he saw cute rescue dogs, resembling their love for furry pals. They discussed the joy and love dogs bring, agreeing they are amazing companions. John showed a picture of his cousin's dog Luna, and the conversation ended with James and John saying goodbye.">
+        <Observation>
+          <text>John worked with a game developer on a project to create an online board game over the weekend.</text>
+          <source_dia_id>D31:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John and the game developer are about to release a demo of the online board game for others to try.</text>
+          <source_dia_id>D31:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John does not currently have a dog but really wants one.</text>
+          <source_dia_id>D31:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John appreciates the positivity and happiness that dogs bring to life and considers them special buddies.</text>
+          <source_dia_id>D31:20</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's cousin has a dog named Luna.</text>
+          <source_dia_id>D31:22</source_dia_id>
+        </Observation>
+      </Session>
+    </Speaker>
+  </Conversation_Version>
+</Root>

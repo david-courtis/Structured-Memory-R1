@@ -1,0 +1,1073 @@
+<?xml version="1.0" ?>
+<Root>
+  <Conversation_Version number="1" sample_id="conv-49" speaker_a="Evan" speaker_b="Sam">
+    <patch_info>None</patch_info>
+    <conversation_history>Initial_Version</conversation_history>
+    <Speaker name="Evan">
+      <Session session_id="1" datetime="1:47 pm on 18 May, 2023" summary="Sam and Evan met at 1:47 pm on 18 May, 2023. Evan mentioned his recent trip to the Rockies in his new Prius and shared about his passion for watercolor painting. Sam reminisced about hiking with his dad and expressed an interest in trying painting. Evan encouraged Sam to explore different hobbies until he found one he was passionate about. They both agreed to catch up soon to discuss Sam's new hobbies. The conversation ended with Evan wishing Sam well, and Sam looking forward to trying out new activities.">
+        <Observation>
+          <text>Evan has a new Prius after his old one broke down, which he got repaired and sold.</text>
+          <source_dia_id>D1:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan went on a trip to the Rockies with his family.</text>
+          <source_dia_id>D1:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan enjoys watercolor painting as a hobby, which he started a few years back.</text>
+          <source_dia_id>D1:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan got into watercolor painting because a friend introduced him to it and gave him advice.</text>
+          <source_dia_id>D1:16</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="2" datetime="7:11 pm on 24 May, 2023" summary="Evan and Sam spoke at 7:11 pm on 24 May, 2023. Evan shared about his recent road trip to Jasper, which he found peaceful and rejuvenating. Sam, who had a tough week and a concerning doctor's visit about his weight, sought advice on starting a healthier lifestyle. Evan suggested finding enjoyable fitness routines and making smarter food choices. Sam mentioned considering painting as a hobby to de-stress, and Evan encouraged him to try it out alongside exercising. They ended the conversation with Evan asking Sam to keep him updated as he starts this journey.">
+        <Observation>
+          <text>Evan took his family on a road trip to Jasper last weekend, driving through the Icefields Parkway.</text>
+          <source_dia_id>D2:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan described the road trip to Jasper as having fresh air, peacefulness, and a cozy cabin surrounded by mountains and forests.</text>
+          <source_dia_id>D2:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan recommended finding a fitness routine that is enjoyable and making smarter choices in diet for maintaining a healthier lifestyle.</text>
+          <source_dia_id>D2:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan has been painting for a few years as a way to find peace and relieve stress.</text>
+          <source_dia_id>D2:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="3" datetime="3:55 pm on 6 June, 2023" summary="At 3:55 pm on 6 June 2023, Evan and Sam caught up after a while. Evan shared about a recent health scare and his decision to focus on a healthier lifestyle, discussing dietary changes and suggesting healthier alternatives to Sam. Sam mentioned sticking to soda and candy but agreed to try Evan's suggestions. Evan emphasized the importance of small changes for better health and offered support to Sam on their health journeys. They planned to work out together, and Sam shared a frustrating experience at the supermarket. Evan empathized, and they ended the conversation with well wishes.">
+        <Observation>
+          <text>Evan had a health scare involving sudden heart palpitations last week.</text>
+          <source_dia_id>D3:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan is making an effort to be extra careful with his health and is trying to eat less processed food and sugary snacks.</text>
+          <source_dia_id>D3:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan suggested swapping soda for flavored seltzer water and candy for dark chocolate with high cocoa content as healthier options to Sam.</text>
+          <source_dia_id>D3:5</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="4" datetime="10:52 am on 27 July, 2023" summary="At 10:52 am on 27 July, 2023, Sam confided in Evan about being teased for his weight, prompting him to make health changes. Evan offered support, sharing his own health journey and tips. They discussed dietary changes, with Evan suggesting flavored seltzer water and snacks. Evan recommended exercise, and Sam committed to starting the next day. They shared mutual appreciation before parting ways, with Evan promising ongoing support for Sam's health journey.">
+        <Observation>
+          <text>Evan offers to work on improving health together with Sam.</text>
+          <source_dia_id>D4:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan struggled with his health a few years ago, focusing on exercise, diet, and lifestyle changes, which made a positive impact.</text>
+          <source_dia_id>D4:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan made dietary changes like cutting down on sugary snacks and eating more veggies and fruit for his health.</text>
+          <source_dia_id>D4:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan enjoys reading the mystery novel 'The Great Gatsby' and finds it gripping.</text>
+          <source_dia_id>D4:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan suggests flavored seltzer water as a healthier alternative to soda.</text>
+          <source_dia_id>D4:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan advises Sam to focus on healthy swaps and taking small steps towards progress.</text>
+          <source_dia_id>D4:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan suggests low-calorie snacks like air-popped popcorn or fruit to pair with flavored seltzer water.</text>
+          <source_dia_id>D4:10</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="5" datetime="7:52 pm on 7 August, 2023" summary="At 7:52 pm on 7th August 2023, Evan shared with Sam about meeting an amazing Canadian woman, feeling alive, and dealing with health issues. Sam expressed understanding and discussed the challenges of health problems. They also talked about Evan's health journey, motivation from family and tools, like a health tracker, to stay on track. Evan mentioned being motivated by adventure and resilience. Sam agreed on the importance of finding motivation and the power of small steps. They concluded that consistency and perseverance are key. The conversation ended with mutual well-wishes.">
+        <Observation>
+          <text>Evan recently went on a trip to Canada where he met an awesome Canadian woman and feels alive when he's with her.</text>
+          <source_dia_id>D5:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan has been dealing with health issues lately that have made him appreciate good moments more.</text>
+          <source_dia_id>D5:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan has been working on prioritizing his health for two years, with ups and downs.</text>
+          <source_dia_id>D5:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan is motivated to stay healthy by his family and uses a tool that tracks his progress well.</text>
+          <source_dia_id>D5:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan is motivated by a thirst for adventure and interesting hikes.</text>
+          <source_dia_id>D5:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan got a symbol that represents strength and resilience to motivate him through tough times.</text>
+          <source_dia_id>D5:17</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="6" datetime="4:09 pm on 13 August, 2023" summary="Evan and Sam catch up at 4:09 pm on 13 August, 2023. Evan shares about his recent vacation in Canada with his new partner filled with outdoor activities. Sam mentions health struggles. Evan offers support, and they discuss the importance of progress over perfection. Sam shares a motivating quote with Evan. They encourage each other to celebrate small wins. Evan jokes about losing his keys, and Sam talks about an intriguing dream. They exchange good wishes and encouragement, concluding with Evan reminding Sam to get some rest.">
+        <Observation>
+          <text>Evan went on a vacation in Canada with their new significant other where they did activities like hiking and biking.</text>
+          <source_dia_id>D6:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan values the importance of progress over perfection.</text>
+          <source_dia_id>D6:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan acknowledges the importance of surrounding oneself with caring people.</text>
+          <source_dia_id>D6:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan struggles to find his keys frequently and spends time looking for them.</text>
+          <source_dia_id>D6:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="7" datetime="4:20 pm on 15 August, 2023" summary="At 4:20 pm on 15 August 2023, Evan and Sam caught up after a few days. Evan shared about his son's soccer accident, while Sam mentioned a tough week and a wake-up call for self-care. Sam talked about taking a cooking class for healthier meals and shared a yummy grilled dish recipe with Evan. Evan asked for recipes with more vegetables, and Sam promised to share a roasted veg recipe. They also discussed post-accident well-being and the importance of self-care. Sam admitted to feeling a mix of concern and motivation for positive changes, with Evan providing encouraging words. They agreed to take things one step at a time, supporting each other along the way.">
+        <Observation>
+          <text>Evan's son had a soccer accident last Saturday and hurt his ankle, requiring care and a doctor visit.</text>
+          <source_dia_id>D7:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan is concerned about taking care of his son who was hurt in the soccer accident.</text>
+          <source_dia_id>D7:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan wants to eat healthy and is interested in learning about healthier recipes.</text>
+          <source_dia_id>D7:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan is looking to add more vegetables to his meals.</text>
+          <source_dia_id>D7:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan encourages Sam to look after himself and his health.</text>
+          <source_dia_id>D7:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan reminds Sam to take care of himself and advocates for looking after health.</text>
+          <source_dia_id>D7:15</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="8" datetime="6:17 pm on 19 August, 2023" summary="On 19th August 2023 at 6:17 pm, Sam shared with Evan that he was on a diet and living healthier, finding it tough but staying determined. Evan praised Sam's efforts and asked about any positive changes. Sam mentioned feeling more energized and less sluggish after meals. They discussed a grilled chicken and veggie stir-fry recipe. Evan talked about starting painting classes and finding peace through art. Evan shared his love for painting landscapes with bright colors. They also discussed winter activities like skiing, with Sam expressing interest but unsure if his body can handle it. Evan encouraged Sam to join in the fun someday. Sam expressed appreciation for Evan's understanding and friendship.">
+        <Observation>
+          <text>Evan is trying out new recipes and finds it a great way to stay busy and creative.</text>
+          <source_dia_id>D8:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan recently started taking painting classes and enjoys expressing himself through art.</text>
+          <source_dia_id>D8:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan has been learning about watercolors in his painting classes and finds it a relaxing way to take a break from everyday stress.</text>
+          <source_dia_id>D8:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan loves painting landscapes as it brings him peace and captivates him with nature's beauty.</text>
+          <source_dia_id>D8:20</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan likes to capture the tranquil beauty of nature in his paintings by conveying the peacefulness of being outdoors.</text>
+          <source_dia_id>D8:22</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan enjoys fun winter activities like skiing, snowboarding, and ice skating.</text>
+          <source_dia_id>D8:30</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="9" datetime="10:18 am on 27 August, 2023" summary="Sam informed Evan about his successful new diet and exercise routine, which started the previous Monday and made him feel great. Evan, however, mentioned twisting his knee the previous Friday, which hindered his fitness routine. Evan appreciated Sam's concern, citing life's unpredictability. Evan expressed interest in a book and discussed potential physical therapy for his knee. Sam recommended low-impact exercises and swimming. Evan also shared his recent road trip to the Rocky Mountains and love for hiking. Sam expressed interest in hiking and the need to become healthier. Evan recommended a nearby lake for hiking and nature exploration. Sam decided to plan a day trip to the lake. The conversation ended with friendly goodbyes at 10:24 am on 27 August, 2023.">
+        <Observation>
+          <text>Evan twisted his knee last Friday and is finding it tough to stay consistent with his usual fitness routine.</text>
+          <source_dia_id>D9:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan is considering physical therapy for his knee and in the meantime is keeping it low-key and swimming to stay active.</text>
+          <source_dia_id>D9:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan took a road trip to the Rocky Mountains last month and found the scenery stunning and nature calming.</text>
+          <source_dia_id>D9:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan recommended going for hikes to Sam as a calming and fun activity in nature.</text>
+          <source_dia_id>D9:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan shared a picture from his road trip to the Rocky Mountains with stunning views.</text>
+          <source_dia_id>D9:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan recommended a nearby lake for Sam to explore with many trails nearby.</text>
+          <source_dia_id>D9:14</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="10" datetime="9:28 am on 11 September, 2023" summary="On 11 September 2023 at 9:28 am, Evan and Sam caught up after a long time. Sam shared a before and after body picture due to a diet, aiming to motivate others. Stress triggers cravings for sugary treats for Sam. Evan suggested painting as a stress-relieving hobby and offered to help Sam get started. They planned a painting session for the upcoming Saturday and both were excited about it.">
+        <Observation>
+          <text>Evan supports Sam in making healthier choices.</text>
+          <source_dia_id>D10:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan turns to painting or going for a drive to de-stress.</text>
+          <source_dia_id>D10:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan is willing to help Sam get started with painting by recommending supplies and planning a painting session.</text>
+          <source_dia_id>D10:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan suggests acrylic paints, brushes, a canvas/paper, and a palette as basic supplies to start painting.</text>
+          <source_dia_id>D10:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan plans a painting session with Sam for next Saturday.</text>
+          <source_dia_id>D10:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="11" datetime="8:57 pm on 6 October, 2023" summary="Sam and Evan caught up at 8:57 pm on 6 October, 2023. Evan, recovering from a knee injury, shared his love for watercolor painting and recent adventure with a lost tourist. He mentioned using painting as a stress reliever and a form of self-expression. Sam expressed interest in writing as a way to express himself and mentioned frustrations with his phone's navigation app. Both agreed on the importance of having outlets to express thoughts and feelings.">
+        <Observation>
+          <text>Evan messed up their knee playing basketball and is doing easy exercises to keep it strong.</text>
+          <source_dia_id>D11:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan finds watercolor painting to be a stress reliever and a way to express emotions.</text>
+          <source_dia_id>D11:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan paints what's on their mind or how they feel, including good memories or places they want to go to.</text>
+          <source_dia_id>D11:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan enjoys expressing themselves through art and finds it a powerful form of self-expression.</text>
+          <source_dia_id>D11:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="12" datetime="3:09 pm on 8 October, 2023" summary="On 8 October 2023, at 3:09 pm, Sam told Evan about his weight concerns after a check-up. Evan suggested lifting weights, sharing his own progress and advice. Sam expressed interest and Evan encouraged him to focus on form and consistency. Sam vowed to update Evan on his progress and Evan cheered him on, advising patience and positivity. Sam found Evan's support inspiring and promised to believe in himself. Evan emphasized motivation and progress, and Sam appreciated the support, committing to taking one step at a time.">
+        <Observation>
+          <text>Evan started lifting weights one year ago and mentioned seeing gains from his workouts.</text>
+          <source_dia_id>D12:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan offered advice to Sam on how to start lifting weights and emphasized the importance of good form and technique.</text>
+          <source_dia_id>D12:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan encouraged Sam to stay consistent with their workout routine and shared excitement to hear about their progress.</text>
+          <source_dia_id>D12:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan expressed belief in Sam's abilities and encouraged them to stay positive and keep pushing towards their goals.</text>
+          <source_dia_id>D12:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan provided supportive and motivating words to Sam, urging them to keep believing in themselves.</text>
+          <source_dia_id>D12:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan emphasized the importance of progress, staying motivated, and taking one step at a time towards reaching goals.</text>
+          <source_dia_id>D12:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan assured Sam of his support and being there for them.</text>
+          <source_dia_id>D12:16</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="13" datetime="4:07 pm on 14 October, 2023" summary="Evan and Sam had a conversation at 4:07 pm on 14 October, 2023. Sam confessed to Evan about buying unhealthy snacks and feeling guilty about it, while Evan shared about finishing a painting of a sunset. Sam mentioned dealing with work stress and looking for ways to stay motivated. Evan suggested trying kayaking as a way to de-stress, which Sam found appealing. Sam planned to go kayaking on the lake with a friend, and Evan offered to plan a kayaking trip together in the future. Sam decided to kayak at Lake Tahoe, and Evan encouraged him, mentioning the great views there.">
+        <Observation>
+          <text>Evan paints as a way to relax, and recently finished a painting of a sunset.</text>
+          <source_dia_id>D13:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan suggested kayaking to Sam as a way to de-stress and enjoy the outdoors.</text>
+          <source_dia_id>D13:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan offered to hook Sam up with a good spot for kayaking.</text>
+          <source_dia_id>D13:9</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="14" datetime="1:50 pm on 17 October, 2023" summary="Sam and Evan caught up at 1:50 pm on 17 October, 2023. Sam shared about a recent health scare with gastritis, prompting him to focus on health. Evan mentioned his fitness routine helping his well-being and assisting lost tourists often. Evan advised Sam on setting goals and finding enjoyable exercises to stay motivated. They planned a hike together to enjoy nature and bond. Sam appreciated Evan's support and looked forward to the hike. They agreed to stay in touch and support each other, ending the conversation with plans for the upcoming hike.">
+        <Observation>
+          <text>Evan has been focusing on fitness and found it beneficial for his overall well-being.</text>
+          <source_dia_id>D14:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan had another encounter with a lost tourist recently, suggesting a recurring theme of helping tourists in his life.</text>
+          <source_dia_id>D14:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan suggested setting fitness goals and finding an enjoyable exercise to stay motivated to Sam.</text>
+          <source_dia_id>D14:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan is planning a hike with Sam and sees it as an opportunity to bond with nature and push themselves.</text>
+          <source_dia_id>D14:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan values being a supportive friend to Sam and is always there for him.</text>
+          <source_dia_id>D14:14</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="15" datetime="2:56 pm on 25 October, 2023" summary="Sam and Evan discussed their health routines and the importance of having a supportive but non-stressful environment. Evan shared his experience of gradually improving his well-being by letting go of unrealistic expectations. Sam expressed gratitude for Evan's support and decided to focus on small victories and take it one day at a time. Evan encouraged Sam to celebrate every little achievement and assured continued support. Sam appreciated the support and they both agreed to keep moving forward together.">
+        <Observation>
+          <text>Evan just got back from a morning walk which helps him start the day actively.</text>
+          <source_dia_id>D15:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan believes progress takes time and advises Sam to take things one step at a time.</text>
+          <source_dia_id>D15:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan went through a phase two years ago where he changed his diet and started walking regularly.</text>
+          <source_dia_id>D15:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan focused more on well-being rather than fixating on quick results, which led to a positive transformation.</text>
+          <source_dia_id>D15:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan emphasizes celebrating small victories and supporting Sam in moving forward.</text>
+          <source_dia_id>D15:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan mentions that letting go of unrealistic expectations was liberating both physically and mentally.</text>
+          <source_dia_id>D15:12</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="16" datetime="9:13 pm on 9 November, 2023" summary="Sam informed Evan at 9:13 pm on 9 November, 2023, that he had become a Weight Watchers coach, and Evan congratulated him on the achievement. They discussed Sam's journey towards better health and his plans to motivate and help others. Evan shared that he had recently lost his job, and Sam offered support and encouragement. They also discussed enjoying a sunset together at Evan's favorite spot by the beach, planning to visit it soon to de-stress.">
+        <Observation>
+          <text>Evan gifted a 1968 Kustom K-200A vintage guitar from a close friend.</text>
+          <source_dia_id>D16:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan lost his job due to company downsizing and is currently on the hunt for a new job, staying hopeful and keeping spirits up.</text>
+          <source_dia_id>D16:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan appreciates Sam's support during his job loss and personal challenges.</text>
+          <source_dia_id>D16:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan finds peace and relaxation by watching sunsets at a peaceful spot close to his home.</text>
+          <source_dia_id>D16:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan plans to visit his favorite spot by the beach with Sam to de-stress and explore together.</text>
+          <source_dia_id>D16:20</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan is excited about planning a visit to the spot with Sam next month.</text>
+          <source_dia_id>D16:24</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="17" datetime="7:30 pm on 21 November, 2023" summary="Sam and Evan spoke at 7:30 pm on 21 November 2023. Evan mentioned a recent health scare that turned out to be a misunderstanding and stressed the importance of health. Sam shared struggles with discomfort and dietary changes. They discussed the value of small steps and appreciation in life. Evan highlighted the importance of supportive friends during tough times. They talked about fitness goals, shared about a peaceful island where Evan grew up, and ended the conversation by offering support to each other.">
+        <Observation>
+          <text>Evan had a health scare recently, which turned out to be a misunderstanding, leading them to realize the importance of monitoring their health.</text>
+          <source_dia_id>D17:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan values enjoying the moment and appreciating the little things in life.</text>
+          <source_dia_id>D17:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan stays in shape by going to the gym and taking their car out for a spin.</text>
+          <source_dia_id>D17:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan grew up on a little island that serves as their happy place, shaping them and holding a special place in their heart.</text>
+          <source_dia_id>D17:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan finds their childhood island home to be soul-calming, serene, heavenly, and like a little slice of paradise.</text>
+          <source_dia_id>D17:20</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="18" datetime="8:16 pm on 5 December, 2023" summary="Evan, at 8:16 pm on 5 December 2023, told Sam about his new Prius breaking down, causing stress as it's vital for his active lifestyle. Sam empathized, mentioning the hassle of relying on a new car. They discussed setbacks and opportunities, with Sam sharing insights from a Weight Watchers meeting. Evan considered trying yoga for stress relief based on Sam's recommendation. Sam encouraged him, offering support for new endeavors. They acknowledged the importance of having support during new experiences. The conversation ended with Evan thanking Sam and promising to update him on his yoga journey.">
+        <Observation>
+          <text>Evan recently bought a new Prius for his active lifestyle and road trips, but it broke down soon after purchase.</text>
+          <source_dia_id>D18:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan sees setbacks as a chance to explore new ways of staying active and traveling.</text>
+          <source_dia_id>D18:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan is considering trying yoga for stress relief and flexibility.</text>
+          <source_dia_id>D18:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan appreciates Sam's support and finds it invaluable.</text>
+          <source_dia_id>D18:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan believes it makes a big difference to have support when trying new things.</text>
+          <source_dia_id>D18:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="19" datetime="1:45 pm on 9 December, 2023" summary="Summary:
+On 9 December 2023 at 1:45 pm, Evan excitedly shared with Sam that his partner is pregnant, expressing both excitement and nervousness about becoming a parent again. Evan reminisced about the joys of parenthood and family memories. He showed Sam a collage of their top family memories, explaining the significance of a sign that symbolizes their family motto. Sam admired Evan's strong family bond and offered support for their upcoming family reunion. Evan expressed gratitude for Sam's support, looking forward to creating more beautiful memories with his expanding family. The conversation ended with warm goodbyes and promises to stay in touch.">
+        <Observation>
+          <text>Evan's partner is pregnant, and they are excited about having a child.</text>
+          <source_dia_id>D19:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan is excited and a bit nervous about becoming a parent again.</text>
+          <source_dia_id>D19:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan values family greatly and considers them as their rock.</text>
+          <source_dia_id>D19:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan is planning a big family reunion next summer to create more memories with family.</text>
+          <source_dia_id>D19:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="20" datetime="6:48 pm on 17 December, 2023" summary="Evan and Sam caught up at 6:48 pm on 17th December 2023. Evan shared that his son had a recent bike accident but is doing better now. They discussed coping mechanisms, with Sam mentioning a love for hiking. Evan encouraged Sam to believe in himself, try new things, and not let his weight define him. Evan showcased a contemporary figurative painting he recently completed, with a friend helping to get it published in an exhibition.">
+        <Observation>
+          <text>Evan's son had an accident where he fell off his bike last Tuesday but is doing better now.</text>
+          <source_dia_id>D20:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan is supportive and encouraging towards Sam, giving advice to believe in himself and take things one day at a time.</text>
+          <source_dia_id>D20:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan is a painter who finished a contemporary figurative painting emphasizing emotion and introspection.</text>
+          <source_dia_id>D20:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan had a painting published in an exhibition with the help of a close friend.</text>
+          <source_dia_id>D20:17</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="21" datetime="4:25 pm on 26 December, 2023" summary="Sam and Evan met at 4:25 pm on December 26, 2023. Evan shared that he recently got married to a woman from Canada whom he loved at first sight. He believes in love at first sight, describing it as a magical moment. They discussed the power of love and how it can bring happiness. Evan shared his passion for art and how it helps him express and handle emotions. They exchanged thoughts on art and creativity. Evan offered to help Sam start painting. They also talked about Evan frequently losing his keys and Sam suggested putting a GPS sensor on them.">
+        <Observation>
+          <text>Evan recently got married to a woman from Canada.</text>
+          <source_dia_id>D21:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan believes in love at first sight and felt a spark when he met his partner.</text>
+          <source_dia_id>D21:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan created a painting that reflects a sense of joy and freedom.</text>
+          <source_dia_id>D21:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan has a tendency to lose his keys frequently, turning it into a weekly ritual.</text>
+          <source_dia_id>D21:20</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="22" datetime="11:00 am on 31 December, 2023" summary="Sam and Evan talked at 11:00 am on 31 December 2023. Sam shared about a recent hiking trip, while Evan mentioned a mountain drive that ended in a minor accident. Despite the mishap, Evan was excited about sharing news of his marriage with work friends. The conversation shifted to the healing power of nature and healthy snacks. Evan recommended energy balls to Sam, who was keen on trying new healthy snacks. Sam also mentioned ongoing self-checkout issues at the store, prompting Evan to joke about needing Sam around to attract the problem.">
+        <Observation>
+          <text>Evan recently went for a long drive to the mountains with friends in a Prius.</text>
+          <source_dia_id>D22:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan mentions getting married to his work friends after a minor accident.</text>
+          <source_dia_id>D22:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan finds peace and clarity in nature and views it as a great healer.</text>
+          <source_dia_id>D22:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan enjoys sharing and trying new healthy snacks and recipes.</text>
+          <source_dia_id>D22:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan recommends a recipe for energy balls as a healthier snack idea.</text>
+          <source_dia_id>D22:14</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="23" datetime="1:32 pm on 6 January, 2024" summary="At 1:32 pm on 6 January 2024, Evan excitedly informed Sam about sharing news of his marriage with their extended family, receiving overwhelming love and support. Sam congratulated Evan and praised the happiness evident in the picture. The conversation shifted to the importance of family support and the joy it brings. Both agreed on the significance of family in their lives, expressing gratitude for the love and happiness they provide. They also discussed dinner plans, with Evan mentioning a new diet while Sam shared a picture of dessert from a family wedding. Evan mentioned an upcoming trip to Canada for his honeymoon, intending to ski and savor local cuisine, with Sam wishing him a memorable experience. They ended the conversation looking forward to sharing details about the trip and catching up soon.">
+        <Observation>
+          <text>Evan recently got married and informed their extended family about it, receiving overwhelming love and support.</text>
+          <source_dia_id>D23:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan feels lucky to have found a partner who understands them well.</text>
+          <source_dia_id>D23:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan values and appreciates the support and happiness their family brings regarding their marriage.</text>
+          <source_dia_id>D23:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan mentions going on a honeymoon trip to Canada to create awesome memories and explore snowy landscapes.</text>
+          <source_dia_id>D23:23</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan expresses excitement about skiing, trying local cuisine, and enjoying the beautiful views during the honeymoon trip.</text>
+          <source_dia_id>D23:25</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="24" datetime="12:17 am on 10 January, 2024" summary="Evan and Sam discuss a funny incident where Evan had an embarrassing moment with some roses after a night out. Evan apologized and the situation was handled well. They talk about learning from mistakes and staying healthy. Sam plans to see a doctor for diet and exercise advice. Evan suggests low-impact exercises like swimming, yoga, and walking. Sam also mentions watching The Godfather for motivation. Evan recommends beach walks as another fun low-impact exercise. They end on a positive note, planning to make positive changes and enjoy outdoor activities.">
+        <Observation>
+          <text>Evan had a bit too much to drink and had an embarrassing incident involving someone's roses.</text>
+          <source_dia_id>D24:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan had a pee accident near some roses and felt embarrassed about it.</text>
+          <source_dia_id>D24:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan and his partner tried snowshoeing as part of a new adventure and found it surprisingly fun.</text>
+          <source_dia_id>D24:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan suggested swimming, yoga, and walking as good low-impact exercises.</text>
+          <source_dia_id>D24:17</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan mentioned that beach sunsets are one of his favorite low-impact exercises.</text>
+          <source_dia_id>D24:21</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="25" datetime="9:37 pm on 11 January, 2024" summary="Sam and Evan caught up at 9:37 pm on 11 January, 2024. Sam shared about his health issues and feeling weighed down, while Evan apologized to his partner for a drunken incident involving rose bushes. Sam enjoys relaxing car rides in the countryside, which Evan thinks is a great way to unwind. They both agree on the calming effect of nature and sharing photos that brighten their days. Evan emphasizes the importance of appreciating small joys during tough times and offers support to Sam. They end the conversation with well wishes and a reminder to take care of themselves.">
+        <Observation>
+          <text>Evan had to apologize to his partner for a drunken night which was embarrassing.</text>
+          <source_dia_id>D25:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan enjoys kayaking on the water and finds it peaceful.</text>
+          <source_dia_id>D25:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan believes nature has a way of calming and reviving the soul.</text>
+          <source_dia_id>D25:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan believes small moments outdoors can make a big impact when dealing with tough times.</text>
+          <source_dia_id>D25:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Evan emphasizes finding joy in the little things and appreciating small joys, especially during tough times.</text>
+          <source_dia_id>D25:16</source_dia_id>
+        </Observation>
+      </Session>
+    </Speaker>
+    <Speaker name="Sam">
+      <Session session_id="1" datetime="1:47 pm on 18 May, 2023" summary="Sam and Evan met at 1:47 pm on 18 May, 2023. Evan mentioned his recent trip to the Rockies in his new Prius and shared about his passion for watercolor painting. Sam reminisced about hiking with his dad and expressed an interest in trying painting. Evan encouraged Sam to explore different hobbies until he found one he was passionate about. They both agreed to catch up soon to discuss Sam's new hobbies. The conversation ended with Evan wishing Sam well, and Sam looking forward to trying out new activities.">
+        <Observation>
+          <text>Sam went hiking with his dad when he was ten, which was a special and fun memory for them.</text>
+          <source_dia_id>D1:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam is considering trying painting as a new hobby.</text>
+          <source_dia_id>D1:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam has not tried painting yet but is keen to give it a go as a way to chill and get creative.</text>
+          <source_dia_id>D1:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="2" datetime="7:11 pm on 24 May, 2023" summary="Evan and Sam spoke at 7:11 pm on 24 May, 2023. Evan shared about his recent road trip to Jasper, which he found peaceful and rejuvenating. Sam, who had a tough week and a concerning doctor's visit about his weight, sought advice on starting a healthier lifestyle. Evan suggested finding enjoyable fitness routines and making smarter food choices. Sam mentioned considering painting as a hobby to de-stress, and Evan encouraged him to try it out alongside exercising. They ended the conversation with Evan asking Sam to keep him updated as he starts this journey.">
+        <Observation>
+          <text>Sam had a tough week and had a check-up with the doctor where the weight wasn't great.</text>
+          <source_dia_id>D2:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam expressed interest in trying painting as a hobby to stay motivated and de-stress.</text>
+          <source_dia_id>D2:10</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="3" datetime="3:55 pm on 6 June, 2023" summary="At 3:55 pm on 6 June 2023, Evan and Sam caught up after a while. Evan shared about a recent health scare and his decision to focus on a healthier lifestyle, discussing dietary changes and suggesting healthier alternatives to Sam. Sam mentioned sticking to soda and candy but agreed to try Evan's suggestions. Evan emphasized the importance of small changes for better health and offered support to Sam on their health journeys. They planned to work out together, and Sam shared a frustrating experience at the supermarket. Evan empathized, and they ended the conversation with well wishes.">
+        <Observation>
+          <text>Sam is trying to eat healthier and recently trying to eat less processed food, but has made no changes yet.</text>
+          <source_dia_id>D3:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam still enjoys soda and candy, although knowing it's not the best habit.</text>
+          <source_dia_id>D3:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam agreed to give swapping soda for flavored seltzer water and candy for dark chocolate a try.</text>
+          <source_dia_id>D3:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam had a frustrating experience at the supermarket as the self-checkout machines were all broken.</text>
+          <source_dia_id>D3:16</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="4" datetime="10:52 am on 27 July, 2023" summary="At 10:52 am on 27 July, 2023, Sam confided in Evan about being teased for his weight, prompting him to make health changes. Evan offered support, sharing his own health journey and tips. They discussed dietary changes, with Evan suggesting flavored seltzer water and snacks. Evan recommended exercise, and Sam committed to starting the next day. They shared mutual appreciation before parting ways, with Evan promising ongoing support for Sam's health journey.">
+        <Observation>
+          <text>Sam's friends mocked his weight last Friday, which hurt him.</text>
+          <source_dia_id>D4:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam is working on his health and getting active.</text>
+          <source_dia_id>D4:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam is determined to make changes in his lifestyle, like reducing soda and candy intake.</text>
+          <source_dia_id>D4:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam will start going to the gym and exercising regularly starting tomorrow.</text>
+          <source_dia_id>D4:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam values and appreciates Evan's support throughout their conversation.</text>
+          <source_dia_id>D4:17, D4:19</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="5" datetime="7:52 pm on 7 August, 2023" summary="At 7:52 pm on 7th August 2023, Evan shared with Sam about meeting an amazing Canadian woman, feeling alive, and dealing with health issues. Sam expressed understanding and discussed the challenges of health problems. They also talked about Evan's health journey, motivation from family and tools, like a health tracker, to stay on track. Evan mentioned being motivated by adventure and resilience. Sam agreed on the importance of finding motivation and the power of small steps. They concluded that consistency and perseverance are key. The conversation ended with mutual well-wishes.">
+        <Observation>
+          <text>Sam acknowledges that dealing with health issues can take away from enjoyable experiences.</text>
+          <source_dia_id>D5:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam is interested in ordering something similar to what Evan uses to prioritize health.</text>
+          <source_dia_id>D5:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam thinks it's key to find something that keeps you motivated.</text>
+          <source_dia_id>D5:14</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="6" datetime="4:09 pm on 13 August, 2023" summary="Evan and Sam catch up at 4:09 pm on 13 August, 2023. Evan shares about his recent vacation in Canada with his new partner filled with outdoor activities. Sam mentions health struggles. Evan offers support, and they discuss the importance of progress over perfection. Sam shares a motivating quote with Evan. They encourage each other to celebrate small wins. Evan jokes about losing his keys, and Sam talks about an intriguing dream. They exchange good wishes and encouragement, concluding with Evan reminding Sam to get some rest.">
+        <Observation>
+          <text>Sam has been facing health challenges recently.</text>
+          <source_dia_id>D6:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam finds motivation in a quote that emphasizes taking small steps towards a healthier life.</text>
+          <source_dia_id>D6:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam appreciates small victories and staying motivated amidst challenges and setbacks.</text>
+          <source_dia_id>D6:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam had an amazing dream where they were soaring over skyscrapers and wants to explore its possible significance.</text>
+          <source_dia_id>D6:14</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="7" datetime="4:20 pm on 15 August, 2023" summary="At 4:20 pm on 15 August 2023, Evan and Sam caught up after a few days. Evan shared about his son's soccer accident, while Sam mentioned a tough week and a wake-up call for self-care. Sam talked about taking a cooking class for healthier meals and shared a yummy grilled dish recipe with Evan. Evan asked for recipes with more vegetables, and Sam promised to share a roasted veg recipe. They also discussed post-accident well-being and the importance of self-care. Sam admitted to feeling a mix of concern and motivation for positive changes, with Evan providing encouraging words. They agreed to take things one step at a time, supporting each other along the way.">
+        <Observation>
+          <text>Sam had a tough week and had a doctor's appointment which served as a wake-up call to take better care of himself.</text>
+          <source_dia_id>D7:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam is taking a cooking class to learn how to make healthier meals and has learned awesome recipes from it.</text>
+          <source_dia_id>D7:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam is willing to share recipes from his cooking class with Evan.</text>
+          <source_dia_id>D7:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam is concerned about Evan and his son's well-being after the soccer incident.</text>
+          <source_dia_id>D7:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam feels a mix of emotions, somewhat concerned about his health but motivated to make positive changes.</text>
+          <source_dia_id>D7:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam appreciates Evan's encouragement and expresses gratitude for it.</text>
+          <source_dia_id>D7:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam expresses gratitude to Evan for his support and encouragement.</text>
+          <source_dia_id>D7:16</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="8" datetime="6:17 pm on 19 August, 2023" summary="On 19th August 2023 at 6:17 pm, Sam shared with Evan that he was on a diet and living healthier, finding it tough but staying determined. Evan praised Sam's efforts and asked about any positive changes. Sam mentioned feeling more energized and less sluggish after meals. They discussed a grilled chicken and veggie stir-fry recipe. Evan talked about starting painting classes and finding peace through art. Evan shared his love for painting landscapes with bright colors. They also discussed winter activities like skiing, with Sam expressing interest but unsure if his body can handle it. Evan encouraged Sam to join in the fun someday. Sam expressed appreciation for Evan's understanding and friendship.">
+        <Observation>
+          <text>Sam is on a diet and determined to live healthier.</text>
+          <source_dia_id>D8:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam has noticed positive changes from the diet, such as more energy and less sluggishness after eating.</text>
+          <source_dia_id>D8:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam enjoys cooking and shared a healthy grilled chicken and veggie stir-fry recipe with Evan.</text>
+          <source_dia_id>D8:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam's homemade sauce for the stir-fry is not a family secret.</text>
+          <source_dia_id>D8:9</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="9" datetime="10:18 am on 27 August, 2023" summary="Sam informed Evan about his successful new diet and exercise routine, which started the previous Monday and made him feel great. Evan, however, mentioned twisting his knee the previous Friday, which hindered his fitness routine. Evan appreciated Sam's concern, citing life's unpredictability. Evan expressed interest in a book and discussed potential physical therapy for his knee. Sam recommended low-impact exercises and swimming. Evan also shared his recent road trip to the Rocky Mountains and love for hiking. Sam expressed interest in hiking and the need to become healthier. Evan recommended a nearby lake for hiking and nature exploration. Sam decided to plan a day trip to the lake. The conversation ended with friendly goodbyes at 10:24 am on 27 August, 2023.">
+        <Observation>
+          <text>Sam started a new diet and exercise routine last Monday and it has made a huge difference.</text>
+          <source_dia_id>D9:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam suggested low-impact exercises or physical therapy to help Evan with his twisted knee.</text>
+          <source_dia_id>D9:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam enjoys being surrounded by nature as it is tranquil and refreshing.</text>
+          <source_dia_id>D9:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam loves exploring nature and mentioned an interest in going on hikes.</text>
+          <source_dia_id>D9:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam expressed an interest in going on a road trip and mentioned working on becoming healthier.</text>
+          <source_dia_id>D9:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="10" datetime="9:28 am on 11 September, 2023" summary="On 11 September 2023 at 9:28 am, Evan and Sam caught up after a long time. Sam shared a before and after body picture due to a diet, aiming to motivate others. Stress triggers cravings for sugary treats for Sam. Evan suggested painting as a stress-relieving hobby and offered to help Sam get started. They planned a painting session for the upcoming Saturday and both were excited about it.">
+        <Observation>
+          <text>Sam posted a before and after body pic as a result of a diet, aiming to motivate others to make better choices.</text>
+          <source_dia_id>D10:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam struggles with occasional cravings for sugary drinks and snacks, especially during times of stress, boredom, or seeking comfort.</text>
+          <source_dia_id>D10:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam expresses interest in trying painting as a calming hobby.</text>
+          <source_dia_id>D10:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam plans a painting session with Evan for next Saturday.</text>
+          <source_dia_id>D10:14</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="11" datetime="8:57 pm on 6 October, 2023" summary="Sam and Evan caught up at 8:57 pm on 6 October, 2023. Evan, recovering from a knee injury, shared his love for watercolor painting and recent adventure with a lost tourist. He mentioned using painting as a stress reliever and a form of self-expression. Sam expressed interest in writing as a way to express himself and mentioned frustrations with his phone's navigation app. Both agreed on the importance of having outlets to express thoughts and feelings.">
+        <Observation>
+          <text>Sam has started eating healthier.</text>
+          <source_dia_id>D11:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam is interested in fun indoor activities or hobbies.</text>
+          <source_dia_id>D11:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam enjoys expressing themselves through writing.</text>
+          <source_dia_id>D11:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam does creative writing and journals to express their innermost thoughts and feelings.</text>
+          <source_dia_id>D11:17</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="12" datetime="3:09 pm on 8 October, 2023" summary="On 8 October 2023, at 3:09 pm, Sam told Evan about his weight concerns after a check-up. Evan suggested lifting weights, sharing his own progress and advice. Sam expressed interest and Evan encouraged him to focus on form and consistency. Sam vowed to update Evan on his progress and Evan cheered him on, advising patience and positivity. Sam found Evan's support inspiring and promised to believe in himself. Evan emphasized motivation and progress, and Sam appreciated the support, committing to taking one step at a time.">
+        <Observation>
+          <text>Sam received news from the doctor that their weight poses a serious health risk.</text>
+          <source_dia_id>D12:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam expressed having a hard time dealing with the news about their weight.</text>
+          <source_dia_id>D12:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam is interested in starting to lift weights to address their health concerns.</text>
+          <source_dia_id>D12:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam expressed appreciation towards Evan's support and encouragement.</text>
+          <source_dia_id>D12:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam mentioned that Evan's words inspired and motivated them.</text>
+          <source_dia_id>D12:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam thanked Evan for giving them a boost and expressed their commitment to staying motivated.</text>
+          <source_dia_id>D12:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam expressed that Evan's support means a lot to them.</text>
+          <source_dia_id>D12:15</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="13" datetime="4:07 pm on 14 October, 2023" summary="Evan and Sam had a conversation at 4:07 pm on 14 October, 2023. Sam confessed to Evan about buying unhealthy snacks and feeling guilty about it, while Evan shared about finishing a painting of a sunset. Sam mentioned dealing with work stress and looking for ways to stay motivated. Evan suggested trying kayaking as a way to de-stress, which Sam found appealing. Sam planned to go kayaking on the lake with a friend, and Evan offered to plan a kayaking trip together in the future. Sam decided to kayak at Lake Tahoe, and Evan encouraged him, mentioning the great views there.">
+        <Observation>
+          <text>Sam bought some unhealthy snacks and feels guilty about it.</text>
+          <source_dia_id>D13:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam is dealing with work stress and trying to stay motivated.</text>
+          <source_dia_id>D13:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam is considering trying kayaking as a new outdoor activity.</text>
+          <source_dia_id>D13:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam is planning to go kayaking with a friend on the lake.</text>
+          <source_dia_id>D13:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam and a friend are traveling to Lake Tahoe for kayaking.</text>
+          <source_dia_id>D13:14</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="14" datetime="1:50 pm on 17 October, 2023" summary="Sam and Evan caught up at 1:50 pm on 17 October, 2023. Sam shared about a recent health scare with gastritis, prompting him to focus on health. Evan mentioned his fitness routine helping his well-being and assisting lost tourists often. Evan advised Sam on setting goals and finding enjoyable exercises to stay motivated. They planned a hike together to enjoy nature and bond. Sam appreciated Evan's support and looked forward to the hike. They agreed to stay in touch and support each other, ending the conversation with plans for the upcoming hike.">
+        <Observation>
+          <text>Sam had a health scare last weekend and ended up in the ER with gastritis.</text>
+          <source_dia_id>D14:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam realized the importance of prioritizing health by adopting a more nutritious diet and getting regular exercise after the health scare.</text>
+          <source_dia_id>D14:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam has been stressed with phone issues on top of the health scare.</text>
+          <source_dia_id>D14:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam is interested in starting fitness to improve overall well-being.</text>
+          <source_dia_id>D14:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam is planning a hike with Evan and is excited about it as a fun challenge.</text>
+          <source_dia_id>D14:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam values the support and appreciated Evan's presence in their friendship.</text>
+          <source_dia_id>D14:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="15" datetime="2:56 pm on 25 October, 2023" summary="Sam and Evan discussed their health routines and the importance of having a supportive but non-stressful environment. Evan shared his experience of gradually improving his well-being by letting go of unrealistic expectations. Sam expressed gratitude for Evan's support and decided to focus on small victories and take it one day at a time. Evan encouraged Sam to celebrate every little achievement and assured continued support. Sam appreciated the support and they both agreed to keep moving forward together.">
+        <Observation>
+          <text>Sam is trying to keep up with a new health routine, pushed by family and feeling pressured.</text>
+          <source_dia_id>D15:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam gets impatient with self when wanting fast results but understands the importance of being patient.</text>
+          <source_dia_id>D15:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam appreciates Evan's support and acknowledges the importance of taking it slow.</text>
+          <source_dia_id>D15:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam seeks to feel a sense of freedom and is inspired by Evan's transformation.</text>
+          <source_dia_id>D15:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam is grateful for Evan's support and values it greatly.</text>
+          <source_dia_id>D15:17</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="16" datetime="9:13 pm on 9 November, 2023" summary="Sam informed Evan at 9:13 pm on 9 November, 2023, that he had become a Weight Watchers coach, and Evan congratulated him on the achievement. They discussed Sam's journey towards better health and his plans to motivate and help others. Evan shared that he had recently lost his job, and Sam offered support and encouragement. They also discussed enjoying a sunset together at Evan's favorite spot by the beach, planning to visit it soon to de-stress.">
+        <Observation>
+          <text>Sam is now a Weight Watchers coach in their group, feeling proud and accomplished.</text>
+          <source_dia_id>D16:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam sees becoming a Weight Watchers coach as a great step in their quest for better health.</text>
+          <source_dia_id>D16:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam appreciates Evan's support and finds his kind words meaningful.</text>
+          <source_dia_id>D16:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam is determined to continue making a positive impact through coaching and staying committed to better health.</text>
+          <source_dia_id>D16:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam offered support to Evan when he mentioned personal challenges and job loss, showing willingness to chat and help.</text>
+          <source_dia_id>D16:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam finds sunsets stunning and soothing, and expressed interest in visiting Evan's favorite spot to watch sunsets.</text>
+          <source_dia_id>D16:17</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="17" datetime="7:30 pm on 21 November, 2023" summary="Sam and Evan spoke at 7:30 pm on 21 November 2023. Evan mentioned a recent health scare that turned out to be a misunderstanding and stressed the importance of health. Sam shared struggles with discomfort and dietary changes. They discussed the value of small steps and appreciation in life. Evan highlighted the importance of supportive friends during tough times. They talked about fitness goals, shared about a peaceful island where Evan grew up, and ended the conversation by offering support to each other.">
+        <Observation>
+          <text>Sam has been dealing with discomfort that has been limiting their movement and has been trying to make changes in their diet.</text>
+          <source_dia_id>D17:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam finds movies to be a 'feel good' escape.</text>
+          <source_dia_id>D17:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam acknowledges the importance of appreciating something each day to enjoy life more.</text>
+          <source_dia_id>D17:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam finds life easier with supportive people around.</text>
+          <source_dia_id>D17:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam struggles to reach their fitness goals but accepts it as part of life.</text>
+          <source_dia_id>D17:15</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="18" datetime="8:16 pm on 5 December, 2023" summary="Evan, at 8:16 pm on 5 December 2023, told Sam about his new Prius breaking down, causing stress as it's vital for his active lifestyle. Sam empathized, mentioning the hassle of relying on a new car. They discussed setbacks and opportunities, with Sam sharing insights from a Weight Watchers meeting. Evan considered trying yoga for stress relief based on Sam's recommendation. Sam encouraged him, offering support for new endeavors. They acknowledged the importance of having support during new experiences. The conversation ended with Evan thanking Sam and promising to update him on his yoga journey.">
+        <Observation>
+          <text>Sam attended a Weight Watchers meeting and learned some great tips.</text>
+          <source_dia_id>D18:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam suggests yoga to Evan, mentioning its benefits for flexibility and stress relief.</text>
+          <source_dia_id>D18:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam offers Evan support and assistance with yoga tips if needed.</text>
+          <source_dia_id>D18:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam believes that having support when trying new things is important.</text>
+          <source_dia_id>D18:12</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="19" datetime="1:45 pm on 9 December, 2023" summary="Summary:
+On 9 December 2023 at 1:45 pm, Evan excitedly shared with Sam that his partner is pregnant, expressing both excitement and nervousness about becoming a parent again. Evan reminisced about the joys of parenthood and family memories. He showed Sam a collage of their top family memories, explaining the significance of a sign that symbolizes their family motto. Sam admired Evan's strong family bond and offered support for their upcoming family reunion. Evan expressed gratitude for Sam's support, looking forward to creating more beautiful memories with his expanding family. The conversation ended with warm goodbyes and promises to stay in touch.">
+        <Observation>
+          <text>Sam congratulates Evan on the news of their partner being pregnant.</text>
+          <source_dia_id>D19:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam appreciates and recognizes Evan's value for family and memories.</text>
+          <source_dia_id>D19:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam offers support and assistance to Evan for organizing the family reunion.</text>
+          <source_dia_id>D19:12</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="20" datetime="6:48 pm on 17 December, 2023" summary="Evan and Sam caught up at 6:48 pm on 17th December 2023. Evan shared that his son had a recent bike accident but is doing better now. They discussed coping mechanisms, with Sam mentioning a love for hiking. Evan encouraged Sam to believe in himself, try new things, and not let his weight define him. Evan showcased a contemporary figurative painting he recently completed, with a friend helping to get it published in an exhibition.">
+        <Observation>
+          <text>Sam used to love hiking but hasn't had the chance to do it recently.</text>
+          <source_dia_id>D20:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam is struggling with weight and confidence issues, feeling like they lack motivation.</text>
+          <source_dia_id>D20:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam acknowledges that trying new things can be difficult.</text>
+          <source_dia_id>D20:12</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="21" datetime="4:25 pm on 26 December, 2023" summary="Sam and Evan met at 4:25 pm on December 26, 2023. Evan shared that he recently got married to a woman from Canada whom he loved at first sight. He believes in love at first sight, describing it as a magical moment. They discussed the power of love and how it can bring happiness. Evan shared his passion for art and how it helps him express and handle emotions. They exchanged thoughts on art and creativity. Evan offered to help Sam start painting. They also talked about Evan frequently losing his keys and Sam suggested putting a GPS sensor on them.">
+        <Observation>
+          <text>Sam enjoys running in the mornings as a way to clear their head.</text>
+          <source_dia_id>D21:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam appreciates art and finds it fascinating how it can express emotions.</text>
+          <source_dia_id>D21:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam occasionally sketches but hasn't created anything remarkable yet.</text>
+          <source_dia_id>D21:19</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam visited an exhibit recently and was inspired by a painting.</text>
+          <source_dia_id>D21:17</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="22" datetime="11:00 am on 31 December, 2023" summary="Sam and Evan talked at 11:00 am on 31 December 2023. Sam shared about a recent hiking trip, while Evan mentioned a mountain drive that ended in a minor accident. Despite the mishap, Evan was excited about sharing news of his marriage with work friends. The conversation shifted to the healing power of nature and healthy snacks. Evan recommended energy balls to Sam, who was keen on trying new healthy snacks. Sam also mentioned ongoing self-checkout issues at the store, prompting Evan to joke about needing Sam around to attract the problem.">
+        <Observation>
+          <text>Sam recently took friends on an epic hiking trip.</text>
+          <source_dia_id>D22:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam expresses concern for Evan's well-being after hearing about a minor accident.</text>
+          <source_dia_id>D22:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam appreciates nature for bringing peace and helping find clarity.</text>
+          <source_dia_id>D22:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam is open to trying new healthy snacks and recipes to stay healthy.</text>
+          <source_dia_id>D22:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam had issues with the self-checkout at the store and finds it to be a regular annoyance.</text>
+          <source_dia_id>D22:19</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam humorously mentions attracting issues with self-checkout and offers to be called if someone wants to experience the situation.</text>
+          <source_dia_id>D22:21</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="23" datetime="1:32 pm on 6 January, 2024" summary="At 1:32 pm on 6 January 2024, Evan excitedly informed Sam about sharing news of his marriage with their extended family, receiving overwhelming love and support. Sam congratulated Evan and praised the happiness evident in the picture. The conversation shifted to the importance of family support and the joy it brings. Both agreed on the significance of family in their lives, expressing gratitude for the love and happiness they provide. They also discussed dinner plans, with Evan mentioning a new diet while Sam shared a picture of dessert from a family wedding. Evan mentioned an upcoming trip to Canada for his honeymoon, intending to ski and savor local cuisine, with Sam wishing him a memorable experience. They ended the conversation looking forward to sharing details about the trip and catching up soon.">
+        <Observation>
+          <text>Sam congratulated Evan on their marriage and appreciated the happiness and love shared in the pictures.</text>
+          <source_dia_id>D23:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam values family support and acknowledges it as a source of happiness and joy.</text>
+          <source_dia_id>D23:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam expresses gratitude for the support and love received from their family.</text>
+          <source_dia_id>D23:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam mentions that their family has been a rock through everything and emphasizes how important they are.</text>
+          <source_dia_id>D23:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam mentions enjoying homemade lasagna for dinner and admires Evan's discipline of limiting themselves to two ginger snaps a day.</text>
+          <source_dia_id>D23:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam talks about the special dessert from a cousin's wedding, expressing fondness for special occasions.</text>
+          <source_dia_id>D23:20</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam encourages Evan to try poutine in Canada and looks forward to hearing about the experience.</text>
+          <source_dia_id>D23:28</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="24" datetime="12:17 am on 10 January, 2024" summary="Evan and Sam discuss a funny incident where Evan had an embarrassing moment with some roses after a night out. Evan apologized and the situation was handled well. They talk about learning from mistakes and staying healthy. Sam plans to see a doctor for diet and exercise advice. Evan suggests low-impact exercises like swimming, yoga, and walking. Sam also mentions watching The Godfather for motivation. Evan recommends beach walks as another fun low-impact exercise. They end on a positive note, planning to make positive changes and enjoy outdoor activities.">
+        <Observation>
+          <text>Sam made a meal plan and workout schedule to stay healthy and motivated.</text>
+          <source_dia_id>D24:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam planned to make an appointment with the doctor to get advice on a balanced diet plan and low-impact exercises.</text>
+          <source_dia_id>D24:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam was motivated to keep up with a fitness routine after watching The Godfather.</text>
+          <source_dia_id>D24:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam expressed hope for positive changes with a healthier diet and yoga.</text>
+          <source_dia_id>D24:20</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam mentioned having a recurring dream where he's flying over skyscrapers.</text>
+          <source_dia_id>D24:22</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="25" datetime="9:37 pm on 11 January, 2024" summary="Sam and Evan caught up at 9:37 pm on 11 January, 2024. Sam shared about his health issues and feeling weighed down, while Evan apologized to his partner for a drunken incident involving rose bushes. Sam enjoys relaxing car rides in the countryside, which Evan thinks is a great way to unwind. They both agree on the calming effect of nature and sharing photos that brighten their days. Evan emphasizes the importance of appreciating small joys during tough times and offers support to Sam. They end the conversation with well wishes and a reminder to take care of themselves.">
+        <Observation>
+          <text>Sam is dealing with health issues that have been rough on him.</text>
+          <source_dia_id>D25:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam enjoys going on car rides to chill and enjoy the view.</text>
+          <source_dia_id>D25:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam finds being in nature relaxing and enjoys getting fresh air away from the city.</text>
+          <source_dia_id>D25:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam is planning to spend more time in nature to rejuvenate.</text>
+          <source_dia_id>D25:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Sam appreciates and finds joy in small moments outdoors.</text>
+          <source_dia_id>D25:14</source_dia_id>
+        </Observation>
+      </Session>
+    </Speaker>
+  </Conversation_Version>
+</Root>

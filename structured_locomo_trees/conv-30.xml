@@ -1,0 +1,763 @@
+<?xml version="1.0" ?>
+<Root>
+  <Conversation_Version number="1" sample_id="conv-30" speaker_a="Jon" speaker_b="Gina">
+    <patch_info>None</patch_info>
+    <conversation_history>Initial_Version</conversation_history>
+    <Speaker name="Jon">
+      <Session session_id="1" datetime="4:04 pm on 20 January, 2023" summary="Gina and Jon met at 4:04 pm on 20 January, 2023. Jon lost his job as a banker and planned to start a dance studio because of his passion for dancing. Gina also lost her job at Door Dash. They both shared a love for dance, with Jon's favorite style being contemporary. They planned to attend a dance class together. Jon showed Gina a photo of his dance crew winning a competition. Gina revealed her experience of winning first place with a contemporary piece in a dance competition. Jon mentioned rehearsing with a group for various dance styles and upcoming projects, including a performance at a festival. Gina complimented the group's grace and expressed excitement for their festival performance. They both shared enthusiasm for the upcoming events.">
+        <Observation>
+          <text>Jon lost his job as a banker the day before the conversation.</text>
+          <source_dia_id>D1:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon is starting his own dance studio due to his passion for dancing.</text>
+          <source_dia_id>D1:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon's favorite dance style is contemporary.</text>
+          <source_dia_id>D1:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon practices various dances with a small group, including contemporary and hip-hop, and is working on choreography for a nearby festival.</text>
+          <source_dia_id>D1:24</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="2" datetime="2:32 pm on 29 January, 2023" summary="Gina and Jon had a conversation at 2:32 pm on 29 January, 2023. Gina mentioned launching an ad campaign for her clothing store, excited about the risks and rewards of her business. Jon complimented her hard work and discussed his search for a suitable location for his dance studio, mentioning finding a spot with great natural light. They discussed the importance of features like flooring for dance studios, with Jon preferring Marley flooring. Gina encouraged Jon to believe in himself and take breaks when needed. They both expressed determination to chase their dreams and achieve success.">
+        <Observation>
+          <text>Jon is looking for the ideal spot for his dance studio and is considering features like size, natural light, and flooring.</text>
+          <source_dia_id>D2:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon visited Paris recently</text>
+          <source_dia_id>D2:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon is looking for Marley flooring for his dance studio due to its grip, movement, durability, and cleanliness.</text>
+          <source_dia_id>D2:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon finds the process of setting up his dance studio a mix of exciting and nerve-wracking but is determined to make it work.</text>
+          <source_dia_id>D2:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon believes in himself and is grateful for Gina's support.</text>
+          <source_dia_id>D2:12</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="3" datetime="12:48 am on 1 February, 2023" summary="At 12:48 am on 1 February 2023, Jon shared with Gina his determination to open a dance studio, while Gina revealed her success in expanding her clothing store. Gina showed Jon a picture of her new store, which he admired, and they discussed the design elements. Gina aimed to create a cozy and inviting space for her customers. They both emphasized the importance of creating a special experience for customers. Jon encouraged Gina to continue her hard work, and she reciprocated the support for his dance studio venture. They both expressed confidence in reaching their goals with hard work and determination.">
+        <Observation>
+          <text>Jon is following his passion for dance and searching for a place to open his dance studio.</text>
+          <source_dia_id>D3:1</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="4" datetime="10:43 am on 4 February, 2023" summary="Jon and Gina, at 10:43 am on 4 February, 2023, discussed Jon's business endeavors. While Jon faced obstacles, Gina encouraged him to persevere, mentioning setbacks as opportunities for comebacks. Jon mentioned his passion for dancing and preparation for an upcoming competition, with Gina supporting him wholeheartedly. They exchanged words of encouragement, with Jon expressing gratitude for Gina's help and Gina assuring him that his hard work and dedication will pay off. Gina emphasized belief in oneself, encouraging Jon to pursue his dreams relentlessly.">
+        <Observation>
+          <text>Jon is working hard on his business despite facing obstacles.</text>
+          <source_dia_id>D4:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon is determined to make his business successful and reach his dreams.</text>
+          <source_dia_id>D4:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon is searching for a dance studio location and is determined to find the right spot.</text>
+          <source_dia_id>D4:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon is working on new dance routines and rehearsing hard for an upcoming show.</text>
+          <source_dia_id>D4:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon is passionate about dancing and it brings him joy and fulfillment.</text>
+          <source_dia_id>D4:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon is preparing for a dance competition near him next month to showcase his skills.</text>
+          <source_dia_id>D4:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="5" datetime="9:32 am on 8 February, 2023" summary="Gina and Jon caught up at 9:32 am on 8 February, 2023. Gina shared about a new fashion piece for her store, while Jon told her about his dance performance. Jon spoke about his passion for running a dance studio and how fulfilling it is to see his students progress. Gina complimented Jon on his dedication and creativity, while Jon praised Gina for her willingness to take risks in her business. They both agreed that taking risks is essential for success. Jon shared his ambition to turn his passion for dance into a business. Gina supported Jon, reminding him not to give up on his dreams. They discussed the importance of freedom in expressing themselves through dance. Jon mentioned the challenges of balancing his dance and business goals but finds it rewarding. Gina encouraged Jon to keep going and not stop dreaming. They both expressed mutual support and determination to chase their dreams and move forward.">
+        <Observation>
+          <text>Jon is a dancer who runs his own dance studio.</text>
+          <source_dia_id>D5:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon left his secure 9-5 job as a banker to pursue his passion for dancing and turn it into a business.</text>
+          <source_dia_id>D5:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon finds joy and passion in dancing.</text>
+          <source_dia_id>D5:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon believes taking risks is essential for success and transformation.</text>
+          <source_dia_id>D5:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon juggles between running his dance studio and pursuing business goals, finding it rewarding and energizing.</text>
+          <source_dia_id>D5:20</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="6" datetime="2:35 pm on 16 March, 2023" summary="Jon and Gina, at 2:35 pm on 16 March 2023, caught up on their recent activities. Jon mentioned starting at the gym to balance his ventures, while Gina revealed she had a tough time after losing her job at Door Dash but had exciting news about opening an online clothes store. The two discussed their entrepreneurial journeys, with Gina blending her passion for fashion and dance into her store, and Jon facing challenges but staying determined to succeed. They both found inspiration in each other's perseverance and decided to support each other in reaching their goals. Jon and Gina expressed mutual encouragement and determination to pursue their dreams together.">
+        <Observation>
+          <text>Jon started hitting the gym last week to stay on track with a venture.</text>
+          <source_dia_id>D6:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon lost his job at Door Dash.</text>
+          <source_dia_id>D6:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon is starting his own business after losing his job and finds it tough but fulfilling.</text>
+          <source_dia_id>D6:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon finds Gina's success inspiring and her determination awesome.</text>
+          <source_dia_id>D6:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon feels motivated by facing similar challenges to Gina and considers her like a partner in this journey.</text>
+          <source_dia_id>D6:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon is encouraged by Gina's journey and finds it inspiring.</text>
+          <source_dia_id>D6:19</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="7" datetime="7:28 pm on 23 March, 2023" summary="Jon and Gina had a conversation at 7:28 pm on 23 March, 2023. Gina mentioned her successful online clothing store, highlighting the hard work and dedication it requires to start a business. Jon shared his struggles with his dance studio business but expressed determination to succeed. They discussed tips for running a successful business, emphasizing the importance of brand identity, customer relationships, and positivity. Jon credited Gina for her support and motivation, showing appreciation for her involvement in his business journey. Gina encouraged Jon to stay motivated and believe in himself. Both ended the conversation on a positive note, with Jon expressing gratitude for Gina's encouragement.">
+        <Observation>
+          <text>Jon has a dance studio business where he helps his students learn and reach their goals.</text>
+          <source_dia_id>D7:7</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="8" datetime="1:26 pm on 3 April, 2023" summary="Jon informed Gina at 1:26 pm on 3 April, 2023, that he had closed his bank account for his business. Gina expressed sympathy and inquired about how he was coping with the changes, to which Jon responded positively, mentioning it was a tough decision but necessary for business growth. They discussed Gina's new offers on her online store related to fashion and dance, which she combines due to her passion for both. They also delved into strategies, like working with influencers for Gina and expanding the social media presence for Jon's dance studio, with plans for an upcoming dance competition. They supported each other's endeavors and parted ways with encouragement and plans to meet at Jon's event.">
+        <Observation>
+          <text>Jon had to shut down his bank account for his business.</text>
+          <source_dia_id>D8:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon is handling changes positively and looking ahead despite facing challenges.</text>
+          <source_dia_id>D8:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon is expanding his dance studio's social media presence and offering workshops and classes to local schools and centers.</text>
+          <source_dia_id>D8:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon is hosting a dance competition next month to showcase local talent and bring more attention to his studio.</text>
+          <source_dia_id>D8:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="9" datetime="10:33 am on 9 April, 2023" summary="Jon, who lost his job, has turned his love for dance into a business and is determined to make his dance studio successful. He has been investing a lot of time in the studio and is happy to see his students improving. Gina has been supportive of Jon's journey, recalling her own love for dance in the past. Both agree that dance is a fantastic way to express themselves and find happiness. Jon appreciates Gina's support and encouragement as he continues to push himself to succeed in his new venture.">
+        <Observation>
+          <text>Jon is turning his passion for dance into a business by opening a dance studio.</text>
+          <source_dia_id>D9:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon's determination to make the dance studio work was fueled by losing his job.</text>
+          <source_dia_id>D9:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jonathan finds happiness in dancing and expresses himself through it.</text>
+          <source_dia_id>D9:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon used to be scared of what people would think, but now prioritizes his own happiness.</text>
+          <source_dia_id>D9:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon loved taking dance lessons with friends when he was younger.</text>
+          <source_dia_id>D9:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon values the special meaning dance has for himself and Gina, as a way to express themselves.</text>
+          <source_dia_id>D9:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon is determined to keep pushing and working hard for his dance business.</text>
+          <source_dia_id>D9:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="10" datetime="11:24 am on 25 April, 2023" summary="Jon informed Gina about his experience at a fair displaying his studio, emphasizing the challenges and rewards of his business. Gina congratulated Jon, mentioning her own online clothing store after losing her job. Jon sought advice on staying motivated during tough times and boosting confidence. Gina advised focusing on the big goal, seeking support, recalling successes, and staying passionate. Jon appreciated the guidance and resolved to maintain confidence in pursuing his dreams. The conversation between Jon and Gina depicted mutual support, encouragement, and determination to overcome obstacles and achieve success.">
+        <Observation>
+          <text>Jon has a studio business that he showed off at a fair recently.</text>
+          <source_dia_id>D10:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon considers having confidence in oneself important for business success.</text>
+          <source_dia_id>D10:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon is having trouble with his business project and seeks advice on staying motivated.</text>
+          <source_dia_id>D10:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon is feeling low on confidence lately and seeks advice from Gina on staying confident in business.</text>
+          <source_dia_id>D10:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon is talented and passionate about dance, as per Gina's encouragement.</text>
+          <source_dia_id>D10:10</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="11" datetime="3:14 pm on 11 May, 2023" summary="At 3:14 pm on 11 May 2023, Jon and Gina had an inspiring conversation about Jon's new dance studio. Jon shared his journey of starting his dream business after losing his job. Gina commended his determination and encouraged him to keep going. They both connected over their love for dance as a stress-reliever. Jon expressed his passion for dance and how it keeps him motivated. Gina shared her exciting news about a design internship interview. Jon offered to show Gina a dance routine, and she eagerly agreed. They promised to support each other, with Jon updating Gina on the studio progress and sending her a video of his routine soon.">
+        <Observation>
+          <text>Jon lost his job but used it as an opportunity to start his dream business: a dance studio.</text>
+          <source_dia_id>D11:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dance has been Jon's stress-buster since childhood.</text>
+          <source_dia_id>D11:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon sees dancing as where he feels most alive and considers it a must-have in his life.</text>
+          <source_dia_id>D11:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Having his own dance studio and teaching others is a dream come true for Jon.</text>
+          <source_dia_id>D11:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon hopes to create a place for people to dance and express themselves, as it's been a dream of his.</text>
+          <source_dia_id>D11:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="12" datetime="7:18 pm on 27 May, 2023" summary="Gina and Jon caught up at 7:18 pm on 27 May, 2023. Gina shared her excitement about getting a fashion internship with an international company, while Jon congratulated her and talked about his business plans. Jon mentioned reading &quot;The Lean Startup&quot; for tips, and they discussed ideas for his dance studio. Jon showed Gina his whiteboard of ideas and plans. They spoke about the importance of staying organized and motivated. Jon shared his struggles with finding investors but emphasized his determination. Gina encouraged Jon to keep learning and growing. Jon appreciated her support and vowed to persevere. Gina cheered him on, emphasizing the importance of overcoming obstacles. The conversation highlighted their support for each other's goals and aspirations.">
+        <Observation>
+          <text>Jon is reading the book &quot;The Lean Startup&quot; and hoping to get tips for his business.</text>
+          <source_dia_id>D12:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon is working on a business plan and looking for investors for his project.</text>
+          <source_dia_id>D12:12</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="13" datetime="8:29 pm on 13 June, 2023" summary="Jon expressed gratitude to Gina at 8:29 pm on 13 June, 2023, for her unwavering belief in him. Gina commended Jon for his venture into opening a dance studio, and the two discussed their methods of staying organized and motivated. Jon shared that he offers one-on-one mentoring at the studio to help dancers excel, and Gina mentioned creating a video presentation for styling fashion pieces. They both emphasized the importance of support and positivity in achieving goals and encouraged each other to keep pursuing their dreams.">
+        <Observation>
+          <text>Jon is prepping for his own dance studio.</text>
+          <source_dia_id>D13:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon wants his dance studio to be a place of support and encouragement for all dancers.</text>
+          <source_dia_id>D13:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon is offering one-on-one mentoring and training to help dancers reach their full potential.</text>
+          <source_dia_id>D13:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon uses a mentor, goal setting, tracking achievements, and finding areas for improvement to stay organized and motivated.</text>
+          <source_dia_id>D13:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon uses a whiteboard to stay on track, visualize goals, and reward successes.</text>
+          <source_dia_id>D13:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon color-codes achievements to easily track progress and stay motivated.</text>
+          <source_dia_id>D13:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon feels that support and guidance can help dancers shine.</text>
+          <source_dia_id>D13:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon uses the system of goal setting, tracking achievements, and visualization to stay motivated and focused.</text>
+          <source_dia_id>D13:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="14" datetime="9:38 pm on 16 June, 2023" summary="On 16th June 2023 at 9:38 pm, Jon told Gina about being mentored by a business person, leading him to pursue his dreams. Gina updated Jon on her online store progress, giving him tips on marketing. Jon followed her advice, got success with his dance videos, and sought Gina's entrepreneurship advice. Gina shared her journey as an entrepreneur and encouraged Jon to stay focused, resilient, and passionate. They exchanged motivating words, with Jon reaffirming his commitment to his dreams and Gina supporting him. Their conversation emphasized the importance of perseverance and passion in pursuing goals.">
+        <Observation>
+          <text>Jon got mentored by a business person, which was inspiring for him.</text>
+          <source_dia_id>D14:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon is working on promoting his business.</text>
+          <source_dia_id>D14:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon posted dance videos on social media which created a stir.</text>
+          <source_dia_id>D14:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon is passionate about dance and loves performing.</text>
+          <source_dia_id>D14:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon finds Gina's encouragement motivating and it helps him keep going.</text>
+          <source_dia_id>D14:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="15" datetime="10:04 am on 19 June, 2023" summary="Jon mentioned his upcoming dance studio's grand opening on 20 June and Gina congratulated him on his hard work. They expressed excitement about making memories at the event and looked forward to enjoying it together. Gina praised Jon's progress and support, while Jon appreciated her encouragement. The conversation ended with both eagerly anticipating the grand opening and agreeing to meet there the next day.">
+        <Observation>
+          <text>Jon recently took a short trip to Rome to clear his mind.</text>
+          <source_dia_id>D15:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon is working on opening a dance studio, with the official opening night being tomorrow.</text>
+          <source_dia_id>['D15:3', 'D15:5']</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="16" datetime="2:15 pm on 21 June, 2023" summary="At 2:15 pm on 21 June, 2023, Gina informed Jon about new unique pieces for her store. Jon congratulated Gina on her store and inquired about a hoodie, which Gina clarified was from her collection. Gina mentioned creating a limited edition line to showcase her style and creativity. Jon shared attending networking events to progress after losing his job. Gina praised Jon's determination, and they discussed the importance of perseverance and tracking goals. Jon appreciated Gina's support, which motivated him to stay focused and achieve his goals. Gina encouraged Jon to keep persevering and believing in himself. Jon expressed gratitude for Gina's support, feeling confident and determined not to give up.">
+        <Observation>
+          <text>Jon has been attending networking events to make things happen after losing his job.</text>
+          <source_dia_id>D16:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon is investing his time in his business and believes it will eventually pay off.</text>
+          <source_dia_id>D16:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon is writing down all his plans and goals to stay organized and motivated.</text>
+          <source_dia_id>D16:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon finds that writing down his goals helps him stay motivated and focused.</text>
+          <source_dia_id>D16:12</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="17" datetime="1:25 pm on 9 July, 2023" summary="At 1:25 pm on 9 July, 2023, Gina and Jon caught up with Gina sharing her fashion success and Jon discussing his plans to go full-time with his business idea after losing his job. Gina encouraged Jon, emphasizing that stumbling blocks can lead to new opportunities. Jon expressed gratitude for Gina's support and mentioned his goal to mentor aspiring dancers. Gina praised Jon's positivity and determination, emphasizing community support in achieving dreams. Jon thanked Gina for her unwavering faith, promising not to give up. They exchanged encouraging words, with Gina rooting for Jon to overcome obstacles and achieve his dreams. Jon affirmed he would persevere, driven by their support. The conversation ended with mutual appreciation and well wishes.">
+        <Observation>
+          <text>Jon mentioned losing his job but is determined to pursue his business dreams.</text>
+          <source_dia_id>D17:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon started learning marketing and analytics tools to push his business forward.</text>
+          <source_dia_id>D17:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon aspires to guide and mentor aspiring dancers on their dreams.</text>
+          <source_dia_id>D17:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon believes dance has the power to bring people together and create sweet moments.</text>
+          <source_dia_id>D17:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon values the support and encouragement from Gina and the community in pursuing his dreams.</text>
+          <source_dia_id>D17:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon is determined not to let anything or anyone stop him from making his dreams come true.</text>
+          <source_dia_id>D17:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon expresses gratitude for Gina's belief in him and considers her a great friend.</text>
+          <source_dia_id>D17:16</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="18" datetime="5:44 pm on 21 July, 2023" summary="Gina and Jon caught up at 5:44 pm on 21 July, 2023. Gina shared about her new website for customer orders, while Jon mentioned his struggles with the dance studio. Gina encouraged Jon to stay positive and network for investors. They discussed the importance of networking, with Gina offering advice on marketing strategies. Jon sought Gina's help with content creation and social media management for the dance studio. They excitedly planned to collaborate and make a difference together in the dance world.">
+        <Observation>
+          <text>Jon's dance studio is on tenuous grounds, but he is staying positive and looking for investors.</text>
+          <source_dia_id>D18:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon is networking and updating his business plan and pitch to investors based on advice received.</text>
+          <source_dia_id>D18:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon is working on an online platform to showcase the dance studio's offerings.</text>
+          <source_dia_id>D18:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon expressed a need for marketing strategies, seeking advice on reaching his target audience and raising awareness for the dance studio.</text>
+          <source_dia_id>D18:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon plans to collaborate with Gina on making content and managing his social media accounts to promote the dance studio.</text>
+          <source_dia_id>D18:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon expressed gratitude for Gina's support.</text>
+          <source_dia_id>D18:22</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="19" datetime="6:46 pm on 23 July, 2023" summary="Jon and Gina caught up at 6:46 pm on 23 July, 2023. Jon shared his stress about rehearsals and business plans but found solace in dancing. Gina encouraged him with motivational words from Shia Labeouf, emphasizing the importance of creating a space for dancers. Jon appreciated Gina's support and looked forward to opening his dance studio. Gina continued to motivate Jon, reminding him to never give up. The conversation ended with Jon feeling motivated and ready to &quot;just do it&quot;, as Gina encouraged him to do.">
+        <Observation>
+          <text>Jon has been rehearsing hard and working on business plans.</text>
+          <source_dia_id>D19:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dancing has kept Jon going during stressful times.</text>
+          <source_dia_id>D19:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jon is working on opening a studio for dancers of all ages and backgrounds.</text>
+          <source_dia_id>D19:7</source_dia_id>
+        </Observation>
+      </Session>
+    </Speaker>
+    <Speaker name="Gina">
+      <Session session_id="1" datetime="4:04 pm on 20 January, 2023" summary="Gina and Jon met at 4:04 pm on 20 January, 2023. Jon lost his job as a banker and planned to start a dance studio because of his passion for dancing. Gina also lost her job at Door Dash. They both shared a love for dance, with Jon's favorite style being contemporary. They planned to attend a dance class together. Jon showed Gina a photo of his dance crew winning a competition. Gina revealed her experience of winning first place with a contemporary piece in a dance competition. Jon mentioned rehearsing with a group for various dance styles and upcoming projects, including a performance at a festival. Gina complimented the group's grace and expressed excitement for their festival performance. They both shared enthusiasm for the upcoming events.">
+        <Observation>
+          <text>Gina lost her job at Door Dash during the month of the conversation.</text>
+          <source_dia_id>D1:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina used to compete in dance competitions and shows, winning first place in a regional competition at the age of fifteen.</text>
+          <source_dia_id>D1:17</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina's favorite dance style is contemporary.</text>
+          <source_dia_id>D1:9</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="2" datetime="2:32 pm on 29 January, 2023" summary="Gina and Jon had a conversation at 2:32 pm on 29 January, 2023. Gina mentioned launching an ad campaign for her clothing store, excited about the risks and rewards of her business. Jon complimented her hard work and discussed his search for a suitable location for his dance studio, mentioning finding a spot with great natural light. They discussed the importance of features like flooring for dance studios, with Jon preferring Marley flooring. Gina encouraged Jon to believe in himself and take breaks when needed. They both expressed determination to chase their dreams and achieve success.">
+        <Observation>
+          <text>Gina launched an ad campaign for her clothing store in hopes of growing the business.</text>
+          <source_dia_id>D2:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina started her own clothing store and finds taking risks scary but rewarding.</text>
+          <source_dia_id>D2:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina appreciates seeing her vision for the store come to life.</text>
+          <source_dia_id>D2:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina has been to Rome once.</text>
+          <source_dia_id>D2:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina believes that good flooring helps avoid injuries and makes dancing more enjoyable.</text>
+          <source_dia_id>D2:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina appreciates Jon's determination to make his dance studio work.</text>
+          <source_dia_id>D2:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="3" datetime="12:48 am on 1 February, 2023" summary="At 12:48 am on 1 February 2023, Jon shared with Gina his determination to open a dance studio, while Gina revealed her success in expanding her clothing store. Gina showed Jon a picture of her new store, which he admired, and they discussed the design elements. Gina aimed to create a cozy and inviting space for her customers. They both emphasized the importance of creating a special experience for customers. Jon encouraged Gina to continue her hard work, and she reciprocated the support for his dance studio venture. They both expressed confidence in reaching their goals with hard work and determination.">
+        <Observation>
+          <text>Gina is enthusiastic about expanding her clothing store and successfully got a positive response from a wholesaler.</text>
+          <source_dia_id>D3:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina designed her clothing store space to be cozy and inviting for her customers.</text>
+          <source_dia_id>D3:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina chose furniture and decor for her store that match her style and make customers feel comfortable.</text>
+          <source_dia_id>D3:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina's goal is to create a comfortable and inviting shopping experience for her customers.</text>
+          <source_dia_id>D3:8</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="4" datetime="10:43 am on 4 February, 2023" summary="Jon and Gina, at 10:43 am on 4 February, 2023, discussed Jon's business endeavors. While Jon faced obstacles, Gina encouraged him to persevere, mentioning setbacks as opportunities for comebacks. Jon mentioned his passion for dancing and preparation for an upcoming competition, with Gina supporting him wholeheartedly. They exchanged words of encouragement, with Jon expressing gratitude for Gina's help and Gina assuring him that his hard work and dedication will pay off. Gina emphasized belief in oneself, encouraging Jon to pursue his dreams relentlessly.">
+        <Observation>
+          <text>Gina's store is doing great and it's a wild ride.</text>
+          <source_dia_id>D4:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina encourages Jon to keep pushing, assuring him he'll reach his dreams.</text>
+          <source_dia_id>D4:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina supports Jon through setbacks and encourages him not to give up.</text>
+          <source_dia_id>D4:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina is supportive of Jon and assures him that setbacks can be overcome.</text>
+          <source_dia_id>D4:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina expresses full support for Jon and encourages him not to give up.</text>
+          <source_dia_id>D4:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina encourages Jon to hang in there while searching for the perfect dance studio location.</text>
+          <source_dia_id>D4:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina compliments Jon's talent and expresses confidence in his success in the upcoming dance competition.</text>
+          <source_dia_id>D4:14</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="5" datetime="9:32 am on 8 February, 2023" summary="Gina and Jon caught up at 9:32 am on 8 February, 2023. Gina shared about a new fashion piece for her store, while Jon told her about his dance performance. Jon spoke about his passion for running a dance studio and how fulfilling it is to see his students progress. Gina complimented Jon on his dedication and creativity, while Jon praised Gina for her willingness to take risks in her business. They both agreed that taking risks is essential for success. Jon shared his ambition to turn his passion for dance into a business. Gina supported Jon, reminding him not to give up on his dreams. They discussed the importance of freedom in expressing themselves through dance. Jon mentioned the challenges of balancing his dance and business goals but finds it rewarding. Gina encouraged Jon to keep going and not stop dreaming. They both expressed mutual support and determination to chase their dreams and move forward.">
+        <Observation>
+          <text>Gina owns a store where she sells fashion pieces.</text>
+          <source_dia_id>D5:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina has an online store and recently teamed up with a local artist for some cool designs.</text>
+          <source_dia_id>D5:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina got a tattoo a few years ago that stands for freedom and a reminder to follow her passions and express herself.</text>
+          <source_dia_id>D5:15</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="6" datetime="2:35 pm on 16 March, 2023" summary="Jon and Gina, at 2:35 pm on 16 March 2023, caught up on their recent activities. Jon mentioned starting at the gym to balance his ventures, while Gina revealed she had a tough time after losing her job at Door Dash but had exciting news about opening an online clothes store. The two discussed their entrepreneurial journeys, with Gina blending her passion for fashion and dance into her store, and Jon facing challenges but staying determined to succeed. They both found inspiration in each other's perseverance and decided to support each other in reaching their goals. Jon and Gina expressed mutual encouragement and determination to pursue their dreams together.">
+        <Observation>
+          <text>Gina lost her job at Door Dash.</text>
+          <source_dia_id>D6:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina opened an online clothes store which she had been dreaming of for a while.</text>
+          <source_dia_id>D6:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina is passionate about fashion trends and unique pieces, and she blended her love for dance and fashion in starting the online store.</text>
+          <source_dia_id>D6:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina finds starting and running her own business to be a rollercoaster ride with its ups and downs.</text>
+          <source_dia_id>D6:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina feels inspired by Jon's determination and success, and his words of encouragement mean a lot to her.</text>
+          <source_dia_id>D6:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina sees Jon as someone on a different path but appreciates having him as someone to root for and support each other.</text>
+          <source_dia_id>D6:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina values having someone like Jon to back her up and encourages each other to chase their dreams and achieve great things together.</text>
+          <source_dia_id>D6:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="7" datetime="7:28 pm on 23 March, 2023" summary="Jon and Gina had a conversation at 7:28 pm on 23 March, 2023. Gina mentioned her successful online clothing store, highlighting the hard work and dedication it requires to start a business. Jon shared his struggles with his dance studio business but expressed determination to succeed. They discussed tips for running a successful business, emphasizing the importance of brand identity, customer relationships, and positivity. Jon credited Gina for her support and motivation, showing appreciation for her involvement in his business journey. Gina encouraged Jon to stay motivated and believe in himself. Both ended the conversation on a positive note, with Jon expressing gratitude for Gina's encouragement.">
+        <Observation>
+          <text>Gina runs an online clothing store and has been keeping up with fashion trends to offer the best pieces to customers.</text>
+          <source_dia_id>D7:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina values building relationships and creating a strong brand image for her store.</text>
+          <source_dia_id>D7:6</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="8" datetime="1:26 pm on 3 April, 2023" summary="Jon informed Gina at 1:26 pm on 3 April, 2023, that he had closed his bank account for his business. Gina expressed sympathy and inquired about how he was coping with the changes, to which Jon responded positively, mentioning it was a tough decision but necessary for business growth. They discussed Gina's new offers on her online store related to fashion and dance, which she combines due to her passion for both. They also delved into strategies, like working with influencers for Gina and expanding the social media presence for Jon's dance studio, with plans for an upcoming dance competition. They supported each other's endeavors and parted ways with encouragement and plans to meet at Jon's event.">
+        <Observation>
+          <text>Gina got new offers and promotions for her online store to attract new customers.</text>
+          <source_dia_id>D8:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dance is Gina's stress relief and fashion fuels her creativity.</text>
+          <source_dia_id>D8:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina combines her passion for dance and fashion to show creativity and share love with others.</text>
+          <source_dia_id>D8:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina is focused on building her customer base for her store by working with fashion bloggers, influencers, and running more ads.</text>
+          <source_dia_id>D8:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina plans to work with fashion bloggers and influencers to get more attention for her store and do more ads to reach more people.</text>
+          <source_dia_id>D8:12</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="9" datetime="10:33 am on 9 April, 2023" summary="Jon, who lost his job, has turned his love for dance into a business and is determined to make his dance studio successful. He has been investing a lot of time in the studio and is happy to see his students improving. Gina has been supportive of Jon's journey, recalling her own love for dance in the past. Both agree that dance is a fantastic way to express themselves and find happiness. Jon appreciates Gina's support and encouragement as he continues to push himself to succeed in his new venture.">
+        <Observation>
+          <text>Gina admires Jon for turning his passion for dance into a business.</text>
+          <source_dia_id>D9:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina acknowledges that tough times can lead to great things and supports Jon in going after his dreams.</text>
+          <source_dia_id>D9:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina loves spending time in the dance studio and values dance as a way to express oneself and find happiness.</text>
+          <source_dia_id>D9:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina has a trophy from a dance contest as a reminder of the hard work, dedication, and joy dance brings.</text>
+          <source_dia_id>D9:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina encourages Jon to keep up his hard work and achievements.</text>
+          <source_dia_id>D9:12</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="10" datetime="11:24 am on 25 April, 2023" summary="Jon informed Gina about his experience at a fair displaying his studio, emphasizing the challenges and rewards of his business. Gina congratulated Jon, mentioning her own online clothing store after losing her job. Jon sought advice on staying motivated during tough times and boosting confidence. Gina advised focusing on the big goal, seeking support, recalling successes, and staying passionate. Jon appreciated the guidance and resolved to maintain confidence in pursuing his dreams. The conversation between Jon and Gina depicted mutual support, encouragement, and determination to overcome obstacles and achieve success.">
+        <Observation>
+          <text>Gina started her own online clothing store after losing her job to take control of her destiny.</text>
+          <source_dia_id>D10:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina finds setbacks tough but rewarding for growth.</text>
+          <source_dia_id>D10:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina advises Jon to focus on the big goal, get support, and dance it out to stay motivated during tough times in business.</text>
+          <source_dia_id>D10:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina gives Jon tips to stay confident in business by reminding of successes and progress, having a good support system, and having faith in oneself.</text>
+          <source_dia_id>D10:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina encourages Jon to believe in himself, tackle obstacles, and keep shining in pursuing his dreams.</text>
+          <source_dia_id>D10:10</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="11" datetime="3:14 pm on 11 May, 2023" summary="At 3:14 pm on 11 May 2023, Jon and Gina had an inspiring conversation about Jon's new dance studio. Jon shared his journey of starting his dream business after losing his job. Gina commended his determination and encouraged him to keep going. They both connected over their love for dance as a stress-reliever. Jon expressed his passion for dance and how it keeps him motivated. Gina shared her exciting news about a design internship interview. Jon offered to show Gina a dance routine, and she eagerly agreed. They promised to support each other, with Jon updating Gina on the studio progress and sending her a video of his routine soon.">
+        <Observation>
+          <text>Gina finds dancing as her stress fix and something that makes her worries vanish.</text>
+          <source_dia_id>D11:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dance is essential to Gina, and she compares it to being like air.</text>
+          <source_dia_id>D11:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina had an interview for a design internship and found it to be great.</text>
+          <source_dia_id>D11:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina is proud of Jon and is excited about his dance studio project.</text>
+          <source_dia_id>D11:20</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="12" datetime="7:18 pm on 27 May, 2023" summary="Gina and Jon caught up at 7:18 pm on 27 May, 2023. Gina shared her excitement about getting a fashion internship with an international company, while Jon congratulated her and talked about his business plans. Jon mentioned reading &quot;The Lean Startup&quot; for tips, and they discussed ideas for his dance studio. Jon showed Gina his whiteboard of ideas and plans. They spoke about the importance of staying organized and motivated. Jon shared his struggles with finding investors but emphasized his determination. Gina encouraged Jon to keep learning and growing. Jon appreciated her support and vowed to persevere. Gina cheered him on, emphasizing the importance of overcoming obstacles. The conversation highlighted their support for each other's goals and aspirations.">
+        <Observation>
+          <text>Gina got accepted for a fashion internship at a part-time position in the fashion department of an international company.</text>
+          <source_dia_id>D12:1</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="13" datetime="8:29 pm on 13 June, 2023" summary="Jon expressed gratitude to Gina at 8:29 pm on 13 June, 2023, for her unwavering belief in him. Gina commended Jon for his venture into opening a dance studio, and the two discussed their methods of staying organized and motivated. Jon shared that he offers one-on-one mentoring at the studio to help dancers excel, and Gina mentioned creating a video presentation for styling fashion pieces. They both emphasized the importance of support and positivity in achieving goals and encouraged each other to keep pursuing their dreams.">
+        <Observation>
+          <text>Gina has developed a video presentation to teach how to style her fashion pieces.</text>
+          <source_dia_id>D13:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina highlights the importance of staying positive and believes in supporting others' dreams.</text>
+          <source_dia_id>D13:20</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina values mentorship, having had a mentor herself when learning how to dance.</text>
+          <source_dia_id>D13:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina encourages Jon to keep pushing for his dreams and not give up.</text>
+          <source_dia_id>D13:22</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina supports Jon and believes in him.</text>
+          <source_dia_id>D13:1</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="14" datetime="9:38 pm on 16 June, 2023" summary="On 16th June 2023 at 9:38 pm, Jon told Gina about being mentored by a business person, leading him to pursue his dreams. Gina updated Jon on her online store progress, giving him tips on marketing. Jon followed her advice, got success with his dance videos, and sought Gina's entrepreneurship advice. Gina shared her journey as an entrepreneur and encouraged Jon to stay focused, resilient, and passionate. They exchanged motivating words, with Jon reaffirming his commitment to his dreams and Gina supporting him. Their conversation emphasized the importance of perseverance and passion in pursuing goals.">
+        <Observation>
+          <text>Gina is working on growing the customer base for her online store.</text>
+          <source_dia_id>D14:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina lost her job, started an online clothing store, and enjoys being her own boss.</text>
+          <source_dia_id>D14:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina advises Jon to stay passionate, focused, resilient, and open to learning for entrepreneurship.</text>
+          <source_dia_id>D14:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina believes staying resilient and focused is key for entrepreneurs.</text>
+          <source_dia_id>D14:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina shares a pic of herself dancing and mentions the tough but worth it journey.</text>
+          <source_dia_id>D14:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina encourages Jon to keep going after his dreams.</text>
+          <source_dia_id>D14:16</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="15" datetime="10:04 am on 19 June, 2023" summary="Jon mentioned his upcoming dance studio's grand opening on 20 June and Gina congratulated him on his hard work. They expressed excitement about making memories at the event and looked forward to enjoying it together. Gina praised Jon's progress and support, while Jon appreciated her encouragement. The conversation ended with both eagerly anticipating the grand opening and agreeing to meet there the next day.">
+        <Observation>
+          <text>Gina supports Jon's opening of the dance studio and expresses excitement for the launch.</text>
+          <source_dia_id>D15:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina mentions she loves being around friends and having a great time.</text>
+          <source_dia_id>D15:16</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="16" datetime="2:15 pm on 21 June, 2023" summary="At 2:15 pm on 21 June, 2023, Gina informed Jon about new unique pieces for her store. Jon congratulated Gina on her store and inquired about a hoodie, which Gina clarified was from her collection. Gina mentioned creating a limited edition line to showcase her style and creativity. Jon shared attending networking events to progress after losing his job. Gina praised Jon's determination, and they discussed the importance of perseverance and tracking goals. Jon appreciated Gina's support, which motivated him to stay focused and achieve his goals. Gina encouraged Jon to keep persevering and believing in himself. Jon expressed gratitude for Gina's support, feeling confident and determined not to give up.">
+        <Observation>
+          <text>Gina has a store where she acquired new unique pieces.</text>
+          <source_dia_id>D16:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina made a limited edition line of clothing last week to show off her style and creativity.</text>
+          <source_dia_id>D16:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina's design in her clothing line reminds her of the grit needed to stand out and face challenges.</text>
+          <source_dia_id>D16:5</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="17" datetime="1:25 pm on 9 July, 2023" summary="At 1:25 pm on 9 July, 2023, Gina and Jon caught up with Gina sharing her fashion success and Jon discussing his plans to go full-time with his business idea after losing his job. Gina encouraged Jon, emphasizing that stumbling blocks can lead to new opportunities. Jon expressed gratitude for Gina's support and mentioned his goal to mentor aspiring dancers. Gina praised Jon's positivity and determination, emphasizing community support in achieving dreams. Jon thanked Gina for her unwavering faith, promising not to give up. They exchanged encouraging words, with Gina rooting for Jon to overcome obstacles and achieve his dreams. Jon affirmed he would persevere, driven by their support. The conversation ended with mutual appreciation and well wishes.">
+        <Observation>
+          <text>Gina got noticed by fashion editors last week.</text>
+          <source_dia_id>D17:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina believes that stumbling blocks can sometimes be opened doors.</text>
+          <source_dia_id>D17:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina supports and encourages Jon in his business dreams.</text>
+          <source_dia_id>D17:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina considers Jon to be the perfect mentor and guide for aspiring dancers.</text>
+          <source_dia_id>D17:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina is part of a solid community that cheers Jon on.</text>
+          <source_dia_id>D17:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina believes Jon has potential and encourages him not to let anything stop him.</text>
+          <source_dia_id>D17:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina roots for Jon to keep going and make his dreams a reality, even when facing bumps in the road.</text>
+          <source_dia_id>D17:15</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="18" datetime="5:44 pm on 21 July, 2023" summary="Gina and Jon caught up at 5:44 pm on 21 July, 2023. Gina shared about her new website for customer orders, while Jon mentioned his struggles with the dance studio. Gina encouraged Jon to stay positive and network for investors. They discussed the importance of networking, with Gina offering advice on marketing strategies. Jon sought Gina's help with content creation and social media management for the dance studio. They excitedly planned to collaborate and make a difference together in the dance world.">
+        <Observation>
+          <text>Gina built a new website for customers to make orders for her clothing store last week.</text>
+          <source_dia_id>D18:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina faced challenges in her business, particularly in sourcing trendy pieces which required research and networking.</text>
+          <source_dia_id>D18:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina advised Jon not to be scared to reach out to people in his field for help and contacts, stressing the importance of networking.</text>
+          <source_dia_id>D18:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina met some investors and got good advice at a recent networking event.</text>
+          <source_dia_id>D18:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina offered to help Jon with making content and managing his social media accounts for his dance studio.</text>
+          <source_dia_id>D18:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina expressed excitement to collaborate with Jon on making the dance studio shine and making a difference in the world.</text>
+          <source_dia_id>D18:17</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="19" datetime="6:46 pm on 23 July, 2023" summary="Jon and Gina caught up at 6:46 pm on 23 July, 2023. Jon shared his stress about rehearsals and business plans but found solace in dancing. Gina encouraged him with motivational words from Shia Labeouf, emphasizing the importance of creating a space for dancers. Jon appreciated Gina's support and looked forward to opening his dance studio. Gina continued to motivate Jon, reminding him to never give up. The conversation ended with Jon feeling motivated and ready to &quot;just do it&quot;, as Gina encouraged him to do.">
+        <Observation>
+          <text>Gina encouraged Jon to keep up the good work and not forget his passion for dance.</text>
+          <source_dia_id>D19:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Gina is supportive of Jon's dream of opening a dance studio.</text>
+          <source_dia_id>D19:10</source_dia_id>
+        </Observation>
+      </Session>
+    </Speaker>
+  </Conversation_Version>
+</Root>

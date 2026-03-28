@@ -1,0 +1,1293 @@
+<?xml version="1.0" ?>
+<Root>
+  <Conversation_Version number="1" sample_id="conv-48" speaker_a="Deborah" speaker_b="Jolene">
+    <patch_info>None</patch_info>
+    <conversation_history>Initial_Version</conversation_history>
+    <Speaker name="Deborah">
+      <Session session_id="1" datetime="4:06 pm on 23 January, 2023" summary="Deborah and Jolene met at 4:06 pm on 23 January, 2023. They discussed their busy weeks and memories of their deceased mothers. Deborah shared about her mother's old house, while Jolene mentioned her room in her mother's house. They talked about special items that reminded them of their mothers. Jolene discussed a pendant symbolizing freedom, inspiring her to pursue goals. Deborah expressed her goal to teach yoga and bring peace to her community. Yoga helped Deborah find peace during a difficult time. Jolene found Deborah's journey inspiring, and the conversation ended with them looking forward to the next chat.">
+        <Observation>
+          <text>Deborah finished an electrical engineering project last week.</text>
+          <source_dia_id>D1:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah visited her mother's old house last week which holds special memories as her mother passed away a few years ago.</text>
+          <source_dia_id>D1:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah has a photo with her mother, which is their last photo together.</text>
+          <source_dia_id>D1:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah's mother had a special bench near the window in her house where she used to sit every morning to take in the view.</text>
+          <source_dia_id>D1:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah has a pendant that reminds her of her mother.</text>
+          <source_dia_id>D1:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah's goal is to keep teaching yoga and supporting her community to help people find peace and joy.</text>
+          <source_dia_id>D1:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Yoga helped Deborah find peace during a rough time, inspiring her to share it with others.</text>
+          <source_dia_id>D1:15</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="2" datetime="9:49 am on 27 January, 2023" summary="Deborah informed Jolene about her father's recent passing, recounting how she copes with grief by cherishing memories and spending time with family. Jolene expressed sympathy and inquired about how Deborah and her family were coping. They discussed Deborah's parents, her relationship, the impact of yoga on her life, and her special connection to her old home where she practices yoga. Deborah shared memories of her mother and her hobbies, while Jolene talked about her pet snakes and gaming hobby with her partner. They exchanged well wishes at the end of the conversation.">
+        <Observation>
+          <text>Deborah's father passed away two days before the conversation. She is trying to channel her grief by spending more time with family and cherishing memories.</text>
+          <source_dia_id>D2:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah finds peace in looking at family photos during difficult times.</text>
+          <source_dia_id>D2:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah values love and openness in her relationship with her husband.</text>
+          <source_dia_id>D2:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah has a positive influence on a group through yoga, which she is passionate about.</text>
+          <source_dia_id>D2:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah visits her old home, where her mom passed away, to find peace and feel her mother's presence.</text>
+          <source_dia_id>D2:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah's mother enjoyed reading as one of her hobbies.</text>
+          <source_dia_id>D2:17</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah's mother had a passion for travel.</text>
+          <source_dia_id>D2:19</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="3" datetime="7:03 pm on 1 February, 2023" summary="Jolene and Deborah conversed at 7:03 pm on 1 February, 2023. Jolene shared about her challenging but fun robotics project that tests her creativity and problem-solving skills. Deborah praised her and asked about her feelings when she first received the project. Jolene felt a mix of excitement and nerves initially but now enjoys working on it, comparing it to solving a puzzle and finding designing and programming solutions. Deborah met her new neighbor at yoga in the park and they discussed the benefits of yoga in their lives. Jolene mentioned planning to play console games with her partner instead of resuming yoga. Deborah acknowledged the importance of having shared activities with her partner. The conversation ended with Jolene saying goodbye and looking forward to meeting again.">
+        <Observation>
+          <text>Deborah met her new neighbor Anna at a yoga session in the park.</text>
+          <source_dia_id>D3:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah and Anna discussed how yoga has improved their lives and the sense of community it provides.</text>
+          <source_dia_id>D3:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah suggests to Jolene to resume yoga, hinting at its benefits.</text>
+          <source_dia_id>D3:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah values having activities to do together with others, like yoga with her neighbor Anna.</text>
+          <source_dia_id>D3:12</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="4" datetime="9:48 am on 4 February, 2023" summary="Jolene and Deborah caught up at 9:48 am on February 4, 2023. Jolene shared her recent success in creating a water purifier for a rural community, showcasing her engineering skills. Deborah praised her and encouraged Jolene to continue making a positive impact through engineering. Deborah also mentioned her passion for teaching yoga and bonding with Anna, sharing a modified pose. They discussed favorite books, nature spots, and reflecting on loved ones. Deborah shared how a bouquet from a friend gave her hope, while Jolene noted the power of small gestures. Both emphasized finding strength in memories and supporting each other through tough times. They exchanged warm goodbyes, with Deborah encouraging Jolene to stay in touch and Jolene expressing gratitude for the support.">
+        <Observation>
+          <text>Deborah spends a lot of time teaching yoga as a way to find balance and reconnect with herself.</text>
+          <source_dia_id>D4:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah has a bouquet that was given to her by a friend during a tough time, which gives her hope and courage.</text>
+          <source_dia_id>D4:28</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah has a little amulet from her mom that she brings with her when reflecting on her mom. It brings her comfort and connects her to her mom's love.</text>
+          <source_dia_id>D4:36</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah enjoys nature and has favorite spots in a park with a forest trail and a beach nearby.</text>
+          <source_dia_id>D4:32</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah values supporting others, as seen when she bonded with Anna during a yoga class and shared stories with Jolene.</text>
+          <source_dia_id>['D4:16', 'D4:40']</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="5" datetime="9:03 pm on 9 February, 2023" summary="Jolene informed Deborah about her mini retreat last Wednesday, which gave her a new outlook on life and boosted her confidence. She discussed her engineering project accomplishments, focusing on green technology to help disadvantaged areas and her idea for a volunteer program teaching STEM to underprivileged kids. Deborah supported the idea, and Jolene mentioned plans to work with local schools/centers for workshops with guest speakers. Jolene shared sketches with Deborah, who offered further assistance if needed. They ended the conversation with mutual appreciation and well wishes.">
+        <Observation>
+          <text>Deborah acknowledged Jolene for stepping outside her comfort zone and believing in herself.</text>
+          <source_dia_id>D5:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah supported Jolene's volunteer program idea and suggested that it's a great way to help and inspire others.</text>
+          <source_dia_id>D5:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah expressed excitement to hear about Jolene reaching out and helping underprivileged kids.</text>
+          <source_dia_id>D5:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah offered to provide more tips or information if Jolene needs them.</text>
+          <source_dia_id>D5:14</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="6" datetime="4:12 pm on 22 February, 2023" summary="Jolene, buzzing from a night out, spoke with Deborah at 4:12 pm on 22 February, 2023. Deborah found solace in a garden after losing a friend, where she cherished memories and photos. Jolene admired the flowers and they discussed travel, with Deborah fondly recalling Bali. They also talked about trying beach yoga. Deborah encouraged Jolene to enjoy the experience and advised her to take care.">
+        <Observation>
+          <text>Deborah finds peace and comfort in roses and dahlias in her garden after losing a friend last week.</text>
+          <source_dia_id>D6:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>A photo of the last hike with her friend Karlie brings a smile to Deborah's face whenever she sees it.</text>
+          <source_dia_id>D6:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah traveled to Bali last year, one of her favorite places, for peace and yoga.</text>
+          <source_dia_id>D6:10</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="7" datetime="4:50 pm on 25 February, 2023" summary="Jolene and Deborah caught up at 4:50 pm on 25 February 2023. Jolene shared how balancing engineering school with her partner's video games is challenging but she finds peace through yoga and meditation. Her partner sometimes joins in, bringing them closer. They've been together for three years since meeting in an engineering class, and their relationship started from a strong friendship. Deborah praised Jolene's progress and encouraged her to continue prioritizing self-care. Deborah, on the other hand, mentioned her morning routine of meditation, yoga, teaching classes, and now a morning jog for self-connection. She highlighted the importance of self-care to help others and emphasized the value of prioritizing oneself. Jolene appreciated Deborah's support and vowed to continue prioritizing self-care.">
+        <Observation>
+          <text>Deborah meditates, does yoga, and teaches classes in the morning.</text>
+          <source_dia_id>D7:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah went for a morning jog in a nearby park for the first time and plans to include it in her daily routine.</text>
+          <source_dia_id>D7:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah values exercise as it makes her feel connected to her body.</text>
+          <source_dia_id>D7:20</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="8" datetime="7:18 pm on 2 March, 2023" summary="Deborah and Jolene discussed their favorite comforting dishes and ways to find time for themselves amidst studies and exams on 2nd March 2023 at 7:18 pm. They shared how activities like yoga, meditation, and spending time outdoors help them relax and reset. Jolene expressed concerns about managing stress and prioritizing self-care, while Deborah offered tips on studying, time management, and self-care. Deborah also promised to give Jolene a motivating mug and encouraged her to take care and relax.">
+        <Observation>
+          <text>Deborah enjoys vegan stir-fry with tofu and vegetables with ginger and soy sauce.</text>
+          <source_dia_id>D8:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah finds food a wonderful source of pleasure and nourishment.</text>
+          <source_dia_id>D8:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah did yoga and meditation to relax last Friday.</text>
+          <source_dia_id>D8:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah enjoys spending time outside and took Seraphim to the park last Sunday.</text>
+          <source_dia_id>D8:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah appreciates the birds chirping and the breeze gently blowing when outdoors.</text>
+          <source_dia_id>D8:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah reminds Jolene that efforts will bear fruit and encourages her not to give up.</text>
+          <source_dia_id>D8:17</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah suggests breaking tasks into smaller pieces and setting goals for time management.</text>
+          <source_dia_id>D8:19</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah offers to help Jolene with a study plan.</text>
+          <source_dia_id>D8:19</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="9" datetime="11:22 am on 13 March, 2023" summary="At 11:22 am on 13 March 2023, Deborah and Jolene caught up after a long time. Deborah shared about starting a yoga class in her neighborhood and the joy it brings her to help others through it. They discussed the importance of support in tough times. Jolene mentioned her struggles in managing Engineering assignments and they decided to talk about time management soon. They agreed to find a suitable time to chat and Deborah assured Jolene of her support. Jolene thanked her and the conversation ended with well wishes.">
+        <Observation>
+          <text>Deborah started a yoga class in the neighborhood to share the exercise with her neighbors.</text>
+          <source_dia_id>D9:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah hosted a yoga class for her neighbors on a Friday and enjoyed seeing everyone embrace and enjoy it.</text>
+          <source_dia_id>D9:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah finds teaching yoga calming and derives happiness from giving people peace and awareness.</text>
+          <source_dia_id>D9:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Teaching yoga has helped Deborah make great friends and build community connections.</text>
+          <source_dia_id>D9:9</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="10" datetime="5:35 pm on 22 March, 2023" summary="Deborah and Jolene caught up at 5:35 pm on 22 March, 2023. They discussed Jolene's struggle with exams and deadlines. Jolene mentioned using the Pomodoro Technique and shared her difficulty in prioritizing tasks. Deborah suggested the Eisenhower Matrix for organizing tasks. They also talked about Jolene's dream of learning to surf. Deborah encouraged her to take the first steps and keep pushing herself. Jolene felt motivated and thanked Deborah for the support.">
+        <Observation>
+          <text>Deborah is familiar with the Pomodoro Technique for time management.</text>
+          <source_dia_id>D10:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah creates a daily schedule or to-do list to stay organized.</text>
+          <source_dia_id>D10:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah is aware of the Eisenhower Matrix for organizing and prioritizing tasks based on urgency and importance.</text>
+          <source_dia_id>D10:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah recently sat by the sea with Anna, watching the sunset and talking about inspiring each other.</text>
+          <source_dia_id>D10:17</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="11" datetime="4:03 pm on 28 March, 2023" summary="Jolene and Deborah caught up at 4:03 pm on 28 March, 2023. Jolene shared a breakthrough in her engineering project after a long time, while Deborah bought yoga props and candles to enhance her practice. They discussed scents, music, and albums for yoga, with Jolene liking Nils Frahm and Olafur Arnalds, and Deborah recommending the album &quot;Sleep.&quot; They parted ways with Jolene saying, &quot;See you!&quot; and Deborah encouraging her to &quot;keep up the good work.&quot;">
+        <Observation>
+          <text>Deborah bought new props for her yoga class.</text>
+          <source_dia_id>D11:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah bought a candle to improve the atmosphere of her yoga practice.</text>
+          <source_dia_id>D11:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah enjoys scents like lavender and rosemary during her yoga practice.</text>
+          <source_dia_id>D11:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah finds instrumental tracks with mellow melodies and rhythms helpful for creating a peaceful vibe during her practice.</text>
+          <source_dia_id>D11:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah is listening to an album called 'Sleep' which is great for meditation and deep relaxation.</text>
+          <source_dia_id>D11:10</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="12" datetime="4:30 pm on 9 April, 2023" summary="Deborah and Jolene caught up at 4:30 pm on 9 April, 2023. Deborah shared her recent biking experience and art show visit, which reminded her of her late mom. Jolene empathized, mentioning her snakes and video games as sources of comfort. Deborah found solace in art, while Jolene found joy in spending time with her partner. They agreed that finding comfort in simple things is essential during tough times. Jolene mentioned working on a big project, and Deborah offered support. They both emphasized the importance of finding happiness and supporting each other. Jolene promised to update Deborah on the project's progress, and they bid farewell, wishing each other well.">
+        <Observation>
+          <text>Deborah went biking with her neighbor last week.</text>
+          <source_dia_id>D12:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah attended an art show with a friend which she found cool and inspiring.</text>
+          <source_dia_id>D12:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah's mom was interested in art and believed it could give out strong emotions and uniquely connect people.</text>
+          <source_dia_id>D12:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah finds comfort in ways to keep her mom's memory alive, particularly through artwork.</text>
+          <source_dia_id>D12:5</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="13" datetime="3:56 pm on 6 June, 2023" summary="Jolene and Deborah caught up at 3:56 pm on 6 June, 2023. Jolene shared her completion of a tough engineering project last month. Deborah praised her hard work. Jolene expressed pride in overcoming challenges and reaching a milestone. She mentioned interning at an engineering firm and enjoying applying her skills. Deborah inquired about the impact of the internship, to which Jolene shared it inspired her to pursue her dreams. The conversation turned to work-life balance, with Jolene finding it challenging. Deborah suggested yoga for relaxation. Jolene mentioned her yoga routine and its positive impact. Deborah recommended mindful breathing during yoga. Jolene thanked her for the advice as they said their goodbyes.">
+        <Observation>
+          <text>Deborah acknowledges Jolene for completing her tough engineering project with dedication.</text>
+          <source_dia_id>D13:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah inquires about Jolene's future plans after completing the project.</text>
+          <source_dia_id>D13:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah asks Jolene about the impact of her internship experience.</text>
+          <source_dia_id>D13:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah suggests activities like yoga to Jolene to help her relax and unwind.</text>
+          <source_dia_id>D13:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah recommends practicing mindful breathing for yoga to Jolene.</text>
+          <source_dia_id>D13:24</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="14" datetime="9:17 am on 26 June, 2023" summary="Deborah and Jolene caught up at 9:17 am on June 26, 2023. Deborah mentioned preparing for a yoga retreat, while Jolene spoke about her busy internship and shared photos of her aquarium pet, Seraphim. They discussed the calming effect of pets, Jolene's determination to succeed, and Deborah's successful project. Deborah showed Jolene a new yoga pose and a symbol of peace from the retreat. Jolene expressed interest in visiting a similar retreat. They emphasized the importance of finding peace and relaxation before saying goodbye.">
+        <Observation>
+          <text>Deborah is preparing for a yoga retreat with friends to find peace and understanding.</text>
+          <source_dia_id>D14:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah tried a new yoga pose called Dancer Pose (Natarajasana) and asked for feedback from Jolene.</text>
+          <source_dia_id>D14:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah enjoys spending time with animals and finds joy in them.</text>
+          <source_dia_id>D14:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah believes that pets make life more enjoyable and bright.</text>
+          <source_dia_id>D14:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah shared a photo of a new yoga pose called Tree Pose during the conversation.</text>
+          <source_dia_id>D14:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah's yoga pose was described as a symbol of peace and enlightenment.</text>
+          <source_dia_id>D14:17</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="15" datetime="7:37 pm on 9 July, 2023" summary="Deborah and Jolene discussed their fitness routines and support systems at 7:37 pm on 9 July 2023. Deborah shared her running group experience, highlighting motivation and photo memories. Jolene talked about gaming with her partner and shared her interest in snakes as pets. Additionally, they discussed mindfulness workshops, pet care, and the calming effect of nature. They expressed mutual support and shared a desire to explore nature together.">
+        <Observation>
+          <text>Deborah started a running group with Anna to connect with people who care about fitness.</text>
+          <source_dia_id>D15:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah has many photos related to the running group activity.</text>
+          <source_dia_id>D15:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah organizes workshops and events to practice mindfulness, self-care, and create a community.</text>
+          <source_dia_id>D15:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah's workshops involve activities like yoga, meditation, and self-reflection to promote mental and emotional well-being.</text>
+          <source_dia_id>D15:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah finds it rewarding to witness growth and transformation in participants of the workshops.</text>
+          <source_dia_id>D15:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah prefers cats over dogs as pets.</text>
+          <source_dia_id>D15:25</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah takes her cats for a run in the park every morning and evening.</text>
+          <source_dia_id>D15:27</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="16" datetime="9:26 am on 1 August, 2023" summary="On August 1, 2023, at 9:26 am, Deborah informed Jolene about her community cleanup project and how everyone was coming together for it. Jolene shared her recent setback in a project. Deborah offered support and asked about Jolene's coping mechanisms, which included her pet Susie, video games, and Deborah showed understanding about the comfort pets can bring during tough times. Jolene mentioned adopting Susie two years ago for companionship. Deborah encouraged Jolene to find strength in her pet and cherish the moments together. They discussed self-care, with Jolene mentioning yoga and meditation. Deborah suggested some yoga routines and shared a tutorial video for a gentle flow to help find balance. Jolene expressed eagerness to try it out and mentioned staying in touch to share updates. They ended the conversation planning to chat later.">
+        <Observation>
+          <text>Deborah started a project for a community cleanup and is raising funds for it.</text>
+          <source_dia_id>D16:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah offered support and help to Jolene when she faced a setback in her project.</text>
+          <source_dia_id>D16:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah mentioned pets as a source of love and comfort during tough times.</text>
+          <source_dia_id>D16:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah recommended self-care routines like yoga to Jolene to stay balanced and grounded.</text>
+          <source_dia_id>D16:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah shared her favorite gentle yoga flow routine focused on breathing and grounding to find chill.</text>
+          <source_dia_id>D16:15</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="17" datetime="8:50 pm on 12 August, 2023" summary="Deborah and Jolene conversed at 8:50 pm on 12 August, 2023. Deborah mentioned creating a meditation guide for her yoga retreat, while Jolene shared how meditation helped her regain clarity after losing work files. They discussed the calming effects of meditation and Jolene's notebook designs inspired by space and technology. Jolene talked about her current project to revolutionize aerial surveillance for emergencies and environmental monitoring. Deborah admired Jolene's ambition and commitment to making a difference, offering support and encouragement. Jolene expressed gratitude for Deborah's support, and they concluded with encouraging words.">
+        <Observation>
+          <text>Deborah made a meditation guide for her yoga retreat.</text>
+          <source_dia_id>D17:1</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="18" datetime="2:58 pm on 16 August, 2023" summary="Jolene shared her struggles balancing engineering, her relationship, and personal growth with Deborah at 2:58 pm on August 16, 2023. Deborah advised Jolene to find balance and prioritize self-care. Jolene mentioned using a bullet journal for time management and task tracking. Deborah found Jolene's bullet journal helpful and praised her for staying organized. Jolene shared a motivational quote from her journal with Deborah. Deborah recommended mindfulness to Jolene, mentioning her own positive experience with it. Jolene expressed interest in trying mindfulness to destress. Deborah offered support and guidance for Jolene's mindfulness journey. Jolene thanked Deborah and expressed appreciation for her help. Deborah reassured Jolene of her support and encouraged her to reach out if needed before saying goodbye.">
+        <Observation>
+          <text>Deborah suggests that finding ways to restore balance, take time for oneself, and recognize personal needs is important.</text>
+          <source_dia_id>D18:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah led a meditation yoga session to the elderly at a local care home during sunset, indicating her interest in mindfulness and finding peace in nature.</text>
+          <source_dia_id>D18:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah mentions that mindfulness is a huge part of her life and offers to assist Jolene with her mindfulness journey.</text>
+          <source_dia_id>D18:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah encourages Jolene to focus on her goals, not give up, and offers help in starting mindfulness practice.</text>
+          <source_dia_id>D18:12</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="19" datetime="12:52 am on 19 August, 2023" summary="Deborah and Jolene spoke at 12:52 am on 19 August, 2023. Deborah shared her experience of connecting with Anna after sharing her life story, organizing a yoga event, and teaching yoga. Jolene mentioned buying a console for her partner on the 17th and managing her engineering studies. They discussed balancing hobbies and studies, with Deborah suggesting prioritizing and schedule management. Jolene recommended video games like Zelda BOTW and Animal Crossing. They also discussed playing Overcooked 2 with their partners and favorite memories of gaming. Deborah shared her favorite activity of playing detective games with her husband. They both enjoyed spending time outdoors and exploring nature. Deborah mentioned a special park near her house with a meaningful bench where she cherished memories with her mom, including watching a beautiful sunset together. Jolene acknowledged the importance of cherishing special moments.">
+        <Observation>
+          <text>Deborah teaches yoga and spends time with the community.</text>
+          <source_dia_id>D19:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah organized a yoga event last month that included yoga, food stalls, and live music.</text>
+          <source_dia_id>D19:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah prioritizes and manages her time effectively by making a schedule and setting aside specific time for studying and pursuing hobbies.</text>
+          <source_dia_id>D19:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah used to play video games, finding it a good way to relax.</text>
+          <source_dia_id>D19:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah cherishes special memories with her mom at a park, including watching a beautiful sunset together.</text>
+          <source_dia_id>D19:21</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="20" datetime="9:11 am on 21 August, 2023" summary="Jolene and Deborah caught up at 9:11 am on 21 August, 2023. They discussed memories, appreciating the simple things in life, and finding balance through yoga and meditation. Deborah shared her moments of nostalgia and how she cherishes flowers in memory of her mom. Jolene mentioned her love for savasana in yoga. They both emphasized the importance of slowing down to appreciate life's small joys. The conversation ended with well wishes for each other to stay connected.">
+        <Observation>
+          <text>Deborah went to a place that held a lot of memories for her.</text>
+          <source_dia_id>D20:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah felt nostalgia, longing, and grateful for memories when visiting a place that held memories.</text>
+          <source_dia_id>D20:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah's mom loved flowers, and they always made her happy.</text>
+          <source_dia_id>D20:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah practices yoga and meditation to find balance and inner peace.</text>
+          <source_dia_id>D20:12</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="21" datetime="9:34 am on 24 August, 2023" summary="Deborah and Jolene talked at 9:34 am on 24 August, 2023. Deborah shared her experience at a yoga retreat and how it changed her perspective on life. Jolene discussed her goal of success in her field, including presenting at a virtual conference. They supported each other's achievements and future plans. Deborah encouraged Jolene to enjoy the journey towards her goals and expressed continuous support. Jolene expressed gratitude for the support and pledged to keep pushing forward while finding joy along the way.">
+        <Observation>
+          <text>Deborah attended a yoga retreat near her mom's place last week and found it life-changing.</text>
+          <source_dia_id>D21:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah finds life super meaningful lately and believes in growth through self-reflection.</text>
+          <source_dia_id>D21:3</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="22" datetime="5:33 pm on 26 August, 2023" summary="Deborah and Jolene had a heartfelt conversation at 5:33 pm on 26 August 2023. They discussed the importance of remembering loved ones and how their values influence their lives. Jolene shared how her mom and partner's dad inspired perseverance and determination, guiding them in their respective pursuits of engineering and creative endeavors. They also talked about incorporating these values into their work to make a positive impact. Jolene mentioned her plans to work on projects involving renewable energy and clean water access. Deborah shared her love for yoga and meditation as self-care practices. They also discussed their pets, with Jolene admiring Deborah's care for her cats, Max and Luna.">
+        <Observation>
+          <text>Deborah has a partner and they had an emotional chat about the influence of their loved ones' values.</text>
+          <source_dia_id>D22:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah cherishes memories of her loved ones and values discussing relationships.</text>
+          <source_dia_id>D22:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah is supportive of Jolene's plans to add values to her engineering projects.</text>
+          <source_dia_id>D22:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah engages in self-care activities like yoga and shares a photo of nature during a yoga session.</text>
+          <source_dia_id>D22:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah has two cats named Luna and Max, the latter being her mother's cat.</text>
+          <source_dia_id>D22:21, D22:23</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Max, Deborah's mother's cat, is 8 years old.</text>
+          <source_dia_id>D22:27</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Luna, the shelter cat, is 5 years old.</text>
+          <source_dia_id>D22:29</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="23" datetime="11:46 am on 30 August, 2023" summary="Jolene and Deborah spoke at 11:46 am on 30 August 2023. Jolene shared her recent trip to Rio de Janeiro, how it introduced her to different kinds of yoga, and they visited lovely cafes. Deborah visited her mom's house last month, holding sentimental value for her, shared her reflection spot, and discussed a photo from Rio de Janeiro. They exchanged thoughts on relaxing places, meaningful quotes, and embracing positivity. Jolene shared her new plant as a symbol of self-care. Deborah encouraged her to nurture herself and embrace new beginnings. They both agreed on focusing on positivity and growth before saying goodbye.">
+        <Observation>
+          <text>Deborah visited her mom's house last month, which holds a special place in her heart as a symbol of her mom's strength and love.</text>
+          <source_dia_id>D23:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah has a favorite spot where she goes to ponder and let things go.</text>
+          <source_dia_id>D23:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah took a beautiful photo on one of her excursions in Rio de Janeiro three years ago.</text>
+          <source_dia_id>D23:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah received a quote from a friend that says &quot;Let go of what no longer serves you.&quot;</text>
+          <source_dia_id>D23:22</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="24" datetime="2:14 pm on 3 September, 2023" summary="Deborah and Jolene caught up at 2:14 pm on 3 September, 2023. Deborah attended a supportive event and a community meetup recently, valuing relationships. Jolene focused on studying and trips with her partner. They discussed support from family, with Deborah mentioning her yoga pals and Jolene reminiscing about playing video games with her parents. Jolene shared her love for &quot;Monster Hunter: World&quot; as a stress-reliever. Jolene has upcoming finals and plans to go on a relaxing trip. Deborah offered assistance.">
+        <Observation>
+          <text>Deborah went to a cool event last week aimed at supporting each other.</text>
+          <source_dia_id>D24:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah attended a community meetup last Friday where stories were shared, emphasizing the importance of relationships.</text>
+          <source_dia_id>D24:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah treasures her relationships with her yoga pals, considering them her second family.</text>
+          <source_dia_id>D24:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah's mother was a big fan and a motivating source when she started doing yoga.</text>
+          <source_dia_id>D24:5</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="25" datetime="8:31 pm on 6 September, 2023" summary="On the evening of 6th September 2023 at 8:31 pm, Jolene excitedly shared with Deborah that she signed up for a meditation course at a lake retreat with her partner. Deborah expressed her hope that Jolene would enjoy the experience and learn new techniques. Jolene mentioned how meditation positively impacts her health and helps her stay balanced during studies. Deborah praised Jolene's strength in handling challenges and offered continued support. They discussed their recent activities, including watching sunrises and beach walks. Jolene expressed a desire to watch the sunrise together in the future. They said their goodbyes, with Deborah reminding Jolene to take care of herself and rest.">
+        <Observation>
+          <text>Deborah incorporates meditation into her routine and can't imagine her life without it.</text>
+          <source_dia_id>D25:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah recently saw a wonderful sunrise which calmed her.</text>
+          <source_dia_id>D25:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah enjoys beach walks as they relax her.</text>
+          <source_dia_id>D25:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah was glad her photo reminded Jolene of good memories from a beach getaway.</text>
+          <source_dia_id>D25:14</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="26" datetime="7:39 pm on 8 September, 2023" summary="Deborah told Jolene about the canceled yoga getaway due to a storm at 7:39 pm on September 8, 2023. They discussed balancing busy schedules, self-care activities like yoga, and planned a coffee date at a cafe for next Wednesday at 4. Deborah suggested a hidden coffee shop near her for a future meeting. Jolene had to reschedule the coffee date to Friday at 5 due to prior plans and Deborah agreed, expressing excitement for the meet-up. They wished each other to stay safe and look forward to the upcoming coffee date.">
+        <Observation>
+          <text>Deborah had to cancel a yoga getaway due to a storm.</text>
+          <source_dia_id>D26:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah found comfort in work and spending time at home after the setback.</text>
+          <source_dia_id>D26:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah suggested setting up a coffee date to learn more about Jolene's strategies for planning activities.</text>
+          <source_dia_id>D26:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah complimented a peaceful picture and mentioned a hidden coffee shop near her.</text>
+          <source_dia_id>D26:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah already had plans on Wednesday and couldn't meet Jolene then.</text>
+          <source_dia_id>D26:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah agreed to meet Jolene on Friday for a coffee date.</text>
+          <source_dia_id>D26:19</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah requested Jolene to grab her some interesting books.</text>
+          <source_dia_id>D26:21</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="27" datetime="2:18 pm on 12 September, 2023" summary="Jolene and Deborah had a conversation at 2:18 pm on 12 September, 2023. Jolene shared about her meditation retreat in Phuket, emphasizing the importance of balance and inner peace. Deborah inquired about Jolene's reflections, leading to a discussion on appreciating the journey and small moments in life. They both highlighted the significance of mindfulness and gratitude for happiness. Jolene expressed her newfound joy and Deborah commended her progress. They agreed on the value of a supportive community and planned to play a card game together in the future.">
+        <Observation>
+          <text>Deborah was curious to hear more about Jolene's reflections from the meditation retreat and how they changed her.</text>
+          <source_dia_id>D27:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah also sees the importance of appreciating small moments in life to boost happiness.</text>
+          <source_dia_id>D27:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah believes that practicing mindfulness and gratitude can positively impact day-to-day life.</text>
+          <source_dia_id>D27:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah played a card game about cats where you can attack your opponent with the cards, and she plans to play it with Jolene.</text>
+          <source_dia_id>D27:12</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="28" datetime="3:09 pm on 15 September, 2023" summary="Deborah and Jolene had a conversation at 3:09 pm on 15 September, 2023. Deborah shared how reconnecting with her late mother's friends brought up a mix of emotions, but ultimately, it was comforting. Jolene supported her, mentioning how stories about loved ones can be both tough and comforting. Deborah found the experience with her mom's friends special as it offered insight into her mother's life. They discussed how old photos and memories strengthen their appreciation for loved ones. Deborah also shared her love for surfing and yoga, highlighting how these activities bring her peace. Jolene and Deborah discussed creating calm spaces for relaxation, with Jolene mentioning her room as a haven of peace. Additionally, Jolene showed a photo of her pet Susie, whom she adores for bringing comfort and brightness into her life.">
+        <Observation>
+          <text>Deborah reconnected with her late mother's friends, which brought up a mix of emotions but overall was comforting.</text>
+          <source_dia_id>D28:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah's experience with her mother's friends allowed her to appreciate her mother more and gain a new perspective on her life.</text>
+          <source_dia_id>D28:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah looked through her mother's photos with her friends and found it sweet and nostalgic.</text>
+          <source_dia_id>D28:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah believes that photos and memories can help in appreciating the special bond with loved ones and the strength of human relationships.</text>
+          <source_dia_id>D28:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>The beach where Deborah got married and discovered her love for surfing holds special memories of joy and peace for her.</text>
+          <source_dia_id>D28:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah finds doing yoga on the beach with the ocean, sand, and fresh air peaceful and a perfect way to take care of herself.</text>
+          <source_dia_id>D28:15</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="29" datetime="1:24 pm on 17 September, 2023" summary="Deborah excitedly shared with Jolene about running a free gardening class for the community, while Jolene talked about a scuba diving lesson they had recently enjoyed. They discussed special memories, including Deborah's time spent remembering her mom and the special meals she used to cook. Jolene mentioned baking cookies with someone close and their favorite cookie to make. They also talked about books and finding cozy spaces for relaxation. The conversation ended with plans to try surfing together next month, showing their excitement for the upcoming adventure.">
+        <Observation>
+          <text>Deborah ran a free gardening class for the community with her neighbor.</text>
+          <source_dia_id>D29:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah spent time remembering her mom by visiting her old house and sitting on a bench last Sunday.</text>
+          <source_dia_id>D29:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah's mom had a big passion for cooking, making amazing meals filled with love and warmth.</text>
+          <source_dia_id>D29:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah loved when her mom would bake pineapple birthday cakes for her when she was a kid.</text>
+          <source_dia_id>D29:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah showed Jolene a big bookshelf she has.</text>
+          <source_dia_id>D29:19</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="30" datetime="10:17 am on 20 September, 2023" summary="Deborah and Jolene had a conversation at 10:17 am on 20 September, 2023. Deborah shared her experience at a music festival, recalling memories of her mom singing lullabies. Jolene talked about her festival experience with her partner and a recent yoga retreat. They discussed the beauty of nature and finding inspiration in small things. Jolene planned to reconnect with nature soon, while Deborah reminisced about a blossoming tree near her home. They both emphasized the importance of finding positivity in tough times. The conversation ended with Jolene encouraging Deborah to continue finding beauty in everyday moments.">
+        <Observation>
+          <text>Deborah had a great time at a music festival with her pals where she enjoyed dancing and feeling the magical music vibes.</text>
+          <source_dia_id>D30:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah reminisces about her mom singing lullabies to her, cherishing those memories.</text>
+          <source_dia_id>D30:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Deborah mentioned a gorgeous blossom tree near her home that bloomed magically every spring.</text>
+          <source_dia_id>D30:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Watching the tree bloom filled Deborah with awe and appreciation for the beauty of life.</text>
+          <source_dia_id>D30:13</source_dia_id>
+        </Observation>
+      </Session>
+    </Speaker>
+    <Speaker name="Jolene">
+      <Session session_id="1" datetime="4:06 pm on 23 January, 2023" summary="Deborah and Jolene met at 4:06 pm on 23 January, 2023. They discussed their busy weeks and memories of their deceased mothers. Deborah shared about her mother's old house, while Jolene mentioned her room in her mother's house. They talked about special items that reminded them of their mothers. Jolene discussed a pendant symbolizing freedom, inspiring her to pursue goals. Deborah expressed her goal to teach yoga and bring peace to her community. Yoga helped Deborah find peace during a difficult time. Jolene found Deborah's journey inspiring, and the conversation ended with them looking forward to the next chat.">
+        <Observation>
+          <text>Jolene finished an electrical engineering project last week.</text>
+          <source_dia_id>D1:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene's mother passed away last year.</text>
+          <source_dia_id>D1:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene has a room in her mother's house where she has many memories.</text>
+          <source_dia_id>D1:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene has a pendant that reminds her of her mother.</text>
+          <source_dia_id>D1:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene's pendant has a special symbol representing freedom, reminding her to go for her goals.</text>
+          <source_dia_id>D1:10</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="2" datetime="9:49 am on 27 January, 2023" summary="Deborah informed Jolene about her father's recent passing, recounting how she copes with grief by cherishing memories and spending time with family. Jolene expressed sympathy and inquired about how Deborah and her family were coping. They discussed Deborah's parents, her relationship, the impact of yoga on her life, and her special connection to her old home where she practices yoga. Deborah shared memories of her mother and her hobbies, while Jolene talked about her pet snakes and gaming hobby with her partner. They exchanged well wishes at the end of the conversation.">
+        <Observation>
+          <text>Jolene enjoys playing video games and particularly likes the game &quot;Detroit&quot; on the console.</text>
+          <source_dia_id>D2:26</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene and her partner are planning to play &quot;Walking Dead&quot; next Saturday.</text>
+          <source_dia_id>D2:30</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="3" datetime="7:03 pm on 1 February, 2023" summary="Jolene and Deborah conversed at 7:03 pm on 1 February, 2023. Jolene shared about her challenging but fun robotics project that tests her creativity and problem-solving skills. Deborah praised her and asked about her feelings when she first received the project. Jolene felt a mix of excitement and nerves initially but now enjoys working on it, comparing it to solving a puzzle and finding designing and programming solutions. Deborah met her new neighbor at yoga in the park and they discussed the benefits of yoga in their lives. Jolene mentioned planning to play console games with her partner instead of resuming yoga. Deborah acknowledged the importance of having shared activities with her partner. The conversation ended with Jolene saying goodbye and looking forward to meeting again.">
+        <Observation>
+          <text>Jolene is a student who is working on a robotics project assigned by her engineering professor.</text>
+          <source_dia_id>D3:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Initially, Jolene felt a mix of excitement and nervousness when she received the robotics project.</text>
+          <source_dia_id>D3:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene finds working on the robotics project like solving a puzzle and enjoys figuring out the best design and programming.</text>
+          <source_dia_id>D3:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene enjoys seeing the robot come together as she works on the project.</text>
+          <source_dia_id>D3:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene has a partner with whom she plans to play console games.</text>
+          <source_dia_id>D3:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="4" datetime="9:48 am on 4 February, 2023" summary="Jolene and Deborah caught up at 9:48 am on February 4, 2023. Jolene shared her recent success in creating a water purifier for a rural community, showcasing her engineering skills. Deborah praised her and encouraged Jolene to continue making a positive impact through engineering. Deborah also mentioned her passion for teaching yoga and bonding with Anna, sharing a modified pose. They discussed favorite books, nature spots, and reflecting on loved ones. Deborah shared how a bouquet from a friend gave her hope, while Jolene noted the power of small gestures. Both emphasized finding strength in memories and supporting each other through tough times. They exchanged warm goodbyes, with Deborah encouraging Jolene to stay in touch and Jolene expressing gratitude for the support.">
+        <Observation>
+          <text>Jolene had a major milestone last week in engineering where she designed and built a sustainable water purifier for a rural community.</text>
+          <source_dia_id>D4:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene wants to continue working in engineering to make a positive impact on communities in need by creating sustainable solutions.</text>
+          <source_dia_id>D4:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene is into reading, particularly enjoying the books &quot;Sapiens&quot; and &quot;Avalanche&quot; by Neal Stephenson.</text>
+          <source_dia_id>['D4:21', 'D4:23']</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene appreciates nature's calming power and enjoys watching sunsets over the water.</text>
+          <source_dia_id>D4:33</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="5" datetime="9:03 pm on 9 February, 2023" summary="Jolene informed Deborah about her mini retreat last Wednesday, which gave her a new outlook on life and boosted her confidence. She discussed her engineering project accomplishments, focusing on green technology to help disadvantaged areas and her idea for a volunteer program teaching STEM to underprivileged kids. Deborah supported the idea, and Jolene mentioned plans to work with local schools/centers for workshops with guest speakers. Jolene shared sketches with Deborah, who offered further assistance if needed. They ended the conversation with mutual appreciation and well wishes.">
+        <Observation>
+          <text>Jolene did a mini retreat last Wednesday to assess her life and gained new insights and a confidence boost from it.</text>
+          <source_dia_id>D5:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene accomplished something significant with her engineering project and came up with neat solutions that she's excited about.</text>
+          <source_dia_id>D5:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene is considering looking into green technology to make a difference in disadvantaged areas.</text>
+          <source_dia_id>D5:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene had an idea for a volunteer program where engineers teach STEM to underprivileged kids.</text>
+          <source_dia_id>D5:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene plans to team up with local schools/centers to do workshops and invite engineers as guest speakers for the volunteer program.</text>
+          <source_dia_id>D5:9</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="7" datetime="4:50 pm on 25 February, 2023" summary="Jolene and Deborah caught up at 4:50 pm on 25 February 2023. Jolene shared how balancing engineering school with her partner's video games is challenging but she finds peace through yoga and meditation. Her partner sometimes joins in, bringing them closer. They've been together for three years since meeting in an engineering class, and their relationship started from a strong friendship. Deborah praised Jolene's progress and encouraged her to continue prioritizing self-care. Deborah, on the other hand, mentioned her morning routine of meditation, yoga, teaching classes, and now a morning jog for self-connection. She highlighted the importance of self-care to help others and emphasized the value of prioritizing oneself. Jolene appreciated Deborah's support and vowed to continue prioritizing self-care.">
+        <Observation>
+          <text>Jolene is studying engineering in school while balancing her partner's video games.</text>
+          <source_dia_id>D7:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene practices yoga and meditation to stay calm amidst the busyness of life.</text>
+          <source_dia_id>D7:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene's partner sometimes joins her in doing yoga for bonding and relaxation.</text>
+          <source_dia_id>D7:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene has been with her partner for three years but they are not married yet.</text>
+          <source_dia_id>D7:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene and her partner met in an engineering class in college and their romantic relationship grew from a friendship.</text>
+          <source_dia_id>D7:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene finds teaming up with her partner on engineering projects enjoyable.</text>
+          <source_dia_id>D7:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Yoga and meditation help Jolene feel calmer and clearer when overwhelmed, enabling her to tackle challenges more easily.</text>
+          <source_dia_id>D7:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="8" datetime="7:18 pm on 2 March, 2023" summary="Deborah and Jolene discussed their favorite comforting dishes and ways to find time for themselves amidst studies and exams on 2nd March 2023 at 7:18 pm. They shared how activities like yoga, meditation, and spending time outdoors help them relax and reset. Jolene expressed concerns about managing stress and prioritizing self-care, while Deborah offered tips on studying, time management, and self-care. Deborah also promised to give Jolene a motivating mug and encouraged her to take care and relax.">
+        <Observation>
+          <text>Jolene finds lasagna as one of her favorite comforting dishes.</text>
+          <source_dia_id>D8:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene does yoga and meditation to relax and find me-time.</text>
+          <source_dia_id>D8:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene values quiet moments for the soul.</text>
+          <source_dia_id>D8:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene took Seraphim to the park and explored new places.</text>
+          <source_dia_id>D8:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene wants to be more mindful of her stress levels and mental health during exams.</text>
+          <source_dia_id>D8:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene feels overwhelmed by exams and deadlines.</text>
+          <source_dia_id>D8:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene expresses feeling challenged by the workload and to-do list.</text>
+          <source_dia_id>D8:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene appreciates Deborah's tips on studying and time management.</text>
+          <source_dia_id>D8:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="9" datetime="11:22 am on 13 March, 2023" summary="At 11:22 am on 13 March 2023, Deborah and Jolene caught up after a long time. Deborah shared about starting a yoga class in her neighborhood and the joy it brings her to help others through it. They discussed the importance of support in tough times. Jolene mentioned her struggles in managing Engineering assignments and they decided to talk about time management soon. They agreed to find a suitable time to chat and Deborah assured Jolene of her support. Jolene thanked her and the conversation ended with well wishes.">
+        <Observation>
+          <text>Jolene is having a hard time dealing with her Engineering assignments and is struggling to keep up.</text>
+          <source_dia_id>D9:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene is interested in discussing time management with Deborah to help with her workload.</text>
+          <source_dia_id>D9:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene wants to find a time to chat with Deborah about time management.</text>
+          <source_dia_id>D9:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene values having support in tough times and finds it essential in handling life challenges.</text>
+          <source_dia_id>D9:10</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="10" datetime="5:35 pm on 22 March, 2023" summary="Deborah and Jolene caught up at 5:35 pm on 22 March, 2023. They discussed Jolene's struggle with exams and deadlines. Jolene mentioned using the Pomodoro Technique and shared her difficulty in prioritizing tasks. Deborah suggested the Eisenhower Matrix for organizing tasks. They also talked about Jolene's dream of learning to surf. Deborah encouraged her to take the first steps and keep pushing herself. Jolene felt motivated and thanked Deborah for the support.">
+        <Observation>
+          <text>Jolene finds it difficult to manage time and stay organized during exams and deadlines.</text>
+          <source_dia_id>D10:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene uses the Pomodoro Technique - 25 minutes work, 5-minute break - to avoid burnout.</text>
+          <source_dia_id>D10:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene struggles to prioritize tasks even with the Pomodoro Technique.</text>
+          <source_dia_id>D10:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene finds daily schedules or to-do lists overwhelming when dealing with a big stack of tasks.</text>
+          <source_dia_id>D10:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene is interested in learning about new time management methods like the Eisenhower Matrix shared by Deborah.</text>
+          <source_dia_id>D10:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene is planning on learning to surf, has been gathering information, and got a beginners' guide to surfing.</text>
+          <source_dia_id>D10:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="11" datetime="4:03 pm on 28 March, 2023" summary="Jolene and Deborah caught up at 4:03 pm on 28 March, 2023. Jolene shared a breakthrough in her engineering project after a long time, while Deborah bought yoga props and candles to enhance her practice. They discussed scents, music, and albums for yoga, with Jolene liking Nils Frahm and Olafur Arnalds, and Deborah recommending the album &quot;Sleep.&quot; They parted ways with Jolene saying, &quot;See you!&quot; and Deborah encouraging her to &quot;keep up the good work.&quot;">
+        <Observation>
+          <text>Jolene had a breakthrough with her engineering project on Friday and found a solution to a problem.</text>
+          <source_dia_id>D11:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene feels relaxed during yoga and enjoys creating a serene space with soothing scents like lavender and rosemary.</text>
+          <source_dia_id>D11:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene finds music helpful during her yoga practice.</text>
+          <source_dia_id>D11:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene loves listening to Nils Frahm and Olafur Arnalds during her practice as their music is calming and puts her in a different headspace.</text>
+          <source_dia_id>D11:9</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="12" datetime="4:30 pm on 9 April, 2023" summary="Deborah and Jolene caught up at 4:30 pm on 9 April, 2023. Deborah shared her recent biking experience and art show visit, which reminded her of her late mom. Jolene empathized, mentioning her snakes and video games as sources of comfort. Deborah found solace in art, while Jolene found joy in spending time with her partner. They agreed that finding comfort in simple things is essential during tough times. Jolene mentioned working on a big project, and Deborah offered support. They both emphasized the importance of finding happiness and supporting each other. Jolene promised to update Deborah on the project's progress, and they bid farewell, wishing each other well.">
+        <Observation>
+          <text>Jolene spends time playing video games with her partner to relax after a long day.</text>
+          <source_dia_id>D12:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene is working on a big project which is tough but exciting to watch take shape.</text>
+          <source_dia_id>D12:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene values Deborah's support and mentions she will keep her updated on the progress of the project.</text>
+          <source_dia_id>D12:12</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="13" datetime="3:56 pm on 6 June, 2023" summary="Jolene and Deborah caught up at 3:56 pm on 6 June, 2023. Jolene shared her completion of a tough engineering project last month. Deborah praised her hard work. Jolene expressed pride in overcoming challenges and reaching a milestone. She mentioned interning at an engineering firm and enjoying applying her skills. Deborah inquired about the impact of the internship, to which Jolene shared it inspired her to pursue her dreams. The conversation turned to work-life balance, with Jolene finding it challenging. Deborah suggested yoga for relaxation. Jolene mentioned her yoga routine and its positive impact. Deborah recommended mindful breathing during yoga. Jolene thanked her for the advice as they said their goodbyes.">
+        <Observation>
+          <text>Jolene recently completed a tough engineering project.</text>
+          <source_dia_id>D13:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene is interning at a well-known engineering firm to gain real-world experience.</text>
+          <source_dia_id>D13:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene finds it fulfilling to apply what she has learned in school to real projects.</text>
+          <source_dia_id>D13:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene's internship has positively impacted her life and stoked her love of engineering.</text>
+          <source_dia_id>D13:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene is inspired to keep striving for her dreams by dedicated and hardworking colleagues.</text>
+          <source_dia_id>D13:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene has found it tough to maintain a work-life balance during her internship.</text>
+          <source_dia_id>D13:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene has been practicing yoga and meditation sporadically for about 3 years and found them to have a positive effect on her.</text>
+          <source_dia_id>D13:17</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Yoga and meditation have helped Jolene with stress and keeping centered.</text>
+          <source_dia_id>D13:19</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="14" datetime="9:17 am on 26 June, 2023" summary="Deborah and Jolene caught up at 9:17 am on June 26, 2023. Deborah mentioned preparing for a yoga retreat, while Jolene spoke about her busy internship and shared photos of her aquarium pet, Seraphim. They discussed the calming effect of pets, Jolene's determination to succeed, and Deborah's successful project. Deborah showed Jolene a new yoga pose and a symbol of peace from the retreat. Jolene expressed interest in visiting a similar retreat. They emphasized the importance of finding peace and relaxation before saying goodbye.">
+        <Observation>
+          <text>Jolene has been busy with an internship and finds it hectic.</text>
+          <source_dia_id>D14:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene owns a pet named Seraphim, who brings comfort and cheer to her life.</text>
+          <source_dia_id>D14:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene is pushing herself to succeed despite feeling overwhelmed.</text>
+          <source_dia_id>D14:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene had a big breakthrough with a project, finding it exciting and rewarding.</text>
+          <source_dia_id>D14:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene is interested in visiting a retreat like the one Deborah went to.</text>
+          <source_dia_id>D14:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene expressed a desire for some chill time and found the idea of a retreat peaceful.</text>
+          <source_dia_id>D14:20</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="15" datetime="7:37 pm on 9 July, 2023" summary="Deborah and Jolene discussed their fitness routines and support systems at 7:37 pm on 9 July 2023. Deborah shared her running group experience, highlighting motivation and photo memories. Jolene talked about gaming with her partner and shared her interest in snakes as pets. Additionally, they discussed mindfulness workshops, pet care, and the calming effect of nature. They expressed mutual support and shared a desire to explore nature together.">
+        <Observation>
+          <text>Jolene is trying to add workouts into her studying schedule.</text>
+          <source_dia_id>D15:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene games with her partner and finds it a great way to bond and get closer.</text>
+          <source_dia_id>D15:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene loves playing 'It Takes Two' with her partner and finds it competitive and a great bonding activity.</text>
+          <source_dia_id>D15:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene has a snake as a pet, finds it calming, and a great connection with nature.</text>
+          <source_dia_id>D15:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene had a 'snake adventure' where her snake got out, but she found her snuggling under the bed after hours of searching.</text>
+          <source_dia_id>D15:20</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene takes photos of nature and finds nature to be refreshing and a way to hit a reset button.</text>
+          <source_dia_id>D15:29</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene loves going for walks to take in nature and finds peaceful spots like the lake surrounded by trees to be calming and tranquil.</text>
+          <source_dia_id>D15:32</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene plans to go together to the peaceful spot near the lake with Deborah.</text>
+          <source_dia_id>D15:38</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="16" datetime="9:26 am on 1 August, 2023" summary="On August 1, 2023, at 9:26 am, Deborah informed Jolene about her community cleanup project and how everyone was coming together for it. Jolene shared her recent setback in a project. Deborah offered support and asked about Jolene's coping mechanisms, which included her pet Susie, video games, and Deborah showed understanding about the comfort pets can bring during tough times. Jolene mentioned adopting Susie two years ago for companionship. Deborah encouraged Jolene to find strength in her pet and cherish the moments together. They discussed self-care, with Jolene mentioning yoga and meditation. Deborah suggested some yoga routines and shared a tutorial video for a gentle flow to help find balance. Jolene expressed eagerness to try it out and mentioned staying in touch to share updates. They ended the conversation planning to chat later.">
+        <Observation>
+          <text>Jolene has faced a huge setback in her project recently, causing frustration and depression.</text>
+          <source_dia_id>D16:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene finds comfort and distraction through her pet Susie and video games during tough times.</text>
+          <source_dia_id>D16:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene adopted Susie two years ago when feeling lonely.</text>
+          <source_dia_id>D16:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene practices self-care through yoga and meditation to stay balanced and grounded.</text>
+          <source_dia_id>D16:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene expressed interest in new routines to mix things up for self-care.</text>
+          <source_dia_id>D16:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene looks forward to trying out Deborah's favorite gentle flow yoga routine to find chill.</text>
+          <source_dia_id>D16:16</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="17" datetime="8:50 pm on 12 August, 2023" summary="Deborah and Jolene conversed at 8:50 pm on 12 August, 2023. Deborah mentioned creating a meditation guide for her yoga retreat, while Jolene shared how meditation helped her regain clarity after losing work files. They discussed the calming effects of meditation and Jolene's notebook designs inspired by space and technology. Jolene talked about her current project to revolutionize aerial surveillance for emergencies and environmental monitoring. Deborah admired Jolene's ambition and commitment to making a difference, offering support and encouragement. Jolene expressed gratitude for Deborah's support, and they concluded with encouraging words.">
+        <Observation>
+          <text>Jolene found meditation helpful to regain clarity after losing work files.</text>
+          <source_dia_id>D17:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene designed notebooks inspired by her love for space and engines with elements like galaxies and circuitry.</text>
+          <source_dia_id>D17:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene is working on a prototype project aimed at revolutionizing aerial surveillance.</text>
+          <source_dia_id>D17:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene aims to create a more productive and affordable aerial surveillance system to help respond to emergencies and monitor the environment.</text>
+          <source_dia_id>D17:12</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="18" datetime="2:58 pm on 16 August, 2023" summary="Jolene shared her struggles balancing engineering, her relationship, and personal growth with Deborah at 2:58 pm on August 16, 2023. Deborah advised Jolene to find balance and prioritize self-care. Jolene mentioned using a bullet journal for time management and task tracking. Deborah found Jolene's bullet journal helpful and praised her for staying organized. Jolene shared a motivational quote from her journal with Deborah. Deborah recommended mindfulness to Jolene, mentioning her own positive experience with it. Jolene expressed interest in trying mindfulness to destress. Deborah offered support and guidance for Jolene's mindfulness journey. Jolene thanked Deborah and expressed appreciation for her help. Deborah reassured Jolene of her support and encouraged her to reach out if needed before saying goodbye.">
+        <Observation>
+          <text>Jolene is finding it challenging to juggle her engineering studies, relationship, and personal growth.</text>
+          <source_dia_id>D18:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene has started using a bullet journal as a time management strategy to track tasks and stay organized.</text>
+          <source_dia_id>D18:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene finds it satisfying to cross tasks off her list in the bullet journal.</text>
+          <source_dia_id>D18:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene finds a particular quote in her bullet journal spread motivating and uses it as a reminder to stick to her goals and never give up.</text>
+          <source_dia_id>D18:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene is interested in destressing and trying mindfulness as a way to find calm in her life.</text>
+          <source_dia_id>D18:9</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="19" datetime="12:52 am on 19 August, 2023" summary="Deborah and Jolene spoke at 12:52 am on 19 August, 2023. Deborah shared her experience of connecting with Anna after sharing her life story, organizing a yoga event, and teaching yoga. Jolene mentioned buying a console for her partner on the 17th and managing her engineering studies. They discussed balancing hobbies and studies, with Deborah suggesting prioritizing and schedule management. Jolene recommended video games like Zelda BOTW and Animal Crossing. They also discussed playing Overcooked 2 with their partners and favorite memories of gaming. Deborah shared her favorite activity of playing detective games with her husband. They both enjoyed spending time outdoors and exploring nature. Deborah mentioned a special park near her house with a meaningful bench where she cherished memories with her mom, including watching a beautiful sunset together. Jolene acknowledged the importance of cherishing special moments.">
+        <Observation>
+          <text>Jolene bought a console as a gift for her partner on the 17th.</text>
+          <source_dia_id>D19:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene's partner enjoys playing the console she bought.</text>
+          <source_dia_id>D19:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene's studies in engineering are going strong.</text>
+          <source_dia_id>D19:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene values balance in her life, mentioning it has been key for her lately.</text>
+          <source_dia_id>D19:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene enjoys video games and recommends Zelda BOTW and Animal Crossing: New Horizons.</text>
+          <source_dia_id>D19:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene and her partner play Overcooked 2 for bets and enjoy it for its chaotic cooking.</text>
+          <source_dia_id>D19:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene and her partner enjoy spending time outdoors and exploring nature together.</text>
+          <source_dia_id>D19:15</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="20" datetime="9:11 am on 21 August, 2023" summary="Jolene and Deborah caught up at 9:11 am on 21 August, 2023. They discussed memories, appreciating the simple things in life, and finding balance through yoga and meditation. Deborah shared her moments of nostalgia and how she cherishes flowers in memory of her mom. Jolene mentioned her love for savasana in yoga. They both emphasized the importance of slowing down to appreciate life's small joys. The conversation ended with well wishes for each other to stay connected.">
+        <Observation>
+          <text>Jolene received a new game called Battlefield 1 for her console last week.</text>
+          <source_dia_id>D20:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene practices yoga and meditation to relax and stay focused.</text>
+          <source_dia_id>D20:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene has been doing yoga for 3 years as a way to escape studying and work stress.</text>
+          <source_dia_id>D20:21</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="21" datetime="9:34 am on 24 August, 2023" summary="Deborah and Jolene talked at 9:34 am on 24 August, 2023. Deborah shared her experience at a yoga retreat and how it changed her perspective on life. Jolene discussed her goal of success in her field, including presenting at a virtual conference. They supported each other's achievements and future plans. Deborah encouraged Jolene to enjoy the journey towards her goals and expressed continuous support. Jolene expressed gratitude for the support and pledged to keep pushing forward while finding joy along the way.">
+        <Observation>
+          <text>Jolene's goal is to be successful in her field, make a positive impact, and has been working towards it by studying, attending workshops, and networking.</text>
+          <source_dia_id>D21:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene recently presented at a virtual conference and received positive feedback, confirming she is on the right track.</text>
+          <source_dia_id>D21:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene is focusing on studying, gaining more experience, and considering more internships to enhance her skills.</text>
+          <source_dia_id>D21:8</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="22" datetime="5:33 pm on 26 August, 2023" summary="Deborah and Jolene had a heartfelt conversation at 5:33 pm on 26 August 2023. They discussed the importance of remembering loved ones and how their values influence their lives. Jolene shared how her mom and partner's dad inspired perseverance and determination, guiding them in their respective pursuits of engineering and creative endeavors. They also talked about incorporating these values into their work to make a positive impact. Jolene mentioned her plans to work on projects involving renewable energy and clean water access. Deborah shared her love for yoga and meditation as self-care practices. They also discussed their pets, with Jolene admiring Deborah's care for her cats, Max and Luna.">
+        <Observation>
+          <text>Jolene is an engineering student with a passion for using her talents to help solve important problems and make the world a better place.</text>
+          <source_dia_id>D22:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene is interested in sustainable initiatives, developing solutions for environmental issues, and getting involved with social causes.</text>
+          <source_dia_id>D22:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene aims to work on projects involving renewable energy like solar and providing clean water to those with limited access.</text>
+          <source_dia_id>D22:10, D22:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene practices yoga and meditation to recharge and relieve tension.</text>
+          <source_dia_id>D22:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene's snakes enjoy watching her chill and provide a sense of calm.</text>
+          <source_dia_id>D22:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="23" datetime="11:46 am on 30 August, 2023" summary="Jolene and Deborah spoke at 11:46 am on 30 August 2023. Jolene shared her recent trip to Rio de Janeiro, how it introduced her to different kinds of yoga, and they visited lovely cafes. Deborah visited her mom's house last month, holding sentimental value for her, shared her reflection spot, and discussed a photo from Rio de Janeiro. They exchanged thoughts on relaxing places, meaningful quotes, and embracing positivity. Jolene shared her new plant as a symbol of self-care. Deborah encouraged her to nurture herself and embrace new beginnings. They both agreed on focusing on positivity and growth before saying goodbye.">
+        <Observation>
+          <text>Jolene recently went on a trip to Rio de Janeiro with her partner, where they attended yoga classes and visited cafes.</text>
+          <source_dia_id>D23:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene meditates at a nearby tranquil spot to help make sense of things and relieve stress.</text>
+          <source_dia_id>D23:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene has a new plant as a reminder to nurture herself and embrace fresh starts.</text>
+          <source_dia_id>D23:29</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="24" datetime="2:14 pm on 3 September, 2023" summary="Deborah and Jolene caught up at 2:14 pm on 3 September, 2023. Deborah attended a supportive event and a community meetup recently, valuing relationships. Jolene focused on studying and trips with her partner. They discussed support from family, with Deborah mentioning her yoga pals and Jolene reminiscing about playing video games with her parents. Jolene shared her love for &quot;Monster Hunter: World&quot; as a stress-reliever. Jolene has upcoming finals and plans to go on a relaxing trip. Deborah offered assistance.">
+        <Observation>
+          <text>Jolene has been focusing on studying and her relationship with her partner.</text>
+          <source_dia_id>D24:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene enjoys taking little trips to the beach with her partner to relax.</text>
+          <source_dia_id>D24:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene's passion for video games started when she was 10, which her parents supported.</text>
+          <source_dia_id>D24:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene's favorite game to play with her mom is 'Monster Hunter: World', appreciating the immersive story and open-world gaming.</text>
+          <source_dia_id>D24:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene is studying hard for upcoming finals and plans to take a trip to relax and recharge afterward.</text>
+          <source_dia_id>D24:14</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="25" datetime="8:31 pm on 6 September, 2023" summary="On the evening of 6th September 2023 at 8:31 pm, Jolene excitedly shared with Deborah that she signed up for a meditation course at a lake retreat with her partner. Deborah expressed her hope that Jolene would enjoy the experience and learn new techniques. Jolene mentioned how meditation positively impacts her health and helps her stay balanced during studies. Deborah praised Jolene's strength in handling challenges and offered continued support. They discussed their recent activities, including watching sunrises and beach walks. Jolene expressed a desire to watch the sunrise together in the future. They said their goodbyes, with Deborah reminding Jolene to take care of herself and rest.">
+        <Observation>
+          <text>Jolene signed up for a meditation course at a retreat near a lake to learn new techniques with her partner.</text>
+          <source_dia_id>D25:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene finds meditation easy and believes it makes a big difference to health.</text>
+          <source_dia_id>D25:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Meditation helps Jolene stay balanced during her studies.</text>
+          <source_dia_id>D25:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene finds her project tough but continues to work on it.</text>
+          <source_dia_id>D25:7</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="26" datetime="7:39 pm on 8 September, 2023" summary="Deborah told Jolene about the canceled yoga getaway due to a storm at 7:39 pm on September 8, 2023. They discussed balancing busy schedules, self-care activities like yoga, and planned a coffee date at a cafe for next Wednesday at 4. Deborah suggested a hidden coffee shop near her for a future meeting. Jolene had to reschedule the coffee date to Friday at 5 due to prior plans and Deborah agreed, expressing excitement for the meet-up. They wished each other to stay safe and look forward to the upcoming coffee date.">
+        <Observation>
+          <text>Jolene and her partner planned a camping trip to connect with nature and practice yoga.</text>
+          <source_dia_id>D26:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene mentioned having a routine involving classes, studying, and personal time to stay balanced.</text>
+          <source_dia_id>D26:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene suggested meeting up at a cafe next Monday for a coffee date.</text>
+          <source_dia_id>D26:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene proposed to meet on Wednesday at 4 for the coffee date, which Deborah already had plans for.</text>
+          <source_dia_id>D26:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene suggested meeting on Friday at 5 after Deborah couldn't make it on Wednesday, mentioning she needed to sort out books from a bookcase.</text>
+          <source_dia_id>D26:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene expressed excitement for the upcoming coffee date with Deborah.</text>
+          <source_dia_id>D26:20</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="27" datetime="2:18 pm on 12 September, 2023" summary="Jolene and Deborah had a conversation at 2:18 pm on 12 September, 2023. Jolene shared about her meditation retreat in Phuket, emphasizing the importance of balance and inner peace. Deborah inquired about Jolene's reflections, leading to a discussion on appreciating the journey and small moments in life. They both highlighted the significance of mindfulness and gratitude for happiness. Jolene expressed her newfound joy and Deborah commended her progress. They agreed on the value of a supportive community and planned to play a card game together in the future.">
+        <Observation>
+          <text>Jolene and her partner traveled to a meditation retreat in Phuket for a few weeks.</text>
+          <source_dia_id>D27:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>At the retreat, Jolene realized the importance of relaxation, self-care, and balance alongside her engineering studies.</text>
+          <source_dia_id>D27:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene found inspiration and refreshment in the beauty of nature at the retreat.</text>
+          <source_dia_id>D27:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene was reminded at the retreat to appreciate the journey and not just focus on the finish line, as she tends to get consumed with hitting her goals.</text>
+          <source_dia_id>D27:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene is trying to be more mindful and grateful to appreciate the small joys in life.</text>
+          <source_dia_id>D27:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene is experiencing a new level of joy and happiness.</text>
+          <source_dia_id>D27:9</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="28" datetime="3:09 pm on 15 September, 2023" summary="Deborah and Jolene had a conversation at 3:09 pm on 15 September, 2023. Deborah shared how reconnecting with her late mother's friends brought up a mix of emotions, but ultimately, it was comforting. Jolene supported her, mentioning how stories about loved ones can be both tough and comforting. Deborah found the experience with her mom's friends special as it offered insight into her mother's life. They discussed how old photos and memories strengthen their appreciation for loved ones. Deborah also shared her love for surfing and yoga, highlighting how these activities bring her peace. Jolene and Deborah discussed creating calm spaces for relaxation, with Jolene mentioning her room as a haven of peace. Additionally, Jolene showed a photo of her pet Susie, whom she adores for bringing comfort and brightness into her life.">
+        <Observation>
+          <text>Jolene finds comfort and calmness in creating a serene yoga space with candles, oils, and soothing music.</text>
+          <source_dia_id>D28:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene uses essential oils and soothing music to create a peaceful atmosphere for relaxation during yoga and meditation.</text>
+          <source_dia_id>D28:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene's room is her haven for peace and rest where she goes to relax and recharge after a busy day.</text>
+          <source_dia_id>D28:22</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene has a pet named Susie who has been with her for two years and brings her comfort and peace.</text>
+          <source_dia_id>D28:26</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene believes pets like Susie make life brighter and bring comfort and peace.</text>
+          <source_dia_id>D28:30</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="29" datetime="1:24 pm on 17 September, 2023" summary="Deborah excitedly shared with Jolene about running a free gardening class for the community, while Jolene talked about a scuba diving lesson they had recently enjoyed. They discussed special memories, including Deborah's time spent remembering her mom and the special meals she used to cook. Jolene mentioned baking cookies with someone close and their favorite cookie to make. They also talked about books and finding cozy spaces for relaxation. The conversation ended with plans to try surfing together next month, showing their excitement for the upcoming adventure.">
+        <Observation>
+          <text>Jolene tried a scuba diving lesson last Friday and enjoyed it, hoping to become a certified diver one day.</text>
+          <source_dia_id>D29:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene used to bake cookies with someone close to her.</text>
+          <source_dia_id>D29:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene mentioned reading a self-discovery book in her bathroom once that really resonated with her.</text>
+          <source_dia_id>D29:22</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene likes the warm, gooey chocolate and soft, buttery cookie.</text>
+          <source_dia_id>D29:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene mentioned having an aesthetic vibe in her bathroom and finding peace and relaxation at the beach.</text>
+          <source_dia_id>D29:24</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene just started learning about surfing but hasn't gone yet.</text>
+          <source_dia_id>D29:30</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene agreed to plan a surfing adventure with Deborah for next month, pending schedule confirmation.</text>
+          <source_dia_id>D29:34</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="30" datetime="10:17 am on 20 September, 2023" summary="Deborah and Jolene had a conversation at 10:17 am on 20 September, 2023. Deborah shared her experience at a music festival, recalling memories of her mom singing lullabies. Jolene talked about her festival experience with her partner and a recent yoga retreat. They discussed the beauty of nature and finding inspiration in small things. Jolene planned to reconnect with nature soon, while Deborah reminisced about a blossoming tree near her home. They both emphasized the importance of finding positivity in tough times. The conversation ended with Jolene encouraging Deborah to continue finding beauty in everyday moments.">
+        <Observation>
+          <text>Jolene went to a yoga retreat with her partner where they experienced a peaceful environment with an amazing view during yoga at sunrise.</text>
+          <source_dia_id>D30:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene finds peace and connection to nature and herself while doing yoga with beautiful backdrops.</text>
+          <source_dia_id>D30:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene and her partner came across a waterfall oasis during a hike where she felt peaceful and worries disappeared.</text>
+          <source_dia_id>D30:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene plans to reconnect with nature again the following month.</text>
+          <source_dia_id>D30:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Jolene finds inspiration in the small things and believes in continuous growth through obstacles.</text>
+          <source_dia_id>D30:14</source_dia_id>
+        </Observation>
+      </Session>
+    </Speaker>
+  </Conversation_Version>
+</Root>

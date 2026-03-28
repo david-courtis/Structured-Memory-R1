@@ -1,0 +1,1151 @@
+<?xml version="1.0" ?>
+<Root>
+  <Conversation_Version number="1" sample_id="conv-50" speaker_a="Calvin" speaker_b="Dave">
+    <patch_info>None</patch_info>
+    <conversation_history>Initial_Version</conversation_history>
+    <Speaker name="Calvin">
+      <Session session_id="1" datetime="11:53 am on 23 March, 2023" summary="Calvin and Dave met at 11:53 am on 23 March, 2023. Dave attended a car event with classic cars, while Calvin shared his big life change by getting a new mansion and planning a trip to Japan to learn about the culture. Calvin will stay there for a few months before heading to Boston. Dave recommended a calming park and offered further recommendations for Calvin's trip, ending with Calvin thanking him and promising to stay in touch.">
+        <Observation>
+          <text>Calvin recently had a big life change and now has a new mansion.</text>
+          <source_dia_id>D1:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin is excited to learn about Japanese culture and is heading to Japan next month.</text>
+          <source_dia_id>D1:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin has never been to Japan before but is fascinated by the traditions and culture.</text>
+          <source_dia_id>D1:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin's agent found him an awesome place to stay in Japan.</text>
+          <source_dia_id>D1:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin plans to explore the city, try different local cuisines, and collaborate with musicians during his trip to Japan.</text>
+          <source_dia_id>D1:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin will be in Japan for a few months before heading to Boston.</text>
+          <source_dia_id>D1:15</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="2" datetime="4:45 pm on 26 March, 2023" summary="Calvin told Dave about his new luxury car at 4:45 pm on 26 March, 2023, expressing excitement and gratitude. Dave congratulated Calvin and admired the car. Calvin shared a picture and mentioned it was his first luxury car, feeling like it was well-deserved after hard work. Dave then talked about a music festival he attended in Boston and his favorite band, Aerosmith. They discussed the experience of seeing favorite artists perform. Calvin mentioned working on new music and collaborations. Dave showed interest and wished Calvin well. They exchanged goodbyes, ending their conversation.">
+        <Observation>
+          <text>Calvin recently got a new car which is a luxury car and a dream come true for him.</text>
+          <source_dia_id>D2:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin's new car gives him an adrenaline rush every time he steps into it.</text>
+          <source_dia_id>D2:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin wrote some new tunes and had studio sessions last week, excited to collaborate and share the music.</text>
+          <source_dia_id>D2:17</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="3" datetime="4:15 pm on 20 April, 2023" summary="Calvin and Dave spoke at 4:15 pm on 20 April, 2023. Calvin shared about attending a music festival in Tokyo where he met industry professionals and received advice. He dreams of touring the world and reaching a global audience with his music. Dave plans to show Calvin around Boston, known for its vibrant music scene. Dave also mentioned his passion for classic cars. Calvin looks forward to exploring Boston's food scene with Dave. They both expressed excitement about the upcoming visit.">
+        <Observation>
+          <text>Calvin recently attended a music festival in Tokyo where he met talented artists and industry professionals.</text>
+          <source_dia_id>D3:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin received advice from a music producer to stay true to himself and sound unique, which he found motivating.</text>
+          <source_dia_id>D3:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin dreams of touring the world, connecting with different people through music, reaching a global audience, and making an impact.</text>
+          <source_dia_id>D3:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin is planning an upcoming trip to Boston after finishing the Frank Ocean tour to explore the music scene there.</text>
+          <source_dia_id>D3:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin has a car that he has put a lot of work into and is looking forward to showing it to Dave when he visits Boston.</text>
+          <source_dia_id>D3:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin is busy with rehearsals and traveling but is excited to explore Boston, try delicious food, and visit popular attractions with Dave.</text>
+          <source_dia_id>D3:15</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="4" datetime="6:24 pm on 1 May, 2023" summary="Dave shared with Calvin at 6:24 pm on 1 May, 2023, that he fulfilled his dream of opening a car maintenance shop. Calvin congratulated him, acknowledging his hard work and ambition. Dave expressed his love for classic cars and showed Calvin a photo of an engine he restored. Calvin admired it and they discussed the satisfaction of seeing hard work pay off. They emphasized the importance of pursuing dreams and staying motivated. Dave invited Calvin to visit his shop, where he works on various cars, and they discussed the fulfillment of working on cars. Calvin complimented Dave on his work and shared a diamond pendant necklace received as a gift, symbolizing their shared dedication to their passions. They encouraged each other to stay motivated and keep pursuing their dreams.">
+        <Observation>
+          <text>Calvin appreciates Dave's hard work and dedication in achieving his dream of opening a car maintenance shop.</text>
+          <source_dia_id>D4:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin acknowledges Dave's guts and ambition and supports him in pursuing his dreams.</text>
+          <source_dia_id>D4:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin gifted a necklace with a diamond pendant as a reminder of his passion for music.</text>
+          <source_dia_id>D4:24</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin is hustling as a musician and finds the necklace a reminder of why he keeps pushing forward.</text>
+          <source_dia_id>D4:26</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="5" datetime="1:16 pm on 3 May, 2023" summary="At 1:16 pm on 3 May 2023, Dave informed Calvin that he was teaming up with a local garage, showcasing a challenging project they were working on. Calvin congratulated Dave on his new venture and praised his progress since their last conversation. Dave expressed his love for the new job, sharing his excitement about working with mechanics and his dream to build a custom car. Calvin admired Dave's dedication and encouraged him to relax amidst the hard work. They exchanged relaxation hobbies, with Dave enjoying walks and Calvin finding solace in long drives. Calvin mentioned a creative block in music, seeking advice from Dave, who suggested immersing in favorite activities for inspiration. Calvin appreciated the tip and expressed gratitude for Dave's support, promising to stay in touch. They bid farewell, with Dave offering ongoing assistance.">
+        <Observation>
+          <text>Calvin enjoys long drives in a car to relax and clear his head.</text>
+          <source_dia_id>D5:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin finds that embracing nature is calming and enjoys exploring Japanese culture.</text>
+          <source_dia_id>D5:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin is experiencing a creative block with his music and seeks inspiration.</text>
+          <source_dia_id>D5:10</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="6" datetime="11:50 am on 16 May, 2023" summary="Calvin and Dave caught up at 11:50 am on 16 May, 2023. Calvin shared about a recent flood incident in his place but managed to save his music gear. Dave offered support, and Calvin showed his creative haven where he makes music. Dave mentioned opening his car shop and Calvin congratulated him. Calvin mentioned an upcoming performance in Tokyo, and Dave wished him luck. Calvin shared a stunning night skyline photo from Tokyo, which Dave admired, expressing a desire to visit. Calvin encouraged Dave to visit, and Dave expressed interest in adding Tokyo to his list of places to visit.">
+        <Observation>
+          <text>Calvin had an incident last week where his place got flooded, but he managed to save his music gear and favorite microphone.</text>
+          <source_dia_id>D6:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin has a creative haven/studio where he pours his heart into making music.</text>
+          <source_dia_id>D6:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin is excited for an upcoming performance in Tokyo this month to showcase his music to a new crowd and expand his following.</text>
+          <source_dia_id>D6:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin took a stunning picture of the Tokyo skyline last night.</text>
+          <source_dia_id>D6:15</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="7" datetime="6:06 pm on 31 May, 2023" summary="Calvin and Dave caught up at 6:06 pm on 31 May, 2023. Calvin shared his experience touring with Frank Ocean, finding it exhilarating. Dave showed a car he fixed, finding it therapeutic. They discussed how working on cars gives them a sense of accomplishment and purpose. Both feel empowered by transforming things. Calvin is excited about the upcoming tour in Boston. Dave supports Calvin's music journey and looks forward to hearing about the Boston music scene when Calvin returns.">
+        <Observation>
+          <text>Calvin recently toured with Frank Ocean and had an amazing experience performing live in Tokyo.</text>
+          <source_dia_id>D7:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin finds working on cars to be a calming and head-clearing activity.</text>
+          <source_dia_id>D7:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin feels a sense of achievement and relaxation similar to meditating when fixing cars.</text>
+          <source_dia_id>D7:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Performing live always fuels Calvin's soul and gives him a rush and a powerful connection with the crowd.</text>
+          <source_dia_id>D7:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="8" datetime="2:31 pm on 9 June, 2023" summary="Calvin and Dave chat at 2:31 pm on 9 June, 2023. Calvin updates Dave about his album progress with the creative team and expresses excitement. Dave shares a picture of a studio, and they discuss enjoying nature in Boston parks. Dave mentions exploring parks and Calvin looks forward to experiencing them. They talk about hiking, with Dave planning a mountain trip. Dave will share pictures with Calvin later. Calvin wishes Dave safe travels and they say goodbye.">
+        <Observation>
+          <text>Calvin met with the creative team for his album in a long but awesome session.</text>
+          <source_dia_id>D8:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin is feeling stoked about his album and the progress made with the team in the studio.</text>
+          <source_dia_id>D8:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin has never been to Boston but is excited to visit the amazing parks next month.</text>
+          <source_dia_id>D8:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin is keen to go on a hike to escape and de-stress.</text>
+          <source_dia_id>D8:9</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="9" datetime="3:15 pm on 21 June, 2023" summary="At 3:15 pm on 21 June 2023, Calvin told Dave about his recent car accident but mentioned that nobody was hurt. Dealing with insurance and repairs was time-consuming. Dave inquired about any insurance issues experienced. Calvin shared that after a week, everything was sorted out. The mechanic, pictured, was skilled, making Calvin confident about the repair. Dave praised the expert fixing the car. Calvin expressed excitement about driving again. They discussed a beautiful view from Japan, which Calvin plans to visit after a tour. Dave shared joining a rock band, playing guitar. They agreed to keep in touch before ending the conversation.">
+        <Observation>
+          <text>Calvin had a car accident last Friday, but no one was hurt.</text>
+          <source_dia_id>D9:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin had to deal with insurance and repairs after the car accident.</text>
+          <source_dia_id>D9:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin got everything related to the car accident sorted out within a week.</text>
+          <source_dia_id>D9:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>The mechanic at the auto repair shop is working on Calvin's car.</text>
+          <source_dia_id>D9:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin feels more confident and excited about showing off his car after the repairs.</text>
+          <source_dia_id>D9:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin shared a photo of a beautiful view from a small town in Japan.</text>
+          <source_dia_id>D9:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin plans to visit the snowy peaks in Japan after his tour with Frank Ocean ends.</text>
+          <source_dia_id>D9:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin hasn't tried skiing before but is interested in giving it a try.</text>
+          <source_dia_id>D9:17</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="10" datetime="7:56 pm on 7 July, 2023" summary="Dave checked in with Calvin about his car post-crash at 7:56 pm on 7 July 2023. Calvin confirmed the car was fixed and going strong. They discussed regular walks in the park and admired each other's photos of scenic views. Calvin shared plans about exploring Japan for its food and culture, mentioning music collaborations he was working on. Dave expressed interest in visiting Japan for its vibes and tech. They discussed collaborating with artists and creating unique music. Calvin appreciated the support and concluded the chat, with Dave reminding him to not overwork.">
+        <Observation>
+          <text>Calvin's car was in a crash but is now fixed and going strong.</text>
+          <source_dia_id>D10:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin enjoys cruising around in his car and appreciates it.</text>
+          <source_dia_id>D10:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin mentioned living in a Japanese mansion with an epic cityscape view.</text>
+          <source_dia_id>D10:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin expressed excitement about trying the food and checking out the culture in Japan.</text>
+          <source_dia_id>D10:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin is working on music collaborations with Japanese artists and is excited about it.</text>
+          <source_dia_id>D10:12</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="11" datetime="6:38 pm on 21 July, 2023" summary="Dave and Calvin reconnect at 6:38 pm on 21 July, 2023, discussing recent experiences that sparked their passions. Dave shares about his rejuvenating road trip, emphasizing how it reminded him of his love for cars. Calvin updates Dave on his project of turning a Japanese mansion into a recording studio, highlighting his passion for music. They exchange supportive words, with Dave commending Calvin's progress and Calvin appreciating Dave's encouragement. The conversation ends with the friends pledging to keep pushing themselves towards their goals and promising to chat again soon.">
+        <Observation>
+          <text>Calvin is working on transforming a Japanese mansion into a recording studio, which is his dream for creating music with other artists.</text>
+          <source_dia_id>D11:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin has been experimenting with different genres in his music, adding electronic elements for a fresh vibe.</text>
+          <source_dia_id>D11:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin finds experimenting with different music genres an exciting process of self-discovery and growth.</text>
+          <source_dia_id>D11:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin collaborates with others and surrounds himself with positive energy and passion to stay motivated in his music journey.</text>
+          <source_dia_id>D11:10</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="12" datetime="1:12 pm on 3 August, 2023" summary="Calvin and Dave spoke at 1:12 pm on 3 August, 2023. Calvin mentioned his stressful experience with servicing his Ferrari and his attachment to the car, asking Dave about hobbies that make him feel restored. Dave, finding car repairs therapeutic, shared how working on cars with his dad as a child brings him fulfillment. Remembering restoring an old car together, Dave cherished the bonding experience with his dad. Calvin admired Dave's hobby and shared his pride in his Ferrari, crediting it as a reminder of hard work and dedication. They discussed motivation and goals, with Calvin aiming to expand his music brand globally and grow his fanbase. Dave encouraged Calvin, emphasizing the importance of making an impact through music. Calvin valued Dave's support and expressed determination to achieve his dreams, with Dave offering continuous encouragement and faith in Calvin's journey.">
+        <Observation>
+          <text>Calvin owns a Ferrari and is attached to it, finding servicing it stressful but rewarding.</text>
+          <source_dia_id>D12:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin feels proud of his car and sees it as a symbol of his hard work and dedication.</text>
+          <source_dia_id>D12:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin's current goal is to expand his brand worldwide, grow his fanbase, work with artists globally, and create special music.</text>
+          <source_dia_id>D12:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin performed with the boys last night and appreciates their musical talent.</text>
+          <source_dia_id>D12:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin is determined to make his dreams come true and appreciates Dave's support and encouragement.</text>
+          <source_dia_id>D12:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin expresses gratitude for Dave's continued support and encouragement in pursuing his dreams.</text>
+          <source_dia_id>D12:15</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="13" datetime="5:22 pm on 11 August, 2023" summary="Dave and Calvin, at 5:22 pm on 11 August, 2023, discussed Dave's participation in a car mod workshop where he was excited to learn about auto engineering and building a custom car. Calvin admired Dave's enthusiasm and attention to detail in customizing cars, with Dave showcasing his current project involving engine swaps and body modifications. Calvin praised Dave's work, highlighting the modern twist and unique style in his car designs. Dave expressed gratitude for Calvin's support and offered assistance with Calvin's music endeavors. The conversation ended with well wishes and mutual admiration between the two friends.">
+        <Observation>
+          <text>Calvin encourages Dave in his car mod workshop endeavors and appreciates his enthusiasm and hard work.</text>
+          <source_dia_id>D13:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin is busy with his music stuff and mentions having a music studio setup.</text>
+          <source_dia_id>D13:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin appreciates Dave's encouragement and plans to keep working hard on his music.</text>
+          <source_dia_id>D13:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="14" datetime="12:35 am on 14 August, 2023" summary="Dave and Calvin caught up at 12:35 am on 14 August, 2023. Dave shared his exciting experience at a car workshop in San Francisco, expressing admiration for the passion and dedication of the people there. Calvin then talked about touring with a well-known artist, culminating in a show in Japan. Dave was impressed by Calvin's performance and the crowd's reaction in Tokyo. Calvin shared a picture from the show, noting the joyful atmosphere. Dave complimented Calvin on his work and shared a picture of a car he is restoring, aiming to finish it by the end of the next month. Calvin praised Dave's talent and encouraged him to keep going. They ended the conversation with words of support and encouragement for each other.">
+        <Observation>
+          <text>Calvin recently toured with a well-known artist and had a show in Japan.</text>
+          <source_dia_id>D14:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin had an amazing experience performing for an eager audience in Tokyo and felt it was a magical moment.</text>
+          <source_dia_id>D14:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin is all about spreading joy with his art and feels proud and motivated when he can do so.</text>
+          <source_dia_id>D14:10</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="15" datetime="11:06 am on 22 August, 2023" summary="On August 22, 2023, at 11:06 am, Dave and Calvin caught up after a while. Dave shared about his fun card night with friends, while Calvin excitedly revealed his ongoing collaboration with Frank Ocean. Calvin met Frank Ocean at a music festival in Tokyo, and they even recorded a song together. Calvin described the festival in Tokyo as an amazing experience that fueled his soul, with a lively crowd. He also mentioned another collaboration that stemmed from his performance there. Calvin's upcoming tour includes a stop in Boston, where he planned to meet up with Dave. Calvin also mentioned recording a podcast with friends about the rap industry. Dave expressed interest in the podcast and looked forward to catching up and learning more.">
+        <Observation>
+          <text>Calvin scored a deal to continue collaboration with Frank Ocean.</text>
+          <source_dia_id>D15:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin met Frank Ocean at a music festival in Tokyo where they clicked and recorded a song together.</text>
+          <source_dia_id>D15:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin described Tokyo as buzzing with energy and the festival crowd as lively.</text>
+          <source_dia_id>D15:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin's tour is ending soon and he is heading to Boston.</text>
+          <source_dia_id>D15:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin and friends recorded a podcast discussing the rapidly evolving rap industry.</text>
+          <source_dia_id>D15:12</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="16" datetime="2:55 pm on 31 August, 2023" summary="Dave and Calvin caught up at 2:55 pm on 31 August, 2023. Calvin shared his amazing experience performing on a big stage and shooting a video in Miami for his new album. Dave showed support and praised Calvin's unique guitar, symbolizing his journey and passion for music. They discussed the importance of staying true to one's style and being unique in music. Dave encouraged Calvin to keep sharing his unique talent with the world.">
+        <Observation>
+          <text>Calvin completed a tour where he performed on a big stage and felt on top of the world.</text>
+          <source_dia_id>D16:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin started shooting a video for his new album in Miami at an awesome beach for epic visuals.</text>
+          <source_dia_id>D16:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin had a guitar custom made with an octopus design by his Japanese artist friend, representing his love for art and the sea.</text>
+          <source_dia_id>D16:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin values being true to himself and his unique style in his music.</text>
+          <source_dia_id>D16:24</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="17" datetime="9:19 am on 2 September, 2023" summary="At 9:19 am on 2 September 2023, Dave and Calvin caught up, with Dave sharing car modification insights from San Francisco. Calvin understood the joy of fixing cars, describing it as giving them new life. Dave found fixing cars rewarding and purposeful, feeling like a superhero when helping others. Calvin praised Dave for his impact, revealing his excitement for an upcoming trip to Boston. They agreed to meet up in Boston and said their goodbyes with plans to reconnect upon Calvin's arrival.">
+        <Observation>
+          <text>Calvin booked a flight ticket to Boston last week and is excited about the upcoming trip.</text>
+          <source_dia_id>D17:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin plans to let Dave know when he is in Boston so they can catch up.</text>
+          <source_dia_id>D17:7</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="18" datetime="10:56 am on 13 September, 2023" summary="Calvin and Dave talked on 13 September at 10:56 am. Calvin's album released on the 11th, getting positive feedback and motivating him to create more music. Dave congratulated Calvin, discussing the impact of his work, inspiring Calvin to chase his dreams. Calvin shared his upcoming tour plans and dream to reach more people. Dave offered to show Calvin his garage someday. They ended the conversation with well wishes and plans to meet in Boston.">
+        <Observation>
+          <text>Calvin released his album on the 11th of September, which received positive feedback and motivated him to make even better music.</text>
+          <source_dia_id>D18:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin is excited about going on a tour and growing his brand.</text>
+          <source_dia_id>D18:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin appreciates positive feedback and views it as a motivation to reach more people with his music.</text>
+          <source_dia_id>D18:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin values making a difference and sharing his own story through music.</text>
+          <source_dia_id>D18:5</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="19" datetime="12:13 am on 15 September, 2023" summary="Dave and Calvin caught up at 12:13 am on 15 September, 2023. Dave shared about a fun jam session with his band and attending a rock concert in Boston. Calvin praised the electrifying atmosphere of rock concerts and asked about recordings of the jam. Dave mentioned they were too engrossed to record. Calvin appreciated the moments that can't be captured and shared a Disney poster. They discussed Ratatouille, following dreams, and Dave's car restoration hobby. Dave showed the final restoration picture, which Calvin admired. Dave found it satisfying and appreciated the reactions. Calvin praised Dave's work, calling it inspiring, and encouraged him to continue. They exchanged goodbyes, highlighting the importance of making people happy and following passions.">
+        <Observation>
+          <text>Calvin is a fan of Ratatouille, a Disney movie that inspires following one's dreams.</text>
+          <source_dia_id>D19:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin appreciates Dave's talent in fixing cars and finds it inspiring.</text>
+          <source_dia_id>D19:10</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="20" datetime="8:57 pm on 22 September, 2023" summary="At 8:57 pm on 22 September, 2023, Dave and Calvin caught up. Dave shared that he had trouble with his car project, and Calvin showed a picture symbolizing his hard work. They discussed memorable experiences, including Calvin's summer drive and trip to Japan. Calvin mentioned a childhood song, &quot;California Love&quot; by Tupac and Dr. Dre. They planned a jam session together, looking forward to creating special memories. They concluded by expressing excitement and anticipation for their upcoming get-together.">
+        <Observation>
+          <text>Calvin shared a picture that symbolizes his hard work and dedication, reminding him of his progress.</text>
+          <source_dia_id>D20:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin has fond memories of a summer drive that made him reflect on his life's choices.</text>
+          <source_dia_id>D20:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin had an incredible trip to Japan that he is longing to experience again.</text>
+          <source_dia_id>D20:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin has a childhood memory associated with a song called &quot;California Love&quot; by Tupac and Dr. Dre.</text>
+          <source_dia_id>D20:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin is excited about jamming music together with Dave.</text>
+          <source_dia_id>D20:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin is looking forward to creating something special during the music jam session with Dave.</text>
+          <source_dia_id>D20:16</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="21" datetime="2:44 pm on 4 October, 2023" summary="Calvin and Dave spoke at 2:44 pm on 4 October, 2023. Calvin shared his inspiring experience of meeting with artists in Boston for a collaboration. Dave praised the connection and shared his hobby of restoring cars. They discussed the satisfaction of transforming old things, expressed pride in their work, and highlighted the importance of hard work and determination. Both agreed to stay focused on their goals and support each other. They concluded with well wishes for each other.">
+        <Observation>
+          <text>Calvin met with incredible artists in Boston and is excited to collaborate with them on new music.</text>
+          <source_dia_id>D21:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin has a project that he loves working on to chill out.</text>
+          <source_dia_id>D21:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin expressed satisfaction in bringing something back to life, referring to an opportunity.</text>
+          <source_dia_id>D21:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin values hard work, dedication, growth, progress, and determination in achieving goals.</text>
+          <source_dia_id>D21:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="22" datetime="3:13 pm on 8 October, 2023" summary="Dave and Calvin, at 3:13 pm on 8 October, 2023, discussed Dave's passion for cars. Dave described his recent visit to a car show and his love for car mods. He showed Calvin a car he restored and modified himself, expressing pride in his work. Dave shared that working on cars is therapeutic for him and a lifelong passion. Calvin admired Dave's dedication and viewed his work as inspiring. They discussed the satisfaction of restoring broken items and pursuing one's passion. Calvin encouraged Dave to chase his dreams, while Dave appreciated Calvin's support and encouragement. Dave expressed gratitude for Calvin's support, and they mutually encouraged each other to keep pushing forward.">
+        <Observation>
+          <text>Calvin is interested in checking out Dave's garage and the awesome cars he has worked on.</text>
+          <source_dia_id>D22:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin admires Dave for his work on restoring and modifying the car, calling it a masterpiece.</text>
+          <source_dia_id>D22:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin recognizes that working on cars can be a real escape from reality and understands the feeling of doing what you love for a living.</text>
+          <source_dia_id>D22:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin encourages Dave to keep working hard and living his best life, appreciating his progress.</text>
+          <source_dia_id>D22:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin supports and encourages Dave, reminding him to stay focused and keep going for his dreams.</text>
+          <source_dia_id>D22:12</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="23" datetime="9:39 am on 15 October, 2023" summary="Dave and Calvin had a conversation on October 15, 2023, at 9:39 am. Dave expressed feeling discouraged after losing a deal at work, questioning if his efforts were a waste of time. Calvin encouraged him not to give up and stay positive, sharing his approach to staying motivated during setbacks. They discussed the importance of passion, support from others, and taking breaks for rejuvenation. Dave shared his experience at a music festival, and Calvin admired the energy of the crowd and the headliner, The Fireworks. They bonded over their love for music and the satisfaction of their respective jobs. Calvin showed Dave a photo of his new Ferrari, sparking excitement for thrilling adventures. They exchanged kind words before parting ways, looking forward to uplifting each other in the future.">
+        <Observation>
+          <text>Calvin values the importance of believing in oneself and not giving up.</text>
+          <source_dia_id>D23:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin finds motivation in reminding himself of his passion for goals and taking breaks for favorite activities.</text>
+          <source_dia_id>D23:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin loves his job and enjoys connecting with the crowd, particularly through music.</text>
+          <source_dia_id>D23:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin recently acquired a new Ferrari and is looking forward to thrilling rides and journeys.</text>
+          <source_dia_id>D23:16</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="24" datetime="10:11 am on 19 October, 2023" summary="Calvin and Dave caught up at 10:11 am on 19 October, 2023. Calvin shared about touring with Frank Ocean, feeling a great connection with the crowd, and performing on stage. Dave congratulated him and asked about the tour, showing excitement about their collaboration. Calvin mentioned meeting Frank at a festival and feeling lucky to perform with him. They discussed the energy of the crowd, shared photos of the tour, and talked about Tokyo's vibrant atmosphere. Calvin revealed his upcoming trip to Tokyo, mentioning places like Shibuya Crossing and Shinjuku he's excited to visit. Dave recommended trying ramen, sharing a photo of a bowl he tried in Boston. Calvin agreed to give it a shot in Tokyo and appreciated the encouragement. They ended the conversation with Calvin looking forward to the trip and saying goodbye.">
+        <Observation>
+          <text>Calvin started touring with Frank Ocean, which started in August last year after they met at a festival.</text>
+          <source_dia_id>D24:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin is excited about the energy from the crowd during the tour and feels lucky to collaborate and perform with Frank Ocean.</text>
+          <source_dia_id>D24:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin and Frank Ocean have a great chemistry on stage, and Calvin feels fortunate about it.</text>
+          <source_dia_id>D24:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin and Frank Ocean are in tune and rock on stage together.</text>
+          <source_dia_id>D24:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin performed in Tokyo during a concert and felt the energy of the crowd was nuts.</text>
+          <source_dia_id>D24:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin is planning to visit Tokyo next month after the tour ends and wishes sometimes to go back to places similar to those in the shared photos.</text>
+          <source_dia_id>D24:17</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin is excited to explore Shibuya Crossing and Shinjuku in Tokyo and is looking forward to trying the amazing food there.</text>
+          <source_dia_id>D24:19</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin has never tried ramen but is planning to try it while in Tokyo.</text>
+          <source_dia_id>D24:21</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="25" datetime="2:17 pm on 23 October, 2023" summary="Dave and Calvin had a conversation at 2:17 pm on 23 October, 2023. Dave inquired about Calvin's tour with Frank Ocean, discussing the challenges of fame balancing personal life and work. Calvin mentioned enjoying the tour but finding it tough to manage everything. He highlighted the importance of a strong support system. Dave shared his interests in connecting with neighbors and working on cars. Calvin discussed using music to express emotions and connect with fans. Dave talked about his passion for car engineering since childhood and detailed his current car restoration project. They emphasized the significance of attention to detail in their respective crafts. The conversation concluded with Calvin expressing the rush of connecting with fans during concerts and wishing Dave well.">
+        <Observation>
+          <text>Calvin is on tour with Frank Ocean and finds it incredible, connecting with the crowd.</text>
+          <source_dia_id>D25:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin finds joy in what he does even though it can be overwhelming due to the demands.</text>
+          <source_dia_id>D25:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin finds having a strong support system including friends and team helpful in managing everything.</text>
+          <source_dia_id>D25:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Listening to struggles people go through inspires Calvin in his music, leading him to dig deeper into capturing feelings.</text>
+          <source_dia_id>D25:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin expresses himself through music, viewing it as a form of therapy and self-expression.</text>
+          <source_dia_id>D25:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin believes in paying attention to small details to create something extraordinary in his work as an artist.</text>
+          <source_dia_id>D25:22</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="26" datetime="8:25 pm on 25 October, 2023" summary="Calvin and Dave caught up at 8:25 pm on 25th October 2023. Calvin enjoyed his time in Boston with a high school friend, admiring architecture and history. Dave shared about attending a conference in Detroit and his interest in engineering cars. Calvin found Dave's car project impressive and shared his passion for music. Dave admired Calvin's performance with someone he admired. They both agreed on the fulfillment that their passions bring, inspiring each other to keep pursuing their dreams. They expressed support for each other before signing off, looking forward to what the future holds.">
+        <Observation>
+          <text>Calvin recently visited Boston with a high school friend and found it fun and eye-opening.</text>
+          <source_dia_id>D26:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin appreciates architecture and history, finding them really cool in Boston.</text>
+          <source_dia_id>D26:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin is into cars and enjoys making new and powerful models.</text>
+          <source_dia_id>D26:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin is passionate about music and performing, finding it like his purpose and passion.</text>
+          <source_dia_id>D26:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin values inspiration and mutual support with Dave, aiming to keep inspiring each other to be their best selves.</text>
+          <source_dia_id>D26:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="27" datetime="10:49 am on 29 October, 2023" summary="Calvin told Dave about his networking event with artists to build his fan base. Dave shared his new interest in photography, showing Calvin pictures of a stunning sunset and a clock tower in Boston. Calvin praised Dave's talent and they discussed their creative projects, including Dave's car restoration and Calvin's upcoming album. They agreed to catch up soon.">
+        <Observation>
+          <text>Calvin went to a networking event to meet more artists to build up his fan base.</text>
+          <source_dia_id>D27:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin has had some great collaborations recently and his album is almost finished.</text>
+          <source_dia_id>D27:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="28" datetime="5:46 pm on 2 November, 2023" summary="Calvin and Dave caught up at 5:46 pm on 2 November, 2023. Calvin shared with Dave about throwing a party for his new album last week at his Japanese house, receiving immense love and support from friends and family. Dave congratulated him on the album release and the party, praising Calvin for creating something that brings people together. Calvin, in turn, appreciated the positive feedback and mentioned how such moments motivate him to continue growing. Dave shared his passion for car mods and his new blog, seeking tips from Calvin on blogging. Calvin admired Dave's efforts, especially sharing his knowledge and inspiring others. They also discussed Dave's car restoration project, his rock band, and their mutual love for music. Calvin shared insights into his studio setup, mentioning his passion for watching music-related content on TV for inspiration. Dave showed Calvin his notebook for writing lyrics and the vintage music player he uses while working on cars. They exchanged thoughts on music's influence on productivity and mood. Calvin encouraged Dave to keep discovering new tunes and broadening his musical knowledge before parting ways as Dave had to return to work.">
+        <Observation>
+          <text>Calvin threw a small party at his Japanese house last week to celebrate his new album with love and support from family and friends.</text>
+          <source_dia_id>D28:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin feels that seeing everyone come together to celebrate is super rewarding.</text>
+          <source_dia_id>D28:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin's music is about creating something that brings people together, connects with them, and brings joy.</text>
+          <source_dia_id>D28:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin has a studio setup where he works, surrounded by music videos, concerts, and documentaries for inspiration.</text>
+          <source_dia_id>D28:29</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin watches music videos, concerts, and documentaries about artists and their creative process on TV for inspiration.</text>
+          <source_dia_id>D28:31</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin finds inspiration from watching TV to learn more about the music industry and others' creative processes.</text>
+          <source_dia_id>D28:31</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="29" datetime="9:15 pm on 13 November, 2023" summary="Calvin talked about reminiscing with an old high school friend, mentioning the importance of relationships in the music industry. He highlighted the support and encouragement he received, especially from the friend he met in Boston. Dave agreed on the significance of supportive people and discussed Calvin's involvement with young musicians. Calvin emphasized the importance of passing on the torch and supporting new talent. He also mentioned his experimentation with new sounds in his music studio. Dave encouraged Calvin to keep exploring and evolving as an artist. The conversation ended with both agreeing on the importance of growth and looking forward to seeing Calvin's future creations.">
+        <Observation>
+          <text>Calvin performed in Boston and invited his old high school buddy to watch, which made him feel good.</text>
+          <source_dia_id>D29:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin is nostalgic about his past, particularly about freestyling with friends when they were teenagers.</text>
+          <source_dia_id>D29:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin's friend has been supportive and encouraging throughout his journey, making a big difference.</text>
+          <source_dia_id>D29:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin supports and collaborates with young musicians from a music program, finding their enthusiasm inspiring.</text>
+          <source_dia_id>D29:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin mentioned working with a young artist to create a beat, recognizing the artist's potential in music.</text>
+          <source_dia_id>D29:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin enjoys trying out new sounds and pushing boundaries in his music studio to stay ahead.</text>
+          <source_dia_id>D29:15</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="30" datetime="10:54 am on 17 November, 2023" summary="Dave and Calvin reconnect at 10:54 am on 17 November, 2023. Dave mentions his newfound love for photography, especially capturing nature scenes. Calvin shares about attending a fancy gala in Boston and connecting with an artist over music and art. They discuss their passion for photography and the beauty of nature. Calvin reveals he will be performing at a show in Boston soon, exciting Dave. They plan to catch up in person soon and bid farewell, looking forward to seeing each other again.">
+        <Observation>
+          <text>Calvin attended a fancy gala in Boston recently and met interesting people.</text>
+          <source_dia_id>D30:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin had an inspiring conversation with a cool artist about music and art at the gala.</text>
+          <source_dia_id>D30:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin has accepted an invitation to perform at an upcoming show in Boston, which he is excited about.</text>
+          <source_dia_id>D30:20</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Calvin enjoys capturing photos, including a beautiful shot in a Japanese garden.</text>
+          <source_dia_id>D30:16</source_dia_id>
+        </Observation>
+      </Session>
+    </Speaker>
+    <Speaker name="Dave">
+      <Session session_id="1" datetime="11:53 am on 23 March, 2023" summary="Calvin and Dave met at 11:53 am on 23 March, 2023. Dave attended a car event with classic cars, while Calvin shared his big life change by getting a new mansion and planning a trip to Japan to learn about the culture. Calvin will stay there for a few months before heading to Boston. Dave recommended a calming park and offered further recommendations for Calvin's trip, ending with Calvin thanking him and promising to stay in touch.">
+        <Observation>
+          <text>Dave attended an awesome car event recently where he saw many classic cars and spoke with the owners.</text>
+          <source_dia_id>D1:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave spends lots of time at a beautiful calming park.</text>
+          <source_dia_id>D1:16</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="2" datetime="4:45 pm on 26 March, 2023" summary="Calvin told Dave about his new luxury car at 4:45 pm on 26 March, 2023, expressing excitement and gratitude. Dave congratulated Calvin and admired the car. Calvin shared a picture and mentioned it was his first luxury car, feeling like it was well-deserved after hard work. Dave then talked about a music festival he attended in Boston and his favorite band, Aerosmith. They discussed the experience of seeing favorite artists perform. Calvin mentioned working on new music and collaborations. Dave showed interest and wished Calvin well. They exchanged goodbyes, ending their conversation.">
+        <Observation>
+          <text>Dave attended a music festival in Boston last weekend and enjoyed listening to many cool bands.</text>
+          <source_dia_id>D2:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave's favorite band from the music festival was Aerosmith, and he found their performance incredible.</text>
+          <source_dia_id>D2:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave didn't get a chance to hang out with Aerosmith after the show but was content with seeing them live.</text>
+          <source_dia_id>D2:14</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="3" datetime="4:15 pm on 20 April, 2023" summary="Calvin and Dave spoke at 4:15 pm on 20 April, 2023. Calvin shared about attending a music festival in Tokyo where he met industry professionals and received advice. He dreams of touring the world and reaching a global audience with his music. Dave plans to show Calvin around Boston, known for its vibrant music scene. Dave also mentioned his passion for classic cars. Calvin looks forward to exploring Boston's food scene with Dave. They both expressed excitement about the upcoming visit.">
+        <Observation>
+          <text>Dave is interested in classic cars and auto engineering, as he went to a car show last weekend and finds the restoration process amazing.</text>
+          <source_dia_id>D3:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave plans to show Calvin around Boston, including places like Paradise Rock, House of Blues, and Fenway Park, known for their great music scene.</text>
+          <source_dia_id>D3:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave is looking forward to showing Calvin his favorite spots in Boston, especially in terms of food and music.</text>
+          <source_dia_id>D3:16</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="4" datetime="6:24 pm on 1 May, 2023" summary="Dave shared with Calvin at 6:24 pm on 1 May, 2023, that he fulfilled his dream of opening a car maintenance shop. Calvin congratulated him, acknowledging his hard work and ambition. Dave expressed his love for classic cars and showed Calvin a photo of an engine he restored. Calvin admired it and they discussed the satisfaction of seeing hard work pay off. They emphasized the importance of pursuing dreams and staying motivated. Dave invited Calvin to visit his shop, where he works on various cars, and they discussed the fulfillment of working on cars. Calvin complimented Dave on his work and shared a diamond pendant necklace received as a gift, symbolizing their shared dedication to their passions. They encouraged each other to stay motivated and keep pursuing their dreams.">
+        <Observation>
+          <text>Dave opened his own car maintenance shop, fulfilling his dream.</text>
+          <source_dia_id>D4:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave's dream is to work on classic cars due to his love for their design and engineering.</text>
+          <source_dia_id>D4:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave restored a classic car last year and was thrilled by the experience.</text>
+          <source_dia_id>D4:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave's shop works on all kinds of cars, including full restorations of classic cars.</text>
+          <source_dia_id>D4:19</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave is passionate about working on cars every day and finds it rewarding.</text>
+          <source_dia_id>D4:21</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave values that his work is appreciated and brings joy to others.</text>
+          <source_dia_id>D4:23</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="5" datetime="1:16 pm on 3 May, 2023" summary="At 1:16 pm on 3 May 2023, Dave informed Calvin that he was teaming up with a local garage, showcasing a challenging project they were working on. Calvin congratulated Dave on his new venture and praised his progress since their last conversation. Dave expressed his love for the new job, sharing his excitement about working with mechanics and his dream to build a custom car. Calvin admired Dave's dedication and encouraged him to relax amidst the hard work. They exchanged relaxation hobbies, with Dave enjoying walks and Calvin finding solace in long drives. Calvin mentioned a creative block in music, seeking advice from Dave, who suggested immersing in favorite activities for inspiration. Calvin appreciated the tip and expressed gratitude for Dave's support, promising to stay in touch. They bid farewell, with Dave offering ongoing assistance.">
+        <Observation>
+          <text>Dave is teaming up with a local garage and is working on a challenging project involving cars.</text>
+          <source_dia_id>D5:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave loves working with mechanics and sharing his knowledge about cars.</text>
+          <source_dia_id>D5:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave aspires to learn more about auto engineering and dreams of building a custom car from scratch.</text>
+          <source_dia_id>D5:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave finds driving with the wind in his hair calming and enjoys taking walks to destress.</text>
+          <source_dia_id>D5:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave suggests immersing oneself in things one loves, like concerts or favorite albums when facing a creativity block.</text>
+          <source_dia_id>D5:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="6" datetime="11:50 am on 16 May, 2023" summary="Calvin and Dave caught up at 11:50 am on 16 May, 2023. Calvin shared about a recent flood incident in his place but managed to save his music gear. Dave offered support, and Calvin showed his creative haven where he makes music. Dave mentioned opening his car shop and Calvin congratulated him. Calvin mentioned an upcoming performance in Tokyo, and Dave wished him luck. Calvin shared a stunning night skyline photo from Tokyo, which Dave admired, expressing a desire to visit. Calvin encouraged Dave to visit, and Dave expressed interest in adding Tokyo to his list of places to visit.">
+        <Observation>
+          <text>Dave opened his own car shop last week and celebrated with friends.</text>
+          <source_dia_id>D6:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave is excited about the journey of running his car shop and is looking forward to what the future holds.</text>
+          <source_dia_id>D6:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave expressed interest in taking a trip to Tokyo after seeing Calvin's picture of the night skyline.</text>
+          <source_dia_id>D6:16</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="7" datetime="6:06 pm on 31 May, 2023" summary="Calvin and Dave caught up at 6:06 pm on 31 May, 2023. Calvin shared his experience touring with Frank Ocean, finding it exhilarating. Dave showed a car he fixed, finding it therapeutic. They discussed how working on cars gives them a sense of accomplishment and purpose. Both feel empowered by transforming things. Calvin is excited about the upcoming tour in Boston. Dave supports Calvin's music journey and looks forward to hearing about the Boston music scene when Calvin returns.">
+        <Observation>
+          <text>Dave helped his neighbor fix a car engine which he found a therapeutic and relaxing experience.</text>
+          <source_dia_id>D7:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave is passionate about fixing up things and finds it a source of achievement and purpose.</text>
+          <source_dia_id>D7:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Transforming things and collaborating with others give Dave a sense of power and happiness.</text>
+          <source_dia_id>D7:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave enjoys the music scene in Boston and is looking forward to Calvin's tour and performance in the city.</text>
+          <source_dia_id>D7:16</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="8" datetime="2:31 pm on 9 June, 2023" summary="Calvin and Dave chat at 2:31 pm on 9 June, 2023. Calvin updates Dave about his album progress with the creative team and expresses excitement. Dave shares a picture of a studio, and they discuss enjoying nature in Boston parks. Dave mentions exploring parks and Calvin looks forward to experiencing them. They talk about hiking, with Dave planning a mountain trip. Dave will share pictures with Calvin later. Calvin wishes Dave safe travels and they say goodbye.">
+        <Observation>
+          <text>Dave has been exploring parks on the weekends to relax and find peace in nature.</text>
+          <source_dia_id>D8:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave loves taking walks on the weekends to recharge for the upcoming week.</text>
+          <source_dia_id>D8:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave booked a trip to a mountainous region for next month to see majestic peaks.</text>
+          <source_dia_id>D8:10</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="9" datetime="3:15 pm on 21 June, 2023" summary="At 3:15 pm on 21 June 2023, Calvin told Dave about his recent car accident but mentioned that nobody was hurt. Dealing with insurance and repairs was time-consuming. Dave inquired about any insurance issues experienced. Calvin shared that after a week, everything was sorted out. The mechanic, pictured, was skilled, making Calvin confident about the repair. Dave praised the expert fixing the car. Calvin expressed excitement about driving again. They discussed a beautiful view from Japan, which Calvin plans to visit after a tour. Dave shared joining a rock band, playing guitar. They agreed to keep in touch before ending the conversation.">
+        <Observation>
+          <text>Dave recently joined a rock band and has been practicing the guitar.</text>
+          <source_dia_id>D9:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="10" datetime="7:56 pm on 7 July, 2023" summary="Dave checked in with Calvin about his car post-crash at 7:56 pm on 7 July 2023. Calvin confirmed the car was fixed and going strong. They discussed regular walks in the park and admired each other's photos of scenic views. Calvin shared plans about exploring Japan for its food and culture, mentioning music collaborations he was working on. Dave expressed interest in visiting Japan for its vibes and tech. They discussed collaborating with artists and creating unique music. Calvin appreciated the support and concluded the chat, with Dave reminding him to not overwork.">
+        <Observation>
+          <text>Dave asked Calvin how his car was after the crash and if he was excited to get back on the road.</text>
+          <source_dia_id>D10:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave mentioned hanging out with friends at parks and arranging regular walks together.</text>
+          <source_dia_id>D10:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave expressed interest in visiting Japan one day due to its vibes, food, and culture.</text>
+          <source_dia_id>D10:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="11" datetime="6:38 pm on 21 July, 2023" summary="Dave and Calvin reconnect at 6:38 pm on 21 July, 2023, discussing recent experiences that sparked their passions. Dave shares about his rejuvenating road trip, emphasizing how it reminded him of his love for cars. Calvin updates Dave on his project of turning a Japanese mansion into a recording studio, highlighting his passion for music. They exchange supportive words, with Dave commending Calvin's progress and Calvin appreciating Dave's encouragement. The conversation ends with the friends pledging to keep pushing themselves towards their goals and promising to chat again soon.">
+        <Observation>
+          <text>Dave went on a road trip with his friends recently to see stunning countryside and recharge from corporate work. He loves cars.</text>
+          <source_dia_id>D11:1</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="12" datetime="1:12 pm on 3 August, 2023" summary="Calvin and Dave spoke at 1:12 pm on 3 August, 2023. Calvin mentioned his stressful experience with servicing his Ferrari and his attachment to the car, asking Dave about hobbies that make him feel restored. Dave, finding car repairs therapeutic, shared how working on cars with his dad as a child brings him fulfillment. Remembering restoring an old car together, Dave cherished the bonding experience with his dad. Calvin admired Dave's hobby and shared his pride in his Ferrari, crediting it as a reminder of hard work and dedication. They discussed motivation and goals, with Calvin aiming to expand his music brand globally and grow his fanbase. Dave encouraged Calvin, emphasizing the importance of making an impact through music. Calvin valued Dave's support and expressed determination to achieve his dreams, with Dave offering continuous encouragement and faith in Calvin's journey.">
+        <Observation>
+          <text>Dave finds fixing cars like therapy and feels fulfilled by refurbishing them, stemming from working on cars with his dad.</text>
+          <source_dia_id>D12:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave has fond memories of restoring an old car with his dad during one summer, finding it hard work but satisfying.</text>
+          <source_dia_id>D12:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave believes that working on projects together brings people closer.</text>
+          <source_dia_id>D12:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave encourages Calvin in his music goals, supports his dreams, and provides words of motivation and belief.</text>
+          <source_dia_id>D12:12, D12:14, D12:16</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="13" datetime="5:22 pm on 11 August, 2023" summary="Dave and Calvin, at 5:22 pm on 11 August, 2023, discussed Dave's participation in a car mod workshop where he was excited to learn about auto engineering and building a custom car. Calvin admired Dave's enthusiasm and attention to detail in customizing cars, with Dave showcasing his current project involving engine swaps and body modifications. Calvin praised Dave's work, highlighting the modern twist and unique style in his car designs. Dave expressed gratitude for Calvin's support and offered assistance with Calvin's music endeavors. The conversation ended with well wishes and mutual admiration between the two friends.">
+        <Observation>
+          <text>Dave got picked for a car mod workshop and is excited about learning auto engineering and building a custom car.</text>
+          <source_dia_id>D13:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave has been doing engine swaps, suspension modifications, and is now learning about body modifications on a classic muscle car.</text>
+          <source_dia_id>D13:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave aims to give the classic muscle car a modern twist while maintaining a classic vibe.</text>
+          <source_dia_id>D13:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave values attention to detail in his car projects.</text>
+          <source_dia_id>D13:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave sees customizing cars as a way to show his style and compares it to customizing a work of art on wheels.</text>
+          <source_dia_id>D13:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave offered help to Calvin with his music stuff and has an awesome music studio setup with a high-quality sound system.</text>
+          <source_dia_id>D13:15</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="14" datetime="12:35 am on 14 August, 2023" summary="Dave and Calvin caught up at 12:35 am on 14 August, 2023. Dave shared his exciting experience at a car workshop in San Francisco, expressing admiration for the passion and dedication of the people there. Calvin then talked about touring with a well-known artist, culminating in a show in Japan. Dave was impressed by Calvin's performance and the crowd's reaction in Tokyo. Calvin shared a picture from the show, noting the joyful atmosphere. Dave complimented Calvin on his work and shared a picture of a car he is restoring, aiming to finish it by the end of the next month. Calvin praised Dave's talent and encouraged him to keep going. They ended the conversation with words of support and encouragement for each other.">
+        <Observation>
+          <text>Dave recently attended a car restoration workshop in San Francisco and found it truly inspiring.</text>
+          <source_dia_id>D14:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave is currently working on restoring a car.</text>
+          <source_dia_id>D14:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave aims to have the car fully restored by the end of next month.</text>
+          <source_dia_id>D14:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="15" datetime="11:06 am on 22 August, 2023" summary="On August 22, 2023, at 11:06 am, Dave and Calvin caught up after a while. Dave shared about his fun card night with friends, while Calvin excitedly revealed his ongoing collaboration with Frank Ocean. Calvin met Frank Ocean at a music festival in Tokyo, and they even recorded a song together. Calvin described the festival in Tokyo as an amazing experience that fueled his soul, with a lively crowd. He also mentioned another collaboration that stemmed from his performance there. Calvin's upcoming tour includes a stop in Boston, where he planned to meet up with Dave. Calvin also mentioned recording a podcast with friends about the rap industry. Dave expressed interest in the podcast and looked forward to catching up and learning more.">
+        <Observation>
+          <text>Dave had a card night with friends last Friday and enjoyed it a lot.</text>
+          <source_dia_id>D15:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave expressed excitement about Calvin continuing collaboration with Frank Ocean.</text>
+          <source_dia_id>D15:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave commented on the opportunity Calvin had to meet Frank Ocean at a music festival in Tokyo.</text>
+          <source_dia_id>D15:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave found Tokyo to be an incredible experience based on Calvin's description.</text>
+          <source_dia_id>D15:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave was interested in hearing more about Calvin's collaborations and upcoming concerts.</text>
+          <source_dia_id>D15:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave expressed anticipation for listening to Calvin's podcast about the rap industry.</text>
+          <source_dia_id>D15:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="16" datetime="2:55 pm on 31 August, 2023" summary="Dave and Calvin caught up at 2:55 pm on 31 August, 2023. Calvin shared his amazing experience performing on a big stage and shooting a video in Miami for his new album. Dave showed support and praised Calvin's unique guitar, symbolizing his journey and passion for music. They discussed the importance of staying true to one's style and being unique in music. Dave encouraged Calvin to keep sharing his unique talent with the world.">
+        <Observation>
+          <text>Dave expresses support for Calvin's music and creative endeavors.</text>
+          <source_dia_id>D16:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave mentions a guitar that shows their different artistic styles, which he appreciates.</text>
+          <source_dia_id>D16:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="17" datetime="9:19 am on 2 September, 2023" summary="At 9:19 am on 2 September 2023, Dave and Calvin caught up, with Dave sharing car modification insights from San Francisco. Calvin understood the joy of fixing cars, describing it as giving them new life. Dave found fixing cars rewarding and purposeful, feeling like a superhero when helping others. Calvin praised Dave for his impact, revealing his excitement for an upcoming trip to Boston. They agreed to meet up in Boston and said their goodbyes with plans to reconnect upon Calvin's arrival.">
+        <Observation>
+          <text>Dave recently came back from San Francisco with insights and knowledge on car modification.</text>
+          <source_dia_id>D17:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave finds fixing things up and seeing them turn out better really rewarding, giving him a sense of purpose.</text>
+          <source_dia_id>D17:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave feels like he's making a difference when he fixes someone's car.</text>
+          <source_dia_id>D17:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave enjoys the feeling of making a difference and seeing the relief when the car is fixed.</text>
+          <source_dia_id>D17:5</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="18" datetime="10:56 am on 13 September, 2023" summary="Calvin and Dave talked on 13 September at 10:56 am. Calvin's album released on the 11th, getting positive feedback and motivating him to create more music. Dave congratulated Calvin, discussing the impact of his work, inspiring Calvin to chase his dreams. Calvin shared his upcoming tour plans and dream to reach more people. Dave offered to show Calvin his garage someday. They ended the conversation with well wishes and plans to meet in Boston.">
+        <Observation>
+          <text>Dave offered Calvin to check out his garage and see some cool cars when Calvin is in Boston.</text>
+          <source_dia_id>D18:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave appreciates Calvin's music and is excited for his tour.</text>
+          <source_dia_id>D18:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave is supportive and encouraging of Calvin's music career.</text>
+          <source_dia_id>D18:4</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="19" datetime="12:13 am on 15 September, 2023" summary="Dave and Calvin caught up at 12:13 am on 15 September, 2023. Dave shared about a fun jam session with his band and attending a rock concert in Boston. Calvin praised the electrifying atmosphere of rock concerts and asked about recordings of the jam. Dave mentioned they were too engrossed to record. Calvin appreciated the moments that can't be captured and shared a Disney poster. They discussed Ratatouille, following dreams, and Dave's car restoration hobby. Dave showed the final restoration picture, which Calvin admired. Dave found it satisfying and appreciated the reactions. Calvin praised Dave's work, calling it inspiring, and encouraged him to continue. They exchanged goodbyes, highlighting the importance of making people happy and following passions.">
+        <Observation>
+          <text>Dave is in a band and had a fun jamming session with them.</text>
+          <source_dia_id>D19:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave attended a rock concert in Boston recently and enjoyed the atmosphere.</text>
+          <source_dia_id>D19:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave is restoring a vintage car as a hobby.</text>
+          <source_dia_id>D19:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave finds it satisfying to see his hard work pay off in restoring the car.</text>
+          <source_dia_id>D19:9</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="20" datetime="8:57 pm on 22 September, 2023" summary="At 8:57 pm on 22 September, 2023, Dave and Calvin caught up. Dave shared that he had trouble with his car project, and Calvin showed a picture symbolizing his hard work. They discussed memorable experiences, including Calvin's summer drive and trip to Japan. Calvin mentioned a childhood song, &quot;California Love&quot; by Tupac and Dr. Dre. They planned a jam session together, looking forward to creating special memories. They concluded by expressing excitement and anticipation for their upcoming get-together.">
+        <Observation>
+          <text>Dave has a car project involving a vintage Mustang and faced engine troubles despite putting in a lot of work.</text>
+          <source_dia_id>D20:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave appreciates the hard work and dedication symbolized in a picture shared by Calvin.</text>
+          <source_dia_id>D20:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave enjoys moments of reflection and finds them not only interesting but also productive.</text>
+          <source_dia_id>D20:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave is interested in childhood songs that bring back memories.</text>
+          <source_dia_id>D20:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave suggested jamming music together with Calvin.</text>
+          <source_dia_id>D20:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave is enthusiastic about the idea of having an awesome jam session with Calvin.</text>
+          <source_dia_id>D20:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="21" datetime="2:44 pm on 4 October, 2023" summary="Calvin and Dave spoke at 2:44 pm on 4 October, 2023. Calvin shared his inspiring experience of meeting with artists in Boston for a collaboration. Dave praised the connection and shared his hobby of restoring cars. They discussed the satisfaction of transforming old things, expressed pride in their work, and highlighted the importance of hard work and determination. Both agreed to stay focused on their goals and support each other. They concluded with well wishes for each other.">
+        <Observation>
+          <text>Dave finds working on cars therapeutic and relaxing, particularly restoring an old Ford Mustang found in a junkyard.</text>
+          <source_dia_id>D21:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave expressed satisfaction in bringing an old car back to life and transforming it into something beautiful.</text>
+          <source_dia_id>D21:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave's hands are permanently stained with grease from working on cars, showing his dedication and hard work.</text>
+          <source_dia_id>D21:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave values hard work, small successes, progress, determination, and growth in projects and personal development.</text>
+          <source_dia_id>D21:12</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="22" datetime="3:13 pm on 8 October, 2023" summary="Dave and Calvin, at 3:13 pm on 8 October, 2023, discussed Dave's passion for cars. Dave described his recent visit to a car show and his love for car mods. He showed Calvin a car he restored and modified himself, expressing pride in his work. Dave shared that working on cars is therapeutic for him and a lifelong passion. Calvin admired Dave's dedication and viewed his work as inspiring. They discussed the satisfaction of restoring broken items and pursuing one's passion. Calvin encouraged Dave to chase his dreams, while Dave appreciated Calvin's support and encouragement. Dave expressed gratitude for Calvin's support, and they mutually encouraged each other to keep pushing forward.">
+        <Observation>
+          <text>Dave went to a car show last Friday and enjoys checking out awesome cars and car mods.</text>
+          <source_dia_id>D22:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave restored and modified a car himself, adding a custom exhaust and performance upgrades.</text>
+          <source_dia_id>D22:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Working on cars is like therapy for Dave and a way to get away from everyday stress. He sees it as more than a hobby, but a passion.</text>
+          <source_dia_id>D22:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave spent hours as a child tinkering with engines in his dad's garage, finding it to be like his sanctuary.</text>
+          <source_dia_id>D22:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave's job involves taking something broken and making it into something awesome.</text>
+          <source_dia_id>D22:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Restoring things can be tough for Dave, but the feeling of accomplishment it gives him is great.</text>
+          <source_dia_id>D22:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave's ultimate goal has been doing what he loves for a living.</text>
+          <source_dia_id>D22:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave finds conversations like the one with Calvin to be a reminder of why he loves what he does.</text>
+          <source_dia_id>D22:9</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="23" datetime="9:39 am on 15 October, 2023" summary="Dave and Calvin had a conversation on October 15, 2023, at 9:39 am. Dave expressed feeling discouraged after losing a deal at work, questioning if his efforts were a waste of time. Calvin encouraged him not to give up and stay positive, sharing his approach to staying motivated during setbacks. They discussed the importance of passion, support from others, and taking breaks for rejuvenation. Dave shared his experience at a music festival, and Calvin admired the energy of the crowd and the headliner, The Fireworks. They bonded over their love for music and the satisfaction of their respective jobs. Calvin showed Dave a photo of his new Ferrari, sparking excitement for thrilling adventures. They exchanged kind words before parting ways, looking forward to uplifting each other in the future.">
+        <Observation>
+          <text>Dave works at a car maintenance shop.</text>
+          <source_dia_id>D23:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave recently attended a music festival and enjoyed the energy, music, and crowd.</text>
+          <source_dia_id>D23:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave enjoys music festivals and feels alive at such events.</text>
+          <source_dia_id>D23:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave finds fulfillment in fixing things and enjoys the feeling of making something whole again.</text>
+          <source_dia_id>D23:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="24" datetime="10:11 am on 19 October, 2023" summary="Calvin and Dave caught up at 10:11 am on 19 October, 2023. Calvin shared about touring with Frank Ocean, feeling a great connection with the crowd, and performing on stage. Dave congratulated him and asked about the tour, showing excitement about their collaboration. Calvin mentioned meeting Frank at a festival and feeling lucky to perform with him. They discussed the energy of the crowd, shared photos of the tour, and talked about Tokyo's vibrant atmosphere. Calvin revealed his upcoming trip to Tokyo, mentioning places like Shibuya Crossing and Shinjuku he's excited to visit. Dave recommended trying ramen, sharing a photo of a bowl he tried in Boston. Calvin agreed to give it a shot in Tokyo and appreciated the encouragement. They ended the conversation with Calvin looking forward to the trip and saying goodbye.">
+        <Observation>
+          <text>Dave is interested in Calvin's tour experience and acknowledges the connection Calvin feels with the crowd and performing on stage.</text>
+          <source_dia_id>D24:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave found a photo online of Tokyo that makes him dream about visiting someday and is interested in learning about the city.</text>
+          <source_dia_id>D24:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave wants to explore the people, culture, food, and vibrant city life of Tokyo and considers it an unforgettable experience.</text>
+          <source_dia_id>D24:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave asks Calvin about specific spots in Tokyo he is excited to check out, such as Shibuya Crossing and Shinjuku.</text>
+          <source_dia_id>D24:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave shares a photo of a ramen bowl he tried in Boston and recommends Calvin to try it in Tokyo.</text>
+          <source_dia_id>D24:20</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="25" datetime="2:17 pm on 23 October, 2023" summary="Dave and Calvin had a conversation at 2:17 pm on 23 October, 2023. Dave inquired about Calvin's tour with Frank Ocean, discussing the challenges of fame balancing personal life and work. Calvin mentioned enjoying the tour but finding it tough to manage everything. He highlighted the importance of a strong support system. Dave shared his interests in connecting with neighbors and working on cars. Calvin discussed using music to express emotions and connect with fans. Dave talked about his passion for car engineering since childhood and detailed his current car restoration project. They emphasized the significance of attention to detail in their respective crafts. The conversation concluded with Calvin expressing the rush of connecting with fans during concerts and wishing Dave well.">
+        <Observation>
+          <text>Dave pondered about fame and its impact on relationships in a conversation with Calvin.</text>
+          <source_dia_id>D25:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave recently had a conversation with neighbors about current events and politics to share perspectives.</text>
+          <source_dia_id>D25:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave finds working on cars to be cathartic and a way to connect back with himself.</text>
+          <source_dia_id>D25:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave started working on cars at the age of ten after finding an old car in a neighbor's garage.</text>
+          <source_dia_id>D25:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave restored a car last year but sold it to a collector and is currently working on a new project.</text>
+          <source_dia_id>D25:17</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave believes paying attention to details in car restoration makes a big impact.</text>
+          <source_dia_id>D25:20</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="26" datetime="8:25 pm on 25 October, 2023" summary="Calvin and Dave caught up at 8:25 pm on 25th October 2023. Calvin enjoyed his time in Boston with a high school friend, admiring architecture and history. Dave shared about attending a conference in Detroit and his interest in engineering cars. Calvin found Dave's car project impressive and shared his passion for music. Dave admired Calvin's performance with someone he admired. They both agreed on the fulfillment that their passions bring, inspiring each other to keep pursuing their dreams. They expressed support for each other before signing off, looking forward to what the future holds.">
+        <Observation>
+          <text>Dave recently attended a conference in Detroit and learned a lot from it.</text>
+          <source_dia_id>D26:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave is into working on cars, finding it calming and a way to take him out of his head.</text>
+          <source_dia_id>D26:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave got into engineering cars at a young age after being impressed by a car show with his dad.</text>
+          <source_dia_id>D26:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave is supportive and inspiring towards Calvin's music pursuits.</text>
+          <source_dia_id>D26:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave expresses gratitude and mutual support towards Calvin, aiming to keep inspiring each other.</text>
+          <source_dia_id>D26:14</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="27" datetime="10:49 am on 29 October, 2023" summary="Calvin told Dave about his networking event with artists to build his fan base. Dave shared his new interest in photography, showing Calvin pictures of a stunning sunset and a clock tower in Boston. Calvin praised Dave's talent and they discussed their creative projects, including Dave's car restoration and Calvin's upcoming album. They agreed to catch up soon.">
+        <Observation>
+          <text>Dave has been getting into photography recently and has taken some great shots.</text>
+          <source_dia_id>D27:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave has a car project that he recently finished restoring and it looks amazing.</text>
+          <source_dia_id>D27:10</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="28" datetime="5:46 pm on 2 November, 2023" summary="Calvin and Dave caught up at 5:46 pm on 2 November, 2023. Calvin shared with Dave about throwing a party for his new album last week at his Japanese house, receiving immense love and support from friends and family. Dave congratulated him on the album release and the party, praising Calvin for creating something that brings people together. Calvin, in turn, appreciated the positive feedback and mentioned how such moments motivate him to continue growing. Dave shared his passion for car mods and his new blog, seeking tips from Calvin on blogging. Calvin admired Dave's efforts, especially sharing his knowledge and inspiring others. They also discussed Dave's car restoration project, his rock band, and their mutual love for music. Calvin shared insights into his studio setup, mentioning his passion for watching music-related content on TV for inspiration. Dave showed Calvin his notebook for writing lyrics and the vintage music player he uses while working on cars. They exchanged thoughts on music's influence on productivity and mood. Calvin encouraged Dave to keep discovering new tunes and broadening his musical knowledge before parting ways as Dave had to return to work.">
+        <Observation>
+          <text>Dave recently started a blog on car mods to share his passion with others.</text>
+          <source_dia_id>D28:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave shared a story on his blog about how he made a car look like a beast and inspired others to start their DIY projects.</text>
+          <source_dia_id>D28:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave appreciates when Calvin notices the effort he puts into his work.</text>
+          <source_dia_id>D28:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave listens to vinyl while doing car work to relax and stay on track.</text>
+          <source_dia_id>D28:36</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave is into classic rock music and believes music from that era is timeless.</text>
+          <source_dia_id>D28:40</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="29" datetime="9:15 pm on 13 November, 2023" summary="Calvin talked about reminiscing with an old high school friend, mentioning the importance of relationships in the music industry. He highlighted the support and encouragement he received, especially from the friend he met in Boston. Dave agreed on the significance of supportive people and discussed Calvin's involvement with young musicians. Calvin emphasized the importance of passing on the torch and supporting new talent. He also mentioned his experimentation with new sounds in his music studio. Dave encouraged Calvin to keep exploring and evolving as an artist. The conversation ended with both agreeing on the importance of growth and looking forward to seeing Calvin's future creations.">
+        <Observation>
+          <text>Dave acknowledges the importance of having supportive friends since the start to help artists like Calvin.</text>
+          <source_dia_id>D29:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave praises Calvin for supporting young musicians and nurturing their passion to help them thrive.</text>
+          <source_dia_id>D29:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave encourages Calvin to keep pushing boundaries and exploring new ideas to grow as an artist.</text>
+          <source_dia_id>D29:16</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="30" datetime="10:54 am on 17 November, 2023" summary="Dave and Calvin reconnect at 10:54 am on 17 November, 2023. Dave mentions his newfound love for photography, especially capturing nature scenes. Calvin shares about attending a fancy gala in Boston and connecting with an artist over music and art. They discuss their passion for photography and the beauty of nature. Calvin reveals he will be performing at a show in Boston soon, exciting Dave. They plan to catch up in person soon and bid farewell, looking forward to seeing each other again.">
+        <Observation>
+          <text>Dave has taken up photography as a new hobby and enjoys capturing the scenery around him.</text>
+          <source_dia_id>D30:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave recently bought a new vintage camera that takes great photos.</text>
+          <source_dia_id>D30:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave loves capturing the beauty of nature in his photos, focusing on sunsets, beaches, and waves.</text>
+          <source_dia_id>D30:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave shared a peaceful photo of rocks and a waterfall that he took last week.</text>
+          <source_dia_id>D30:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Dave enjoys capturing serene spots in nature, like a nearby park with a peaceful scene under a tree with pink flowers.</text>
+          <source_dia_id>D30:17</source_dia_id>
+        </Observation>
+      </Session>
+    </Speaker>
+  </Conversation_Version>
+</Root>

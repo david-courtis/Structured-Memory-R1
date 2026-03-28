@@ -1,0 +1,1195 @@
+<?xml version="1.0" ?>
+<Root>
+  <Conversation_Version number="1" sample_id="conv-43" speaker_a="Tim" speaker_b="John">
+    <patch_info>None</patch_info>
+    <conversation_history>Initial_Version</conversation_history>
+    <Speaker name="Tim">
+      <Session session_id="1" datetime="7:48 pm on 21 May, 2023" summary="John and Tim had a conversation at 7:48 pm on 21 May, 2023. Tim is working on a Harry Potter fan project while John recently signed with the Minnesota Wolves as a shooting guard. John's goal is to improve his shooting percentage for the upcoming season. He mentioned facing challenges fitting into the new team's style of play during pre-season. Tim's fan project involves collaborations discussing various Harry Potter universe aspects. Tim has visited Harry Potter-related places in London and encouraged John to do the same. Tim offered tips for visiting and bid farewell.">
+        <Observation>
+          <text>Tim is working on a Harry Potter fan project and discussing collaborations for it.</text>
+          <source_dia_id>D1:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim talked to a friend who is a Harry Potter fan to figure out ideas for the project.</text>
+          <source_dia_id>D1:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim went to a Harry Potter-related place in London a few years ago and went on a tour.</text>
+          <source_dia_id>D1:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="2" datetime="5:08 pm on 15 June, 2023" summary="Tim and John had a conversation at 5:08 pm on 15 June, 2023. Tim shared his excitement about discussing fantasy books on a forum, while John talked about exploring endorsement opportunities with sports brands like Nike and Under Armour. Tim admired a picture from MinaLima, creators of props for Harry Potter films, expressing his love for the wizarding world. John expressed his passion for playing basketball, sharing a photo from a recent game. They both supported each other's interests and dreams, ending with Tim encouraging John to keep pursuing his goals.">
+        <Observation>
+          <text>Tim joined a fantasy literature forum and had a great discussion about his favorite books.</text>
+          <source_dia_id>D2:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim has a book collection and owns a picture from MinaLima, the creators of props for the Harry Potter films.</text>
+          <source_dia_id>D2:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim considers his book collection and Harry Potter memorabilia as reminders that help him escape reality.</text>
+          <source_dia_id>D2:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>There is a chance that Tim will visit more Harry Potter-related spots in the future.</text>
+          <source_dia_id>D2:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="3" datetime="4:21 pm on 16 July, 2023" summary="John and Tim met at 4:21 on July 16, 2023. John shared about scoring 40 points in a game, celebrating with teammates, and securing endorsements with Nike and Gatorade. Tim talked about a magical chat with a Harry Potter fan in California and the love for the sport community. They discussed Seattle, surfing, and finding happiness through different activities, ending the conversation on a positive note.">
+        <Observation>
+          <text>Tim had a nice chat with a Harry Potter fan in California last week.</text>
+          <source_dia_id>D3:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim finds bliss in reading a great fantasy book to escape and feel free.</text>
+          <source_dia_id>D3:30</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="4" datetime="4:17 pm on 2 August, 2023" summary="At 4:17 pm on 2 August, 2023, Tim excitedly told John about writing articles on fantasy novels for an online magazine, a passion project he found through a fantasy lit forum. John congratulated Tim and enquired about the kind of articles he was working on. Tim mentioned analyzing characters, themes, and book recommendations. They discussed favorite books like Harry Potter and Game of Thrones. John shared a Harry Potter trivia experience, while Tim encouraged John to keep dreaming inspired by a book he's reading. Both expressed a desire to reach new goals before bidding farewell.">
+        <Observation>
+          <text>Tim is currently writing articles about fantasy novels for an online magazine.</text>
+          <source_dia_id>D4:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim found the opportunity to write about fantasy novels on a fantasy literature forum.</text>
+          <source_dia_id>D4:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim's articles focus on studying characters, themes, and making book recommendations of different fantasy novels.</text>
+          <source_dia_id>D4:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim loves writing about Harry Potter and Game of Thrones and could talk about them forever.</text>
+          <source_dia_id>D4:7</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="5" datetime="10:29 am on 9 August, 2023" summary="Tim and John spoke at 10:29 am on 9 August, 2023. Tim mentioned reconnecting with a Harry Potter fan and discussing collaboration. John shared about winning a close game and feeling the adrenaline rush. They talked about the importance of a supportive team and discussed Tim's current fantasy book by Patrick Rothfuss. John agreed to read it and they ended the conversation with plans to chat soon.">
+        <Observation>
+          <text>Tim recently skyped with a Harry Potter fan he met in CA and discussed collab-ing.</text>
+          <source_dia_id>D5:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim enjoys reading fantasy books that captivate him and take him to another world.</text>
+          <source_dia_id>D5:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim is currently reading a fantasy book by Patrick Rothfuss which he finds awesome.</text>
+          <source_dia_id>D5:15</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="6" datetime="1:08 pm on 11 August, 2023" summary="On August 11, 2023, at 1:08 pm, John told Tim he had an amazing trip to Chicago, loving the energy and meeting friendly locals. Tim shared his excitement about attending a fantastic event recently. They discussed the energy in sports games and sharing their passions. Tim recommended a fantasy novel, &quot;The Name of the Wind,&quot; to John, who shared stories about his lucky basketball shoes symbolizing resilience and dedication. John explained his basketball journey from childhood to being drafted. He mentioned his big goal of winning a championship and giving back to the community through charity work. Tim expressed admiration for John's plans and offered support, ending the conversation with encouragement.">
+        <Observation>
+          <text>Tim recently attended an event that he found fantastic and special, being with other fans who share his love for it.</text>
+          <source_dia_id>D6:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim has been writing more articles to combine his love for reading and sharing great stories.</text>
+          <source_dia_id>D6:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim recommends the book &quot;The Name of the Wind,&quot; describing it as a captivating fantasy novel with great world-building and character development.</text>
+          <source_dia_id>D6:8</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="7" datetime="7:54 pm on 17 August, 2023" summary="John and Tim had a conversation at 7:54 pm on 17 August, 2023. John shared his excitement about reuniting with his basketball teammates on the 15th, feeling welcomed and appreciated by the team. Tim expressed his own sense of belonging at certain events where people shared his interests. John mentioned a gift from his teammates, a signed basketball, symbolizing their friendship and support. Tim noted the significance of such a reminder from friends. Both agreed on the power of supportive relationships in staying motivated and reaching goals. Tim ended the conversation by acknowledging the strength gained from mutual encouragement.">
+        <Observation>
+          <text>Tim felt a sense of belonging at an event last month where everyone shared the same love for a common interest.</text>
+          <source_dia_id>D7:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim is hoping to attend a book conference next month to learn more about literature and create a stronger bond to it.</text>
+          <source_dia_id>D7:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim appreciates having something meaningful to keep him motivated, as seen from his conversation with John.</text>
+          <source_dia_id>D7:12</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="8" datetime="4:29 pm on 21 August, 2023" summary="John and Tim caught up at 4:29 pm on 21 August, 2023. John shared his new gym routine to enhance his basketball game, emphasizing the importance of balance and rest. Tim praised John's holistic approach, leading to improved basketball performance. Tim then shared his focus on school, playing the piano, and favorite memories associated with &quot;Harry Potter.&quot; They discussed family traditions, favorite holiday movies like &quot;Home Alone&quot; and &quot;The Santa Clause,&quot; and shared photos of their festive decorations. They exchanged well wishes and agreed to talk soon, ending the conversation.">
+        <Observation>
+          <text>Tim has been learning to play the piano and finds it satisfying to see progress in his learning.</text>
+          <source_dia_id>D8:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim's favorite song to play on the piano is a theme from the movie Harry Potter and the Philosopher's Stone.</text>
+          <source_dia_id>D8:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>During Thanksgiving, Tim's family enjoys watching movies like 'Home Alone', 'Elf', and 'The Santa Clause'.</text>
+          <source_dia_id>['D8:24', 'D8:26', 'D8:28']</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="9" datetime="6:59 pm on 26 August, 2023" summary="Tim mentioned his struggles with balancing studies and hobbies, specifically his love for fantasy reading. John shared about catching up with old friends from his high school sports team, where they played together for four years. Tim expressed his interest in traveling to experience different magical worlds through books and actual visits. John shared his experience exploring New York City and recommended it as a must-visit place. They both discussed their love for exploring new cities and hobbies. John offered assistance with Tim's travel plans, and Tim thanked him for his support before ending the conversation.">
+        <Observation>
+          <text>Tim is busy with assignments and exams this week, but is not giving up.</text>
+          <source_dia_id>D9:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim is not part of a sports team but enjoys reading fantasy novels.</text>
+          <source_dia_id>D9:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim loves traveling to new places to experience different kinds of magic.</text>
+          <source_dia_id>D9:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim is excited about visiting New York City after seeing a picture shared by John.</text>
+          <source_dia_id>D9:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim plans to add NYC to his travel list and is eager to explore and try out new things there.</text>
+          <source_dia_id>D9:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim appreciates John's support as mentioned in the conversation.</text>
+          <source_dia_id>D9:15</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="10" datetime="2:52 pm on 31 August, 2023" summary="Tim and John caught up at 2:52 pm on 31 August, 2023. Tim shared his job rejection but remained positive. John discussed his NYC trip and troubles with the subway. Tim mentioned overcoming nerves to give a presentation. John shared his cooking experiment with a sage-flavored soup. Tim planned a trip to Universal Studios for the first time, excited for the Harry Potter attractions. They ended the conversation with well-wishes and a promise to catch up soon.">
+        <Observation>
+          <text>Tim received a no for a summer job he wanted, but is staying positive.</text>
+          <source_dia_id>D10:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim recently gave a presentation in class and felt it was a small but significant progress.</text>
+          <source_dia_id>D10:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim loves experimenting with spices when cooking.</text>
+          <source_dia_id>D10:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim is planning a trip to Universal Studios, particularly excited for the Harry Potter stuff.</text>
+          <source_dia_id>D10:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="11" datetime="8:17 pm on 21 September, 2023" summary="John and Tim caught up at 8:17 pm on 21 September, 2023. John shared about connecting with new teammates over basketball at a local restaurant. Tim suggested Edinburgh as a destination for their upcoming team trip, which John found appealing. They discussed John's passion for basketball, his career goals, and plans for life after sports. Tim advised John on picking endorsements and recommended a fantasy novel for his trip. John shared his bookshelf and praised &quot;The Alchemist.&quot; They ended the conversation by wishing each other well.">
+        <Observation>
+          <text>Tim suggested Edinburgh, Scotland as a potential destination for the team trip.</text>
+          <source_dia_id>D11:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim shared advice on picking endorsements that align with values and feel authentic to followers.</text>
+          <source_dia_id>D11:22</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim recommended a fantasy novel by Patrick Rothfuss for John's trip, suggesting it as a great read while traveling.</text>
+          <source_dia_id>D11:24</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="12" datetime="3:00 pm on 2 October, 2023" summary="At 3:00 pm on 2 October, 2023, Tim and John caught up. John shared about his intimate wedding ceremony in a greenhouse venue that followed safety protocols, filled with loved ones. Tim admired the special day and asked about favorite memories. John mentioned the magical moment of seeing his bride walk down the aisle and their first dance in a cozy restaurant. They expressed how love brings joy. Tim congratulated John, admired the love between the couple, and shared his favorite fantasy novels. They later discussed John's love for collecting jerseys and admiration for LeBron James. John met LeBron and saw him play live, finding it inspiring. Tim encouraged John to continue pursuing what he loves.">
+        <Observation>
+          <text>Tim has a bookshelf filled with favorite fantasy novels that he enjoys for escapism.</text>
+          <source_dia_id>D12:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim collects jerseys and has an interest in basketball.</text>
+          <source_dia_id>D12:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim's favorite basketball team is The Wolves and his favorite player is LeBron, admiring his skills and leadership.</text>
+          <source_dia_id>D12:20</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim appreciates LeBron's work ethic and dedication to the game, finding him inspiring.</text>
+          <source_dia_id>D12:22</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim has not only met LeBron a few times but also had the opportunity to see him play live.</text>
+          <source_dia_id>D12:24</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="13" datetime="1:50 pm on 13 October, 2023" summary="Tim and John reconnected at 1:50 pm on 13 October, 2023. Tim shared his excitement about attending a Harry Potter conference in the UK, feeling inspired by the magical atmosphere and the shared passion. John admired Tim's enthusiasm and shared his own connection with his team, discussing their recent sports season with tough losses and great wins. Tim congratulated John on their success, acknowledging the hard work that paid off with a trophy. John appreciated Tim's support and encouragement to stay motivated, while Tim recommended some comfortable shoes for John to check out. They ended their conversation with mutual support and a commitment to chase their dreams, promising to keep in touch.">
+        <Observation>
+          <text>Tim attended a Harry Potter conference in the UK last week and felt inspired and rejuvenated by the experience.</text>
+          <source_dia_id>D13:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim feels that his passion for fantasy stuff brings him closer to people from all over the world.</text>
+          <source_dia_id>D13:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim appears to be supportive and encouraging towards John's achievements and goals.</text>
+          <source_dia_id>D13:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim recommended a pair of very comfortable shoes that he got online to John.</text>
+          <source_dia_id>D13:17</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim offered to help John with anything and mentioned his availability for assistance.</text>
+          <source_dia_id>D13:19</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim advised John to stay motivated and keep chasing his dreams.</text>
+          <source_dia_id>D13:21</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="14" datetime="1:50 pm on 17 October, 2023" summary="John and Tim caught up at 1:50 pm on October 17, 2023, after a long time. John is now mentoring young players, finding it rewarding and fulfilling. He enjoys being a positive role model for them and is proud to see their growth and success. Tim shared a stunning nature picture from the Smoky Mountains, emphasizing the beauty of nature and the importance of taking a break from city life. They discussed finding balance in life, with Tim mentioning his busy school schedule and love for reading, while John expressed his recent enjoyment of reading.">
+        <Observation>
+          <text>Tim took a stunning picture last summer on his trip to the Smoky Mountains.</text>
+          <source_dia_id>D14:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim is busy with studies but finds time to relax with books, seeking a good balance.</text>
+          <source_dia_id>D14:20</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim is currently reading a book that he's totally hooked on.</text>
+          <source_dia_id>D14:22</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="15" datetime="5:51 pm on 21 October, 2023" summary="Tim and John, who are both passionate about exploring historical architecture and writing, catch up on their interests. Tim is working on a fantasy novel inspired by books, movies, and real-life experiences, including visits to UK castles that give him ideas. He admires J.K. Rowling's captivating writing style and shares a quote that inspires him. John, who finds motivation through quotes and strategies during tough workouts, values his supportive teammates and family. They bond over their shared love for spending time with friends and family, enjoying activities like road trips, hiking, and cooking. John shares a honey garlic chicken recipe with Tim after discussing their interests. Their friendly conversation ends on a positive note, expressing gratitude for their support networks.">
+        <Observation>
+          <text>Tim enjoys reading and is inspired by books, movies, and real-life experiences for his writing.</text>
+          <source_dia_id>D15:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>J.K. Rowling is a significant inspiration for Tim's writing, and he takes notes on her style.</text>
+          <source_dia_id>D15:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim has been reading J.K. Rowling's works for a long time and finds her writing special.</text>
+          <source_dia_id>D15:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>A quote by J.K. Rowling, &quot;Turn on the light - happiness hides in the darkest of times,&quot; is meaningful to Tim during tough times.</text>
+          <source_dia_id>D15:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim is writing a fantasy novel that brings him joy and excitement.</text>
+          <source_dia_id>D15:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim enjoys exploring and going on road trips with friends and family, as well as hiking and playing board games.</text>
+          <source_dia_id>D15:29</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim loves curling up with a good book to escape reality and get lost in different worlds during his free time.</text>
+          <source_dia_id>D15:29</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="16" datetime="11:41 am on 6 November, 2023" summary="Tim and John caught up at 11:41 am on 6 November, 2023. Tim shared how he overcame a writing issue by staying persistent. John likened it to toughing it out in sports. Both agreed that struggles lead to growth and satisfaction. John recounted a basketball game where his team made a remarkable comeback. Tim showed his basketball signed by his favorite player, LeBron, who inspires him with his determination. They discussed memorable moments in basketball and the importance of perseverance. John mentioned his upcoming European vacation, seeking recommendations from Tim who suggested visiting castles. They wished each other well and vowed to stay connected.">
+        <Observation>
+          <text>Tim faced a writing issue last week where he got stuck on a plot twist, but eventually got the ideas flowing again.</text>
+          <source_dia_id>D16:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim owns a basketball signed by his favorite player, LeBron, as a prized possession.</text>
+          <source_dia_id>D16:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim finds overcoming challenges to be a source of personal growth and strength.</text>
+          <source_dia_id>D16:5</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="17" datetime="3:36 pm on 11 November, 2023" summary="John and Tim had a chat at 3:36 pm on 11 November, 2023. John shared about his recent road trip on the European coastline with his wife, praising the beautiful views and the bonding experience. Tim admired the trip and discussed the power and beauty of nature. They bonded over their love for fantasy stories and shows. Tim highlighted the importance of mental breaks for recharging, gaining new perspectives, and tackling challenges with renewed energy. John appreciated the support and emphasized the significance of finding balance and taking care of oneself. They ended their conversation with well wishes.">
+        <Observation>
+          <text>Tim enjoys reading as usual and finds being lost in an awesome fantasy realm like an escape.</text>
+          <source_dia_id>D17:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim believes books and movies serve as a mental break and allow minds to wander, giving a sense of refreshment.</text>
+          <source_dia_id>D17:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim thinks taking a break from life helps recharge, gain peace, reconnect with oneself, and approach life's challenges with a new outlook.</text>
+          <source_dia_id>D17:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim emphasizes that balance, taking care of oneself mentally and physically, is key for success.</text>
+          <source_dia_id>D17:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="18" datetime="3:59 pm on 16 November, 2023" summary="Tim told John about his trip to a castle in the UK last Friday, praising its architecture and history. John mentioned a tough week due to an injury but staying positive. Tim shared being swamped with exams but staying optimistic and working hard. John asked about exam prep and shared visualizing goals for motivation. Tim discussed breaking study sessions into smaller parts for better focus. They wished each other well, with John hoping for a quick recovery from the injury. Tim expressed understanding and support. John expressed missing playing due to the injury, likening it to Tim not being able to read. They encouraged each other to keep going and promised to talk soon. The conversation took place at 3:59 pm on 16 November, 2023.">
+        <Observation>
+          <text>Tim visited a castle during his trip to the UK last Friday and was amazed by the architecture and history.</text>
+          <source_dia_id>D18:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim's week has been swamped with exams, but he is plowing through them.</text>
+          <source_dia_id>D18:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim breaks up his studying into smaller parts, with 25 minutes of study and 5 minutes of fun activities.</text>
+          <source_dia_id>D18:7</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="19" datetime="10:22 am on 21 November, 2023" summary="Tim and John caught up at 10:22 am on 21 November 2023. Tim mentioned struggling with storytelling and sought advice from John. They discussed overcoming challenges, with John sharing his experience recovering from an ankle injury. They emphasized resilience and motivation in facing difficulties. They also bonded over their love for reading, particularly fantasy and personal development books. Both found inspiration in books and shared a commitment to growth and improvement.">
+        <Observation>
+          <text>Tim had a setback with a story he was writing based on his experiences in the UK.</text>
+          <source_dia_id>D19:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim loves writing and reading to stay motivated and push himself to improve.</text>
+          <source_dia_id>D19:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim enjoys fantasy books like Harry Potter and Game of Thrones.</text>
+          <source_dia_id>D19:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim recently read a book that focused on how small changes can make a big difference, changing the way he does things.</text>
+          <source_dia_id>D19:19</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="20" datetime="9:52 am on 1 December, 2023" summary="Tim and John had a conversation at 9:52 am on 1 December, 2023. Tim shared his success in a tough exam, stating he turned it into a learning experience. John congratulated Tim and mentioned trying out yoga to improve strength and flexibility. They discussed yoga poses and John shared a photo of one he enjoys. They talked about their mutual love for fantasy books and movies. Tim shared a photo of a forest, and John shared a photo from a camping trip in the mountains. They both reflected on the calming effects of nature. The conversation ended with both agreeing on the humbling and connected nature of the world before Tim bid farewell.">
+        <Observation>
+          <text>Tim had a tough exam recently that he turned into a learning experience, showcasing his resilience and determination.</text>
+          <source_dia_id>D20:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim appreciates John's encouragement and support throughout his journey.</text>
+          <source_dia_id>D20:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim enjoys fantasy books and movies, sharing favorites with John and mutual interest in the genre.</text>
+          <source_dia_id>D20:17</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim has a bookshelf with some of his favorite books, including The Hobbit.</text>
+          <source_dia_id>D20:19</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim loves how fantasy books allow for an escape to different worlds and a break from reality.</text>
+          <source_dia_id>D20:25</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim finds nature calming and appreciates the beauty around him.</text>
+          <source_dia_id>D20:31</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="21" datetime="5:34 pm on 6 December, 2023" summary="At 5:34 pm on 6 December 2023, Tim told John he joined a travel club to explore different cultures and meet new people. John, a professional basketball player for almost a year, discussed his growth on and off the court. Tim mentioned joining the travel club, studying, and learning the violin. John praised Tim's dedication, and they discussed motivating others. They shared tips and encouragement before ending the conversation.">
+        <Observation>
+          <text>Tim recently joined a travel club to explore different cultures and countries.</text>
+          <source_dia_id>D21:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim is working on his studies.</text>
+          <source_dia_id>D21:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim recently started learning how to play the violin and has been playing the piano for about four months.</text>
+          <source_dia_id>['D21:9', 'D21:13']</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="22" datetime="7:42 pm on 8 December, 2023" summary="Tim and John, who are both passionate about Harry Potter, discussed their recent activities at 7:42 pm on 8 December, 2023. Tim shared his experience at a Harry Potter party where he wore a Gryffindor scarf and enjoyed meeting like-minded people. John talked about his recent basketball games, emphasizing the camaraderie and unity within his team. They also discussed their reading preferences, with John recommending &quot;Dune&quot; by Frank Herbert and Tim recommending &quot;A Dance with Dragons&quot;. They both expressed interest in each other's recommendations and wished each other a great day, ending the conversation on a positive note.">
+        <Observation>
+          <text>Tim recently attended a cool Harry Potter party and wore a Gryffindor scarf.</text>
+          <source_dia_id>D22:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim mentioned reading an amazing series about the power of friendship and loyalty.</text>
+          <source_dia_id>D22:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim is looking for new reads and asked John for book recommendations.</text>
+          <source_dia_id>D22:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim recently finished reading 'A Dance with Dragons' and highly recommends it.</text>
+          <source_dia_id>D22:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="23" datetime="8:28 pm on 11 December, 2023" summary="John and Tim, who met at 8:28 pm on 11 December 2023, had a conversation where Tim shared about his English lit class struggles and John talked about his recent career-high in assists. John described a thrilling game against their rivals and reminisced about a buzzer-beater shot. They discussed the power of sports and chasing dreams, inspiring and motivating each other before saying goodbye.">
+        <Observation>
+          <text>Tim struggled with his English lit class but did an analysis on a series that he thinks went okay.</text>
+          <source_dia_id>D23:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim finds sports as a way to express himself and stay positive.</text>
+          <source_dia_id>D23:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim sent John a pic that reminds John of practicing basketball outside when he was younger.</text>
+          <source_dia_id>D23:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim believes in the importance of following dreams and doing one's own thing.</text>
+          <source_dia_id>D23:12</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="24" datetime="3:37 pm on 16 December, 2023" summary="At 3:37 pm on 16 December 2023, Tim and John caught up. John shared about a close basketball game his team won, which was thrilling for him. Tim admired John's dedication to the sport despite facing an injury recently. John revealed he was progressing well with his recovery and had a milestone moment jogging without pain. Tim congratulated him and encouraged him to stay positive. The two friends discussed the importance of staying motivated and supporting each other, ending their conversation on a positive note.">
+        <Observation>
+          <text>Tim is interested in catching up and asks John about recent b-ball games.</text>
+          <source_dia_id>D24:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim congratulated John on winning a close b-ball game.</text>
+          <source_dia_id>D24:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim notes that winning a game must have been thrilling for John.</text>
+          <source_dia_id>D24:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim asks John about challenges he has faced, specifically regarding his recent injury.</text>
+          <source_dia_id>D24:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim acknowledges the importance of staying active or keeping up with a fitness routine during recovery.</text>
+          <source_dia_id>D24:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim asks John about the progress of his rehab and encourages him to keep it up.</text>
+          <source_dia_id>D24:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim congratulates John on his milestone at the gym and hosting a get-together to celebrate.</text>
+          <source_dia_id>D24:17</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim expresses happiness that everyone had fun at the get-together.</text>
+          <source_dia_id>D24:19</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="25" datetime="10:04 am on 19 December, 2023" summary="Tim and John caught up after a while at 10:04 am on 19 December, 2023. John shared his excitement about a deal with an outdoor gear company and a successful photoshoot in a beautiful forest. Tim admired the epic photos and discussed the peaceful spot that inspired John. John also mentioned his team's progress in basketball, especially in communication and bonding. Tim encouraged John to keep believing in himself before concluding their conversation.">
+        <Observation>
+          <text>Tim is in touch with John after a while and asks how things are going.</text>
+          <source_dia_id>D25:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim is curious about the gear John got from an outdoor gear company and asks about the photoshoot.</text>
+          <source_dia_id>D25:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim appreciates the outdoor location where John did the photoshoot and asks to see pictures.</text>
+          <source_dia_id>D25:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim comments on the photo John shows, mentioning the peaceful rocks and river.</text>
+          <source_dia_id>D25:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim acknowledges the benefits of nature in bringing peace and joy.</text>
+          <source_dia_id>D25:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim asks John about recent happenings and appreciates the importance of hard work paying off.</text>
+          <source_dia_id>D25:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim asks about areas of growth in John's team during training.</text>
+          <source_dia_id>D25:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim expresses gladness that John's team is bonding and encourages them to keep it up.</text>
+          <source_dia_id>D25:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim offers support and advises John to continue believing in himself before saying bye.</text>
+          <source_dia_id>D25:17</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="26" datetime="3:35 pm on 26 December, 2023" summary="John and Tim caught up at 3:35 pm on 26 December, 2023. John shared about his busy week starting seminars to help people with sports and marketing, which went well. Tim mentioned reading traveler stories to plan his next adventure, including one about hiking in the Himalayas. They discussed the importance of challenges, their admiration for Emma Watson's advocacy, and how they use their platforms for good causes. John talked about supporting youth sports and creating opportunities for young athletes. Tim enjoys escaping in books and movies, particularly fantasy genres like &quot;The Lord of the Rings&quot;, and looks forward to a new TV series, &quot;The Wheel of Time&quot;. They both share a love for movie marathons and making a difference in the world.">
+        <Observation>
+          <text>Tim is planning his next adventure by reading stories from travelers around the world.</text>
+          <source_dia_id>D26:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim is a fan of the fantasy genre, particularly enjoying epic adventures and magical worlds.</text>
+          <source_dia_id>D26:32</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim is excited to watch the new fantasy TV series called &quot;The Wheel of Time&quot; based on a book series he loves.</text>
+          <source_dia_id>D26:36</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="27" datetime="5:26 pm on 2 January, 2024" summary="Tim and John spoke at 5:26 pm on 2 January 2024. Tim mentioned his involvement in a globetrotting group and his interest in learning German. John shared his recent trip to Italy and knowledge of German and Spanish. They discussed language learning resources and shared their passion for reading and favorite fantasy books and movies, such as &quot;Harry Potter&quot; and &quot;Star Wars&quot; for Tim, and &quot;Lord of the Rings&quot; for John, with a particular focus on the character Aragorn. They highlighted the inspiration drawn from these stories and the importance of perseverance and leadership. Their conversation touched on the immersive nature of fantasy stories, traveling, and cultural exploration. John shared his painting of Aragorn as a reminder to be a leader, emphasizing the character's qualities of bravery and selflessness. They agreed on the educational and eye-opening aspects of both traveling and delving into fantasy worlds.">
+        <Observation>
+          <text>Tim joined a group of globetrotters who share his interest in traveling.</text>
+          <source_dia_id>D27:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim is currently learning German and finds it tough but worth it.</text>
+          <source_dia_id>D27:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim appreciates encouragement and plans to continue with his German lessons.</text>
+          <source_dia_id>D27:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim loves reading and has a collection of books that he enjoys escaping into.</text>
+          <source_dia_id>D27:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim's favorite book is Harry Potter because it is immersive.</text>
+          <source_dia_id>D27:19</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim's favorite fantasy film is Star Wars as it never gets old.</text>
+          <source_dia_id>D27:21</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim appreciates fantasy stories for allowing him to explore other cultures and landscapes.</text>
+          <source_dia_id>D27:35</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="28" datetime="5:24 pm on 7 January, 2024" summary="Tim and John caught up at 5:24 pm on 7 January, 2024. Tim shared that he got accepted into a study abroad program and will be heading to Ireland for a semester, staying in Galway known for its arts and music. He expressed excitement about exploring the nature and visiting The Cliffs of Moher. John complimented Tim's plans and mentioned hosting a successful benefit basketball game. Tim praised John for making a positive impact through sports. They discussed books and Tim recommended &quot;The Name of the Wind&quot; by Patrick Rothfuss to John. They ended the conversation on a positive note, planning to stay in touch.">
+        <Observation>
+          <text>Tim got accepted into a study abroad program in Ireland.</text>
+          <source_dia_id>D28:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim will be staying in Galway for its arts and Irish music.</text>
+          <source_dia_id>D28:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim is excited to explore the nature in Galway.</text>
+          <source_dia_id>D28:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim wants to visit The Cliffs of Moher for the ocean views and cliffs.</text>
+          <source_dia_id>D28:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim is currently reading a fantasy novel called 'The Name of the Wind' by Patrick Rothfuss.</text>
+          <source_dia_id>D28:17</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="29" datetime="1:41 pm on 12 January, 2024" summary="Tim and John spoke at 1:41 pm on 12 January, 2024. Tim shared his excitement about researching visa requirements for upcoming travels, while John revealed his recent endorsement deal with a beverage company, expressing pride in his hard work paying off. Tim praised John's achievement, highlighting the importance of accomplishment and self-esteem boosts. John recommended Barcelona as a travel destination, which Tim happily added to his list. They concluded the conversation with Tim offering to return the favor and John offering support in the future.">
+        <Observation>
+          <text>Tim is researching visa requirements for countries he wants to visit.</text>
+          <source_dia_id>D29:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim feels that taking initiative to research visas is a step towards making his travel dreams a reality.</text>
+          <source_dia_id>D29:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim expresses excitement about sharing his future travel adventures with John.</text>
+          <source_dia_id>D29:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Tim shows interest in John's recommendation of visiting Barcelona and plans to add it to his travel list.</text>
+          <source_dia_id>D29:13</source_dia_id>
+        </Observation>
+      </Session>
+    </Speaker>
+    <Speaker name="John">
+      <Session session_id="1" datetime="7:48 pm on 21 May, 2023" summary="John and Tim had a conversation at 7:48 pm on 21 May, 2023. Tim is working on a Harry Potter fan project while John recently signed with the Minnesota Wolves as a shooting guard. John's goal is to improve his shooting percentage for the upcoming season. He mentioned facing challenges fitting into the new team's style of play during pre-season. Tim's fan project involves collaborations discussing various Harry Potter universe aspects. Tim has visited Harry Potter-related places in London and encouraged John to do the same. Tim offered tips for visiting and bid farewell.">
+        <Observation>
+          <text>John signed with the Minnesota Wolves for the upcoming season as a shooting guard.</text>
+          <source_dia_id>D1:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's goal for the season is to improve his shooting percentage.</text>
+          <source_dia_id>D1:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John found fitting into the new team's style of play a challenge during pre-season.</text>
+          <source_dia_id>D1:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="2" datetime="5:08 pm on 15 June, 2023" summary="Tim and John had a conversation at 5:08 pm on 15 June, 2023. Tim shared his excitement about discussing fantasy books on a forum, while John talked about exploring endorsement opportunities with sports brands like Nike and Under Armour. Tim admired a picture from MinaLima, creators of props for Harry Potter films, expressing his love for the wizarding world. John expressed his passion for playing basketball, sharing a photo from a recent game. They both supported each other's interests and dreams, ending with Tim encouraging John to keep pursuing his goals.">
+        <Observation>
+          <text>John is exploring endorsement opportunities and is considering linking up with sports brands like Nike and Under Armour.</text>
+          <source_dia_id>D2:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John expressed that it would be rewarding to have his hard work pay off through endorsement opportunities.</text>
+          <source_dia_id>D2:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John asked about Tim's book collection and the picture from MinaLima, showing an interest in Tim's hobbies.</text>
+          <source_dia_id>D2:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John played in a recent game and finds it awesome to be out there doing what he loves.</text>
+          <source_dia_id>D2:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John appreciates Tim's support and expresses gratitude for it.</text>
+          <source_dia_id>D2:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="3" datetime="4:21 pm on 16 July, 2023" summary="John and Tim met at 4:21 on July 16, 2023. John shared about scoring 40 points in a game, celebrating with teammates, and securing endorsements with Nike and Gatorade. Tim talked about a magical chat with a Harry Potter fan in California and the love for the sport community. They discussed Seattle, surfing, and finding happiness through different activities, ending the conversation on a positive note.">
+        <Observation>
+          <text>John scored 40 points in a game last week, his highest ever.</text>
+          <source_dia_id>D3:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John celebrated with his teammates at a restaurant after winning a tough game.</text>
+          <source_dia_id>D3:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John has signed a deal with Nike for a basketball shoe and gear, and is in talks with Gatorade for a potential sponsorship.</text>
+          <source_dia_id>D3:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John mentioned exploring endorsements and used his contacts in the basketball industry and marketing skills to make connections.</text>
+          <source_dia_id>D3:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's game next month is in Seattle, a city he loves for its energy, diversity, food, and fan support.</text>
+          <source_dia_id>D3:19</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John started surfing five years ago and loves the connection to nature it provides.</text>
+          <source_dia_id>D3:27</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="4" datetime="4:17 pm on 2 August, 2023" summary="At 4:17 pm on 2 August, 2023, Tim excitedly told John about writing articles on fantasy novels for an online magazine, a passion project he found through a fantasy lit forum. John congratulated Tim and enquired about the kind of articles he was working on. Tim mentioned analyzing characters, themes, and book recommendations. They discussed favorite books like Harry Potter and Game of Thrones. John shared a Harry Potter trivia experience, while Tim encouraged John to keep dreaming inspired by a book he's reading. Both expressed a desire to reach new goals before bidding farewell.">
+        <Observation>
+          <text>John participated in an intense Harry Potter trivia contest at a charity event with Anthony.</text>
+          <source_dia_id>D4:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is reading an inspiring book that reminds him to keep dreaming.</text>
+          <source_dia_id>D4:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John wants to keep reaching for new goals.</text>
+          <source_dia_id>D4:12</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="5" datetime="10:29 am on 9 August, 2023" summary="Tim and John spoke at 10:29 am on 9 August, 2023. Tim mentioned reconnecting with a Harry Potter fan and discussing collaboration. John shared about winning a close game and feeling the adrenaline rush. They talked about the importance of a supportive team and discussed Tim's current fantasy book by Patrick Rothfuss. John agreed to read it and they ended the conversation with plans to chat soon.">
+        <Observation>
+          <text>John had a crazy intense game last week which his team won by a tight score, and scoring the last basket was an awesome experience for him.</text>
+          <source_dia_id>D5:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John feels that the team bond is awesome and makes all the hard work worth it.</text>
+          <source_dia_id>D5:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John emphasizes the importance of having a strong team/support which is like a family away from home.</text>
+          <source_dia_id>D5:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is currently reading a fantasy book recommended by Tim and plans to let him know his thoughts after reading it.</text>
+          <source_dia_id>D5:16</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="6" datetime="1:08 pm on 11 August, 2023" summary="On August 11, 2023, at 1:08 pm, John told Tim he had an amazing trip to Chicago, loving the energy and meeting friendly locals. Tim shared his excitement about attending a fantastic event recently. They discussed the energy in sports games and sharing their passions. Tim recommended a fantasy novel, &quot;The Name of the Wind,&quot; to John, who shared stories about his lucky basketball shoes symbolizing resilience and dedication. John explained his basketball journey from childhood to being drafted. He mentioned his big goal of winning a championship and giving back to the community through charity work. Tim expressed admiration for John's plans and offered support, ending the conversation with encouragement.">
+        <Observation>
+          <text>John recently took a trip to Chicago and found the locals to be friendly.</text>
+          <source_dia_id>D6:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John enjoys experiencing other cultures and connecting with new people.</text>
+          <source_dia_id>D6:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John loves the energy in a stadium during a sports game, with everyone cheering and getting excited.</text>
+          <source_dia_id>D6:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John has a pair of basketball shoes that he considers lucky and they hold many stories of his journey.</text>
+          <source_dia_id>D6:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Basketball has been a part of John's life since childhood, starting with watching NBA games with his dad and then playing in local leagues.</text>
+          <source_dia_id>D6:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's childhood dream was to play on the big courts, which became a reality through hard work, earning a scholarship, and being drafted by a team.</text>
+          <source_dia_id>D6:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's number one goal is to win a championship in basketball and also wants to make a difference through charity work and inspiring others.</text>
+          <source_dia_id>D6:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is teaming up with a local organization to help disadvantaged kids with sports and school as part of his charity work.</text>
+          <source_dia_id>D6:17</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="7" datetime="7:54 pm on 17 August, 2023" summary="John and Tim had a conversation at 7:54 pm on 17 August, 2023. John shared his excitement about reuniting with his basketball teammates on the 15th, feeling welcomed and appreciated by the team. Tim expressed his own sense of belonging at certain events where people shared his interests. John mentioned a gift from his teammates, a signed basketball, symbolizing their friendship and support. Tim noted the significance of such a reminder from friends. Both agreed on the power of supportive relationships in staying motivated and reaching goals. Tim ended the conversation by acknowledging the strength gained from mutual encouragement.">
+        <Observation>
+          <text>John is part of a basketball team which he feels lucky to be a part of.</text>
+          <source_dia_id>D7:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John values the bond created by being around people who share the same love for basketball.</text>
+          <source_dia_id>D7:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John received a signed ball from his teammates as a reminder of their friendship and appreciation.</text>
+          <source_dia_id>D7:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>The signed ball from his teammates serves as a reminder of the bond and support he has from them in his basketball journey.</text>
+          <source_dia_id>D7:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="8" datetime="4:29 pm on 21 August, 2023" summary="John and Tim caught up at 4:29 pm on 21 August, 2023. John shared his new gym routine to enhance his basketball game, emphasizing the importance of balance and rest. Tim praised John's holistic approach, leading to improved basketball performance. Tim then shared his focus on school, playing the piano, and favorite memories associated with &quot;Harry Potter.&quot; They discussed family traditions, favorite holiday movies like &quot;Home Alone&quot; and &quot;The Santa Clause,&quot; and shared photos of their festive decorations. They exchanged well wishes and agreed to talk soon, ending the conversation.">
+        <Observation>
+          <text>John found a new gym for training to stay on his basketball game.</text>
+          <source_dia_id>D8:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John included strength training in his workout routine to build muscle, increase power, prevent injuries, and improve agility and speed.</text>
+          <source_dia_id>D8:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Strength training improved John's shooting accuracy, agility, and speed, giving him confidence on the court.</text>
+          <source_dia_id>D8:9</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="9" datetime="6:59 pm on 26 August, 2023" summary="Tim mentioned his struggles with balancing studies and hobbies, specifically his love for fantasy reading. John shared about catching up with old friends from his high school sports team, where they played together for four years. Tim expressed his interest in traveling to experience different magical worlds through books and actual visits. John shared his experience exploring New York City and recommended it as a must-visit place. They both discussed their love for exploring new cities and hobbies. John offered assistance with Tim's travel plans, and Tim thanked him for his support before ending the conversation.">
+        <Observation>
+          <text>John caught up with his family and old friends during a visit home last week.</text>
+          <source_dia_id>D9:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John and his friends were teammates for four years in high school and have played together for quite some time.</text>
+          <source_dia_id>D9:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John loves discovering new cities and enjoys exploring different places.</text>
+          <source_dia_id>D9:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John had a great time in New York City, exploring the city and trying out different restaurants.</text>
+          <source_dia_id>D9:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John encourages Tim to visit NYC and assures him it's an adventure he'll never forget.</text>
+          <source_dia_id>D9:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John offers to help Tim out when he plans to visit NYC.</text>
+          <source_dia_id>D9:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is supportive of Tim and offers help whenever needed.</text>
+          <source_dia_id>D9:14</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="10" datetime="2:52 pm on 31 August, 2023" summary="Tim and John caught up at 2:52 pm on 31 August, 2023. Tim shared his job rejection but remained positive. John discussed his NYC trip and troubles with the subway. Tim mentioned overcoming nerves to give a presentation. John shared his cooking experiment with a sage-flavored soup. Tim planned a trip to Universal Studios for the first time, excited for the Harry Potter attractions. They ended the conversation with well-wishes and a promise to catch up soon.">
+        <Observation>
+          <text>John had some trouble figuring out the subway in NYC during his trip, but found it easier with someone's help.</text>
+          <source_dia_id>D10:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John has been trying out cooking recipes, recently making a tasty soup with sage.</text>
+          <source_dia_id>D10:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John hasn't been to Universal Studios yet, but it's on his bucket list.</text>
+          <source_dia_id>D10:10</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="11" datetime="8:17 pm on 21 September, 2023" summary="John and Tim caught up at 8:17 pm on 21 September, 2023. John shared about connecting with new teammates over basketball at a local restaurant. Tim suggested Edinburgh as a destination for their upcoming team trip, which John found appealing. They discussed John's passion for basketball, his career goals, and plans for life after sports. Tim advised John on picking endorsements and recommended a fantasy novel for his trip. John shared his bookshelf and praised &quot;The Alchemist.&quot; They ended the conversation by wishing each other well.">
+        <Observation>
+          <text>John connected with new teammates over a shared love for basketball.</text>
+          <source_dia_id>D11:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is planning a team trip with his friends to explore a new city next month.</text>
+          <source_dia_id>D11:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is considering Edinburgh, Scotland for the team trip based on Tim's suggestion.</text>
+          <source_dia_id>D11:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John loves his basketball career and finds it challenging and fulfilling, especially when he sees improvement and achieves goals.</text>
+          <source_dia_id>D11:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is focusing on improving shooting and making a greater impact on the court. He is also working on building his brand and seeking more endorsements for life after basketball.</text>
+          <source_dia_id>D11:17</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John plans to use his platform post-basketball to make a positive difference, potentially by starting a foundation and doing charity work to leave a meaningful legacy.</text>
+          <source_dia_id>D11:19</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is open to receiving support and advice from others, like Tim.</text>
+          <source_dia_id>D11:20</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="12" datetime="3:00 pm on 2 October, 2023" summary="At 3:00 pm on 2 October, 2023, Tim and John caught up. John shared about his intimate wedding ceremony in a greenhouse venue that followed safety protocols, filled with loved ones. Tim admired the special day and asked about favorite memories. John mentioned the magical moment of seeing his bride walk down the aisle and their first dance in a cozy restaurant. They expressed how love brings joy. Tim congratulated John, admired the love between the couple, and shared his favorite fantasy novels. They later discussed John's love for collecting jerseys and admiration for LeBron James. John met LeBron and saw him play live, finding it inspiring. Tim encouraged John to continue pursuing what he loves.">
+        <Observation>
+          <text>John recently had an emotional wedding ceremony in a lovely greenhouse venue with safety protocols for an intimate gathering.</text>
+          <source_dia_id>D12:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is a member of a hiking club, even though he just joined.</text>
+          <source_dia_id>D12:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's favorite memory from his wedding day is seeing his wife walking down the aisle, which made him emotional.</text>
+          <source_dia_id>D12:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John had their first dance with his wife at a cozy restaurant with music and candlelight, finding it dreamy.</text>
+          <source_dia_id>D12:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John values moments filled with love and joy, believing that they are special.</text>
+          <source_dia_id>D12:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John enjoys watching basketball games, finding them motivating, and admires top players like LeBron for their skills.</text>
+          <source_dia_id>D12:24</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="13" datetime="1:50 pm on 13 October, 2023" summary="Tim and John reconnected at 1:50 pm on 13 October, 2023. Tim shared his excitement about attending a Harry Potter conference in the UK, feeling inspired by the magical atmosphere and the shared passion. John admired Tim's enthusiasm and shared his own connection with his team, discussing their recent sports season with tough losses and great wins. Tim congratulated John on their success, acknowledging the hard work that paid off with a trophy. John appreciated Tim's support and encouragement to stay motivated, while Tim recommended some comfortable shoes for John to check out. They ended their conversation with mutual support and a commitment to chase their dreams, promising to keep in touch.">
+        <Observation>
+          <text>John had an intense season with tough losses and great wins in the games.</text>
+          <source_dia_id>D13:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's team faced tough opponents, but they do not quit and back each other up to get better.</text>
+          <source_dia_id>D13:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's team won a trophy after all their hard work and effort.</text>
+          <source_dia_id>D13:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John appreciates Tim's support and encouragement, and feels motivated by it.</text>
+          <source_dia_id>D13:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John mentioned needing new shoes after all the games and showed interest in Tim's comfortable shoe recommendation.</text>
+          <source_dia_id>D13:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John agrees to stay motivated and keep chasing his dreams.</text>
+          <source_dia_id>D13:22</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="14" datetime="1:50 pm on 17 October, 2023" summary="John and Tim caught up at 1:50 pm on October 17, 2023, after a long time. John is now mentoring young players, finding it rewarding and fulfilling. He enjoys being a positive role model for them and is proud to see their growth and success. Tim shared a stunning nature picture from the Smoky Mountains, emphasizing the beauty of nature and the importance of taking a break from city life. They discussed finding balance in life, with Tim mentioning his busy school schedule and love for reading, while John expressed his recent enjoyment of reading.">
+        <Observation>
+          <text>John is currently mentoring younger players on his team during the off-season.</text>
+          <source_dia_id>D14:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John finds mentoring the younger players super rewarding, motivating, and encouraging.</text>
+          <source_dia_id>D14:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Some of the younger players see John as a mentor, and he enjoys providing them with advice and support on and off the court.</text>
+          <source_dia_id>D14:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John feels honored to have the trust and admiration of the younger players and enjoys being a role model for them.</text>
+          <source_dia_id>D14:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="15" datetime="5:51 pm on 21 October, 2023" summary="Tim and John, who are both passionate about exploring historical architecture and writing, catch up on their interests. Tim is working on a fantasy novel inspired by books, movies, and real-life experiences, including visits to UK castles that give him ideas. He admires J.K. Rowling's captivating writing style and shares a quote that inspires him. John, who finds motivation through quotes and strategies during tough workouts, values his supportive teammates and family. They bond over their shared love for spending time with friends and family, enjoying activities like road trips, hiking, and cooking. John shares a honey garlic chicken recipe with Tim after discussing their interests. Their friendly conversation ends on a positive note, expressing gratitude for their support networks.">
+        <Observation>
+          <text>John is interested in historical architecture and dreams of visiting castles in different places.</text>
+          <source_dia_id>D15:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John finds motivation in staying focused and pushing through tough workouts by using strategies and motivational quotes written on a whiteboard.</text>
+          <source_dia_id>D15:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John keeps a plaque on his desk as a constant reminder to believe in himself and trust his abilities during challenging times.</text>
+          <source_dia_id>D15:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's teammates believing in him and his love for improving his skills keep him motivated, especially during challenging times.</text>
+          <source_dia_id>D15:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John spends time with his family and considers them as a source of happiness and support.</text>
+          <source_dia_id>D15:24</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John enjoys cooking as a therapy to be creative, experiment with flavors, and take a break from his routine.</text>
+          <source_dia_id>D15:30</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John loves making honey garlic chicken with roasted vegetables and often tries out new recipes.</text>
+          <source_dia_id>D15:32</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="16" datetime="11:41 am on 6 November, 2023" summary="Tim and John caught up at 11:41 am on 6 November, 2023. Tim shared how he overcame a writing issue by staying persistent. John likened it to toughing it out in sports. Both agreed that struggles lead to growth and satisfaction. John recounted a basketball game where his team made a remarkable comeback. Tim showed his basketball signed by his favorite player, LeBron, who inspires him with his determination. They discussed memorable moments in basketball and the importance of perseverance. John mentioned his upcoming European vacation, seeking recommendations from Tim who suggested visiting castles. They wished each other well and vowed to stay connected.">
+        <Observation>
+          <text>John had a basketball game where his team was trailing significantly in the 4th quarter, but they dug deep to overturn the deficit and win the game.</text>
+          <source_dia_id>D16:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John admires LeBron's determination and heart, particularly referencing an epic block in Game 7 of the '16 Finals.</text>
+          <source_dia_id>D16:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John finds that struggles in sports, like overcoming deficits, lead to a greater sense of satisfaction when victorious.</text>
+          <source_dia_id>D16:4</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="17" datetime="3:36 pm on 11 November, 2023" summary="John and Tim had a chat at 3:36 pm on 11 November, 2023. John shared about his recent road trip on the European coastline with his wife, praising the beautiful views and the bonding experience. Tim admired the trip and discussed the power and beauty of nature. They bonded over their love for fantasy stories and shows. Tim highlighted the importance of mental breaks for recharging, gaining new perspectives, and tackling challenges with renewed energy. John appreciated the support and emphasized the significance of finding balance and taking care of oneself. They ended their conversation with well wishes.">
+        <Observation>
+          <text>John and his wife went on a road trip along the European coastline, creating amazing memories and bonding.</text>
+          <source_dia_id>D17:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John recently finished an amazing fantasy series and loves getting lost in fantasy worlds.</text>
+          <source_dia_id>D17:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John has watched the fantasy show 'That' and finds it a great way to escape reality.</text>
+          <source_dia_id>D17:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John believes taking time for oneself is crucial for staying sharp, gaining new perspectives, and tackling challenges with more energy.</text>
+          <source_dia_id>D17:17</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="18" datetime="3:59 pm on 16 November, 2023" summary="Tim told John about his trip to a castle in the UK last Friday, praising its architecture and history. John mentioned a tough week due to an injury but staying positive. Tim shared being swamped with exams but staying optimistic and working hard. John asked about exam prep and shared visualizing goals for motivation. Tim discussed breaking study sessions into smaller parts for better focus. They wished each other well, with John hoping for a quick recovery from the injury. Tim expressed understanding and support. John expressed missing playing due to the injury, likening it to Tim not being able to read. They encouraged each other to keep going and promised to talk soon. The conversation took place at 3:59 pm on 16 November, 2023.">
+        <Observation>
+          <text>John has had a tough week with an injury but is staying positive.</text>
+          <source_dia_id>D18:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John visualizes his goals and success for focus and motivation during tough studying sessions.</text>
+          <source_dia_id>D18:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's doctor mentioned that his injury is not too serious.</text>
+          <source_dia_id>D18:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John hates not being on the court.</text>
+          <source_dia_id>D18:12</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="19" datetime="10:22 am on 21 November, 2023" summary="Tim and John caught up at 10:22 am on 21 November 2023. Tim mentioned struggling with storytelling and sought advice from John. They discussed overcoming challenges, with John sharing his experience recovering from an ankle injury. They emphasized resilience and motivation in facing difficulties. They also bonded over their love for reading, particularly fantasy and personal development books. Both found inspiration in books and shared a commitment to growth and improvement.">
+        <Observation>
+          <text>John had a major challenge when he hurt his ankle last season and had to undergo physical therapy.</text>
+          <source_dia_id>D19:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John values personal development and mindset books to know himself better.</text>
+          <source_dia_id>D19:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John recently reread 'The Alchemist' and found it inspiring, motivating him to keep chasing his dreams and trust the process.</text>
+          <source_dia_id>D19:20</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="20" datetime="9:52 am on 1 December, 2023" summary="Tim and John had a conversation at 9:52 am on 1 December, 2023. Tim shared his success in a tough exam, stating he turned it into a learning experience. John congratulated Tim and mentioned trying out yoga to improve strength and flexibility. They discussed yoga poses and John shared a photo of one he enjoys. They talked about their mutual love for fantasy books and movies. Tim shared a photo of a forest, and John shared a photo from a camping trip in the mountains. They both reflected on the calming effects of nature. The conversation ended with both agreeing on the humbling and connected nature of the world before Tim bid farewell.">
+        <Observation>
+          <text>John is trying out yoga to improve strength, flexibility, focus, and balance during workouts.</text>
+          <source_dia_id>D20:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John enjoys certain yoga poses like Warrior II for strength and balance.</text>
+          <source_dia_id>D20:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John typically holds challenging poses for 30-60 seconds to build strength and stability.</text>
+          <source_dia_id>D20:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John appreciates the escapism and joy of fantasy books and movies, sharing favorites with Tim.</text>
+          <source_dia_id>D20:17</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John enjoys nature and finds peace and refreshment when camping in the mountains.</text>
+          <source_dia_id>D20:36</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John values the calming and humbling effect of nature, recognizing the beauty and grandeur of the world.</text>
+          <source_dia_id>D20:42</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John shares a photo of a tranquil forest from near his hometown.</text>
+          <source_dia_id>D20:28</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="21" datetime="5:34 pm on 6 December, 2023" summary="At 5:34 pm on 6 December 2023, Tim told John he joined a travel club to explore different cultures and meet new people. John, a professional basketball player for almost a year, discussed his growth on and off the court. Tim mentioned joining the travel club, studying, and learning the violin. John praised Tim's dedication, and they discussed motivating others. They shared tips and encouragement before ending the conversation.">
+        <Observation>
+          <text>John has been playing professional basketball for just under a year.</text>
+          <source_dia_id>D21:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John has been working on improving his overall game, getting endorsement deals, and learning how to market himself to boost his brand.</text>
+          <source_dia_id>D21:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John believes in creating a positive environment and showing care for teammates to motivate them.</text>
+          <source_dia_id>D21:16</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="22" datetime="7:42 pm on 8 December, 2023" summary="Tim and John, who are both passionate about Harry Potter, discussed their recent activities at 7:42 pm on 8 December, 2023. Tim shared his experience at a Harry Potter party where he wore a Gryffindor scarf and enjoyed meeting like-minded people. John talked about his recent basketball games, emphasizing the camaraderie and unity within his team. They also discussed their reading preferences, with John recommending &quot;Dune&quot; by Frank Herbert and Tim recommending &quot;A Dance with Dragons&quot;. They both expressed interest in each other's recommendations and wished each other a great day, ending the conversation on a positive note.">
+        <Observation>
+          <text>John attended a charity event with Harry Potter trivia in August and enjoys Harry Potter.</text>
+          <source_dia_id>D22:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's basketball team recently played a tough game against a top team and won.</text>
+          <source_dia_id>D22:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is currently reading 'Dune' by Frank Herbert, a story about religion and human control over ecology.</text>
+          <source_dia_id>D22:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is open to reading George R. R. Martin's books after Tim recommended them.</text>
+          <source_dia_id>D22:16</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="23" datetime="8:28 pm on 11 December, 2023" summary="John and Tim, who met at 8:28 pm on 11 December 2023, had a conversation where Tim shared about his English lit class struggles and John talked about his recent career-high in assists. John described a thrilling game against their rivals and reminisced about a buzzer-beater shot. They discussed the power of sports and chasing dreams, inspiring and motivating each other before saying goodbye.">
+        <Observation>
+          <text>John had a career-high in assists last Friday during a big game against their rival.</text>
+          <source_dia_id>D23:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John hit a buzzer-beater shot to win a game when they were down 10 in the 4th quarter, which was one of their favorite thrilling sports moments.</text>
+          <source_dia_id>D23:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John used to practice basketball outside for hours when he was younger, dreaming of playing in big games.</text>
+          <source_dia_id>D23:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John values basketball as a meaningful part of his life that allows him to pursue his passions.</text>
+          <source_dia_id>D23:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="24" datetime="3:37 pm on 16 December, 2023" summary="At 3:37 pm on 16 December 2023, Tim and John caught up. John shared about a close basketball game his team won, which was thrilling for him. Tim admired John's dedication to the sport despite facing an injury recently. John revealed he was progressing well with his recovery and had a milestone moment jogging without pain. Tim congratulated him and encouraged him to stay positive. The two friends discussed the importance of staying motivated and supporting each other, ending their conversation on a positive note.">
+        <Observation>
+          <text>John talks about winning a b-ball game against another team that was close until the final buzzer.</text>
+          <source_dia_id>D24:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John injured himself recently, had to miss games, and couldn't help his team.</text>
+          <source_dia_id>D24:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John mentions that he does physical therapy exercises every day for his recovery.</text>
+          <source_dia_id>D24:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John shares that he had a milestone moment at the gym where he was able to jog without pain.</text>
+          <source_dia_id>D24:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John hosted a small get-together with friends and family to celebrate his recovery milestone.</text>
+          <source_dia_id>D24:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John appreciates Tim's support and encouragement, stating he will keep pushing and staying positive.</text>
+          <source_dia_id>D24:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="25" datetime="10:04 am on 19 December, 2023" summary="Tim and John caught up after a while at 10:04 am on 19 December, 2023. John shared his excitement about a deal with an outdoor gear company and a successful photoshoot in a beautiful forest. Tim admired the epic photos and discussed the peaceful spot that inspired John. John also mentioned his team's progress in basketball, especially in communication and bonding. Tim encouraged John to keep believing in himself before concluding their conversation.">
+        <Observation>
+          <text>John got an amazing deal with a renowned outdoor gear company last week, obtaining hiking stuff and top-notch outdoor gear.</text>
+          <source_dia_id>D25:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>The photoshoot John did in a gorgeous forest went really well, capturing him in epic shots.</text>
+          <source_dia_id>D25:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John stumbled upon a soothing spot by a river while hiking, feeling at peace and admiring nature's beauty.</text>
+          <source_dia_id>D25:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Things have been going great on the court for John and his team, putting in work and achieving their goals.</text>
+          <source_dia_id>D25:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's team has seen growth in communication and bonding during their training.</text>
+          <source_dia_id>D25:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John appreciates Tim's support and expresses thanks for the assistance.</text>
+          <source_dia_id>D25:16</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="26" datetime="3:35 pm on 26 December, 2023" summary="John and Tim caught up at 3:35 pm on 26 December, 2023. John shared about his busy week starting seminars to help people with sports and marketing, which went well. Tim mentioned reading traveler stories to plan his next adventure, including one about hiking in the Himalayas. They discussed the importance of challenges, their admiration for Emma Watson's advocacy, and how they use their platforms for good causes. John talked about supporting youth sports and creating opportunities for young athletes. Tim enjoys escaping in books and movies, particularly fantasy genres like &quot;The Lord of the Rings&quot;, and looks forward to a new TV series, &quot;The Wheel of Time&quot;. They both share a love for movie marathons and making a difference in the world.">
+        <Observation>
+          <text>John started doing seminars to help people with sports and marketing.</text>
+          <source_dia_id>D26:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John organized a basketball camp for kids in his hometown last summer, creating opportunities for young athletes.</text>
+          <source_dia_id>D26:23</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is passionate about supporting youth sports and fighting for fair chances in sports for underserved communities.</text>
+          <source_dia_id>D26:21</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John uses his influence and resources to help causes he believes in, particularly in making the world a better place.</text>
+          <source_dia_id>D26:19</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is a movie fan who enjoys seeing stories come alive on the big screen as a way to relax.</text>
+          <source_dia_id>D26:29</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="27" datetime="5:26 pm on 2 January, 2024" summary="Tim and John spoke at 5:26 pm on 2 January 2024. Tim mentioned his involvement in a globetrotting group and his interest in learning German. John shared his recent trip to Italy and knowledge of German and Spanish. They discussed language learning resources and shared their passion for reading and favorite fantasy books and movies, such as &quot;Harry Potter&quot; and &quot;Star Wars&quot; for Tim, and &quot;Lord of the Rings&quot; for John, with a particular focus on the character Aragorn. They highlighted the inspiration drawn from these stories and the importance of perseverance and leadership. Their conversation touched on the immersive nature of fantasy stories, traveling, and cultural exploration. John shared his painting of Aragorn as a reminder to be a leader, emphasizing the character's qualities of bravery and selflessness. They agreed on the educational and eye-opening aspects of both traveling and delving into fantasy worlds.">
+        <Observation>
+          <text>John has been to Italy and had a blast there last month.</text>
+          <source_dia_id>D27:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John knows a bit of German and Spanish which he finds useful for travel.</text>
+          <source_dia_id>D27:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John practices and trains in basketball daily as it is his passion.</text>
+          <source_dia_id>D27:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John loves reading and finds playing a game helps personal growth.</text>
+          <source_dia_id>D27:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's favorite book is The Alchemist which he finds magical and inspiring.</text>
+          <source_dia_id>D27:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's favorite fantasy film is Lord of the Rings for its adventure, world, and characters.</text>
+          <source_dia_id>D27:22</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John's favorite character from Lord of the Rings is Aragorn because of his growth and leadership.</text>
+          <source_dia_id>D27:24</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John has a painting in his room as a reminder to stay true and be a leader.</text>
+          <source_dia_id>D27:28</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="28" datetime="5:24 pm on 7 January, 2024" summary="Tim and John caught up at 5:24 pm on 7 January, 2024. Tim shared that he got accepted into a study abroad program and will be heading to Ireland for a semester, staying in Galway known for its arts and music. He expressed excitement about exploring the nature and visiting The Cliffs of Moher. John complimented Tim's plans and mentioned hosting a successful benefit basketball game. Tim praised John for making a positive impact through sports. They discussed books and Tim recommended &quot;The Name of the Wind&quot; by Patrick Rothfuss to John. They ended the conversation on a positive note, planning to stay in touch.">
+        <Observation>
+          <text>John held a benefit basketball game that was a success and raised money for charity.</text>
+          <source_dia_id>D28:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John expressed that basketball brings people together and creates a positive impact.</text>
+          <source_dia_id>D28:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is keen on stopping by The Cliffs of Moher after his season.</text>
+          <source_dia_id>D28:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John is adding 'The Name of the Wind' by Patrick Rothfuss to his reading list.</text>
+          <source_dia_id>D28:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="29" datetime="1:41 pm on 12 January, 2024" summary="Tim and John spoke at 1:41 pm on 12 January, 2024. Tim shared his excitement about researching visa requirements for upcoming travels, while John revealed his recent endorsement deal with a beverage company, expressing pride in his hard work paying off. Tim praised John's achievement, highlighting the importance of accomplishment and self-esteem boosts. John recommended Barcelona as a travel destination, which Tim happily added to his list. They concluded the conversation with Tim offering to return the favor and John offering support in the future.">
+        <Observation>
+          <text>John recently got an endorsement with a popular beverage company, which he describes as a dream come true.</text>
+          <source_dia_id>D29:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John feels that all the hard work he put in paid off with the endorsement deal.</text>
+          <source_dia_id>D29:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John believes that reaching a goal is rewarding and a sign of moving in the right direction.</text>
+          <source_dia_id>D29:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>John recommends Barcelona as a must-visit city for Tim, mentioning cultural exploration, architecture, food, and beaches as highlights.</text>
+          <source_dia_id>D29:12</source_dia_id>
+        </Observation>
+      </Session>
+    </Speaker>
+  </Conversation_Version>
+</Root>

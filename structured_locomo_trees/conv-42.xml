@@ -1,0 +1,1191 @@
+<?xml version="1.0" ?>
+<Root>
+  <Conversation_Version number="1" sample_id="conv-42" speaker_a="Joanna" speaker_b="Nate">
+    <patch_info>None</patch_info>
+    <conversation_history>Initial_Version</conversation_history>
+    <Speaker name="Joanna">
+      <Session session_id="1" datetime="7:31 pm on 21 January, 2022" summary="Nate and Joanna caught up at 7:31 pm on 21 January, 2022. Nate won his first video game tournament playing Counter-Strike: Global Offensive. Joanna enjoys writing, reading, movies, and nature. They found common interests in movies, with Nate liking action and sci-fi, while Joanna prefers dramas and romcoms. Joanna recommended a romantic drama to Nate, praising its storyline and acting. Nate promised to watch it and thanked Joanna for the suggestion.">
+        <Observation>
+          <text>Joanna has been working on a project recently.</text>
+          <source_dia_id>D1:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Besides writing, Joanna also enjoys reading, watching movies, and exploring nature as hobbies.</text>
+          <source_dia_id>D1:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna's favorite movie genres are dramas and romcoms as she enjoys getting immersed in feelings and plots.</text>
+          <source_dia_id>D1:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna recommended a romantic drama movie that focuses on memory and relationships.</text>
+          <source_dia_id>D1:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna watched a specific movie she recommended around 3 years ago and considers it one of her favorites.</text>
+          <source_dia_id>D1:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="2" datetime="2:01 pm on 23 January, 2022" summary="Joanna and Nate caught up on January 23, 2022, at 2:01 pm. Joanna excitedly shared that she had completed her first screenplay, a mix of drama and romance, and planned to submit it to film festivals. Nate congratulated her and mentioned his turtles, recommending pets for stress relief. Joanna, allergic to animals with fur and reptiles, shared her joy for writing and hanging out with friends. Nate praised her passion for writing, and Joanna expressed her commitment to continue pursuing it. Nate also mentioned making new friends at a tournament.">
+        <Observation>
+          <text>Joanna finished her first full screenplay last Friday, which is a mix of drama and romance.</text>
+          <source_dia_id>D2:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna plans to submit her screenplay to film festivals and hopes to attract producers and directors to check it out.</text>
+          <source_dia_id>D2:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna is allergic to most reptiles and animals with fur, causing her face to get puffy and itchy.</text>
+          <source_dia_id>D2:23</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Writing and hanging out with friends bring Joanna joy and help her express herself.</text>
+          <source_dia_id>D2:25</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Writing allows Joanna to create wild worlds with interesting characters and serves as a great way to express her feelings.</text>
+          <source_dia_id>D2:27</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="3" datetime="9:27 am on 7 February, 2022" summary="Joanna and Nate caught up at 9:27 am on 7 February, 2022. Joanna shared her mixed emotions about her screenplay submitted to a film festival and hoped it would make it to the big screen. Nate encouraged her, mentioning positive vibes. Joanna asked about Nate's life, and he talked about trying out coconut milk ice cream. They discussed flavors and Nate's dairy-free chocolate cake with berries. Nate recommended &quot;Little Women&quot; to Joanna, who enjoyed it. They agreed to exchange movie recommendations in the future. Both wished each other well and signed off.">
+        <Observation>
+          <text>Joanna submitted a screenplay to a film festival and is hoping a producer or director falls in love with it to get it on the big screen.</text>
+          <source_dia_id>D3:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna appreciates Nate's support for her screenplay and mentions that it means a lot to her.</text>
+          <source_dia_id>D3:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna seems curious about trying dairy-free desserts and flavors after Nate mentions making coconut milk ice cream.</text>
+          <source_dia_id>D3:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna enjoys the movie 'Little Women' and recommends it as a great story about sisterhood, love, and reaching for dreams.</text>
+          <source_dia_id>D3:17</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna is open to giving movie recommendations and discussing movies.</text>
+          <source_dia_id>D3:19</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="4" datetime="1:07 pm on 25 February, 2022" summary="Nate apologized for not being around, mentioning making ice cream for a friend at 1:07 pm on 25 February, 2022. Joanna expressed interest in Nate's ice cream, but mentioned being unable to have dairy. Nate offered to share a dairy-free recipe with Joanna. They discussed Joanna's new screenplay about self-discovery and loss, with Nate showing interest in the storyline. Joanna revealed it was inspired by personal experiences. Nate praised Joanna's courage and expressed excitement about both her new screenplay and the first one. Joanna hoped her screenplay would get noticed and thanked Nate for his support, with Nate wishing her luck.">
+        <Observation>
+          <text>Joanna can't have dairy.</text>
+          <source_dia_id>D4:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna is keen to try Nate's dairy-free dessert recipe.</text>
+          <source_dia_id>D4:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna is a writer and has written a screenplay.</text>
+          <source_dia_id>D4:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna has started writing another screenplay focused on self-discovery after a loss, inspired by personal experiences.</text>
+          <source_dia_id>D4:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna's new screenplay is about a thirty-year-old woman on a journey of self-discovery after a loss, inspired by personal experiences.</text>
+          <source_dia_id>D4:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna hopes her screenplay gets noticed and makes it to the screen.</text>
+          <source_dia_id>D4:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="5" datetime="6:59 pm on 18 March, 2022" summary="Joanna and Nate caught up at 6:59 pm on 18 March, 2022. Joanna shared her mixed emotions about finishing her second script while Nate encouraged her to believe in herself. They discussed the calming effects of Nate's pet turtles, but Joanna, allergic to certain animals, couldn't get pets. They talked about Joanna's script and the importance of hard work and support. Nate assured Joanna of his ongoing support as they signed off at the end of their conversation.">
+        <Observation>
+          <text>Joanna has completed her second script and is experiencing a mix of excitement and anxiety about its future.</text>
+          <source_dia_id>D5:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna finds it hard to switch off and experiences a tug-of-war between hope and doubt.</text>
+          <source_dia_id>D5:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna has done research and networking non-stop for her script and is determined to make it happen.</text>
+          <source_dia_id>D5:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna feels supported and motivated by having someone throughout the process.</text>
+          <source_dia_id>D5:19</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="6" datetime="1:43 pm on 24 March, 2022" summary="Nate and Joanna caught up at 1:43 pm on 24 March, 2022. Nate congratulated Joanna on her writing audition, which she found exciting but nerve-wracking. Nate encouraged Joanna and shared his intense experience in a video game tournament. Joanna advised Nate on pursuing writing by recommending reading widely and seeking feedback. Nate thanked Joanna for her advice and support, expressing determination to work hard. They both wished each other luck in their endeavors and said goodbye, vowing to keep striving for their dreams.">
+        <Observation>
+          <text>Joanna auditioned for a writing gig and had mixed emotions about it - excited but also anxious.</text>
+          <source_dia_id>D6:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna has a lot of books that she uses for writing inspiration.</text>
+          <source_dia_id>D6:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna's advice for someone pursuing writing includes reading lots, trying different genres, building a solid understanding of literature, and not being afraid to write and share.</text>
+          <source_dia_id>D6:10</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="7" datetime="7:37 pm on 15 April, 2022" summary="At 7:37 pm on 15 April 2022, Nate told Joanna he dyed his hair last week and invited her to see it. Joanna admired Nate's new hair color, and he explained he chose it to stand out. This inspired Joanna, who shared a story about a sunset she saw while hiking. They discussed upcoming plans, with Joanna focused on writing and Nate offering support. They agreed to stay in touch, with Nate suggesting they see each other soon. They bid goodbye, with Nate saying, &quot;Take care.&quot;">
+        <Observation>
+          <text>Joanna finds Nate's boldness inspiring and relates it to a gorgeous sunset she saw while hiking.</text>
+          <source_dia_id>D7:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna is currently consumed by her writing and is hoping for good news soon.</text>
+          <source_dia_id>D7:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna appreciates Nate's support for her writing projects.</text>
+          <source_dia_id>D7:10</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="8" datetime="6:44 pm on 17 April, 2022" summary="Nate and Joanna caught up at 6:44 pm on 17 April, 2022. They discussed reading books, hiking trails, and the calming effect of nature. Nate shared his love for his pets, including turtles, and his dairy-free ice cream recipe with Joanna. Joanna expressed interest in trying the recipe and promised to update Nate on the results.">
+        <Observation>
+          <text>Joanna has been reading a lot of books in the past week and rediscovered good books she owned.</text>
+          <source_dia_id>D8:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna found an awesome hiking trail in her hometown that she considers gorgeous and inspiring.</text>
+          <source_dia_id>D8:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna finds nature to be calming and a way to reset, with worries and stress vanishing when she is surrounded by its beauty.</text>
+          <source_dia_id>D8:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna loves nature and considers it her haven, finding peace and enjoyment in walking in it and feeling its calming effects.</text>
+          <source_dia_id>D8:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna is lactose intolerant.</text>
+          <source_dia_id>D8:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna is interested in trying Nate's dairy-free ice cream recipe made with coconut milk, vanilla extract, sugar, and salt.</text>
+          <source_dia_id>D8:20</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="9" datetime="7:44 pm on 21 April, 2022" summary="At 7:44 pm on 21 April, 2022, Joanna informed Nate about joining a writers group that has been motivating and inspiring her. She is currently working on a script titled &quot;Finding Home.&quot; Nate shared his excitement for an upcoming gaming tournament, and they discussed their passions for writing, acting, and favorite movies and book series. Joanna planned to check out the book series recommended by Nate and expressed interest in possibly getting back to acting in the future. The conversation ended with warm goodbyes and well-wishes.">
+        <Observation>
+          <text>Joanna recently joined a writers group that she finds inspirational and supportive.</text>
+          <source_dia_id>D9:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna is working on a script called 'Finding Home' with her writing group, which she finds rewarding and emotional.</text>
+          <source_dia_id>D9:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna's first passion was acting, but now she feels she shines in writing.</text>
+          <source_dia_id>D9:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna enjoys dramas and emotionally-driven films.</text>
+          <source_dia_id>D9:9</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="10" datetime="11:54 am on 2 May, 2022" summary="Joanna and Nate caught up on 2nd May at 11:54 am. Joanna told Nate she enjoyed watching &quot;The Lord of the Rings&quot; Trilogy on his recommendation, and Nate agreed it's a great trilogy. Nate shared he has been focused on gaming, winning his second tournament in Street Fighter. Joanna praised Nate's gaming room and his recent success in tournaments. Nate appreciated Joanna's dairy-free dessert creations and they discussed their creative outlets. Nate encouraged Joanna to keep experimenting in the kitchen. They ended the conversation with Joanna saying she will continue trying new things and Nate bidding her goodbye.">
+        <Observation>
+          <text>Joanna watched 'The Lord of the Rings' Trilogy based on Nate's recommendation and found it awesome.</text>
+          <source_dia_id>D10:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna has been working on some projects and testing dairy-free dessert recipes for friends and family.</text>
+          <source_dia_id>D10:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna made a dairy-free vanilla cake with strawberry filling and coconut cream frosting.</text>
+          <source_dia_id>D10:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Cooking and baking are Joanna's creative outlets, and she enjoys experimenting in the kitchen.</text>
+          <source_dia_id>D10:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="11" datetime="3:35 pm on 12 May, 2022" summary="Joanna and Nate conversed at 3:35 pm on 12 May, 2022. Joanna shared her exciting hiking experience at Whispering Falls with Nate, who admired her photo and expressed interest in joining her on a hike in the future. They discussed how nature inspires creativity, with Joanna mentioning how hiking has transformed her and Nate considering writing a screenplay. They concluded their conversation with plans to go on a hike together in the future.">
+        <Observation>
+          <text>Joanna enjoys hiking and found some amazing trails in her town.</text>
+          <source_dia_id>D11:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna took a photo at Whispering Falls, a beautiful and peaceful location.</text>
+          <source_dia_id>D11:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna feels calm and peaceful in nature, particularly during her hikes.</text>
+          <source_dia_id>D11:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Hiking has opened up a whole new world for Joanna, and she feels like a different person now.</text>
+          <source_dia_id>D11:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna feels inspired by nature and finds it calming to be surrounded by its beauty.</text>
+          <source_dia_id>D11:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna feels like she could write a whole movie when she is in inspiring places like the trails she visits.</text>
+          <source_dia_id>D11:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>In inspiring places like the trails, Joanna feels like writing a drama.</text>
+          <source_dia_id>D11:15</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="12" datetime="7:49 pm on 20 May, 2022" summary="Nate and Joanna caught up at 7:49 pm on 20 May, 2022. Nate shared about his new adopted pet, Max, bringing joy to his life. Joanna, allergic to pets, finds solace in writing and creative projects. She showed Nate her latest work on loss and identity, appreciated his support, and valued their friendship. Nate commended Joanna for her bravery in exploring personal topics. The conversation ended with mutual encouragement to pursue dreams and talents.">
+        <Observation>
+          <text>Joanna finds comfort in writing and creative projects during tough times.</text>
+          <source_dia_id>D12:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna has supportive friends who appreciate her work and with whom she can discuss and receive feedback.</text>
+          <source_dia_id>D12:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna has written at least three personal stories, with the latest one being about loss, identity, and connection.</text>
+          <source_dia_id>D12:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna believes that meaningful and powerful stories stem from personal experiences and feelings, even if they are challenging to write about.</text>
+          <source_dia_id>D12:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna values Nate's support and finds it encouraging in her creative endeavors.</text>
+          <source_dia_id>D12:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="13" datetime="3:00 pm on 25 May, 2022" summary="At 3:00 pm on 25 May 2022, Nate and Joanna caught up after a long time. Nate shared his encounter with a friendly couple during a walk with his dog, leading to plans for doggy playdates. Joanna expressed how uplifting connecting with other pet owners can be. They discussed the joy of watching their pets play and the importance of finding happiness in small things. Nate gifted Joanna a stuffed animal to bring her joy. They agreed that cherishing happy moments is crucial, especially during tough times. Joanna mentioned her screenplay and the role of joyful moments in making the journey worthwhile. Nate offered support and encouragement, emphasizing the importance of enjoying the journey and staying focused on dreams. Joanna valued Nate's support and promised to keep him updated on her progress.">
+        <Observation>
+          <text>Joanna values the moments that bring happiness and remind her that life is great.</text>
+          <source_dia_id>D13:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna finds having a peaceful presence or something to come home to for a sense of calm helpful for relaxation.</text>
+          <source_dia_id>D13:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna cherishes the stuffed animal gifted to her by Nate with all her heart.</text>
+          <source_dia_id>D13:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna reflects on the tough times finishing her screenplay and realizes that the joyful moments make the journey worth it.</text>
+          <source_dia_id>D13:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna values Nate's opinion and looks forward to showing him something.</text>
+          <source_dia_id>D13:20</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna appreciates Nate's support and expresses her gratitude for it.</text>
+          <source_dia_id>D13:22</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="14" datetime="5:44 pm on 3 June, 2022" summary="Joanna shared with Nate that she received a rejection letter for her screenplay, feeling discouraged. Nate comforted her, advising not to give up on her dreams. He encouraged her to stay positive and keep believing in herself. They discussed the generic rejection letter Joanna received without feedback. Nate shared his recent victory in a video game tournament, which boosted his confidence. Joanna congratulated him and admired his dedication to gaming. They expressed support for each other's endeavors and made plans for their respective weekends. Nate planned a gaming party and mentioned providing custom controller decorations for guests. Joanna wished him the best for the party, and they parted ways, each looking forward to their own activities.">
+        <Observation>
+          <text>Joanna finished a screenplay but received a rejection letter from a major company.</text>
+          <source_dia_id>D14:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna appreciates Nate's kind words and encouragement.</text>
+          <source_dia_id>D14:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna is planning to go hiking with buddies to check out a new trail with a rad waterfall on the weekend.</text>
+          <source_dia_id>D14:19</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="15" datetime="2:12 pm on 5 June, 2022" summary="On June 5th, 2022, at 2:12 pm, Joanna excitedly shared with Nate that her screenplay bits were on the big screen, feeling inspired but nervous. Nate congratulated her, mentioning her Spider-Man pin. They discussed their favorite superheroes, with Joanna loving Spider-Man for his struggles and Nate admiring Iron Man for his tech and humor. They both found inspiration in their favorite things, with Joanna's cork board filled with motivation. Nate expressed interest in making his own cork board and they bid each other goodbye.">
+        <Observation>
+          <text>Joanna wrote bits for a screenplay that appeared on the big screen, which was nerve-wracking but inspiring.</text>
+          <source_dia_id>D15:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna has a Spider-Man pin on her purse, indicating she likes Spider-Man as a favorite superhero.</text>
+          <source_dia_id>D15:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna is a fan of superheroes in general, finding each one's story and powers fascinating.</text>
+          <source_dia_id>D15:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna's room has a cork board full of inspiring quotes and pictures for motivation and creativity.</text>
+          <source_dia_id>D15:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna has a picture of her family on her cork board which serves as a reminder of their love and encouragement.</text>
+          <source_dia_id>D15:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="16" datetime="10:55 am on 24 June, 2022" summary="Joanna and Nate caught up at 10:55 am on 24 June, 2022. Joanna submitted her screenplay to a film contest, and Nate's gaming party was successful. Nate shared about making vegan ice cream and Joanna wanted the recipe. They agreed to share it the next day. Joanna planned to make it for her family. Nate offered support, and Joanna promised to keep him updated. Nate wished her a great day and told her to take care.">
+        <Observation>
+          <text>Joanna submitted her screenplay to a film contest recently.</text>
+          <source_dia_id>D16:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna showed interest in Nate's controller accessories for gaming.</text>
+          <source_dia_id>D16:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna expressed excitement to receive Nate's vegan ice cream recipe.</text>
+          <source_dia_id>D16:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna mentioned her family enjoys it when she makes them new things.</text>
+          <source_dia_id>D16:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna appreciates Nate's support for her ice cream making.</text>
+          <source_dia_id>D16:15</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="17" datetime="2:34 pm on 10 July, 2022" summary="Nate shared his recent victory in a video game tournament, winning for the fourth time and being proud to make money doing what he loves. Joanna congratulated him, mentioning her road trip to Woodhaven during his tournament. Nate showed interest in her discoveries, and Joanna talked about finding an old book with stories and sketches that inspired her next script. They exchanged words of encouragement and support, with Nate praising Joanna's talent and Joanna expressing excitement about her new script and book. Nate encouraged her to believe in herself and her talent. Joanna appreciated his support and stated her determination to continue working hard.">
+        <Observation>
+          <text>Joanna took a road trip to Woodhaven, a small town in the Midwest, for research for her next movie.</text>
+          <source_dia_id>D17:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna found a super cool book from the 1900s with stories and sketches during her trip, inspiring her next script.</text>
+          <source_dia_id>D17:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna's new script is different from her previous work but has the potential to be something awesome.</text>
+          <source_dia_id>D17:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna started working on a book recently after her movie did well. The book explores themes of loss, redemption, and forgiveness.</text>
+          <source_dia_id>D17:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna mentioned that she has never really tried publishing a book, but this might be her first one.</text>
+          <source_dia_id>D17:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="18" datetime="6:12 pm on 14 August, 2022" summary="Joanna and Nate caught up at 6:12 pm on 14 August, 2022. Joanna shared her passion for writing as a form of solace and creativity, mentioning how it has become her escape. Nate found her writing inspiring and mentioned how words have a healing power. Joanna also talked about a touching moment when her writing had a positive impact on someone, making her realize the power of words. Nate started teaching people how to make dairy-free desserts and shared a new recipe with Joanna. She expressed excitement to try it and thanked him for sharing. They ended the conversation wishing each other well.">
+        <Observation>
+          <text>Joanna is heavily invested in writing projects and considers writing a huge part of her life.</text>
+          <source_dia_id>D18:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna finds solace and creativity in writing, considering it an escape and a way to express her feelings.</text>
+          <source_dia_id>D18:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Someone wrote Joanna a touching letter after reading an online blog post she made about a difficult moment in her life.</text>
+          <source_dia_id>D18:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna values the impact her writing has on others, mentioning that it keeps her going even on tough days.</text>
+          <source_dia_id>D18:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna is appreciative of Nate's support and kind words.</text>
+          <source_dia_id>D18:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna is excited to try Nate's dairy-free desserts and expresses gratitude for his willingness to share the recipe.</text>
+          <source_dia_id>D18:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna plans to surprise her family with Nate's dairy-free dessert.</text>
+          <source_dia_id>D18:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="19" datetime="10:57 am on 22 August, 2022" summary="Nate informed Joanna at 10:57 am on 22 August, 2022, that he won an international gaming tournament and is now able to pursue his passion as a career. Joanna congratulated Nate for his victory and praised him for turning his passion into a profession. They discussed Nate's pet turtles' new tank and Joanna sharing her writing with a group, both feeling proud of their achievements. Nate emphasized the importance of self-care and taking breaks, which Joanna agreed on. They exchanged book recommendations before wishing each other a good day and taking care.">
+        <Observation>
+          <text>Joanna shared her book with her writers group and received great feedback, indicating that her hard work is paying off.</text>
+          <source_dia_id>D19:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna celebrates achievements by making delicious treats.</text>
+          <source_dia_id>D19:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna emphasizes the importance of taking breaks and looking after herself for inspiration and mental health, focusing on finding balance.</text>
+          <source_dia_id>D19:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna enjoys relaxing and recharging with activities like long walks and reading.</text>
+          <source_dia_id>D19:10</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="20" datetime="6:03 pm on 5 September, 2022" summary="At 6:03 pm on 5 September 2022, Nate and Joanna catch up after a while. Nate mentions turtles, a setback in a video game tourney, and trying to stay positive. Joanna shares she revised an old recipe and made something new. Nate admires her dessert and asks how she is doing. Joanna mentions finding comfort in cooking. They discuss Joanna's experimentation with dairy-free dessert options like chocolate, raspberry, and coconut. Nate appreciates her inclusive approach and looks forward to more recipes. Joanna plans to share more recipes and seeks Nate's advice on dairy-free baking, to which Nate suggests substitutes like dairy-free margarine or coconut oil. They express excitement to cook together in the future. Joanna thanks Nate for his ideas and they say goodbye, with Joanna expressing her gratitude and looking forward to trying Nate's suggestions.">
+        <Observation>
+          <text>Joanna revises recipes to find comfort and get creative.</text>
+          <source_dia_id>D20:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna is experimenting with making dessert recipes yummier and more accessible.</text>
+          <source_dia_id>D20:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna is lactose intolerant and is trying out dairy-free options like coconut or almond milk in her dessert recipes.</text>
+          <source_dia_id>D20:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna makes desserts that work for everyone's diets, including dairy-free chocolate coconut cupcakes with raspberry frosting.</text>
+          <source_dia_id>D20:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna enjoys the company of a fellow chef in the kitchen and believes it brings people together.</text>
+          <source_dia_id>D20:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna is curious about more tips for dairy-free baking.</text>
+          <source_dia_id>D20:14</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="21" datetime="1:43 pm on 14 September, 2022" summary="At 1:43 pm on 14 September 2022, Joanna and Nate caught up, where Joanna shared her laptop crash frustration and Nate recommended backups. Nate shared his experience teaching vegan ice cream recipes on a cooking show. They discussed dairy-free desserts, with Joanna sharing a chocolate raspberry tart recipe and Nate favoring coconut milk ice cream. Joanna also mentioned a dairy-free chocolate cake and a blueberry dessert. They ended their chat on a friendly note, with Joanna offering to share more recipes and Nate expressing gratitude.">
+        <Observation>
+          <text>Joanna's laptop crashed last week, causing her to lose all her work which was a major blow.</text>
+          <source_dia_id>D21:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna now uses an external drive for backups to prevent losing work again.</text>
+          <source_dia_id>D21:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna made a delicious dessert with almond milk last Friday.</text>
+          <source_dia_id>D21:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna's favorite dairy-free sweet treat is a chocolate raspberry tart with almond flour crust, chocolate ganache, and fresh raspberries.</text>
+          <source_dia_id>D21:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna loves making dairy-free chocolate cake with raspberries for special occasions, using almond flour, coconut oil, chocolate, and raspberries.</text>
+          <source_dia_id>D21:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna enjoys making a dessert with blueberries, coconut milk, and a gluten-free crust, finding it creamy and delicious.</text>
+          <source_dia_id>D21:17</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="22" datetime="11:15 am on 6 October, 2022" summary="Joanna and Nate, conversing at 11:15 am on 6 October, 2022, shared updates on their recent achievements and interests. Joanna talked about her successful dairy-free recipe while Nate mentioned winning a video game tournament and earning money. They discussed the joy of having extra cash, watching movies, and supporting each other's endeavors, with Nate even creating something special for Joanna. They both expressed pride and encouragement in each other's accomplishments and concluded by sharing their mutual love for DIY projects before saying goodbye.">
+        <Observation>
+          <text>Joanna tried her newest dairy-free recipe and it was a winner with her family.</text>
+          <source_dia_id>D22:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna finished writing her book last week after putting in a ton of late nights and edits.</text>
+          <source_dia_id>D22:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna made a cute little bookmark for one of the ladies at her writing club.</text>
+          <source_dia_id>D22:19</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna loves DIYs.</text>
+          <source_dia_id>D22:21</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="23" datetime="10:58 am on 9 October, 2022" summary="Nate and Joanna spoke on 9 October, 2022, at 10:58 am. Nate shared his experience at a game convention where he met new people who shared his gaming interests. Joanna acknowledged the benefits of stepping out of comfort zones. They discussed how games can bond people and the impact of shared hobbies. Nate mentioned playing the game Catan at the convention, highlighting its competitive yet fun nature. Joanna appreciated the way games bring people together. They also talked about their favorite movies and games. Nate mentioned &quot;Inception&quot; and &quot;Cyberpunk 2077,&quot; while Joanna enjoyed a classic movie. They discussed the escapism movies provide and the importance of creating a cozy space at home. Joanna suggested getting a comfortable couch, fluffy blankets, and dim lights for a cozy living room setup. Nate found the advice helpful and mentioned implementing it. The conversation ended with a friendly farewell.">
+        <Observation>
+          <text>Joanna encourages Nate to continue exploring new things and stepping outside his comfort zone.</text>
+          <source_dia_id>D23:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna appreciates how games can bring people together and form strong relationships.</text>
+          <source_dia_id>D23:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna is curious about Nate's favorite game or movie and engages in discussions about them.</text>
+          <source_dia_id>D23:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna watched a classic movie recently that she found gripping and impactful, rating it 9 or 10 out of 10.</text>
+          <source_dia_id>D23:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna enjoys creating a cozy and comfortable living room environment, suggesting specific items like a fluffy couch and a weighted blanket to Nate.</text>
+          <source_dia_id>D23:26</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="24" datetime="2:01 pm on 21 October, 2022" summary="Nate and Joanna caught up at 2:01 pm on 21 October, 2022. Joanna shared about perfecting a family recipe and the significance of a stuffed animal dog named Tilly. Nate mentioned his stress from tough competitors in a tournament but found joy in his turtles. They discussed how pets bring happiness and shared recent activities. Joanna mentioned a recent setback with a production company rejection, but Nate offered support and encouragement. They both expressed determination to keep pushing forward. Nate reassured Joanna of his support, and they ended the conversation with positive affirmations.">
+        <Observation>
+          <text>Joanna has been revising and perfecting a recipe for her family.</text>
+          <source_dia_id>D24:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna has a stuffed animal dog named Tilly that was a gift from Nate.</text>
+          <source_dia_id>D24:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna had a dog named Tilly back in Michigan but had to give her away due to allergies.</text>
+          <source_dia_id>D24:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna recently faced a setback - another rejection from a production company.</text>
+          <source_dia_id>D24:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna remains determined and resilient despite rejections, aiming to keep grinding and moving ahead.</text>
+          <source_dia_id>D24:14</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="25" datetime="8:16 pm on 25 October, 2022" summary="At 8:16 pm on 25 October 2022, Nate asked Joanna how she's been. Joanna shared her excitement about having her script shown on the big screen for the first time, expressing a mix of emotions and satisfaction. Nate congratulated her and Joanna described the surreal experience of seeing her work come to life. The two discussed characters, with Joanna explaining her inspiration and Nate praising her drawings. They also talked about Nate's turtles and their varied diet. Joanna found it fascinating and admired how Nate's turtles have different personalities. The conversation ended with Nate expressing his love for turtles and Joanna looking forward to hearing more about them in the future.">
+        <Observation>
+          <text>Joanna recently had a movie script she contributed to shown on the big screen for the first time.</text>
+          <source_dia_id>D25:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna feels a mix of emotions but overall satisfaction after seeing her script on the big screen.</text>
+          <source_dia_id>D25:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna's characters she wrote coming alive on screen was a cool and surreal experience for her.</text>
+          <source_dia_id>D25:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna creates visuals of her characters to help bring them alive in her head for better writing.</text>
+          <source_dia_id>D25:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna gets ideas for her characters from various sources like people she knows, things she sees, and her imagination.</text>
+          <source_dia_id>D25:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna's character visuals are used as a tool to visualize their wants, worries, and wishes.</text>
+          <source_dia_id>D25:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna finds it cool to see how an idea transforms into a person with unique traits.</text>
+          <source_dia_id>D25:10</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="26" datetime="3:56 pm on 4 November, 2022" summary="At 3:56 pm on November 4, 2022, Joanna excitedly told Nate about setting up meetings with movie producers, leading to Nate's congratulatory response about her hard work. Joanna described the positive producer meetings, feeling validated and hopeful. Nate compared her success to winning a video game tournament. They discussed Joanna's earlier writings and passion for writing, including a childhood story about a brave turtle. Nate expressed admiration for her perseverance and encouraged her to keep pushing herself. They exchanged updates on their current projects. Nate invited Joanna over to try a lactose-free dish he made, and they planned to share desserts the next day. Joanna agreed to bring her chocolate and raspberry cake. They bid farewell, looking forward to their meeting.">
+        <Observation>
+          <text>Joanna set up meetings with movie producers and feels her dreams are coming true.</text>
+          <source_dia_id>D26:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna discussed her script and vision with producers and they liked the elements of self-discovery in it.</text>
+          <source_dia_id>D26:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna found old notebooks with her early writings and feels appreciative of her progress as a writer.</text>
+          <source_dia_id>D26:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna's early writings include a story about a brave little turtle who explores the world despite being scared, reflecting themes of courage and risk-taking.</text>
+          <source_dia_id>D26:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna is working on a challenging but fulfilling project apart from her meetings.</text>
+          <source_dia_id>D26:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna is grateful for Nate's support and encouragement.</text>
+          <source_dia_id>D26:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna agreed to go to Nate's place and bring dessert recipes to share with him.</text>
+          <source_dia_id>D26:19</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna has a chocolate and raspberry cake recipe that Nate is interested in trying.</text>
+          <source_dia_id>D26:22</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="27" datetime="8:10 pm on 7 November, 2022" summary="Nate and Joanna talked at 8:10 pm on 7 November, 2022. Nate won a Valorant tournament last Saturday, while Joanna finished a presentation for producers on Friday. Nate is preparing for more tournaments and enjoys being busy. Joanna is working on a new movie script and has submitted scripts recently. They both value creating and cherishing memories. Nate has turtles and upgraded his gaming setup. Joanna enjoys writing and recalls childhood memories fondly. They encourage each other to pursue their dreams and make more memories together.">
+        <Observation>
+          <text>Joanna finished a presentation for producers last Friday.</text>
+          <source_dia_id>D27:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna is writing a movie script, a love story with lots of challenges.</text>
+          <source_dia_id>D27:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna submitted a few scripts last week and expects some rejections.</text>
+          <source_dia_id>D27:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna finds happiness and fulfillment in writing.</text>
+          <source_dia_id>D27:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna incorporates memories and childhood experiences into her writing.</text>
+          <source_dia_id>D27:30</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="28" datetime="5:54 pm on 9 November, 2022" summary="At 5:54 pm on 9 November 2022, Nate and Joanna had a conversation about their recent activities and future plans. Nate mentioned trying out cooking due to a game tournament delay and showed Joanna his homemade coconut ice cream. He didn't make it to the finals in the last tournament but was positive about the next one and considering joining a new gaming team. Joanna shared that she pitched a script to producers and got positive feedback, boosting her confidence. Nate talked about creating gaming content for YouTube, while Joanna worked on a new suspenseful thriller script. They discussed supporting each other's goals and shared hobbies, including nature photography and turtle-keeping. Joanna planned to visit Nate to watch him play with the turtles from a distance due to her allergy. They made plans to hang out and parted ways, with Nate promising to bathe the turtles before her visit. Joanna said, &quot;See you tomorrow,&quot; and Nate replied, &quot;Bye Joanna.&quot;">
+        <Observation>
+          <text>Joanna worked on a script and pitched it to producers who liked it.</text>
+          <source_dia_id>D28:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna is working on a new project - a suspenseful thriller set in a small Midwestern town.</text>
+          <source_dia_id>D28:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna encouraged Nate to watch other people's videos before making his own for YouTube.</text>
+          <source_dia_id>D28:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna took a beautiful sunset picture on a hike near Fort Wayne last summer.</text>
+          <source_dia_id>D28:22</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna is allergic to turtles but expresses interest in watching Nate play with them.</text>
+          <source_dia_id>D28:28</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="29" datetime="12:06 am on 11 November, 2022" summary="Joanna excitedly shared with Nate at 12:06 am on 11 November, 2022, that she was filming her own movie from a road-trip script. Nate congratulated her, mentioning it's not surprising due to her hard work. Joanna was thrilled to see her script come to life on set daily. She shared that an actor complimenting her script was a highlight. Nate then recounted a peaceful trip with his turtles to the beach in Tampa. Joanna praised the turtles, saying they looked serene. Nate likened turtles to zen masters for their calming effect. Nate then showed Joanna his colorful coconut milk ice cream bowls and offered her a taste. Joanna expressed interest in trying it, and the conversation ended on a positive note as they caught up and bid each other farewell.">
+        <Observation>
+          <text>Joanna is filming her own movie based on a road-trip script.</text>
+          <source_dia_id>D29:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>One of the actors on Joanna's movie set told her how much she liked her script, which gave Joanna chills.</text>
+          <source_dia_id>D29:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Joanna finds it awesome to be able to show her vision in the movie she's filming.</text>
+          <source_dia_id>D29:3</source_dia_id>
+        </Observation>
+      </Session>
+    </Speaker>
+    <Speaker name="Nate">
+      <Session session_id="1" datetime="7:31 pm on 21 January, 2022" summary="Nate and Joanna caught up at 7:31 pm on 21 January, 2022. Nate won his first video game tournament playing Counter-Strike: Global Offensive. Joanna enjoys writing, reading, movies, and nature. They found common interests in movies, with Nate liking action and sci-fi, while Joanna prefers dramas and romcoms. Joanna recommended a romantic drama to Nate, praising its storyline and acting. Nate promised to watch it and thanked Joanna for the suggestion.">
+        <Observation>
+          <text>Nate won his first video game tournament playing a team shooter game called Counter-Strike: Global Offensive.</text>
+          <source_dia_id>D1:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate's main hobbies are playing video games and watching movies.</text>
+          <source_dia_id>D1:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate enjoys action and sci-fi movies for their cool effects.</text>
+          <source_dia_id>D1:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="2" datetime="2:01 pm on 23 January, 2022" summary="Joanna and Nate caught up on January 23, 2022, at 2:01 pm. Joanna excitedly shared that she had completed her first screenplay, a mix of drama and romance, and planned to submit it to film festivals. Nate congratulated her and mentioned his turtles, recommending pets for stress relief. Joanna, allergic to animals with fur and reptiles, shared her joy for writing and hanging out with friends. Nate praised her passion for writing, and Joanna expressed her commitment to continue pursuing it. Nate also mentioned making new friends at a tournament.">
+        <Observation>
+          <text>Nate has had turtles for 3 years that bring him joy and help keep him calm during stressful times.</text>
+          <source_dia_id>D2:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate enjoys hanging out with people outside of his usual circle at the tournament.</text>
+          <source_dia_id>D2:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate tends to stick around more chill people at the tournament due to varying levels of competitiveness.</text>
+          <source_dia_id>D2:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate does not expect to win big at the tournament but plays for fun and likes cheering on others.</text>
+          <source_dia_id>D2:20</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="3" datetime="9:27 am on 7 February, 2022" summary="Joanna and Nate caught up at 9:27 am on 7 February, 2022. Joanna shared her mixed emotions about her screenplay submitted to a film festival and hoped it would make it to the big screen. Nate encouraged her, mentioning positive vibes. Joanna asked about Nate's life, and he talked about trying out coconut milk ice cream. They discussed flavors and Nate's dairy-free chocolate cake with berries. Nate recommended &quot;Little Women&quot; to Joanna, who enjoyed it. They agreed to exchange movie recommendations in the future. Both wished each other well and signed off.">
+        <Observation>
+          <text>Nate supports Joanna's screenplay submission to the film festival and sends positive vibes wishing for its success.</text>
+          <source_dia_id>D3:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate tried making coconut milk ice cream, found it delicious, and is looking forward to trying different flavors and toppings.</text>
+          <source_dia_id>D3:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate mentions enjoying chocolate and mixed berry flavors for dairy-free desserts.</text>
+          <source_dia_id>D3:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate made a dairy-free chocolate cake with berries, showcasing his talent in the kitchen.</text>
+          <source_dia_id>D3:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate is open to trying out new flavors and experimenting in the kitchen.</text>
+          <source_dia_id>D3:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate appreciates Joanna's movie recommendation and expresses interest in watching 'Little Women'.</text>
+          <source_dia_id>D3:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="4" datetime="1:07 pm on 25 February, 2022" summary="Nate apologized for not being around, mentioning making ice cream for a friend at 1:07 pm on 25 February, 2022. Joanna expressed interest in Nate's ice cream, but mentioned being unable to have dairy. Nate offered to share a dairy-free recipe with Joanna. They discussed Joanna's new screenplay about self-discovery and loss, with Nate showing interest in the storyline. Joanna revealed it was inspired by personal experiences. Nate praised Joanna's courage and expressed excitement about both her new screenplay and the first one. Joanna hoped her screenplay would get noticed and thanked Nate for his support, with Nate wishing her luck.">
+        <Observation>
+          <text>Nate made chocolate and vanilla swirl ice cream for a friend.</text>
+          <source_dia_id>D4:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate enjoys baking desserts and is all about them.</text>
+          <source_dia_id>D4:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate bakes desserts that Joanna loves.</text>
+          <source_dia_id>D4:9</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="5" datetime="6:59 pm on 18 March, 2022" summary="Joanna and Nate caught up at 6:59 pm on 18 March, 2022. Joanna shared her mixed emotions about finishing her second script while Nate encouraged her to believe in herself. They discussed the calming effects of Nate's pet turtles, but Joanna, allergic to certain animals, couldn't get pets. They talked about Joanna's script and the importance of hard work and support. Nate assured Joanna of his ongoing support as they signed off at the end of their conversation.">
+        <Observation>
+          <text>Nate finds turtles unique, calming, and low-maintenance as pets.</text>
+          <source_dia_id>D5:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate believes in Joanna's hard work and passion for her scripts, encouraging her to believe in herself.</text>
+          <source_dia_id>D5:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate suggests Joanna consider other animals due to her allergies, and offers to send her pictures of his turtles.</text>
+          <source_dia_id>D5:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate supports and motivates Joanna throughout the conversation.</text>
+          <source_dia_id>D5:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate emphasizes the importance of not quitting and assures Joanna that the next steps will become clearer.</text>
+          <source_dia_id>D5:18</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate expresses that his support for Joanna is important and that he is there for her.</text>
+          <source_dia_id>D5:20</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="6" datetime="1:43 pm on 24 March, 2022" summary="Nate and Joanna caught up at 1:43 pm on 24 March, 2022. Nate congratulated Joanna on her writing audition, which she found exciting but nerve-wracking. Nate encouraged Joanna and shared his intense experience in a video game tournament. Joanna advised Nate on pursuing writing by recommending reading widely and seeking feedback. Nate thanked Joanna for her advice and support, expressing determination to work hard. They both wished each other luck in their endeavors and said goodbye, vowing to keep striving for their dreams.">
+        <Observation>
+          <text>Nate is participating in a video game tournament that he finds intense.</text>
+          <source_dia_id>D6:7</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="7" datetime="7:37 pm on 15 April, 2022" summary="At 7:37 pm on 15 April 2022, Nate told Joanna he dyed his hair last week and invited her to see it. Joanna admired Nate's new hair color, and he explained he chose it to stand out. This inspired Joanna, who shared a story about a sunset she saw while hiking. They discussed upcoming plans, with Joanna focused on writing and Nate offering support. They agreed to stay in touch, with Nate suggesting they see each other soon. They bid goodbye, with Nate saying, &quot;Take care.&quot;">
+        <Observation>
+          <text>Nate dyed his hair a bright and bold color last week to stand out.</text>
+          <source_dia_id>D7:5</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="8" datetime="6:44 pm on 17 April, 2022" summary="Nate and Joanna caught up at 6:44 pm on 17 April, 2022. They discussed reading books, hiking trails, and the calming effect of nature. Nate shared his love for his pets, including turtles, and his dairy-free ice cream recipe with Joanna. Joanna expressed interest in trying the recipe and promised to update Nate on the results.">
+        <Observation>
+          <text>Nate has turtles as pets that he loves watching and spending time with.</text>
+          <source_dia_id>D8:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate's pets provide him with peaceful moments and help him take a break from reality.</text>
+          <source_dia_id>D8:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate enjoys engaging in hobbies that revolve around spending time with his pets.</text>
+          <source_dia_id>D8:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate makes dairy-free ice cream using coconut milk, vanilla extract, sugar, and a pinch of salt.</text>
+          <source_dia_id>D8:19</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="9" datetime="7:44 pm on 21 April, 2022" summary="At 7:44 pm on 21 April, 2022, Joanna informed Nate about joining a writers group that has been motivating and inspiring her. She is currently working on a script titled &quot;Finding Home.&quot; Nate shared his excitement for an upcoming gaming tournament, and they discussed their passions for writing, acting, and favorite movies and book series. Joanna planned to check out the book series recommended by Nate and expressed interest in possibly getting back to acting in the future. The conversation ended with warm goodbyes and well-wishes.">
+        <Observation>
+          <text>Nate is participating in a gaming tournament next month, which will be his 4th one.</text>
+          <source_dia_id>D9:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate loves fantasy and sci-fi movies as they inspire his imagination.</text>
+          <source_dia_id>D9:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate recommended a series with adventures, magic, and great characters to Joanna.</text>
+          <source_dia_id>D9:14</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="10" datetime="11:54 am on 2 May, 2022" summary="Joanna and Nate caught up on 2nd May at 11:54 am. Joanna told Nate she enjoyed watching &quot;The Lord of the Rings&quot; Trilogy on his recommendation, and Nate agreed it's a great trilogy. Nate shared he has been focused on gaming, winning his second tournament in Street Fighter. Joanna praised Nate's gaming room and his recent success in tournaments. Nate appreciated Joanna's dairy-free dessert creations and they discussed their creative outlets. Nate encouraged Joanna to keep experimenting in the kitchen. They ended the conversation with Joanna saying she will continue trying new things and Nate bidding her goodbye.">
+        <Observation>
+          <text>Nate believes 'The Lord of the Rings' Trilogy is probably the greatest trilogy of all time.</text>
+          <source_dia_id>D10:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate's focus has been on gaming, practicing a lot and winning tournaments, including winning his second tournament last week.</text>
+          <source_dia_id>D10:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate usually plays CS:GO but participated in a local Street Fighter tournament and discovered he is really good at it.</text>
+          <source_dia_id>D10:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate recommended coconut to Joanna in the past which she liked and mentioned during the conversation.</text>
+          <source_dia_id>D10:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="11" datetime="3:35 pm on 12 May, 2022" summary="Joanna and Nate conversed at 3:35 pm on 12 May, 2022. Joanna shared her exciting hiking experience at Whispering Falls with Nate, who admired her photo and expressed interest in joining her on a hike in the future. They discussed how nature inspires creativity, with Joanna mentioning how hiking has transformed her and Nate considering writing a screenplay. They concluded their conversation with plans to go on a hike together in the future.">
+        <Observation>
+          <text>Nate is interested in Joanna's hiking experiences and the photos she takes.</text>
+          <source_dia_id>D11:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate appreciates the calm and beauty of the nature spots Joanna visits.</text>
+          <source_dia_id>D11:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate acknowledges that nature can provide a break from the craziness of life.</text>
+          <source_dia_id>D11:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate gets deep in thought when he is out in nature and thinks about his life or new recipes.</text>
+          <source_dia_id>D11:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate is open to the idea of going hiking together with Joanna and possibly finding inspiration for a screenplay.</text>
+          <source_dia_id>D11:16</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="12" datetime="7:49 pm on 20 May, 2022" summary="Nate and Joanna caught up at 7:49 pm on 20 May, 2022. Nate shared about his new adopted pet, Max, bringing joy to his life. Joanna, allergic to pets, finds solace in writing and creative projects. She showed Nate her latest work on loss and identity, appreciated his support, and valued their friendship. Nate commended Joanna for her bravery in exploring personal topics. The conversation ended with mutual encouragement to pursue dreams and talents.">
+        <Observation>
+          <text>Nate has a new addition to the family, an adopted pet named Max who is full of energy and joy.</text>
+          <source_dia_id>D12:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate believes that pets bring happiness and joy into people's lives.</text>
+          <source_dia_id>D12:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate is supportive and encouraging towards Joanna's writing and creative projects.</text>
+          <source_dia_id>D12:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate acknowledges that Joanna likes to write about topics like sadness and loss.</text>
+          <source_dia_id>D12:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate is proud of Joanna for staying true to herself and exploring personal experiences in her writing.</text>
+          <source_dia_id>D12:17</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate supports Joanna and cheers her on in her creative journey.</text>
+          <source_dia_id>D12:19</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="13" datetime="3:00 pm on 25 May, 2022" summary="At 3:00 pm on 25 May 2022, Nate and Joanna caught up after a long time. Nate shared his encounter with a friendly couple during a walk with his dog, leading to plans for doggy playdates. Joanna expressed how uplifting connecting with other pet owners can be. They discussed the joy of watching their pets play and the importance of finding happiness in small things. Nate gifted Joanna a stuffed animal to bring her joy. They agreed that cherishing happy moments is crucial, especially during tough times. Joanna mentioned her screenplay and the role of joyful moments in making the journey worthwhile. Nate offered support and encouragement, emphasizing the importance of enjoying the journey and staying focused on dreams. Joanna valued Nate's support and promised to keep him updated on her progress.">
+        <Observation>
+          <text>Nate has a dog named Max that he enjoys taking for walks.</text>
+          <source_dia_id>D13:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate met a super nice couple with a dog during a walk and decided to do doggy playdates with them.</text>
+          <source_dia_id>D13:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate enjoys watching his dog play with other pets and finds joy in seeing his dog happy.</text>
+          <source_dia_id>D13:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate gifted Joanna a stuffed animal to remind her of good vibes.</text>
+          <source_dia_id>D13:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate believes in appreciating the little things in life that make it better.</text>
+          <source_dia_id>D13:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate is supportive of Joanna and expresses his support for her screenplay.</text>
+          <source_dia_id>D13:21</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="14" datetime="5:44 pm on 3 June, 2022" summary="Joanna shared with Nate that she received a rejection letter for her screenplay, feeling discouraged. Nate comforted her, advising not to give up on her dreams. He encouraged her to stay positive and keep believing in herself. They discussed the generic rejection letter Joanna received without feedback. Nate shared his recent victory in a video game tournament, which boosted his confidence. Joanna congratulated him and admired his dedication to gaming. They expressed support for each other's endeavors and made plans for their respective weekends. Nate planned a gaming party and mentioned providing custom controller decorations for guests. Joanna wished him the best for the party, and they parted ways, each looking forward to their own activities.">
+        <Observation>
+          <text>Nate won a regional video game tournament last week and met new people.</text>
+          <source_dia_id>D14:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate enjoys connecting with fellow gamers and helping them improve their game.</text>
+          <source_dia_id>D14:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate is organizing a gaming party two weekends later and is getting custom controller decorations for everyone.</text>
+          <source_dia_id>D14:20</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="15" datetime="2:12 pm on 5 June, 2022" summary="On June 5th, 2022, at 2:12 pm, Joanna excitedly shared with Nate that her screenplay bits were on the big screen, feeling inspired but nervous. Nate congratulated her, mentioning her Spider-Man pin. They discussed their favorite superheroes, with Joanna loving Spider-Man for his struggles and Nate admiring Iron Man for his tech and humor. They both found inspiration in their favorite things, with Joanna's cork board filled with motivation. Nate expressed interest in making his own cork board and they bid each other goodbye.">
+        <Observation>
+          <text>Nate thinks Iron Man is his top superhero pick due to loving his tech and sarcastic humor.</text>
+          <source_dia_id>D15:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate has an Iron Man figure in his room which reminds him to keep working on his goals.</text>
+          <source_dia_id>D15:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate is considering starting a cork board of his own after being impressed by Joanna's.</text>
+          <source_dia_id>D15:14</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="16" datetime="10:55 am on 24 June, 2022" summary="Joanna and Nate caught up at 10:55 am on 24 June, 2022. Joanna submitted her screenplay to a film contest, and Nate's gaming party was successful. Nate shared about making vegan ice cream and Joanna wanted the recipe. They agreed to share it the next day. Joanna planned to make it for her family. Nate offered support, and Joanna promised to keep him updated. Nate wished her a great day and told her to take care.">
+        <Observation>
+          <text>Nate hosted a successful gaming party with 7 attendees.</text>
+          <source_dia_id>D16:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate made vegan ice cream last Friday and shared it with his vegan diet group.</text>
+          <source_dia_id>D16:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate offered to share the vegan ice cream recipe with Joanna the next day.</text>
+          <source_dia_id>D16:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate expressed confidence that Joanna's family will love the ice cream.</text>
+          <source_dia_id>D16:14</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="17" datetime="2:34 pm on 10 July, 2022" summary="Nate shared his recent victory in a video game tournament, winning for the fourth time and being proud to make money doing what he loves. Joanna congratulated him, mentioning her road trip to Woodhaven during his tournament. Nate showed interest in her discoveries, and Joanna talked about finding an old book with stories and sketches that inspired her next script. They exchanged words of encouragement and support, with Nate praising Joanna's talent and Joanna expressing excitement about her new script and book. Nate encouraged her to believe in herself and her talent. Joanna appreciated his support and stated her determination to continue working hard.">
+        <Observation>
+          <text>Nate won his fourth video game tournament online and is proud to make money doing what he loves.</text>
+          <source_dia_id>D17:1</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="18" datetime="6:12 pm on 14 August, 2022" summary="Joanna and Nate caught up at 6:12 pm on 14 August, 2022. Joanna shared her passion for writing as a form of solace and creativity, mentioning how it has become her escape. Nate found her writing inspiring and mentioned how words have a healing power. Joanna also talked about a touching moment when her writing had a positive impact on someone, making her realize the power of words. Nate started teaching people how to make dairy-free desserts and shared a new recipe with Joanna. She expressed excitement to try it and thanked him for sharing. They ended the conversation wishing each other well.">
+        <Observation>
+          <text>Nate started teaching people how to make dairy-free desserts and finds it fun and rewarding.</text>
+          <source_dia_id>D18:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate has been making a creamy, rich, dairy-free dessert with a new recipe that he wants Joanna to try.</text>
+          <source_dia_id>D18:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate is supportive and enthusiastic about sharing his dairy-free dessert recipe with Joanna.</text>
+          <source_dia_id>D18:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate wishes Joanna luck with surprising her family with the dessert and looks forward to hearing about the outcome.</text>
+          <source_dia_id>D18:14</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="19" datetime="10:57 am on 22 August, 2022" summary="Nate informed Joanna at 10:57 am on 22 August, 2022, that he won an international gaming tournament and is now able to pursue his passion as a career. Joanna congratulated Nate for his victory and praised him for turning his passion into a profession. They discussed Nate's pet turtles' new tank and Joanna sharing her writing with a group, both feeling proud of their achievements. Nate emphasized the importance of self-care and taking breaks, which Joanna agreed on. They exchanged book recommendations before wishing each other a good day and taking care.">
+        <Observation>
+          <text>Nate won an international tournament in gaming, turning his passion into a career.</text>
+          <source_dia_id>D19:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate has pets that he refers to as his 'little dudes' and got them a new tank recently.</text>
+          <source_dia_id>D19:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate values taking time off to relax and chill with his pets.</text>
+          <source_dia_id>D19:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate mentioned that taking care of ourselves helps in being more creative and happier.</text>
+          <source_dia_id>D19:13</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="20" datetime="6:03 pm on 5 September, 2022" summary="At 6:03 pm on 5 September 2022, Nate and Joanna catch up after a while. Nate mentions turtles, a setback in a video game tourney, and trying to stay positive. Joanna shares she revised an old recipe and made something new. Nate admires her dessert and asks how she is doing. Joanna mentions finding comfort in cooking. They discuss Joanna's experimentation with dairy-free dessert options like chocolate, raspberry, and coconut. Nate appreciates her inclusive approach and looks forward to more recipes. Joanna plans to share more recipes and seeks Nate's advice on dairy-free baking, to which Nate suggests substitutes like dairy-free margarine or coconut oil. They express excitement to cook together in the future. Joanna thanks Nate for his ideas and they say goodbye, with Joanna expressing her gratitude and looking forward to trying Nate's suggestions.">
+        <Observation>
+          <text>Nate experienced a letdown in a video game tournament recently.</text>
+          <source_dia_id>D20:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate tried to stay positive despite the setback in the video game tournament.</text>
+          <source_dia_id>D20:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate finds comfort and gets creative by hanging out with cute turtles.</text>
+          <source_dia_id>D20:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate enjoys helping with making desserts that suit everyone's diets.</text>
+          <source_dia_id>D20:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate offers tips for dairy-free baking, such as using dairy-free margarine or coconut oil instead of butter.</text>
+          <source_dia_id>D20:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate is willing to help anytime Joanna needs baking tips.</text>
+          <source_dia_id>D20:17</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="21" datetime="1:43 pm on 14 September, 2022" summary="At 1:43 pm on 14 September 2022, Joanna and Nate caught up, where Joanna shared her laptop crash frustration and Nate recommended backups. Nate shared his experience teaching vegan ice cream recipes on a cooking show. They discussed dairy-free desserts, with Joanna sharing a chocolate raspberry tart recipe and Nate favoring coconut milk ice cream. Joanna also mentioned a dairy-free chocolate cake and a blueberry dessert. They ended their chat on a friendly note, with Joanna offering to share more recipes and Nate expressing gratitude.">
+        <Observation>
+          <text>Nate recently taught vegan ice cream recipes on his cooking show and learned some new recipes.</text>
+          <source_dia_id>D21:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate's favorite dish from his cooking show is coconut milk ice cream for its smooth, creamy, and dairy-free qualities.</text>
+          <source_dia_id>D21:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate also loves dairy-free chocolate mousse as it is super creamy and tastes like the real thing.</text>
+          <source_dia_id>D21:10</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate is interested in trying Joanna's dairy-free chocolate cake with raspberries and other recipes she likes making.</text>
+          <source_dia_id>D21:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate expresses interest in Joanna's dairy-free dessert with blueberries, coconut milk, and a gluten-free crust mentioning it looks amazing.</text>
+          <source_dia_id>D21:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="22" datetime="11:15 am on 6 October, 2022" summary="Joanna and Nate, conversing at 11:15 am on 6 October, 2022, shared updates on their recent achievements and interests. Joanna talked about her successful dairy-free recipe while Nate mentioned winning a video game tournament and earning money. They discussed the joy of having extra cash, watching movies, and supporting each other's endeavors, with Nate even creating something special for Joanna. They both expressed pride and encouragement in each other's accomplishments and concluded by sharing their mutual love for DIY projects before saying goodbye.">
+        <Observation>
+          <text>Nate won a really big video game tournament last week and made a lot of money from it.</text>
+          <source_dia_id>D22:2</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate watched 'Little Women' recently and found the acting and story captivating.</text>
+          <source_dia_id>D22:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate made something for Joanna to encourage her.</text>
+          <source_dia_id>D22:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate believes encouragement got him far in his gaming career.</text>
+          <source_dia_id>D22:18</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="23" datetime="10:58 am on 9 October, 2022" summary="Nate and Joanna spoke on 9 October, 2022, at 10:58 am. Nate shared his experience at a game convention where he met new people who shared his gaming interests. Joanna acknowledged the benefits of stepping out of comfort zones. They discussed how games can bond people and the impact of shared hobbies. Nate mentioned playing the game Catan at the convention, highlighting its competitive yet fun nature. Joanna appreciated the way games bring people together. They also talked about their favorite movies and games. Nate mentioned &quot;Inception&quot; and &quot;Cyberpunk 2077,&quot; while Joanna enjoyed a classic movie. They discussed the escapism movies provide and the importance of creating a cozy space at home. Joanna suggested getting a comfortable couch, fluffy blankets, and dim lights for a cozy living room setup. Nate found the advice helpful and mentioned implementing it. The conversation ended with a friendly farewell.">
+        <Observation>
+          <text>Nate attended a game convention last Friday and met new people who share his interests.</text>
+          <source_dia_id>D23:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate made friends at the convention who love games like him and planned a gaming session together.</text>
+          <source_dia_id>D23:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate joined in playing a board game at the convention with people who shared his interests and hit it off with them.</text>
+          <source_dia_id>D23:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate plays the game Catan and loves it for its strategy of building settlements and trading resources.</text>
+          <source_dia_id>D23:7</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate sees playing games as his escape from life struggles and doesn't get too competitive over them.</text>
+          <source_dia_id>D23:11</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate has been playing the game Cyberpunk 2077 nonstop recently and enjoys its futuristic setting and gameplay.</text>
+          <source_dia_id>D23:17</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="24" datetime="2:01 pm on 21 October, 2022" summary="Nate and Joanna caught up at 2:01 pm on 21 October, 2022. Joanna shared about perfecting a family recipe and the significance of a stuffed animal dog named Tilly. Nate mentioned his stress from tough competitors in a tournament but found joy in his turtles. They discussed how pets bring happiness and shared recent activities. Joanna mentioned a recent setback with a production company rejection, but Nate offered support and encouragement. They both expressed determination to keep pushing forward. Nate reassured Joanna of his support, and they ended the conversation with positive affirmations.">
+        <Observation>
+          <text>Nate is stressed due to tough competitors in his tournament progress.</text>
+          <source_dia_id>D24:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate has turtles as pets that always cheer him up.</text>
+          <source_dia_id>D24:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate practices for video game tournaments.</text>
+          <source_dia_id>D24:11</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="25" datetime="8:16 pm on 25 October, 2022" summary="At 8:16 pm on 25 October 2022, Nate asked Joanna how she's been. Joanna shared her excitement about having her script shown on the big screen for the first time, expressing a mix of emotions and satisfaction. Nate congratulated her and Joanna described the surreal experience of seeing her work come to life. The two discussed characters, with Joanna explaining her inspiration and Nate praising her drawings. They also talked about Nate's turtles and their varied diet. Joanna found it fascinating and admired how Nate's turtles have different personalities. The conversation ended with Nate expressing his love for turtles and Joanna looking forward to hearing more about them in the future.">
+        <Observation>
+          <text>Nate took his turtles out for a walk today and they are now relaxing in the tank.</text>
+          <source_dia_id>D25:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate's turtles have a varied diet including vegetables, fruits, and insects.</text>
+          <source_dia_id>D25:19</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate loves seeing his turtles eat fruit as they get excited and it's cute.</text>
+          <source_dia_id>D25:21</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate's turtles have different personalities: one is more adventurous while the other is more reserved.</text>
+          <source_dia_id>D25:25</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate has always liked turtles since he was a boy and finds them interesting.</text>
+          <source_dia_id>D25:27</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="26" datetime="3:56 pm on 4 November, 2022" summary="At 3:56 pm on November 4, 2022, Joanna excitedly told Nate about setting up meetings with movie producers, leading to Nate's congratulatory response about her hard work. Joanna described the positive producer meetings, feeling validated and hopeful. Nate compared her success to winning a video game tournament. They discussed Joanna's earlier writings and passion for writing, including a childhood story about a brave turtle. Nate expressed admiration for her perseverance and encouraged her to keep pushing herself. They exchanged updates on their current projects. Nate invited Joanna over to try a lactose-free dish he made, and they planned to share desserts the next day. Joanna agreed to bring her chocolate and raspberry cake. They bid farewell, looking forward to their meeting.">
+        <Observation>
+          <text>Nate mentions he likes winning recognition in video game tournaments and compares it to Joanna's recognition.</text>
+          <source_dia_id>D26:4</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate has been helping friends reset their high scores at an international tournament.</text>
+          <source_dia_id>D26:12</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate uses his gaming skills to make a difference and finds it rewarding.</text>
+          <source_dia_id>D26:14</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate invited Joanna to try a lactose-free dish he made with coconut milk.</text>
+          <source_dia_id>D26:16</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate is passionate about gaming and helping others with high scores.</text>
+          <source_dia_id>D26:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate is open to Joanna coming over to try his dish and share dessert recipes.</text>
+          <source_dia_id>D26:19</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="27" datetime="8:10 pm on 7 November, 2022" summary="Nate and Joanna talked at 8:10 pm on 7 November, 2022. Nate won a Valorant tournament last Saturday, while Joanna finished a presentation for producers on Friday. Nate is preparing for more tournaments and enjoys being busy. Joanna is working on a new movie script and has submitted scripts recently. They both value creating and cherishing memories. Nate has turtles and upgraded his gaming setup. Joanna enjoys writing and recalls childhood memories fondly. They encourage each other to pursue their dreams and make more memories together.">
+        <Observation>
+          <text>Nate won a big Valorant tournament making him the champion.</text>
+          <source_dia_id>D27:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate prepares for other tournaments and enjoys his job.</text>
+          <source_dia_id>D27:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate owns turtles that bring joy and calmness to his life.</text>
+          <source_dia_id>D27:9</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate upgraded some equipment at home for gaming purposes.</text>
+          <source_dia_id>D27:15</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate practices and competes on his computer for gaming.</text>
+          <source_dia_id>D27:17</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate is currently playing a fantasy RPG called &quot;Xenoblade Chronicles&quot; and recommends it.</text>
+          <source_dia_id>D27:23</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="28" datetime="5:54 pm on 9 November, 2022" summary="At 5:54 pm on 9 November 2022, Nate and Joanna had a conversation about their recent activities and future plans. Nate mentioned trying out cooking due to a game tournament delay and showed Joanna his homemade coconut ice cream. He didn't make it to the finals in the last tournament but was positive about the next one and considering joining a new gaming team. Joanna shared that she pitched a script to producers and got positive feedback, boosting her confidence. Nate talked about creating gaming content for YouTube, while Joanna worked on a new suspenseful thriller script. They discussed supporting each other's goals and shared hobbies, including nature photography and turtle-keeping. Joanna planned to visit Nate to watch him play with the turtles from a distance due to her allergy. They made plans to hang out and parted ways, with Nate promising to bathe the turtles before her visit. Joanna said, &quot;See you tomorrow,&quot; and Nate replied, &quot;Bye Joanna.&quot;">
+        <Observation>
+          <text>Nate's game tournament got pushed back, so he tried making homemade coconut ice cream.</text>
+          <source_dia_id>D28:1</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate did not make it to the finals of the last game tournament.</text>
+          <source_dia_id>D28:3</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate is considering joining a new gaming team after the next tournament.</text>
+          <source_dia_id>D28:5</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate is creating gaming content for YouTube when there are no tournaments.</text>
+          <source_dia_id>D28:13</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate has a third turtle as a pet and enjoys having turtles as companions.</text>
+          <source_dia_id>D28:25</source_dia_id>
+        </Observation>
+      </Session>
+      <Session session_id="29" datetime="12:06 am on 11 November, 2022" summary="Joanna excitedly shared with Nate at 12:06 am on 11 November, 2022, that she was filming her own movie from a road-trip script. Nate congratulated her, mentioning it's not surprising due to her hard work. Joanna was thrilled to see her script come to life on set daily. She shared that an actor complimenting her script was a highlight. Nate then recounted a peaceful trip with his turtles to the beach in Tampa. Joanna praised the turtles, saying they looked serene. Nate likened turtles to zen masters for their calming effect. Nate then showed Joanna his colorful coconut milk ice cream bowls and offered her a taste. Joanna expressed interest in trying it, and the conversation ended on a positive note as they caught up and bid each other farewell.">
+        <Observation>
+          <text>Nate took his turtles to the beach in Tampa and finds peace in their presence amid life's craziness.</text>
+          <source_dia_id>D29:6</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate loves having turtles around as they make him feel calm and don't require much looking after.</text>
+          <source_dia_id>D29:8</source_dia_id>
+        </Observation>
+        <Observation>
+          <text>Nate is currently experimenting with flavors and made colorful bowls of coconut milk ice cream.</text>
+          <source_dia_id>D29:10</source_dia_id>
+        </Observation>
+      </Session>
+    </Speaker>
+  </Conversation_Version>
+</Root>
