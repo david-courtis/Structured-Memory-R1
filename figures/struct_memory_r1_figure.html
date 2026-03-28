@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Struct Memory R1 – Three Trainable Components</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Linux+Libertine&family=Source+Sans+Pro:wght@300;400;600;700&family=Source+Code+Pro:wght@400;500&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0;
+  }
+
+  .figure-container {
+    width: 1600px;
+    height: 900px;
+    background: #ffffff;
+    position: relative;
+    overflow: hidden;
+    padding: 32px 40px 28px 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Title */
+  .figure-title {
+    font-family: 'Linux Libertine', 'Times New Roman', serif;
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+    letter-spacing: 0.3px;
+  }
+  .figure-title span {
+    font-variant: small-caps;
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+  .figure-subtitle {
+    font-size: 13px;
+    text-align: center;
+    color: #666;
+    margin-bottom: 18px;
+    font-weight: 300;
+  }
+
+  /* Main layout */
+  .main-content {
+    flex: 1;
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+  }
+
+  /* Stage labels */
+  .stage-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: relative;
+  }
+
+  .stage-label {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 5px 0;
+    margin-bottom: 8px;
+    border-radius: 4px;
+  }
+
+  /* Component cards */
+  .component-card {
+    flex: 1;
+    border-radius: 10px;
+    padding: 18px 20px 14px 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 1.5px solid;
+    background: #fff;
+  }
+
+  /* Color themes */
+  .memory-manager .stage-label { color: #5B21B6; background: #F5F3FF; }
+  .memory-manager .component-card { border-color: #C4B5FD; background: linear-gradient(180deg, #FAFAFE 0%, #F5F3FF 100%); }
+
+  .retrieval-agent .stage-label { color: #0369A1; background: #F0F9FF; }
+  .retrieval-agent .component-card { border-color: #93C5FD; background: linear-gradient(180deg, #FAFCFF 0%, #F0F9FF 100%); }
+
+  .answer-agent .stage-label { color: #B45309; background: #FFFBEB; }
+  .answer-agent .component-card { border-color: #FCD34D; background: linear-gradient(180deg, #FFFEF7 0%, #FFFBEB 100%); }
+
+  /* Card header */
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+  }
+  .card-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    flex-shrink: 0;
+  }
+  .memory-manager .card-icon { background: #EDE9FE; }
+  .retrieval-agent .card-icon { background: #DBEAFE; }
+  .answer-agent .card-icon { background: #FEF3C7; }
+
+  .card-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+  }
+  .card-desc {
+    font-size: 11.5px;
+    color: #888;
+    margin-top: 2px;
+    font-weight: 400;
+  }
+
+  /* Sections inside cards */
+  .card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .section {
+    border-radius: 8px;
+    padding: 10px 12px;
+  }
+  .section-label {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .section-label .icon {
+    font-size: 13px;
+    opacity: 0.8;
+  }
+
+  .section-content {
+    font-size: 12.5px;
+    color: #374151;
+    line-height: 1.55;
+  }
+  .section-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  .section-content li {
+    padding: 2px 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+  }
+  .section-content li::before {
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin-top: 6px;
+    flex-shrink: 0;
+  }
+
+  /* Section colors */
+  .input-section { background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.05); }
+  .input-section .section-label { color: #059669; }
+  .input-section li::before { background: #059669; }
+
+  .output-section { background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.05); }
+  .output-section .section-label { color: #DC2626; }
+  .output-section li::before { background: #DC2626; }
+
+  .action-section { background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.05); }
+  .action-section .section-label { color: #7C3AED; }
+
+  /* Action tags */
+  .action-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .action-tag {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 10.5px;
+    font-weight: 500;
+    padding: 3px 9px;
+    border-radius: 5px;
+    border: 1px solid;
+    white-space: nowrap;
+  }
+  .memory-manager .action-tag { background: #F5F3FF; border-color: #C4B5FD; color: #5B21B6; }
+  .retrieval-agent .action-tag { background: #EFF6FF; border-color: #93C5FD; color: #1D4ED8; }
+  .answer-agent .action-tag { background: #FFFBEB; border-color: #FCD34D; color: #92400E; }
+
+  /* Reward badge */
+  .reward-section {
+    margin-top: auto;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px dashed rgba(0,0,0,0.12);
+    background: rgba(255,255,255,0.5);
+  }
+  .reward-label {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #6B7280;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .reward-label .icon { font-size: 13px; }
+  .reward-content {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 11px;
+    color: #4B5563;
+    line-height: 1.5;
+  }
+
+  /* Arrow connectors between cards */
+  .arrows-overlay {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 10;
+  }
+
+  /* Training pipeline arrow at bottom */
+  .pipeline-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 14px;
+    padding: 8px 0;
+  }
+  .pipeline-step {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #374151;
+  }
+  .pipeline-step .num {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+  }
+  .pipeline-arrow {
+    font-size: 18px;
+    color: #9CA3AF;
+    margin: 0 4px;
+  }
+  .pipeline-desc {
+    font-size: 11px;
+    color: #9CA3AF;
+    font-weight: 400;
+    margin-left: 2px;
+  }
+
+  /* SVG connector arrows */
+  .connector-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+
+  /* Highlight keywords */
+  .kw {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 11.5px;
+    font-weight: 500;
+    background: rgba(0,0,0,0.04);
+    padding: 1px 4px;
+    border-radius: 3px;
+  }
+
+  /* Data flow indicators between columns */
+  .flow-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    flex-shrink: 0;
+  }
+  .flow-arrow-down {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+  }
+  .flow-line {
+    width: 2px;
+    height: 60px;
+    background: linear-gradient(180deg, #C4B5FD 0%, #93C5FD 100%);
+    border-radius: 1px;
+  }
+  .flow-line-2 {
+    width: 2px;
+    height: 60px;
+    background: linear-gradient(180deg, #93C5FD 0%, #FCD34D 100%);
+    border-radius: 1px;
+  }
+  .flow-head {
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+  }
+  .flow-label {
+    font-size: 9px;
+    font-weight: 600;
+    color: #9CA3AF;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  /* Horizontal flow arrows */
+  .hflow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    flex-shrink: 0;
+    gap: 6px;
+  }
+  .hflow-arrow {
+    width: 36px;
+    height: 2px;
+    position: relative;
+  }
+  .hflow-arrow::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 8px;
+    height: 2px;
+    border-radius: 1px;
+  }
+  .hflow-arrow::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: -4px;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+  }
+  .hflow-1 .hflow-arrow::before { background: linear-gradient(90deg, #C4B5FD, #93C5FD); }
+  .hflow-1 .hflow-arrow::after { border-left: 8px solid #93C5FD; }
+  .hflow-2 .hflow-arrow::before { background: linear-gradient(90deg, #93C5FD, #FCD34D); }
+  .hflow-2 .hflow-arrow::after { border-left: 8px solid #FCD34D; }
+
+  .hflow-label {
+    font-size: 8.5px;
+    font-weight: 600;
+    color: #9CA3AF;
+    text-align: center;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  /* Trainable badge */
+  .trainable-badge {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .memory-manager .trainable-badge { background: #EDE9FE; color: #5B21B6; }
+  .retrieval-agent .trainable-badge { background: #DBEAFE; color: #0369A1; }
+  .answer-agent .trainable-badge { background: #FEF3C7; color: #B45309; }
+
+  .trainable-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    animation: pulse 2s ease-in-out infinite;
+  }
+  .memory-manager .trainable-dot { background: #7C3AED; }
+  .retrieval-agent .trainable-dot { background: #2563EB; }
+  .answer-agent .trainable-dot { background: #D97706; }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.5; transform: scale(0.8); }
+  }
+</style>
+</head>
+<body>
+<div class="figure-container">
+
+  <!-- Title -->
+  <div class="figure-title"><span>Struct Memory R1</span>: Three Trainable Components for Long-term Memory Reasoning</div>
+  <div class="figure-subtitle">Each component is trained via GRPO (Group Relative Policy Optimization) with outcome-based rewards</div>
+
+  <!-- Main 3-column layout with arrows -->
+  <div class="main-content">
+
+    <!-- ============ COLUMN 1: Memory Manager ============ -->
+    <div class="stage-wrapper memory-manager">
+      <div class="stage-label">Stage 2 &mdash; Memory Writer</div>
+      <div class="component-card">
+        <div class="trainable-badge"><div class="trainable-dot"></div> Trainable</div>
+        <div class="card-header">
+          <div class="card-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#7C3AED" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 3v18"/>
+              <path d="M5 6h14"/>
+              <path d="M5 12h14"/>
+              <path d="M5 18h14"/>
+              <rect x="3" y="3" width="4" height="4" rx="0.5" fill="#EDE9FE" stroke="#7C3AED"/>
+              <rect x="10" y="3" width="4" height="4" rx="0.5" fill="#EDE9FE" stroke="#7C3AED"/>
+              <rect x="17" y="3" width="4" height="4" rx="0.5" fill="#EDE9FE" stroke="#7C3AED"/>
+              <rect x="3" y="10" width="4" height="4" rx="0.5" fill="#EDE9FE" stroke="#7C3AED"/>
+              <rect x="10" y="10" width="4" height="4" rx="0.5" fill="#EDE9FE" stroke="#7C3AED"/>
+              <rect x="17" y="10" width="4" height="4" rx="0.5" fill="#EDE9FE" stroke="#7C3AED"/>
+            </svg>
+          </div>
+          <div>
+            <div class="card-title">Memory Manager</div>
+            <div class="card-desc">Learns structured CRUD operations over memory bank</div>
+          </div>
+        </div>
+
+        <div class="card-body">
+          <!-- Input -->
+          <div class="section input-section">
+            <div class="section-label"><span class="icon">&#9654;</span> Input</div>
+            <div class="section-content">
+              <ul>
+                <li>Current dialogue turn <span class="kw">d_t</span></li>
+                <li>Old memory bank <span class="kw">M_{t-1}</span></li>
+                <li>Extracted facts from turn <span class="kw">F_t</span></li>
+                <li>Structured memory tree (speakers / topics)</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Output -->
+          <div class="section output-section">
+            <div class="section-label"><span class="icon">&#9654;</span> Output</div>
+            <div class="section-content">
+              <ul>
+                <li>Updated memory bank <span class="kw">M_t</span></li>
+                <li>JSON list of operations with <span class="kw">{id, text, event}</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Action Space -->
+          <div class="section action-section">
+            <div class="section-label"><span class="icon">&#9881;</span> Action Space</div>
+            <div class="action-tags">
+              <span class="action-tag">ADD</span>
+              <span class="action-tag">UPDATE</span>
+              <span class="action-tag">DELETE</span>
+              <span class="action-tag">NOOP</span>
+              <span class="action-tag">CREATE_TOPIC</span>
+              <span class="action-tag">CREATE_NODE</span>
+              <span class="action-tag">MOVE</span>
+              <span class="action-tag">SPLIT</span>
+              <span class="action-tag">MERGE</span>
+            </div>
+          </div>
+
+          <!-- Reward -->
+          <div class="reward-section">
+            <div class="reward-label"><span class="icon">&#9733;</span> Reward Signal</div>
+            <div class="reward-content">
+              R = 0.2<sub>fmt</sub> + EM(FrozenAnswer(q, M<sub>t</sub>), a*)<br>
+              <span style="color:#9CA3AF; font-size:10px;">Outcome-driven: judged by downstream QA accuracy</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Arrow 1→2 -->
+    <div class="hflow hflow-1">
+      <div class="hflow-label">Updated<br>Memory</div>
+      <div class="hflow-arrow"></div>
+      <div style="font-size:8px; color:#aaa; margin-top:2px;">M<sub>t</sub></div>
+    </div>
+
+    <!-- ============ COLUMN 2: Retrieval Agent ============ -->
+    <div class="stage-wrapper retrieval-agent">
+      <div class="stage-label">Stage 3 &mdash; Memory Reader</div>
+      <div class="component-card">
+        <div class="trainable-badge"><div class="trainable-dot"></div> Trainable</div>
+        <div class="card-header">
+          <div class="card-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="7"/>
+              <path d="M21 21l-4.35-4.35"/>
+              <path d="M8 8l6 6"/>
+              <path d="M14 8l-6 6"/>
+              <path d="M11 4v3"/>
+              <path d="M11 15v3"/>
+              <path d="M4 11h3"/>
+              <path d="M15 11h3"/>
+            </svg>
+          </div>
+          <div>
+            <div class="card-title">Retrieval Agent</div>
+            <div class="card-desc">Learns to navigate structured memory tree for retrieval</div>
+          </div>
+        </div>
+
+        <div class="card-body">
+          <!-- Input -->
+          <div class="section input-section">
+            <div class="section-label"><span class="icon">&#9654;</span> Input</div>
+            <div class="section-content">
+              <ul>
+                <li>Question <span class="kw">q</span></li>
+                <li>Memory tree schema (speakers &rarr; topics &rarr; facts)</li>
+                <li>Schema summary with entry counts</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Output -->
+          <div class="section output-section">
+            <div class="section-label"><span class="icon">&#9654;</span> Output</div>
+            <div class="section-content">
+              <ul>
+                <li>Retrieval plan <span class="kw">{levels, selected_ids}</span></li>
+                <li>Retrieved memory entries for answer agent</li>
+                <li>Early stopping signal</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Action Space -->
+          <div class="section action-section">
+            <div class="section-label"><span class="icon">&#9881;</span> Action Space</div>
+            <div class="action-tags">
+              <span class="action-tag">SELECT_SPEAKER</span>
+              <span class="action-tag">SELECT_TOPIC</span>
+              <span class="action-tag">SELECT_ENTITY</span>
+              <span class="action-tag">SELECT_IDS</span>
+              <span class="action-tag">STOP</span>
+            </div>
+          </div>
+
+          <!-- Reward -->
+          <div class="reward-section">
+            <div class="reward-label"><span class="icon">&#9733;</span> Reward Signal</div>
+            <div class="reward-content">
+              R = 0.8 &middot; EM + F1 + 0.1<sub>fmt</sub> + 0.1<sub>evidence</sub><br>
+              <span style="color:#9CA3AF; font-size:10px;">Combines answer accuracy with evidence coverage</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Arrow 2→3 -->
+    <div class="hflow hflow-2">
+      <div class="hflow-label">Retrieved<br>Entries</div>
+      <div class="hflow-arrow"></div>
+      <div style="font-size:8px; color:#aaa; margin-top:2px;">Top-K</div>
+    </div>
+
+    <!-- ============ COLUMN 3: Answer Agent ============ -->
+    <div class="stage-wrapper answer-agent">
+      <div class="stage-label">Stage 1 &mdash; Memory Reasoner</div>
+      <div class="component-card">
+        <div class="trainable-badge"><div class="trainable-dot"></div> Trainable</div>
+        <div class="card-header">
+          <div class="card-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7z"/>
+              <path d="M10 21h4"/>
+              <path d="M12 6v4"/>
+              <path d="M10 10h4"/>
+            </svg>
+          </div>
+          <div>
+            <div class="card-title">Answer Agent</div>
+            <div class="card-desc">Learns to distill memories and generate concise answers</div>
+          </div>
+        </div>
+
+        <div class="card-body">
+          <!-- Input -->
+          <div class="section input-section">
+            <div class="section-label"><span class="icon">&#9654;</span> Input</div>
+            <div class="section-content">
+              <ul>
+                <li>Question <span class="kw">q</span></li>
+                <li>Retrieved memories (grouped by speaker)</li>
+                <li>Timestamps for temporal reasoning</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Output -->
+          <div class="section output-section">
+            <div class="section-label"><span class="icon">&#9654;</span> Output</div>
+            <div class="section-content">
+              <ul>
+                <li>Memory distillation (relevant memory selection)</li>
+                <li>Concise answer <span class="kw">a</span> (5-6 words)</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Action Space -->
+          <div class="section action-section">
+            <div class="section-label"><span class="icon">&#9881;</span> Action Space</div>
+            <div class="action-tags">
+              <span class="action-tag">SELECT_MEMORY</span>
+              <span class="action-tag">REASON</span>
+              <span class="action-tag">GENERATE_ANSWER</span>
+            </div>
+          </div>
+
+          <!-- Reward -->
+          <div class="reward-section">
+            <div class="reward-label"><span class="icon">&#9733;</span> Reward Signal</div>
+            <div class="reward-content">
+              R = EM(a, a*) + F1<sub>partial</sub> + 0.1<sub>fmt</sub><br>
+              <span style="color:#9CA3AF; font-size:10px;">Direct exact-match on final answer with F1 fallback</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Training Pipeline Bar -->
+  <div class="pipeline-bar">
+    <div class="pipeline-step">
+      <div class="num" style="background:#D97706;">1</div>
+      Train Answer Agent
+      <span class="pipeline-desc">(direct EM reward)</span>
+    </div>
+    <div class="pipeline-arrow">&rarr;</div>
+    <div class="pipeline-step">
+      <div class="num" style="background:#5B21B6;">2</div>
+      Train Memory Manager
+      <span class="pipeline-desc">(frozen answer agent as reward)</span>
+    </div>
+    <div class="pipeline-arrow">&rarr;</div>
+    <div class="pipeline-step">
+      <div class="num" style="background:#0369A1;">3</div>
+      Train Retrieval Agent
+      <span class="pipeline-desc">(EM + evidence hit)</span>
+    </div>
+    <div class="pipeline-arrow">&rarr;</div>
+    <div class="pipeline-step" style="color:#059669;">
+      <div class="num" style="background:#059669;">&#10003;</div>
+      End-to-End Inference
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

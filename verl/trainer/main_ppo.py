@@ -109,6 +109,9 @@ def _select_rm_score_fn(data_source):
     elif data_source == 'struct_memory_manager':
         from struct_memory_r1.agents.memory_manager import compute_score_memory_manager_verl
         return compute_score_memory_manager_verl
+    elif data_source == 'struct_retriever_agent':
+        from struct_memory_r1_retriever.agents.retriever_agent import compute_score_struct_retriever_verl
+        return compute_score_struct_retriever_verl
     else:
         raise NotImplementedError
 

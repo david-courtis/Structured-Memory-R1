@@ -572,6 +572,7 @@ class RayPPOTrainer(object):
             return metric_name, metric_value
 
         for preferred_suffix in (
+            'struct_retriever_agent',
             'struct_memory_manager',
             'memory_manager',
             'struct_answer_agent',
