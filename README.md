@@ -77,7 +77,7 @@ The Memory Manager and Retrieve Agent are trained as one-shot JSON generation pr
 
 ## Baseline: Memory-R1
 
-`memory_r1/` contains our re-implementation of **Memory-R1**, a flat-memory system with an RL-trained Memory Manager and Answer Agent. Memory-R1 does not provide a public codebase; we re-implement it from scratch based on the original paper and retrain the backbone on the same base model and data split for fair comparison. This serves as both our primary RL-based baseline and a component of our ablation study.
+`memory_r1/` contains our re-implementation of **Memory-R1**, a flat-memory system with an RL-trained Memory Manager and Answer Agent. Memory-R1 does not provide a public codebase; we re-implement it from scratch based on the original paper and retrain the backbone on the same base model and data split for fair comparison. This serves as both our primary RL-based baseline and a component of our ablation study. The Answer Agent trained here is reused by StructMemoryR1 as a shared component across both systems.
 
 See [memory_r1/README.md](memory_r1/README.md) for training instructions.
 
@@ -90,7 +90,7 @@ bash memory_r1/scripts/nebius_train.sh --stage both
 ```
 .
 ├── struct_memory_r1/              # Main contribution: 3-agent RL system
-│   ├── agents/                    #   Memory Manager, Retrieve Agent
+│   ├── agents/                    #   Answer Agent, Retrieve Agent, Memory Manager
 │   ├── data/                      #   LoCoMo data loading + parquet builder
 │   ├── memory_bank.py             #   Tree-structured memory bank T=(V,E)
 │   ├── prompts.py                 #   Prompt templates for all 3 agents
