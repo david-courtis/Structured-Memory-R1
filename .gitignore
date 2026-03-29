@@ -69,8 +69,6 @@ local_settings.py
 
 image_outputs
 
-checkpoints
-
 # Flask stuff:
 instance/
 .webassets-cache
@@ -116,8 +114,9 @@ tests/e2e/toy_examples/deepspeed/synchronous/output.txt
 # vim
 *.swp
 
-# log*
+log/
 .env
 .log
 verl_checkpoints
 logs
+plots/

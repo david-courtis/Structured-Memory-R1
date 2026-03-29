@@ -1,13 +1,67 @@
 """
-Prompts for Memory-R1 Memory Manager and Answer Agent.
-
-Faithfully reproduced from the Memory-R1 paper (Yan et al., 2025):
-- Memory Manager Prompt: Figures 9-10 (verbatim)
-- Answer Agent Prompt: Figure 11 (verbatim)
-- LLM-as-a-Judge Prompt: Figure 12 (verbatim)
+Prompts for StructMemoryR1: Memory Manager, Retrieve Agent, and Answer Agent.
 """
 import json
 from typing import List, Optional
+
+
+# =============================================================================
+# Retrieve Agent Prompt
+# =============================================================================
+
+RETRIEVER_AGENT_SYSTEM = """You are a retrieval agent over a structured memory tree.
+
+The memory tree is fixed. Do not edit memory.
+Your job is to plan a search over the tree and return only a JSON object.
+
+Search policy:
+- Start from the root and pick relevant branches level by level.
+- Use the tree schema and node summaries to decide which branches to expand.
+- Use as few branches as possible while keeping enough evidence to answer.
+- Prefer concrete fact leaves that directly support the answer.
+
+Output requirements:
+- Return ONLY one JSON object.
+- Do NOT explain your reasoning.
+- Do NOT output markdown fences.
+- The JSON must use this schema:
+  {
+    "levels": [
+      {"level": 0, "keys": ["speaker_key"]},
+      {"level": 1, "keys": ["topic_key"]},
+      {"level": 2, "keys": ["subtopic_or_entity_key"]}
+    ],
+    "selected_ids": ["memory_id_1", "memory_id_2"],
+    "stop": true
+  }
+- "levels" may be empty if you choose direct memory IDs only.
+- "selected_ids" may be empty if branch expansion alone should determine retrieval.
+- If nothing is relevant, return {"levels": [], "selected_ids": [], "stop": true}.
+"""
+
+
+# =============================================================================
+# Answer Agent Prompt
+# =============================================================================
+
+ANSWER_AGENT_SYSTEM = """You are an intelligent memory assistant tasked with retrieving accurate information from conversation memories.
+
+# CONTEXT:
+You have access to memories from two speakers in a conversation.
+These memories contain timestamped information that may be relevant to answering the question.
+
+# INSTRUCTIONS:
+1. Carefully analyze all provided memories from both speakers
+2. Pay special attention to the timestamps to determine the answer
+3. If the question asks about a specific event or fact, look for direct evidence
+4. If the memories contain contradictory information, prioritize the most recent memory
+5. If there is a question about time references (like "last year", "two months ago"), calculate the actual date based on the memory timestamp
+6. Always convert relative time references to specific dates, months, or years
+7. Focus only on the content of the memories. Do not confuse character names
+8. The answer should be less than 5-6 words
+9. IMPORTANT: Select memories you found that are useful for answering the questions, and output it before you answer questions
+10. IMPORTANT: Output the final answer after **Answer:**
+"""
 
 # =============================================================================
 # Memory Manager Prompt (Paper Figures 9-10, verbatim)
