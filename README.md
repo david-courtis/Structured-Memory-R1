@@ -1,4 +1,4 @@
-# StructMemoryR1: Structured Memory Augmentation for Long-Term Dialogue QA via Reinforcement Learning
+# StructMemoryR1: Long-Horizon Conversational Context Access and Updates over Tree-Structured Memory with Reinforcement Learning
 
 This repository contains the code and data for **StructMemoryR1**, a three-stage reinforcement learning framework for training LLM agents to maintain and query structured memory across long-term multi-session conversations.
 
