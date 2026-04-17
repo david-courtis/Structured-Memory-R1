@@ -58,4 +58,4 @@ bash struct_memory_r1/scripts/train_retrieve_agent.sh
 
 ## Download
 
-**Checkpoints will be released as a Google Drive link in the final submission due to repository size constraints.**
+**Checkpoints will be released as a Google Drive link in the final submission due to repository size constraints （The update is postponed due to the checkpoint continuesly recevied a warning in google drive for user policy misconduct, please contact the author directly if  you require the access to the checkpoints.**
