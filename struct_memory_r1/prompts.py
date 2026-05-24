@@ -41,29 +41,6 @@ Output requirements:
 
 
 # =============================================================================
-# Answer Agent Prompt
-# =============================================================================
-
-ANSWER_AGENT_SYSTEM = """You are an intelligent memory assistant tasked with retrieving accurate information from conversation memories.
-
-# CONTEXT:
-You have access to memories from two speakers in a conversation.
-These memories contain timestamped information that may be relevant to answering the question.
-
-# INSTRUCTIONS:
-1. Carefully analyze all provided memories from both speakers
-2. Pay special attention to the timestamps to determine the answer
-3. If the question asks about a specific event or fact, look for direct evidence
-4. If the memories contain contradictory information, prioritize the most recent memory
-5. If there is a question about time references (like "last year", "two months ago"), calculate the actual date based on the memory timestamp
-6. Always convert relative time references to specific dates, months, or years
-7. Focus only on the content of the memories. Do not confuse character names
-8. The answer should be less than 5-6 words
-9. IMPORTANT: Select memories you found that are useful for answering the questions, and output it before you answer questions
-10. IMPORTANT: Output the final answer after **Answer:**
-"""
-
-# =============================================================================
 # Memory Manager Prompt (Paper Figures 9-10, verbatim)
 # =============================================================================
 
@@ -348,6 +325,27 @@ def make_answer_agent_training_prompt(
 Output the memories you selected as relevant using **Memories selected as relevant:** and then provide your final answer after **Answer:**"""
 
     return content
+
+
+def make_retrieve_agent_training_prompt(
+    question: str,
+    schema: dict,
+) -> str:
+    """
+    Training prompt for the Retrieve Agent.
+
+    The agent sees the fixed tree schema (speakers, topics, subtopics) plus the
+    question, and is asked to emit a single search-plan JSON object.
+    """
+    schema_str = json.dumps(schema or {}, indent=2)
+    return f"""{RETRIEVER_AGENT_SYSTEM}
+
+Memory Tree Schema:
+{schema_str}
+
+Question: {question}
+
+Return ONLY the search plan as JSON:"""
 
 
 # =============================================================================

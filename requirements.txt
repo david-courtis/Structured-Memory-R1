@@ -1,16 +1,38 @@
+# Deployment cheat sheet — pinned and CUDA-only deps that pyproject.toml
+# intentionally omits so that `pip install -e .` works on a CPU box.
+#
+# Install in the training environment with:
+#   pip install -e .
+#   pip install -r requirements.txt
+#
+# For the dependency contract that matters for packaging, see pyproject.toml.
+
+# Core training stack
 accelerate
 codetiming
 datasets
 dill
-flash-attn
 hydra-core
 numpy
 pandas
 pybind11
 ray
+scikit-learn
 tensordict<0.6
 transformers<4.48
+
+# Retrieval server
+fastapi
+uvicorn
+requests
+
+# CUDA-only / hardware-specific
+flash-attn
 vllm<=0.6.3
+
+# Logging
 wandb
+
+# Notebook / plotting (only used by ad-hoc analysis scripts)
 IPython
 matplotlib

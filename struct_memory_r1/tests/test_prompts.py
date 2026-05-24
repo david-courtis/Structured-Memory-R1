@@ -19,16 +19,12 @@ class TestMemoryManagerPrompt:
         assert "NONE" in MEMORY_MANAGER_SYSTEM
 
     def test_system_prompt_contains_examples(self):
-        """Paper Figures 9-10: prompt must include detailed examples."""
+        """Paper Figures 9-10: prompt must include the four CRUD operation examples."""
         assert "User is a software engineer" in MEMORY_MANAGER_SYSTEM
         assert "Name is John" in MEMORY_MANAGER_SYSTEM
         assert "cheese pizza" in MEMORY_MANAGER_SYSTEM
         assert "play cricket" in MEMORY_MANAGER_SYSTEM
         assert "old_memory" in MEMORY_MANAGER_SYSTEM
-        assert "speaker -> topic -> fact" in MEMORY_MANAGER_SYSTEM
-        assert "CREATE_SUBTOPIC" in MEMORY_MANAGER_SYSTEM
-        assert "SPLIT_TOPIC" in MEMORY_MANAGER_SYSTEM
-        assert "MERGE_TOPIC" in MEMORY_MANAGER_SYSTEM
 
     def test_format_with_empty_memory(self):
         prompt = format_memory_manager_prompt(

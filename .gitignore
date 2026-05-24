@@ -17,7 +17,10 @@ tensorflow/my_graph/*
 .idea/
 # C extensions
 *.so
-data
+# Runtime data caches (downloaded LoCoMo JSON, built parquets) — but DO NOT
+# ignore the `data/` Python subpackages that ship with struct_memory_r1/ and
+# memory_r1/.
+/data/
 sft/output/*
 sft/data/*
 

@@ -69,11 +69,11 @@ include-package-data = true
 where = ["."]
 include = [
     "struct_memory_r1*",
-    "struct_memory_r1_retriever*",
     "memory_r1*",
     "verl*",
     "search_r1*",
 ]
+exclude = ["legacy*", "tests*"]
 
 [tool.setuptools.package-data]
 verl = [
